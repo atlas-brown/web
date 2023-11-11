@@ -1,7 +1,7 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "CS1380: Distributed Systems"
+title = "ATLAS group"
 
 [params]
   displayName = "EN"
@@ -10,8 +10,8 @@ title = "CS1380: Distributed Systems"
   dateFormat = "2 January 2006"
   logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
-  description = "Welcome to the CS1380: Distributed Systems course."
-  copyright = "© 2024 CS1380 | [Brown Systems Group](https://systems.cs.brown.edu) | Brown University"
+  description = "Welcome Atlas Group."
+  copyright = "© 2024 | [Brown Systems Group](https://systems.cs.brown.edu) | Brown University"
 
 # [author]
 #   name = "Your name here"
