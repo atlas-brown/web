@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cs.brown.edu/courses/csci1380/sitemap.xml

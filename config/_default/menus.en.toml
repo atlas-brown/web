@@ -1,0 +1,106 @@
+# -- Main Menu --
+# The main menu is displayed in the header at the top of the page.
+# Acceptable parameters are name, pageRef, page, url, title, weight.
+# 
+# The simplest menu configuration is to provide:
+#   name = The name to be displayed for this menu link
+#   pageRef = The identifier of the page or section to link to
+#
+# By default the menu is ordered alphabetically. This can be
+# overridden by providing a weight value. The menu will then be
+# ordered by weight from lowest to highest.
+
+[[main]]
+ name = "Syllabus"
+ pageRef = "syllabus"
+ weight = 10
+
+[[main]]
+ name = "Syllabus"
+ pageRef = "syllabus"
+ weight = 20
+
+[[main]]
+ name = "Schedule"
+ pageRef = "schedule"
+ weight = 40
+
+[[main]]
+ name = "Staff"
+ pageRef = "staff"
+ weight = 50
+
+[[main]]
+ name = "Milestones"
+ pageRef = "milestones"
+ weight = 60
+
+[[main]]
+ name = "Milestone 0"
+ parent = "Milestones"
+ pageRef = "milestone0"
+ weight = 60
+
+[[main]]
+ name = "Past Years"
+ weight = 70
+
+[[main]]
+ name = "Spring 2023"
+ parent = "Past Years"
+ url = "https://cs.brown.edu/courses/csci1380/s23"
+ weight = 71
+  
+[[main]]
+ name = "Spring 2022"
+ parent = "Past Years"
+ url = "https://cs.brown.edu/courses/csci1380/s22"
+ weight = 72
+
+[[main]]
+ name = "Spring 2021"
+ parent = "Past Years"
+ url = "https://cs.brown.edu/courses/csci1380/s21"
+ weight = 73
+
+[[main]]
+ name = "Spring 2020"
+ parent = "Past Years"
+ url = "https://cs.brown.edu/courses/csci1380/s20"
+ weight = 74
+
+[[main]]
+ name = "Spring 2019"
+ parent = "Past Years"
+ url = "https://cs.brown.edu/courses/csci1380/s19"
+ weight = 75
+
+[[main]]
+ name = "Spring 2018"
+ parent = "Past Years"
+ url = "https://cs.brown.edu/courses/csci1380/s18"
+ weight = 76
+
+[[main]]
+ name = "Spring 2017"
+ parent = "Past Years"
+ url = "https://cs.brown.edu/courses/csci1380/s17"
+ weight = 77
+
+[[main]]
+ name = "Spring 2016"
+ parent = "Past Years"
+ url = "https://cs.brown.edu/courses/csci1380/s16"
+ weight = 78
+
+[[main]]
+ name = "Spring 2015"
+ parent = "Past Years"
+ url = "https://cs.brown.edu/courses/csci1380/s15"
+ weight = 79
+
+[[main]]
+ name = "Spring 2012"
+ parent = "Past Years"
+ url = "https://cs.brown.edu/courses/csci1380/s12"
+ weight = 80

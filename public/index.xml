@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CS1380: Distributed Systems</title>
+    <link>https://cs.brown.edu/courses/csci1380/</link>
+    <description>Recent content on CS1380: Distributed Systems</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 CS1380 | [Brown Systems Group](https://systems.cs.brown.edu) | Brown University</copyright>
+    <atom:link href="https://cs.brown.edu/courses/csci1380/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://cs.brown.edu/courses/csci1380/milestone0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs.brown.edu/courses/csci1380/milestone0/</guid>
+      <description>Milestone 0 # Collaboration: Individual milestone</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://cs.brown.edu/courses/csci1380/milestones/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs.brown.edu/courses/csci1380/milestones/</guid>
+      <description>A great way to understand data-intensive systems deeply—including their challenges, the space of available solutions, and their trade-offs—is to build them.</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://cs.brown.edu/courses/csci1380/schedule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs.brown.edu/courses/csci1380/schedule/</guid>
+      <description>Date Topic Milestones Papers Quiz Thu Jan 25 1.</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://cs.brown.edu/courses/csci1380/staff/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs.brown.edu/courses/csci1380/staff/</guid>
+      <description>Instructor # Nikos Vasilakis Office hours: Wed 2–3pm, CIT 555 &amp;amp; Zoom</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://cs.brown.edu/courses/csci1380/syllabus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs.brown.edu/courses/csci1380/syllabus/</guid>
+      <description>The syllabus, time requirements, grading policy, information about accommodations, and more can be found in our syllabus.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
