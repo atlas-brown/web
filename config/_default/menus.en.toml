@@ -11,6 +11,11 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
- name = "Home"
- pageRef = "index"
- weight = 10
+    name = "Home"
+    pageRef = "index"
+    weight = 10
+
+[[main]]
+    name = "People"
+    pageRef = "people"
+    weight = 20
