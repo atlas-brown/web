@@ -19,3 +19,8 @@
     name = "People"
     pageRef = "people"
     weight = 20
+
+[[main]]
+    name = "Publications"
+    pageRef = "publications"
+    weight = 30
