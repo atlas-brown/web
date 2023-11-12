@@ -11,7 +11,7 @@ title = "ATLAS group"
   logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
   description = "Welcome Atlas Group."
-  copyright = "© 2024 | [Brown Systems Group](https://systems.cs.brown.edu) | Brown University"
+  copyright = "© Atlas 2024 | [Brown Systems Group](https://systems.cs.brown.edu) | Brown University"
 
 # [author]
 #   name = "Your name here"
