@@ -8,27 +8,12 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cs.brown.edu/courses/csci1380/milestone0/</loc>
+    <loc>https://cs.brown.edu/courses/csci1380/people/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cs.brown.edu/courses/csci1380/milestones/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://cs.brown.edu/courses/csci1380/schedule/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://cs.brown.edu/courses/csci1380/staff/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://cs.brown.edu/courses/csci1380/syllabus/</loc>
+    <loc>https://cs.brown.edu/courses/csci1380/publications/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
