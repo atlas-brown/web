@@ -7197,3 +7197,13 @@ body:has(#menu-controller:checked) {
 .\[\&\>svg\]\:fill-neutral-500>svg {
   fill: rgba(var(--color-neutral-500), 1);
 }
+
+.faculty-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.faculty-member {
+  text-align: center;
+}
