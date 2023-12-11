@@ -1,4 +1,4 @@
-> Link: [Atlas Group Website](https://atlas-group.cs.brown.edu)
+> Link: [Atlas Group Website](https://atlas.cs.brown.edu)
 
 ## Modifying Content
 
