@@ -29,5 +29,5 @@ Our PaSh open-source work has joined and is available by [the Linux Foundation](
 
 
 * [MIT News article](https://news.mit.edu/2022/faster-unix-computing-program-0607) on faster computing results without fear of errors
-* [Press release](https://www.linuxfoundation.org/press/press-release/linux-foundation-to-host-the-pash-project-accelerating-shell-scripting-with-automated-parallelization-for-industrial-use-case) from the Linux Foundation
+* [Press release](https://www.linuxfoundation.org/press/press-release/linux-foundation-to-host-the-pash-project-accelerating-shell-scripting-with-automated-parallelization-for-industrial-use-cases) from the Linux Foundation
 * Many discussions and third-party tutorials on PaSh and Try — e.g., [ycombinator](https://news.ycombinator.com/item?id=36461102), [i-programmer](https://www.i-programmer.info/news/90-tools/14990-the-pash-project-advancing-the-unix-philosophy-one-step-further.html), [medium](https://sarvsav.medium.com/shell-dry-run-for-your-commands-f5dba65d20b1), etc.

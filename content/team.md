@@ -45,7 +45,7 @@ Interested in parallel and distributed systems, as well as their optimization.
 
 {{< columns >}} <!-- begin columns block -->
 <img class="imgStuffTeam" width="150" height="150" align="left" src="../zhicheng.jpg" alt="Zhicheng Huang"><p> __[Zhicheng Huang](https://huangworld.github.io/)__  
-Exploring the interface between systems and sofrware engineering.
+Exploring the interface between systems and software engineering.
 
 [E-mail](mailto:zhicheng_huang@brown.edu) | [Github](http://github.com/huangworld)</p> 
 
