@@ -31,7 +31,8 @@
 {{ with .Params.externalUrl }}
 <a class="{{ $articleClasses }}" href="{{ . }}" target="_blank" rel="external">
   {{ else }}
-  <a class="{{ $articleClasses }}" href="{{ .RelPermalink }}">
+  <a>
+    <a class="{{ $articleClasses }}">
     {{ end }}
     {{- with $.Params.images -}}
     {{- range first 6 . }}
@@ -60,12 +61,12 @@
 
 
     <div class="{{ $articleInnerClasses }}">
-      <div class="items-center text-xl font-semibold">
+      <!-- <div class="items-center text-xl font-semibold nounderline"> -->
         {{ with .Params.externalUrl }}
         <div>
           <div
-            class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
-            {{ $.Title | emojify }}
+            class="font-bold text-xl text-neutral-800 decoration-primary-500 nounderline dark:text-neutral">
+            </div href="{{ .RelPermalink }}" >{{ $.Title | emojify }} </div>
             <span class="text-xs align-top cursor-default text-neutral-400 dark:text-neutral-500">
               <span class="rtl:hidden">&#8599;</span>
               <span class="ltr:hidden">&#8598;</span>
@@ -73,7 +74,7 @@
           </div>
         </div>
         {{ else }}
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 dark:text-neutral"
           href="{{ .RelPermalink }}">{{ .Title | emojify }}</div>
         {{ end }}
         {{ if and .Draft .Site.Params.article.showDraftLabel }}
@@ -84,10 +85,10 @@
         {{ if templates.Exists "partials/extend-article-link.html" }}
         {{ partial "extend-article-link.html" . }}
         {{ end }}
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      <!-- </div> -->
+      <!-- <div class="text-sm text-neutral-500 dark:text-neutral-400">
         {{ partial "article-meta/basic.html" . }}
-      </div>
+      </div> -->
       {{ if .Params.showSummary | default (.Site.Params.list.showSummary | default false) }}
       <div class="py-1 max-w-fit prose dark:prose-invert">
         {{ .Summary | emojify }}
@@ -95,3 +96,5 @@
       {{ end }}
     </div>
   </a>
+  <div class="listsubtext" >{{ .Params.description }}</div>
+</a>

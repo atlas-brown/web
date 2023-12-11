@@ -10,13 +10,56 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
+[[main]]
+    name = "News"
+    pageRef = "news"
+    weight = 10
 
 [[main]]
-    name = "People"
-    pageRef = "people"
+    name = "Research"
+    pageRef = "research"
     weight = 20
+
+[[main]]
+    name = "Software Supply-Chain Security"
+    parent = "Research"
+    pageRef = "supply-chain"
+    weight = 21
+
+[[main]]
+    name = "Acceleration and Scaleout of Software Systems"
+    parent = "Research"
+    pageRef = "acceleration"
+    weight = 22
+
+
+[[main]]
+    name = "Towards Secure Scalable Computing"
+    parent = "Research"
+    pageRef = "ssc"
+    weight = 23
+
+[[main]]
+    name = "Team"
+    pageRef = "team"
+    weight = 30
 
 [[main]]
     name = "Publications"
     pageRef = "publications"
-    weight = 30
+    weight = 40
+
+[[main]]
+    name = "Contact"
+    pageRef = "contact"
+    weight = 50
+
+[[main]]
+    name = "BrownSys"
+    url = "https://systems.cs.brown.edu"
+    weight = 60
+
+[[main]]
+    name = "Accessibility"
+    url = "https://studentaccessibility.brown.edu"
+    weight = 70

@@ -1,17 +1,17 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "ATLAS group"
+title = "ATLAS Group"
 
 [params]
   displayName = "EN"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "img/logo.png"
+  logo = "img/brown_logo.png"
   # secondaryLogo = "img/secondary-logo.png"
   description = "Welcome Atlas Group."
-  copyright = "© Atlas 2024 | [Brown Systems Group](https://systems.cs.brown.edu) | Brown University"
+  copyright = "© ATLAS Group 2023 | [Brown Systems Group](https://systems.cs.brown.edu) | [Brown University](https://www.brown.edu/)"
 
 # [author]
 #   name = "Your name here"

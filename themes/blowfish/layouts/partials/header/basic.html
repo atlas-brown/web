@@ -4,7 +4,7 @@
     {{ $logo := resources.Get .Site.Params.Logo }}
     {{ if $logo }}
     <div>
-        <a href="{{ "" | relLangURL }}" class="flex">
+        <a href="https://www.brown.edu" class="flex">
             <span class="sr-only">{{ .Site.Title | markdownify | emojify }}</span>
 
             <img src="{{ $logo.RelPermalink }}" width="{{ div $logo.Width 2 }}" height="{{ div $logo.Height 2 }}"

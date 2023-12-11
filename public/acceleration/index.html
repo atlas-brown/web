@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="white"
+  data-auto-appearance="false"><head>
+  <meta charset="utf-8" />
+  
+  <meta http-equiv="content-language" content="en" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <title> &middot; ATLAS Group</title>
+  <meta name="title" content=" &middot; ATLAS Group" />
+  
+  <meta name="description" content="Language-agnostic programming environments hinder automated parallelization and distribution, often forcing developers that deal with large datasets to manually rewrite programs and their components in languages that support these features. We have built a series of systems that accelerate, parallelize, distribute, and scale out computations fully automatically — while maintaining key correctness and security guarantees. Our systems target widely used environments — e.g., JavaScript, Python, the Shell — and are offered by open-source consortia such as the Linux Foundation. Examples: NSDI&#39;23, OSDI&#39;22, EuroSys&#39;21." />
+  
+  
+  
+  <link rel="canonical" href="https://atlas-group.cs.brown.edu/acceleration/" />
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.aa3d143fa8f8824b9e43c45688f8e92d9a83a5eaa6d664db8443b89d49fe25d1e345d0c12750b188a3b0ce0bff521e65b0ee1b95d681c835d62422ec8b6a64f8.css"
+    integrity="sha512-qj0UP6j4gkueQ8RWiPjpLZqDpeqm1mTbhEO4nUn&#43;JdHjRdDBJ1CxiKOwzgv/Uh5lsO4bldaByDXWJCLsi2pk&#43;A==" />
+  
+  
+  <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
+    integrity="sha512-UWoWdFvqWpvQERONJUzA/TlzzVXObhXz3sdj58fCx0SPj&#43;e1TMqBHLghsMfhLNFhyqzh3XlKw9NNQJN8vMnuEg=="></script>
+  
+  
+  
+  
+  <script src="/js/zoom.min.js"></script>
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:title" content="" />
+<meta property="og:description" content="Language-agnostic programming environments hinder automated parallelization and distribution, often forcing developers that deal with large datasets to manually rewrite programs and their components in languages that support these features. We have built a series of systems that accelerate, parallelize, distribute, and scale out computations fully automatically — while maintaining key correctness and security guarantees. Our systems target widely used environments — e.g., JavaScript, Python, the Shell — and are offered by open-source consortia such as the Linux Foundation. Examples: NSDI&#39;23, OSDI&#39;22, EuroSys&#39;21." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://atlas-group.cs.brown.edu/acceleration/" /><meta property="article:section" content="" />
+<meta property="article:published_time" content="2021-03-06T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-03-06T00:00:00+00:00" />
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="Language-agnostic programming environments hinder automated parallelization and distribution, often forcing developers that deal with large datasets to manually rewrite programs and their components in languages that support these features. We have built a series of systems that accelerate, parallelize, distribute, and scale out computations fully automatically — while maintaining key correctness and security guarantees. Our systems target widely used environments — e.g., JavaScript, Python, the Shell — and are offered by open-source consortia such as the Linux Foundation. Examples: NSDI&#39;23, OSDI&#39;22, EuroSys&#39;21."/>
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "",
+    "name": "",
+    "headline": "",
+    "description": "Language-agnostic programming environments hinder automated parallelization and distribution, often forcing developers that deal with large datasets to manually rewrite programs and their components in languages that support these features. We have built a series of systems that accelerate, parallelize, distribute, and scale out computations fully automatically — while maintaining key correctness and security guarantees. Our systems target widely used environments — e.g., JavaScript, Python, the Shell — and are offered by open-source consortia such as the Linux Foundation. Examples: NSDI\u002723, OSDI\u002722, EuroSys\u002721.",
+    "abstract": "Acceleration and Scaleout of Software Systems # Shell scripting is used pervasively, partly due to its simplicity in combining components (commands) written in multiple languages.",
+    "inLanguage": "en",
+    "url" : "https:\/\/atlas-group.cs.brown.edu\/acceleration\/",
+    "author" : {
+      "@type": "Person",
+      "name": ""
+    },
+    "copyrightYear": "2021",
+    "dateCreated": "2021-03-06T00:00:00\u002b00:00",
+    "datePublished": "2021-03-06T00:00:00\u002b00:00",
+    
+    "dateModified": "2021-03-06T00:00:00\u002b00:00",
+    
+    
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "400"
+  }]
+  </script>
+
+
+  
+  
+  
+  
+  
+
+<script src="/lib/jquery/jquery.slim.min.js" integrity=""></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+  <meta name="theme-color"/>
+  
+  
+</head>
+<body
+  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32">
+  <div id="the-top" class="absolute flex self-center">
+    <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+      href="#main-content"><span
+        class="font-bold text-primary-600 ltr:pr-2 rtl:pl-2 dark:text-primary-400">&darr;</span>Skip to main content</a>
+  </div>
+  
+  
+  <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+    class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
+    
+    
+    
+    <div>
+        <a href="https://www.brown.edu" class="flex">
+            <span class="sr-only">ATLAS Group</span>
+
+            <img src="/img/brown_logo.png" width="1920" height="1080"
+                class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom" alt="ATLAS Group" />
+
+        </a>
+    </div>
+    
+    <div class="flex flex-1 items-center justify-between">
+        <nav class="flex space-x-3">
+
+            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">ATLAS Group</a>
+
+
+        </nav>
+        <nav class="hidden md:flex items-center space-x-5 md:ml-12 h-12">
+
+            
+            
+            
+  <a href="/news/"  class="brownred flex items-center">
+    
+    <p class="brownred text-base font-medium text-gray-500 hover:text-gray-900" title="">
+        News
+    </p>
+</a>
+
+
+            
+             
+  <div>
+  <div class="cursor-pointer flex items-center nested-menu">
+    
+    <a  class="brownred text-base font-medium text-gray-500 hover:text-gray-900" title="">
+      Research
+    </a>
+    <span>
+      
+
+  <span class="relative block icon">
+    <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
+
+  </span>
+
+
+    </span>
+  </div>
+  <div class="absolute menuhide">
+    <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
+      <div class="flex flex-col space-y-3">
+        
+        <a href="/supply-chain/"  class="brownred flex items-center">
+          
+          <p class="brownred text-sm font-sm text-gray-500 hover:text-gray-900" title="">
+            Software Supply-Chain Security
+          </p>
+        </a>
+        
+        <a href="/acceleration/"  class="brownred flex items-center">
+          
+          <p class="brownred text-sm font-sm text-gray-500 hover:text-gray-900" title="">
+            Acceleration and Scaleout of Software Systems
+          </p>
+        </a>
+        
+        <a href="/ssc/"  class="brownred flex items-center">
+          
+          <p class="brownred text-sm font-sm text-gray-500 hover:text-gray-900" title="">
+            Towards Secure Scalable Computing
+          </p>
+        </a>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+            
+            
+  <a href="/team/"  class="brownred flex items-center">
+    
+    <p class="brownred text-base font-medium text-gray-500 hover:text-gray-900" title="">
+        Team
+    </p>
+</a>
+
+
+            
+            
+  <a href="/publications/"  class="brownred flex items-center">
+    
+    <p class="brownred text-base font-medium text-gray-500 hover:text-gray-900" title="">
+        Publications
+    </p>
+</a>
+
+
+            
+            
+  <a href="/contact/"  class="brownred flex items-center">
+    
+    <p class="brownred text-base font-medium text-gray-500 hover:text-gray-900" title="">
+        Contact
+    </p>
+</a>
+
+
+            
+            
+  <a href="https://systems.cs.brown.edu"  target="_blank"  class="brownred flex items-center">
+    
+    <p class="brownred text-base font-medium text-gray-500 hover:text-gray-900" title="">
+        BrownSys
+    </p>
+</a>
+
+
+            
+            
+  <a href="https://studentaccessibility.brown.edu"  target="_blank"  class="brownred flex items-center">
+    
+    <p class="brownred text-base font-medium text-gray-500 hover:text-gray-900" title="">
+        Accessibility
+    </p>
+</a>
+
+
+            
+            
+
+            
+
+
+            
+
+
+            
+            
+
+        </nav>
+        <div class="flex md:hidden items-center space-x-5 md:ml-12">
+
+            <span></span>
+
+            
+
+
+            
+
+            
+            
+
+        </div>
+    </div>
+    <div class="-my-2 -mr-2 md:hidden">
+
+        <label id="menu-button" for="menu-controller" class="block">
+            <input type="checkbox" id="menu-controller" class="hidden" />
+            <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+                
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+
+  </span>
+
+
+            </div>
+            <div id="menu-wrapper" style="padding-top:5px;"
+                class="fixed inset-0 z-30 invisible w-screen h-screen m-0 overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50">
+                <ul
+                    class="flex space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none ltr:text-right rtl:text-left max-w-7xl">
+
+                    <li>
+                        <span
+                            class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+  </span>
+
+</span>
+                    </li>
+
+                    
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/news/"  class="brownred flex items-center">
+        
+        <p class="brownred text-bg font-bg text-gray-500 hover:text-gray-900" title="">
+            News
+        </p>
+    </a>
+</li>
+
+
+
+                    
+
+                     
+  <li class="mt-1">
+    <a class="brownred flex items-center">
+        
+        <p class="brownred text-bg font-bg text-gray-500 hover:text-gray-900" title="">
+            Research
+        </p>
+        <span>
+            
+
+  <span class="relative block icon">
+    <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
+
+  </span>
+
+
+        </span>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/supply-chain/"  class="flex items-center">
+        
+        <p class="brownred text-sm font-small text-gray-500 hover:text-gray-900" title="">
+            Software Supply-Chain Security
+        </p>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/acceleration/"  class="flex items-center">
+        
+        <p class="brownred text-sm font-small text-gray-500 hover:text-gray-900" title="">
+            Acceleration and Scaleout of Software Systems
+        </p>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/ssc/"  class="flex items-center">
+        
+        <p class="brownred text-sm font-small text-gray-500 hover:text-gray-900" title="">
+            Towards Secure Scalable Computing
+        </p>
+    </a>
+</li>
+
+<li class="mb-2"></li>
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/team/"  class="brownred flex items-center">
+        
+        <p class="brownred text-bg font-bg text-gray-500 hover:text-gray-900" title="">
+            Team
+        </p>
+    </a>
+</li>
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/publications/"  class="brownred flex items-center">
+        
+        <p class="brownred text-bg font-bg text-gray-500 hover:text-gray-900" title="">
+            Publications
+        </p>
+    </a>
+</li>
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/contact/"  class="brownred flex items-center">
+        
+        <p class="brownred text-bg font-bg text-gray-500 hover:text-gray-900" title="">
+            Contact
+        </p>
+    </a>
+</li>
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="https://systems.cs.brown.edu"  target="_blank"  class="brownred flex items-center">
+        
+        <p class="brownred text-bg font-bg text-gray-500 hover:text-gray-900" title="">
+            BrownSys
+        </p>
+    </a>
+</li>
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="https://studentaccessibility.brown.edu"  target="_blank"  class="brownred flex items-center">
+        
+        <p class="brownred text-bg font-bg text-gray-500 hover:text-gray-900" title="">
+            Accessibility
+        </p>
+    </a>
+</li>
+
+
+
+                    
+                    
+
+                </ul>
+                
+
+            </div>
+        </label>
+    </div>
+</div>
+
+
+
+
+
+  
+  <div class="relative flex flex-col grow">
+    <main id="main-content" class="grow">
+      
+
+
+<article>
+  
+
+  <header id="single_header" class="mt-5 max-w-prose">
+    
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      
+    </h1>
+    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+
+  
+  
+</div>
+
+
+
+
+
+
+
+    </div>
+
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+  
+  </header>
+  
+  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+    
+    
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+        
+
+
+        <div class="max-w-prose mb-20">
+          <div id="acceleration-and-scaleout-of-software-systems" class="anchor"></div>
+<h2 class="relative group">Acceleration and Scaleout of Software Systems 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#acceleration-and-scaleout-of-software-systems" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<p>Shell scripting is used pervasively, partly due to its simplicity in combining components (commands) written in multiple languages. Unfortunately, this language-agnostic composition hinders automated parallelization and distribution, often forcing developers to manually rewrite shell programs (and their components) in other languages that support these features. We have built several systems that, combined, offer automated parallelization of Unix/Linux shell scripts—along with serious correctness and compatibility guarantees.</p>
+<p><strong>Papers:</strong> Our <a href="http://nikos.vasilak.is/p/m31:hotos:2015.pdf"   target="_blank">
+    HotOS15 paper</a> identifies the composition problem with today&rsquo;s distributed computing software — that there&rsquo;s no equivalent of an elegant and simple composition in modern distributed environments— and offers a vision for the future. Our <a href="http://nikos.vasilak.is/p/pash:eurosys:2021.pdf"   target="_blank">
+    EuroSys21 paper</a> describes our PaSh system for parallelizing shell pipelines, and the corresponding <a href="http://nikos.vasilak.is/p/pash:icfp:2021.pdf"   target="_blank">
+    ICFP21 paper</a> formalizes the model at the core of PaSh and proves its parallelizing transformations correct. Our <a href="http://nikos.vasilak.is/p/pash:hotos:2021.pdf"   target="_blank">
+    HotOS21 paper</a> outlines a vision for the future of the shell, and our <a href="http://nikos.vasilak.is/p/shellpanel:hotos:2021.pdf"   target="_blank">
+    HotOS21 panel</a> discusses future avenues for <a href="https://arxiv.org/abs/2109.11016"   target="_blank">
+    cross-discipline shell-related research</a>.</p>
+<p>Our recent <a href="http://nikos.vasilak.is/p/pash:osdi:2022.pdf"   target="_blank">
+    OSDI22 paper</a> tackles POSIX-compliant parallelization in the presence of fully dynamic behavior pervasive in the shell—via just-in-time compilation, intermixing evaluation and optimization of individual expressions. Our <a href="http://nikos.vasilak.is/p/pash:nsdi:2023.pdf"   target="_blank">
+    NSDI23 paper</a> takes this to the distributed level, by offering automated POSIX-compliant scale-out across multiple computers. And our <a href="http://nikos.vasilak.is/p/hs:hotos:2023.pdf"   target="_blank">
+    HotOS23 paper</a> identifies speculative out-of-order shell-script execution as a key challenge — and sketches appropriate containment mechanisms that can be used to delay and reorder side effects.</p>
+<p><strong>Ongoing work:</strong> Ongoing research (1) develops an out-of-order execution engine for shell scripts, (2) proposes  tackles automated generation of critical runtime components, through a combination of <a href="http://nikos.vasilak.is/p/kumquat:arxiv:2021.pdf"   target="_blank">
+    active learning and program synthesis</a>, (3) proposes appropriate fault-tolerance support for distributed shell-script execution, and (4) develops appropriate type systems, formal models, and mathematical proofs targeting environments that support the composition of black-box software components.</p>
+<p><strong>Software:</strong></p>
+<ul>
+<li><a href="https://github.com/binpash"   target="_blank">
+    PaSh</a> is an award-winning just-in-time parallelization system that forms the basis for all our shell-related research.</li>
+<li><a href="https://github.com/binpash/dish"   target="_blank">
+    DiSh</a> is a system for automatically scaling out shell scripts to multiple computers.</li>
+<li>The <a href="https://github.com/binpash/try"   target="_blank">
+    try</a> tool allows users to run a command and inspect its effects ahead of time.</li>
+</ul>
+<p><strong>Technology transition:</strong></p>
+<p>Our PaSh open-source work has joined and is available by <a href="https://www.linuxfoundation.org/"   target="_blank">
+    the Linux Foundation</a> and our try open-source primitive has received significant (over <a href="https://github.com/binpash/try"   target="_blank">
+    5K GitHub stars</a>).</p>
+<p><strong>Press:</strong></p>
+<ul>
+<li><a href="https://news.mit.edu/2022/faster-unix-computing-program-0607"   target="_blank">
+    MIT News article</a> on faster computing results without fear of errors</li>
+<li><a href="https://www.linuxfoundation.org/press/press-release/linux-foundation-to-host-the-pash-project-accelerating-shell-scripting-with-automated-parallelization-for-industrial-use-case"   target="_blank">
+    Press release</a> from the Linux Foundation</li>
+<li>Many discussions and third-party tutorials on PaSh and Try — e.g., <a href="https://news.ycombinator.com/item?id=36461102"   target="_blank">
+    ycombinator</a>, <a href="https://www.i-programmer.info/news/90-tools/14990-the-pash-project-advancing-the-unix-philosophy-one-step-further.html"   target="_blank">
+    i-programmer</a>, <a href="https://sarvsav.medium.com/shell-dry-run-for-your-commands-f5dba65d20b1"   target="_blank">
+    medium</a>, etc.</li>
+</ul>
+
+        </div>
+                
+        
+
+        
+
+          
+      </div>
+     
+     <script>
+        var oid = "views_acceleration.md"
+        var oid_likes = "likes_acceleration.md"
+      </script>
+      
+      
+      <script type="text/javascript" src="/js/page.min.0e49973b4ad0a382c7c6012d8bff8226316642daabc4f8a20477bd08674f3da6e2fa993bc20ad4f51e7c5bb68e6f913a207a7c4fe37ea0e7b806894afce0a64e.js" integrity="sha512-DkmXO0rQo4LHxgEti/&#43;CJjFmQtqrxPiiBHe9CGdPPabi&#43;pk7wgrU9R58W7aOb5E6IHp8T&#43;N&#43;oOe4BolK/OCmTg=="></script>
+  
+    </section>
+  <footer class="pt-8 max-w-prose print:hidden">
+
+    
+
+    
+  </footer>
+</article>
+
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top" title="Scroll to top">
+    &uarr;
+  </a>
+</div>
+    </main><footer id="site-footer" class="py-10 print:hidden">
+  
+  
+    
+  
+  <div class="flex items-center justify-between">
+
+    
+    
+    <p class="text-sm">
+      © ATLAS Group 2023 | <a href="https://systems.cs.brown.edu"   target="_blank">
+    Brown Systems Group</a> | <a href="https://www.brown.edu/"   target="_blank">
+    Brown University</a>
+    </p>
+    
+
+    
+    
+
+  </div>
+  <script>
+    
+    mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
+      margin: 24,
+      background: 'rgba(0,0,0,0.5)',
+      scrollOffset: 0,
+    })
+    
+  </script>
+  
+  
+  <script type="text/javascript" src="/js/process.min.35c1113bcc16c5a59bf031082f9e63822aa95280423881a7847a7ff33a16e6299ce6a840d9ef4e10d947e030a18f3f20359afb2ec0f35967484b9a9360ac3145.js" integrity="sha512-NcERO8wWxaWb8DEIL55jgiqpUoBCOIGnhHp/8zoW5imc5qhA2e9OENlH4DChjz8gNZr7LsDzWWdIS5qTYKwxRQ=="></script>
+  
+  
+</footer>
+  </div>
+</body>
+
+</html>
