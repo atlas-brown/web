@@ -3,45 +3,45 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://atlas-group.cs.brown.edu/supply-chain/</loc>
+    <loc>https://atlas.cs.brown.edu/supply-chain/</loc>
     <lastmod>2023-03-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atlas-group.cs.brown.edu/ssc/</loc>
+    <loc>https://atlas.cs.brown.edu/ssc/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atlas-group.cs.brown.edu/acceleration/</loc>
+    <loc>https://atlas.cs.brown.edu/acceleration/</loc>
     <lastmod>2021-03-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atlas-group.cs.brown.edu/</loc>
+    <loc>https://atlas.cs.brown.edu/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atlas-group.cs.brown.edu/contact/</loc>
+    <loc>https://atlas.cs.brown.edu/contact/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atlas-group.cs.brown.edu/news/</loc>
+    <loc>https://atlas.cs.brown.edu/news/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atlas-group.cs.brown.edu/publications/</loc>
+    <loc>https://atlas.cs.brown.edu/publications/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atlas-group.cs.brown.edu/team/</loc>
+    <loc>https://atlas.cs.brown.edu/team/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

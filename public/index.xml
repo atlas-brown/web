@@ -2,78 +2,78 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ATLAS Group</title>
-    <link>https://atlas-group.cs.brown.edu/</link>
+    <link>https://atlas.cs.brown.edu/</link>
     <description>Recent content on ATLAS Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© ATLAS Group 2023 | [Brown Systems Group](https://systems.cs.brown.edu) | [Brown University](https://www.brown.edu/)</copyright>
-    <atom:link href="https://atlas-group.cs.brown.edu/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://atlas.cs.brown.edu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://atlas-group.cs.brown.edu/supply-chain/</link>
+      <link>https://atlas.cs.brown.edu/supply-chain/</link>
       <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://atlas-group.cs.brown.edu/supply-chain/</guid>
+      <guid>https://atlas.cs.brown.edu/supply-chain/</guid>
       <description>Software Supply-Chain Security # Modern software incorporates thousands of dependencies as a means of accelerating its development and reducing its cost—at a significant risk to safety and security for both developers and end-users.</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>https://atlas-group.cs.brown.edu/ssc/</link>
+      <link>https://atlas.cs.brown.edu/ssc/</link>
       <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://atlas-group.cs.brown.edu/ssc/</guid>
+      <guid>https://atlas.cs.brown.edu/ssc/</guid>
       <description>Towards Secure Scalable Computing # Recent trends are pushing developers towards new paradigms of secure and scalable computing—e.</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>https://atlas-group.cs.brown.edu/acceleration/</link>
+      <link>https://atlas.cs.brown.edu/acceleration/</link>
       <pubDate>Sat, 06 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://atlas-group.cs.brown.edu/acceleration/</guid>
+      <guid>https://atlas.cs.brown.edu/acceleration/</guid>
       <description>Acceleration and Scaleout of Software Systems # Shell scripting is used pervasively, partly due to its simplicity in combining components (commands) written in multiple languages.</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>https://atlas-group.cs.brown.edu/contact/</link>
+      <link>https://atlas.cs.brown.edu/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://atlas-group.cs.brown.edu/contact/</guid>
+      <guid>https://atlas.cs.brown.edu/contact/</guid>
       <description>Research with us # Research is fun — especially when it&amp;rsquo;s collaborative.</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>https://atlas-group.cs.brown.edu/news/</link>
+      <link>https://atlas.cs.brown.edu/news/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://atlas-group.cs.brown.edu/news/</guid>
+      <guid>https://atlas.cs.brown.edu/news/</guid>
       <description>News # Dec&#39;23: Nikos Vasilakis is co-chairing the PC of EuroSec&#39;24, co-located with EuroSys.</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>https://atlas-group.cs.brown.edu/publications/</link>
+      <link>https://atlas.cs.brown.edu/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://atlas-group.cs.brown.edu/publications/</guid>
+      <guid>https://atlas.cs.brown.edu/publications/</guid>
       <description>Peer-Reviewed Conference Publications # BinWrap: Hybrid Protection Against Native Node.</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>https://atlas-group.cs.brown.edu/team/</link>
+      <link>https://atlas.cs.brown.edu/team/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://atlas-group.cs.brown.edu/team/</guid>
+      <guid>https://atlas.cs.brown.edu/team/</guid>
       <description>Faculty # Nikos Vasilakis</description>
       
     </item>
