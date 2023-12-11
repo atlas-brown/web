@@ -14,7 +14,7 @@ Building transition paths toward secure multi-scale distributed enviroments.
 <--->
 {{< /columns >}}
 
-## Administrative assistant
+## Administrative Assistant
 
 {{< columns >}} <!-- begin columns block -->
 

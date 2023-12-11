@@ -46,7 +46,7 @@ See [all news]({{< ref "news.md" >}})
 <div class="gallery-item grid-w20">
     <img class="imgStuff" src="../nikosv.jpg" alt="Nikos Vasilakis" />
     <strong><a href="https://nikos.vasilak.is/" title="Nikos Vasilakis">Nikos Vasilakis</a></strong> 
-    <br>Professor
+    <br>Faculty
 </div>
 <div class="gallery-item grid-w20">
     <img class="imgStuff" src="../oguzhan.jpg" alt="Oğuzhan Çölkesen" />
