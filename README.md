@@ -1,2 +1,5 @@
-Temp website: https://magnificent-souffle-53340f.netlify.app
-# website
+> Link: https://atlas-group.cs.brown.edu
+## Build
+```sh
+./build.sh
+```
