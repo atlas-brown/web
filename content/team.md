@@ -112,7 +112,7 @@ Reimagining third-party library and package ecosystems.
 [Alizee Schoen](https://www.linkedin.com/in/alizee-schoen/) (UROP, 2020-2021, now at Square)   
 [Achilles Benetopoulos](https://users.soe.ucsc.edu/~abenetop/) (Engineer, 2020, now at UCSC)    
 [Lazar Cvetković](https://systems.ethz.ch/people/profile.MjkzNzEw.TGlzdC8zODg4LDEyOTU2NDI2OTI=.html) (B.Sc., 2019-2020, now at ETH Zurich)     
-[Pranjal Goel](https://www.linkedin.com/in/pranjal-goel) (UROP, 2018-2919, now at Goldman Sachs)   
+[Pranjal Goel](https://www.linkedin.com/in/pranjal-goel) (UROP, 2018-2019, now at Goldman Sachs)   
 [Yash Palkhiwala](https://www.linkedin.com/in/yash-palkhiwala) (UROP, 2017-2019, now at Flatiron Health)    
 [Arjun Dixit](https://janbielak.com/) (High School, 2021, now at CMU)    
 [Jan Bielak](https://janbielak.com/) (High School, 2021, now at Nvidia)      
