@@ -2,89 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ATLAS Group</title>
-    <link>/</link>
+    <link>https://atlas.cs.brown.edu/</link>
     <description>Recent content on ATLAS Group</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <copyright>© ATLAS Group 2023 | [Brown Systems Group](https://systems.cs.brown.edu) | [Brown University](https://www.brown.edu/)</copyright>
+    <atom:link href="https://atlas.cs.brown.edu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>/supply-chain/</link>
+      <link>https://atlas.cs.brown.edu/supply-chain/</link>
       <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>/supply-chain/</guid>
-      <description>Software Supply-Chain Security Modern software incorporates thousands of dependencies as a means of accelerating its development and reducing its cost—at a significant risk to safety and security for both developers and end-users. We have built a series of systems targeting the JavaScript dependency ecosystem—the largest such ecosystem out there—automating the analysis, transformation, and synthesis of dependencies across a variety of threat models.
-Papers: Our PLOS17 paper identifies key security problems with third-party libraries and sketches a solution that leverages program transformations to lower (and lock) the privilege of individual libraries.</description>
+      <guid>https://atlas.cs.brown.edu/supply-chain/</guid>
+      <description>Software Supply-Chain Security # Modern software incorporates thousands of dependencies as a means of accelerating its development and reducing its cost—at a significant risk to safety and security for both developers and end-users.</description>
+      
     </item>
     
     <item>
       <title></title>
-      <link>/ssc/</link>
+      <link>https://atlas.cs.brown.edu/ssc/</link>
       <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>/ssc/</guid>
-      <description>Towards Secure Scalable Computing Recent trends are pushing developers towards new paradigms of secure and scalable computing—e.g., confidential computing, microservices, serverless computing, edge computing, etc. Transforming a conventional program to leverage these paradigms is a laborious manual process that can lead to suboptimal performance and in many cases even break the program. We are developing systems supporting this kind of decomposition, often exploiting special hardware capabilities when these are possible.</description>
+      <guid>https://atlas.cs.brown.edu/ssc/</guid>
+      <description>Towards Secure Scalable Computing # Recent trends are pushing developers towards new paradigms of secure and scalable computing—e.</description>
+      
     </item>
     
     <item>
       <title></title>
-      <link>/acceleration/</link>
+      <link>https://atlas.cs.brown.edu/acceleration/</link>
       <pubDate>Sat, 06 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>/acceleration/</guid>
-      <description>Acceleration and Scaleout of Software Systems Shell scripting is used pervasively, partly due to its simplicity in combining components (commands) written in multiple languages. Unfortunately, this language-agnostic composition hinders automated parallelization and distribution, often forcing developers to manually rewrite shell programs (and their components) in other languages that support these features. We have built several systems that, combined, offer automated parallelization of Unix/Linux shell scripts—along with serious correctness and compatibility guarantees.</description>
+      <guid>https://atlas.cs.brown.edu/acceleration/</guid>
+      <description>Acceleration and Scaleout of Software Systems # Shell scripting is used pervasively, partly due to its simplicity in combining components (commands) written in multiple languages.</description>
+      
     </item>
     
     <item>
       <title></title>
-      <link>/contact/</link>
+      <link>https://atlas.cs.brown.edu/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/contact/</guid>
-      <description>Research with us Research is fun — especially when it&amp;rsquo;s collaborative. If you are a current Brown student of any level (e.g., undergraduate, masters, Ph.D.) please fill out this form and consult the ATLAS onboarding &amp;amp; resources document (Brown-internal document). If you&amp;rsquo;re interested in a 6–12 month research visit, please fill out this form.
-If you&amp;rsquo;re looking to join Brown for an undergraduate or M.Sc. degree, do not email the group — we do not have a say in the application process.</description>
+      <guid>https://atlas.cs.brown.edu/contact/</guid>
+      <description>Research with us # Research is fun — especially when it&amp;rsquo;s collaborative.</description>
+      
     </item>
     
     <item>
       <title></title>
-      <link>/news/</link>
+      <link>https://atlas.cs.brown.edu/news/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/news/</guid>
-      <description>News Dec&#39;23: Nikos Vasilakis is co-chairing the PC of EuroSec&#39;24, co-located with EuroSys.
-Oct&#39;23: We&amp;rsquo;re hosting the 3rd PaSh Research Workshop at Brown University.
-Sep&#39;23: Nikos Pagonas joins the group for a six-month visit on serverless computing.
-Sep&#39;23: Brown CS News published an article on our ACM AsiaCCS&#39;23 distinguished paper award!
-Aug&#39;23: Anirudh Narsipur and Seth Sabar start their undergraduate dissertations.
-Jul&#39;23: Oğuzhan Çölkesen and Yizheng Xie join the group for their PhD.</description>
+      <guid>https://atlas.cs.brown.edu/news/</guid>
+      <description>News # Dec&#39;23: Nikos Vasilakis is co-chairing the PC of EuroSec&#39;24, co-located with EuroSys.</description>
+      
     </item>
     
     <item>
       <title></title>
-      <link>/publications/</link>
+      <link>https://atlas.cs.brown.edu/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/publications/</guid>
-      <description>Peer-Reviewed Conference Publications BinWrap: Hybrid Protection Against Native Node.js Add-ons
-George Christou, Grigoris Ntousakis, Eric Lahtinen, Sotiris Ioannidis, Vasileios P. Kemerlis, and Nikos Vasilakis. ACM ASIA Conference on Computer and Communications Security (ASIA CCS ’23) Received Distinguished Paper Award ACM DL | PDF | code
-DiSh: Dynamic Shell-Script Distribution
-Tammam Mustafa, Pratyush Das, Konstsantinos Kallas, and Nikos Vasilakis. 20th USENIX Symposium on Networked Systems Design and Implementation (NSDI&#39;23) Usenix | PDF | code</description>
+      <guid>https://atlas.cs.brown.edu/publications/</guid>
+      <description>Peer-Reviewed Conference Publications # BinWrap: Hybrid Protection Against Native Node.</description>
+      
     </item>
     
     <item>
       <title></title>
-      <link>/team/</link>
+      <link>https://atlas.cs.brown.edu/team/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/team/</guid>
-      <description>Faculty Nikos Vasilakis Building transition paths toward secure multi-scale distributed enviroments.
-E-mail | Github | Twitter
-   Administrative Assistant Dawn T. Reed 
-E-mail
-   Ph.D. Students  Yizheng Xie Enjoys working at the intersection of systems, software, and automation.
-E-mail | Github
- Oğuzhan Çölkesen Interested in parallel and distributed systems, as well as their optimization.
-E-mail | Github
-  M.Sc. Students  Zhicheng Huang Exploring the interface between systems and software engineering.</description>
+      <guid>https://atlas.cs.brown.edu/team/</guid>
+      <description>Faculty # Nikos Vasilakis Building transition paths toward secure multi-scale distributed enviroments.</description>
+      
     </item>
     
   </channel>
