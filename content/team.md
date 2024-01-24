@@ -61,12 +61,6 @@ Towards type systems for language-angostic composition of black-box software com
 
 [E-mail](mailto:anirudh_narsipur@brown.edu) | [Github](http://github.com/AnirudhNarsipur)</p>
 
-<img  class="imgStuffTeam" width="150" height="150" align="left" src="../seongheon.jpg" alt="Seong-Heon Jung" /> <p>__[Seong-Heon Jung](https://forthoney.github.io/)__\
-Automatic compilation of shell scripts into Airflow DAGs.
-
-[E-mail](mailto:seong-heon_jung@brown.edu) | [Github](http://github.com/forthoney)</p>
-
-<--->
 <img  class="imgStuffTeam" width="150" height="150" align="left" src="../julian.jpg" alt="Julian Dai" /> <p> __[Julian Dai](https://jdai1.github.io/)__\
 Solving the scalability challenges of secure regeneration for real-world ecosystems.
 
@@ -76,6 +70,17 @@ Solving the scalability challenges of secure regeneration for real-world ecosyst
 Working on  Bash-compliant PaSh and an associated library, libbash.
 
 [E-mail](mailto:seth_sabar@brown.edu) | [Github](http://github.com/sethsabar) </p>
+
+<--->
+<img  class="imgStuffTeam" width="150" height="150" align="left" src="../christina.jpg" alt="Christina Stepin" /> <p> __[Christina Stepin](https://www.linkedin.com/in/christinastepin/)__\
+Working on a distributed multidimensional store for dynamic objects.
+
+[E-mail](mailto:christina_stepin@brown.edu) | [Github](http://github.com/cstepin)</p>
+
+<img  class="imgStuffTeam" width="150" height="150" align="left" src="../seongheon.jpg" alt="Seong-Heon Jung" /> <p>__[Seong-Heon Jung](https://forthoney.github.io/)__\
+Automatic compilation of shell scripts into Airflow DAGs.
+
+[E-mail](mailto:seong-heon_jung@brown.edu) | [Github](http://github.com/forthoney)</p>
 
 {{< /columns >}}
 
@@ -115,4 +120,4 @@ Reimagining third-party library and package ecosystems.
 [Pranjal Goel](https://www.linkedin.com/in/pranjal-goel) (UROP, 2018-2019, now at Goldman Sachs)\
 [Yash Palkhiwala](https://www.linkedin.com/in/yash-palkhiwala) (UROP, 2017-2019, now at Flatiron Health)\
 [Arjun Dixit](https://janbielak.com/) (High School, 2021, now at CMU)\
-[Jan Bielak](https://janbielak.com/) (High School, 2021, now at Nvidia)\
+[Jan Bielak](https://janbielak.com/) (High School, 2021, now at Nvidia)
