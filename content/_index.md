@@ -28,6 +28,10 @@ See [all news]({{< ref "news.md" >}})
     <strong><a href="https://www.anarsipur.com/" title="Anirudh Narsipur">Anirudh Narsipur</a></strong> <br> B.Sc. student
 </div>
 <div class="gallery-item grid-w20">
+    <img class="imgStuff" src="../christina.jpg" alt="Christina Stepin" />
+    <strong><a href="https://www.linkedin.com/in/christinastepin/" title="Christina Stepin">Christina Stepin</a></strong> <br> B.Sc. student
+</div>
+<div class="gallery-item grid-w20">
     <img class="imgStuff" src="../giorgos.jpg" alt="Giorgos Liargkovas" />
     <strong><a href="https://gliargovas.github.io/" title="Giorgos Liargkovas">Giorgos Liargkovas</a></strong> <br> Visiting Student 
 </div>
