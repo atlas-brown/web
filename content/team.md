@@ -44,12 +44,17 @@ Interested in parallel and distributed systems, as well as their optimization.
 ## M.Sc. Students
 
 {{< columns >}} <!-- begin columns block -->
+<img class="imgStuffTeam" width="150" height="150" align="left" src="../ramiz.jpg" alt="Ramiz Dundar"><p> __[Ramiz Dundar](https://www.linkedin.com/in/ramizdundar/)__\
+Designing and fine-tuning systems for cutting-edge hardware in the next generation.
+
+[E-mail](mailto:ramiz_dundar@brown.edu) | [Github](https://github.com/ramizdundar)</p>
+
+<--->
+
 <img class="imgStuffTeam" width="150" height="150" align="left" src="../zhicheng.jpg" alt="Zhicheng Huang"><p> __[Zhicheng Huang](https://huangworld.github.io/)__\
 Exploring the interface between systems and software engineering.
 
 [E-mail](mailto:zhicheng_huang@brown.edu) | [Github](http://github.com/huangworld)</p>
-
-<--->
 
 {{< /columns >}}
 

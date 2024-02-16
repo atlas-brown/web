@@ -57,6 +57,10 @@ See [all news]({{< ref "news.md" >}})
     <strong><a href="https://www.oguzhancolkesen.com" title="Oğuzhan Çölkesen">Oğuzhan Çölkesen</a></strong> <br> Ph.D. Student 
 </div>
 <div class="gallery-item grid-w20">
+    <img class="imgStuff" src="../ramiz.jpg" alt="Ramiz Dundar" />
+    <strong><a href="https://www.linkedin.com/in/ramizdundar/" title="Ramiz Dundar">Ramiz Dundar</a></strong> <br> M.Sc. Student 
+</div>
+<div class="gallery-item grid-w20">
     <img class="imgStuff" src="../seongheon.jpg" alt="Seong-Heon Jung" />
     <strong><a href="https://forthoney.github.io/" title="Seong-Heon Jung">Seong-Heon Jung</a></strong> <br> B.Sc. student
 </div>
