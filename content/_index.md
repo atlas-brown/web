@@ -44,6 +44,10 @@ See [all news]({{< ref "news.md" >}})
     <strong><a href="https://jdai1.github.io/" title="Julian Dai">Julian Dai</a></strong> <br> B.Sc. student
 </div>
 <div class="gallery-item grid-w20">
+    <img class="imgStuff" src="../megan.jpg" alt="Megan Zheng" />
+    <strong><a href="https://yuuu23.github.io/" title="Megan Zheng">Megan Zheng</a></strong> <br> B.Sc. student
+</div>
+<div class="gallery-item grid-w20">
     <img class="imgStuff" src="../nikosp.jpg" alt="Nikos Pagonas" />
     <strong><a href="https://nikpag.github.io/" title="Nikos Pagonas">Nikos Pagonas</a></strong> <br> Visiting Student
 </div>

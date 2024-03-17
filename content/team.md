@@ -71,10 +71,10 @@ Solving the scalability challenges of secure regeneration for real-world ecosyst
 
 [E-mail](mailto:julian_dai@brown.edu) | [Github](http://github.com/jdai1)</p>
 
-<img  class="imgStuffTeam" width="150" height="150" align="left" src="../seths.jpg" alt="Seth Sabar" /> <p> __[Seth Sabar](https://www.linkedin.com/in/sethsabar/)__\
-Working on  Bash-compliant PaSh and an associated library, libbash.
+<img  class="imgStuffTeam" width="150" height="150" align="left" src="../seongheon.jpg" alt="Seong-Heon Jung" /> <p>__[Seong-Heon Jung](https://forthoney.github.io/)__\
+Automatic compilation of shell scripts into Airflow DAGs.
 
-[E-mail](mailto:seth_sabar@brown.edu) | [Github](http://github.com/sethsabar) </p>
+[E-mail](mailto:seong-heon_jung@brown.edu) | [Github](http://github.com/forthoney)</p>
 
 <--->
 <img  class="imgStuffTeam" width="150" height="150" align="left" src="../christina.jpg" alt="Christina Stepin" /> <p> __[Christina Stepin](https://www.linkedin.com/in/christinastepin/)__\
@@ -82,10 +82,15 @@ Working on a distributed multidimensional store for dynamic objects.
 
 [E-mail](mailto:christina_stepin@brown.edu) | [Github](http://github.com/cstepin)</p>
 
-<img  class="imgStuffTeam" width="150" height="150" align="left" src="../seongheon.jpg" alt="Seong-Heon Jung" /> <p>__[Seong-Heon Jung](https://forthoney.github.io/)__\
-Automatic compilation of shell scripts into Airflow DAGs.
+<img  class="imgStuffTeam" width="150" height="150" align="left" src="../megan.jpg" alt="Megan Zheng" /> <p> __[Megan Zheng](https://yuuu23.github.io/)__\
+Synthesizing correct and high-performance runtime primitives.
 
-[E-mail](mailto:seong-heon_jung@brown.edu) | [Github](http://github.com/forthoney)</p>
+[E-mail](mailto:megan_zheng@brown.edu) | [Github](http://github.com/YUUU23) </p>
+
+<img  class="imgStuffTeam" width="150" height="150" align="left" src="../seths.jpg" alt="Seth Sabar" /> <p> __[Seth Sabar](https://www.linkedin.com/in/sethsabar/)__\
+Working on  Bash-compliant PaSh and an associated library, libbash.
+
+[E-mail](mailto:seth_sabar@brown.edu) | [Github](http://github.com/sethsabar) </p>
 
 {{< /columns >}}
 
