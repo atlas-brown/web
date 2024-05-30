@@ -1,23 +1,19 @@
 > Link: [Atlas Group Website](https://atlas.cs.brown.edu)
 
-## Prerequisites
+## Installation
 
-You need to install __[hugo](https://gohugo.io/installation/)__ to compile the website.
+1. Download [Hugo v0.119.0](https://github.com/gohugoio/hugo/releases/tag/v0.119.0); this version is very important for compatibility with the chosen theme. Place the executable in the top-level directory.
+2. Run `git submodule init` and `git submodule update` to get the latest theme.
 
 ## Modifying Content
 
-To update any text content on the website, make changes in the `/content/` folder using Markdown.
+After any changes, run `./build.sh` to generate HTML.
 
-For image modifications, edit the files in the `/static/` folder.
-Always make sure the images are 150x150.
+* Make changes in the `/content/` folder using Markdown.
+* For image modifications, edit the files in the `/static/` folder.
 
-Always preview the changes locally:
+To preview the changes locally, run `hugo server`.
 
-```sh
-hugo server
-```
+## Content assumptions
 
-## Building Process
-```sh
-./build.sh
-```
+* Images are 150x150.
