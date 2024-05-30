@@ -53,7 +53,7 @@ Office hours: [Wed 2–3pm](https://calendar.google.com/calendar/embed?src=c_484
 ## Courses
 
 [CS1380: Distributed Computer Systems](https://cs.brown.edu/courses/csci1380/)  
-[CS2952-R: Systems Transforming Systems](https://cs.brown.edu/courses/info/csci2952-r/)  
+[CS2952-R: Systems Transforming Systems](https://cs.brown.edu/courses/csci2952r/)  
 [Weekly systems lunchch](https://systems.cs.brown.edu/sysread/)
 
 ## Others at Brown

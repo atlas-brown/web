@@ -137,7 +137,7 @@ Recent trends are pushing developers towards new paradigms of secure and scalabl
 ## Courses
 
 [CS1380: Distributed Computer Systems](https://cs.brown.edu/courses/csci1380/)  
-[CS2952-R: Systems Transforming Systems](https://cs.brown.edu/courses/info/csci2952-r/)  
+[CS2952-R: Systems Transforming Systems](https://cs.brown.edu/courses/csci2952r/)  
 [Weekly systems lunch](https://systems.cs.brown.edu/sysread/)
 
 ## Others at Brown

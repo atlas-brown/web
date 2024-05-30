@@ -41,7 +41,7 @@ Exploring which language-systems features are practically useful
 {{< columns >}} <!-- begin columns block -->
 
 <img  class="imgStuffTeam" width="150" height="150" align="left" src="../ethan.jpg" alt="Ethan Lavi" /> <p> __Ethan Lavi__\
-Designing correct and scalable distributed systems.
+Designing correct and scalable distributed systems.&nbsp;&nbsp;&nbsp;
 
 [E-mail](mailto:ethan_lavi@brown.edu) | [Github](http://github.com/EthanLavi)</p>
 
@@ -63,7 +63,7 @@ Reimagining third-party library and package ecosystems.
 [E-mail](mailto:gntousakis@tuc.gr) | [Github](http://github.com/GNtousakis) | [Twitter](https://twitter.com/gntousakis)</p>
 
 <img  class="imgStuffTeam" width="150" height="150" align="left" src="../yuchen.jpg" alt="Yuchen Lu" /> <p> __Yuchen Lu__\
-Leveraging ML to build high-performance systems.
+Leveraging ML to build high-performance systems.&nbsp;&nbsp;&nbsp;
 
 [E-mail](mailto:yuchen_lu@brown.edu) | [Github](http://github.com/lwwlwwl) </p>
 
@@ -140,18 +140,18 @@ At DTU; Intersted in distributed systems,  LLMs, and beyond.
 
 ## Alumni
 
-[Seth Sabar](https://www.linkedin.com/in/sethsabar/) (UROP, 2024, now at The Voleon Group)\
-[Nikos Pagonas](https://nikpag.github.io/) (Visiting Student, 2024, now at Columbia University)\
-[Giorgos Liargkovas](https://gliargovas.github.io) (Visiting Student, 2024, now at Columbia University)\
-[Rutvik Saptarshi](https://www.linkedin.com/in/rutvik-s/) (M.Sc., 2023, now at InterSystems)\
-[Felix Stutz](https://fstutz.pages.mpi-sws.org/felix-stutz/) (Ph.D. visit, 2022, now at Max Planck Institute for Software Systems)\
-[Tammam Mustafa](https://www.linkedin.com/in/tammam-mustafa-884b22137) (UROP and M.Eng., 2021-2022, now at Google)\
-[Veit Heller](https://veitheller.de) (Engineer, 2021, now at feenk/consulting)\
-[Dimitris Karnikis](https://dkarnik.is) (M.Sc., 2020-2021, now at Bang and Olufsen)\
-[Alizee Schoen](https://www.linkedin.com/in/alizee-schoen/) (UROP, 2020-2021, now at Square)\
-[Achilles Benetopoulos](https://users.soe.ucsc.edu/~abenetop/) (Engineer, 2020, now at UCSC)\
-[Lazar Cvetković](https://systems.ethz.ch/people/profile.MjkzNzEw.TGlzdC8zODg4LDEyOTU2NDI2OTI=.html) (B.Sc., 2019-2020, now at ETH Zurich)\
-[Pranjal Goel](https://www.linkedin.com/in/pranjal-goel) (UROP, 2018-2019, now at Goldman Sachs)\
-[Yash Palkhiwala](https://www.linkedin.com/in/yash-palkhiwala) (UROP, 2017-2019, now at Flatiron Health)\
-[Arjun Dixit](https://janbielak.com/) (High School, 2021, now at CMU)\
-[Jan Bielak](https://janbielak.com/) (High School, 2021, now at Nvidia)
+[Seth Sabar](https://www.linkedin.com/in/sethsabar/) (UROP, 2024, next: The Voleon Group)\
+[Nikos Pagonas](https://nikpag.github.io/) (Visiting Student, 2024, next: Columbia University)\
+[Giorgos Liargkovas](https://gliargovas.github.io) (Visiting Student, 2024, next: Columbia University)\
+[Rutvik Saptarshi](https://www.linkedin.com/in/rutvik-s/) (M.Sc., 2023, next: InterSystems)\
+[Felix Stutz](https://fstutz.pages.mpi-sws.org/felix-stutz/) (Ph.D. visit, 2022, next: Max Planck Institute for Software Systems)\
+[Tammam Mustafa](https://www.linkedin.com/in/tammam-mustafa-884b22137) (UROP and M.Eng., 2021-2022, next: Google)\
+[Veit Heller](https://veitheller.de) (Engineer, 2021, next: feenk/consulting)\
+[Dimitris Karnikis](https://dkarnik.is) (M.Sc., 2020-2021, next: Bang and Olufsen)\
+[Alizee Schoen](https://www.linkedin.com/in/alizee-schoen/) (UROP, 2020-2021, next: Square)\
+[Achilles Benetopoulos](https://users.soe.ucsc.edu/~abenetop/) (Engineer, 2020, next: UCSC)\
+[Lazar Cvetković](https://systems.ethz.ch/people/profile.MjkzNzEw.TGlzdC8zODg4LDEyOTU2NDI2OTI=.html) (B.Sc., 2019-2020, next: ETH Zurich)\
+[Pranjal Goel](https://www.linkedin.com/in/pranjal-goel) (UROP, 2018-2019, next: Goldman Sachs)\
+[Yash Palkhiwala](https://www.linkedin.com/in/yash-palkhiwala) (UROP, 2017-2019, next: Flatiron Health)\
+[Arjun Dixit](https://janbielak.com/) (High School, 2021, next: CMU)\
+[Jan Bielak](https://janbielak.com/) (High School, 2021, next: Nvidia)
