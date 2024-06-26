@@ -49,7 +49,7 @@ See [all news]({{< ref "news.md" >}})
 </div>
 <div class="gallery-item grid-w20">
     <img class="imgStuff" src="../lukas.jpg" alt="Lukas Lazarek" />
-    <strong><a href="https://llazarek.github.io" title="Julian Dai">Lukas Lazarek</a></strong> <br> Postdoc
+    <strong><a href="https://llazarek.github.io" title="Lukas Lazarek">Lukas Lazarek</a></strong> <br> Postdoc
 </div>
 <div class="gallery-item grid-w20">
     <img class="imgStuff" src="../megan.jpg" alt="Megan Zheng" />
@@ -73,12 +73,16 @@ See [all news]({{< ref "news.md" >}})
     <strong><a href="https://forthoney.github.io/" title="Seong-Heon Jung">Seong-Heon Jung</a></strong> <br> B.Sc. student
 </div>
 <div class="gallery-item grid-w20">
+    <img class="imgStuff" src="../vagos.jpg" alt="Vagos Lamprou" />
+    <strong><a href="https://vagos.github.io/" title="Vagos Lamprou">Vagos Lamprou</a></strong> <br> Visiting Student 
+</div>
+<div class="gallery-item grid-w20">
     <img class="imgStuff" src="../yuchen.jpg" alt="Yuchen Lu" />
     <strong><a href="https://www.linkedin.com/in/luyc/" title="Yuchen Lu">Yuchen Lu</a></strong> <br> Ph.D. Student 
 </div>
 <div class="gallery-item grid-w20">
-    <img class="imgStuff" src="../vagos.jpg" alt="Vagos Lamprou" />
-    <strong><a href="https://vagos.github.io/" title="Vagos Lamprou">Vagos Lamprou</a></strong> <br> Visiting Student 
+    <img class="imgStuff" src="../yutong.jpg" alt="Yutong Li" />
+    <strong><a href="https://www.linkedin.com/in/yutong-li-9315b7173/" title="Yutong Li">Yutong Li</a></strong> <br> M.Sc. Student
 </div>
 <div class="gallery-item grid-w20">
     <img class="imgStuff" src="../yizheng.jpg" alt="Yizheng Xie" />

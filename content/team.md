@@ -78,10 +78,10 @@ Towards type systems for language-angostic composition of black-box software com
 
 [E-mail](mailto:anirudh_narsipur@brown.edu) | [Github](http://github.com/AnirudhNarsipur)</p>
 
-<img class="imgStuffTeam" width="150" height="150" align="left" src="../zhicheng.jpg" alt="Zhicheng Huang"><p> __[Zhicheng Huang](https://huangworld.github.io/)__\
-Exploring the interface between systems and software engineering.
+<img class="imgStuffTeam" width="150" height="150" align="left" src="../yutong.jpg" alt="Yutong Li"><p>__Yutong Li__\
+Exploring the component development and interplay in large-scale systems.
 
-[E-mail](mailto:zhicheng_huang@brown.edu) | [Github](http://github.com/huangworld)</p>
+[E-mail](mailto:yutong0020@gmail.com) | [Github](http://github.com/tAnother)</p>
 
 <--->
 
@@ -89,6 +89,11 @@ Exploring the interface between systems and software engineering.
 Designing and fine-tuning systems for cutting-edge hardware in the next generation.
 
 [E-mail](mailto:ramiz_dundar@brown.edu) | [Github](https://github.com/ramizdundar)</p>
+
+<img class="imgStuffTeam" width="150" height="150" align="left" src="../zhicheng.jpg" alt="Zhicheng Huang"><p> __[Zhicheng Huang](https://huangworld.github.io/)__\
+Exploring the interface between systems and software engineering.
+
+[E-mail](mailto:zhicheng_huang@brown.edu) | [Github](http://github.com/huangworld)</p>
 
 {{< /columns >}}
 
