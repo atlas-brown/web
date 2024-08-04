@@ -2,9 +2,12 @@
 +++
 
 ## Research with us
-Research is fun — especially when it's collaborative. If you are a _current Brown student_ of any level (e.g., undergraduate, masters, Ph.D.) please fill out this [form](https://forms.gle/2gohfbYGqh4bo9fq6)  and consult the [ATLAS onboarding & resources](https://docs.google.com/document/d/1UXZKiQCRw1z4qKsVObGKYvxPvNs5gVlJNQpGbXRLvJ4/edit#heading=h.g2ngyg5a33sa) document (Brown-internal document). If you're interested in a 6–12 month research visit, please fill out this [form](https://forms.gle/y3ueftpS7MkmR3fm7).
+Research is fun — especially when it's collaborative. Joining the group depends on your status and goal:
 
-If you're looking to join Brown for an _undergraduate or M.Sc. degree_, do not email the group — we do not have a say in the application process. If you're looking to _join Brown for a Ph.D._, apply directly to the CS department's [Ph.D. program](https://cs.brown.edu/degrees/doctoral/), mentioning Prof. Vasilakis in the set of the faculty members you are interested in working with; this ensures we will receive and look at your application. For postdoctoral roles, please email Prof. Vasilakis directly with your CV, two representative papers, and a short description of your background and interests.
+* _Current Brown students_, students interested in a _research visit_, or students intersted in remote collaborations: [fill out this form](https://forms.gle/1ZoC1KeAgHQGh4ij8). 
+* Prospective _undergraduate or M.Sc. students_: do not email the group — we are not involved in the admissions process.
+* Prospective _Ph.D. students_: apply directly to the CS department's [Ph.D. program](https://cs.brown.edu/degrees/doctoral/), mentioning Prof. Vasilakis.
+* Prospective _postdocs_: email Prof. Vasilakis with your CV, two representative papers, and a description of your background and interests.
 
 ---
 
