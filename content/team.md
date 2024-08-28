@@ -28,12 +28,18 @@ Building transition paths toward secure multi-scale distributed enviroments.
 
 {{< columns >}} <!-- begin columns block -->
 
+<img class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/di.jpg" alt=""> <p> __[Di Jin](https://sleepymug.me)__\
+Making software security approachable and scalable.
+
+[E-mail](mailto:di_jin@brown.edu) | [Github](http://github.com/sleepymug)</p>
+
+<--->
+
 <img class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/lukas.jpg" alt="Lukas Lazarek"> <p> __[Lukas Lazarek](https://llazarek.github.io)__\
-Exploring which language-systems features are practically useful
+Exploring which language-systems features are practically useful.
 
 [E-mail](mailto:lukas_lazarek@brown.edu) | [Github](http://github.com/llazarek)</p>
 
-<--->
 {{< /columns >}}
 
 ## Ph.D. Students

@@ -32,6 +32,10 @@ See [all news]({{< ref "news.md" >}})
     <strong><a href="https://www.linkedin.com/in/christinastepin/" title="Christina Stepin">Christina Stepin</a></strong> <br> B.Sc. student
 </div>
 <div class="gallery-item grid-w20">
+    <img class="imgStuff" src="../profile_pictures/di.jpg" alt="Di Jin" />
+    <strong><a href="https://sleepymug.me" title="Di Jin">Di Jin</a></strong> <br> Postdoc
+</div>
+<div class="gallery-item grid-w20">
     <img class="imgStuff" src="../profile_pictures/ethan.jpg" alt="Ethan Lavi" />
     <strong><a href="https://www.linkedin.com/in/ethan-lavi/" title="Ethan Lavi">Ethan Lavi</a></strong> <br> Ph.D. Student 
 </div>
