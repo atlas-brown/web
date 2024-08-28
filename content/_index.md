@@ -24,72 +24,72 @@ See [all news]({{< ref "news.md" >}})
 
 {{< gallery >}}
 <div class="gallery-item grid-w20">
-    <img class="imgStuff" src="../anirudh.jpg" alt="Anirudh Narsipur" />
+    <img class="imgStuff" src="../profile_pictures/anirudh.jpg" alt="Anirudh Narsipur" />
     <strong><a href="https://www.anarsipur.com/" title="Anirudh Narsipur">Anirudh Narsipur</a></strong> <br> M.Sc. Student
 </div>
 <div class="gallery-item grid-w20">
-    <img class="imgStuff" src="../christina.jpg" alt="Christina Stepin" />
+    <img class="imgStuff" src="../profile_pictures/christina.jpg" alt="Christina Stepin" />
     <strong><a href="https://www.linkedin.com/in/christinastepin/" title="Christina Stepin">Christina Stepin</a></strong> <br> B.Sc. student
 </div>
 <div class="gallery-item grid-w20">
-    <img class="imgStuff" src="../ethan.jpg" alt="Ethan Lavi" />
+    <img class="imgStuff" src="../profile_pictures/ethan.jpg" alt="Ethan Lavi" />
     <strong><a href="https://www.linkedin.com/in/ethan-lavi/" title="Ethan Lavi">Ethan Lavi</a></strong> <br> Ph.D. Student 
 </div>
 <div class="gallery-item grid-w20">
-    <img class="imgStuff" src="../grigoris_nt.jpg" alt="Grigoris Ntousakis" />
+    <img class="imgStuff" src="../profile_pictures/grigoris_nt.jpg" alt="Grigoris Ntousakis" />
     <strong><a href="https://www.ntousakis.com/" title="Grigoris Ntousakis">Grigoris Ntousakis</a></strong> <br> Ph.D. Student 
 </div>
 <div class="gallery-item grid-w20">
-    <img class="imgStuff" src="../ioanna.jpg" alt="Ioanna Gemou" />
+    <img class="imgStuff" src="../profile_pictures/ioanna.jpg" alt="Ioanna Gemou" />
     <strong><a href="https://yoghurtina.github.io/" title="Ioanna Gemou">Ioanna Gemou</a></strong> <br> Visiting Student 
 </div>
 <div class="gallery-item grid-w20">
-    <img class="imgStuff" src="../julian.jpg" alt="Julian Dai" />
+    <img class="imgStuff" src="../profile_pictures/julian.jpg" alt="Julian Dai" />
     <strong><a href="https://jdai1.github.io/" title="Julian Dai">Julian Dai</a></strong> <br> B.Sc. student
 </div>
 <div class="gallery-item grid-w20">
-    <img class="imgStuff" src="../lukas.jpg" alt="Lukas Lazarek" />
+    <img class="imgStuff" src="../profile_pictures/lukas.jpg" alt="Lukas Lazarek" />
     <strong><a href="https://llazarek.github.io" title="Lukas Lazarek">Lukas Lazarek</a></strong> <br> Postdoc
 </div>
 <div class="gallery-item grid-w20">
-    <img class="imgStuff" src="../megan.jpg" alt="Megan Zheng" />
+    <img class="imgStuff" src="../profile_pictures/megan.jpg" alt="Megan Zheng" />
     <strong><a href="https://yuuu23.github.io/" title="Megan Zheng">Megan Zheng</a></strong> <br> B.Sc. student
 </div>
 <div class="gallery-item grid-w20">
-    <img class="imgStuff" src="../nikosv.jpg" alt="Nikos Vasilakis" />
+    <img class="imgStuff" src="../profile_pictures/nikosv.jpg" alt="Nikos Vasilakis" />
     <strong><a href="https://nikos.vasilak.is/" title="Nikos Vasilakis">Nikos Vasilakis</a></strong> 
     <br>Faculty
 </div>
 <div class="gallery-item grid-w20">
-    <img class="imgStuff" src="../oguzhan.jpg" alt="Oğuzhan Çölkesen" />
+    <img class="imgStuff" src="../profile_pictures/oguzhan.jpg" alt="Oğuzhan Çölkesen" />
     <strong><a href="https://www.oguzhancolkesen.com" title="Oğuzhan Çölkesen">Oğuzhan Çölkesen</a></strong> <br> Ph.D. Student 
 </div>
 <div class="gallery-item grid-w20">
-    <img class="imgStuff" src="../ramiz.jpg" alt="Ramiz Dundar" />
+    <img class="imgStuff" src="../profile_pictures/ramiz.jpg" alt="Ramiz Dundar" />
     <strong><a href="https://www.linkedin.com/in/ramizdundar/" title="Ramiz Dundar">Ramiz Dundar</a></strong> <br> M.Sc. Student 
 </div>
 <div class="gallery-item grid-w20">
-    <img class="imgStuff" src="../seongheon.jpg" alt="Seong-Heon Jung" />
+    <img class="imgStuff" src="../profile_pictures/seongheon.jpg" alt="Seong-Heon Jung" />
     <strong><a href="https://forthoney.github.io/" title="Seong-Heon Jung">Seong-Heon Jung</a></strong> <br> B.Sc. student
 </div>
 <div class="gallery-item grid-w20">
-    <img class="imgStuff" src="../vagos.jpg" alt="Vagos Lamprou" />
+    <img class="imgStuff" src="../profile_pictures/vagos.jpg" alt="Vagos Lamprou" />
     <strong><a href="https://vagos.github.io/" title="Vagos Lamprou">Vagos Lamprou</a></strong> <br> Visiting Student 
 </div>
 <div class="gallery-item grid-w20">
-    <img class="imgStuff" src="../yuchen.jpg" alt="Yuchen Lu" />
+    <img class="imgStuff" src="../profile_pictures/yuchen.jpg" alt="Yuchen Lu" />
     <strong><a href="https://www.linkedin.com/in/luyc/" title="Yuchen Lu">Yuchen Lu</a></strong> <br> Ph.D. Student 
 </div>
 <div class="gallery-item grid-w20">
-    <img class="imgStuff" src="../yutong.jpg" alt="Yutong Li" />
+    <img class="imgStuff" src="../profile_pictures/yutong.jpg" alt="Yutong Li" />
     <strong><a href="https://www.linkedin.com/in/yutong-li-9315b7173/" title="Yutong Li">Yutong Li</a></strong> <br> M.Sc. Student
 </div>
 <div class="gallery-item grid-w20">
-    <img class="imgStuff" src="../yizheng.jpg" alt="Yizheng Xie" />
+    <img class="imgStuff" src="../profile_pictures/yizheng.jpg" alt="Yizheng Xie" />
     <strong><a href="https://yizhengx.github.io/" title="Yizheng Xie">Yizheng Xie</a></strong> <br> Ph.D. Student 
 </div>
 <div class="gallery-item grid-w20">
-    <img class="imgStuff" src="../zhicheng.jpg" alt="Zhicheng Huang" /> 
+    <img class="imgStuff" src="../profile_pictures/zhicheng.jpg" alt="Zhicheng Huang" /> 
     <strong><a href="https://huangworld.github.io/" title="Zhicheng Huang">Zhicheng Huang</a></strong> <br> M.Sc. Student
 </div>
 

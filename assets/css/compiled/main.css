@@ -4595,9 +4595,9 @@ body:has(#menu-controller:checked) {
   }
 }
 
-.medium-zoom-image--opened {
+/* .medium-zoom-image--opened {
   z-index: 100;
-}
+} */
 
 .nested-menu:hover + .menuhide {
   visibility: visible;
@@ -7240,6 +7240,15 @@ body:has(#menu-controller:checked) {
   margin-bottom: 0.5em;
   margin-right: 0.5em;
   border-radius: 10px;
+}
+
+.imgStuff:hover {
+  transform: none; /* Disable transformation */
+  box-shadow: none; /* Remove any shadow */
+}
+
+.imgStuff:active {
+  transform: none; /* Disable active transformation */
 }
 
 .imgStuffTeam {
