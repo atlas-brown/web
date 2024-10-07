@@ -40,6 +40,10 @@ See [all news]({{< ref "news.md" >}})
     <strong><a href="https://www.linkedin.com/in/ethan-lavi/" title="Ethan Lavi">Ethan Lavi</a></strong> <br> Ph.D. Student 
 </div>
 <div class="gallery-item grid-w20">
+    <img class="imgStuff" src="../profile_pictures/eric.jpg" alt="Eric Zhao" />
+    <strong><a href="https://mustardfox.org/" title="Eric Zhao">Eric Zhao</a></strong> <br> Ph.D. Student 
+</div>
+<div class="gallery-item grid-w20">
     <img class="imgStuff" src="../profile_pictures/grigoris_nt.jpg" alt="Grigoris Ntousakis" />
     <strong><a href="https://www.ntousakis.com/" title="Grigoris Ntousakis">Grigoris Ntousakis</a></strong> <br> Ph.D. Student 
 </div>

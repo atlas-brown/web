@@ -17,8 +17,8 @@ Building transition paths toward secure multi-scale distributed enviroments.
 
 {{< columns >}} <!-- begin columns block -->
 
-<img class="imgStuffTeam" align="left" src="../profile_pictures/dawn.jpg" alt="Dawn T. Reed"> __Dawn T. Reed__
-<br/><br/>
+<img class="imgStuffTeam" align="left" src="../profile_pictures/dawn.jpg" alt="Dawn T. Reed"> __[Dawn T. Reed](https://cs.brown.edu/people/dtreed/)__\
+Making all the science possible.<br/><br/>
 
 [E-mail](mailto:dtreed@cs.brown.edu)
 
@@ -51,6 +51,23 @@ Designing correct and scalable distributed systems.&nbsp;&nbsp;&nbsp;
 
 [E-mail](mailto:ethan_lavi@brown.edu) | [Github](http://github.com/EthanLavi)</p>
 
+<img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/grigoris_nt.jpg" alt="Grigoris Ntousakis" /> <p> __[Grigoris Ntousakis](https://www.ntousakis.com/)__\
+Reimagining third-party library and package ecosystems. Co-advised by [V. Kemerlis](https://cs.brown.edu/~vpk/).
+
+[E-mail](mailto:gntousakis@tuc.gr) | [Github](http://github.com/GNtousakis) | [Twitter](https://twitter.com/gntousakis)</p>
+
+<img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/yuchen.jpg" alt="Yuchen Lu" /> <p> __Yuchen Lu__\
+Leveraging ML to build high-performance systems.&nbsp;&nbsp;&nbsp;
+
+[E-mail](mailto:yuchen_lu@brown.edu) | [Github](http://github.com/lwwlwwl) </p>
+
+<--->
+
+<img class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/eric.jpg" alt="Eric Zhao"> <p>__[Eric Zhao](https://mustardfox.org/)__\
+Interested in principled and provably correct abstractions. Co-advised by [R. Lewis](https://robertylewis.com).
+
+[E-mail](mailto:eric_c_zhao@brown.edu) | [Github](http://github.com/mirryi)</p>
+
 <img class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/oguzhan.jpg" alt="Oğuzhan Çölkesen"> <p>__[Oğuzhan Çölkesen](https://www.oguzhancolkesen.com)__\
 Interested in parallel and distributed systems, as well as their optimization.
 
@@ -60,19 +77,6 @@ Interested in parallel and distributed systems, as well as their optimization.
 Enjoys working at the intersection of systems, software, and automation.
 
 [E-mail](mailto:yizhengx@brown.edu) | [Github](http://github.com/yizhengx)</p>
-
-<--->
-
-<img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/grigoris_nt.jpg" alt="Grigoris Ntousakis" /> <p> __[Grigoris Ntousakis](https://www.ntousakis.com/)__\
-Reimagining third-party library and package ecosystems.
-
-[E-mail](mailto:gntousakis@tuc.gr) | [Github](http://github.com/GNtousakis) | [Twitter](https://twitter.com/gntousakis)</p>
-
-<img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/yuchen.jpg" alt="Yuchen Lu" /> <p> __Yuchen Lu__\
-Leveraging ML to build high-performance systems.&nbsp;&nbsp;&nbsp;
-
-[E-mail](mailto:yuchen_lu@brown.edu) | [Github](http://github.com/lwwlwwl) </p>
-
 {{< /columns >}}
 
 ## M.Sc. Students
@@ -136,7 +140,7 @@ Automatic compilation of shell scripts into Airflow DAGs.
 {{< columns >}} <!-- begin columns block -->
 
 <img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/ioanna.jpg" alt="Ioanna Gemou" /> <p>__[Ioanna Gemou](https://yoghurtina.github.io/)__\
-At DTU; Operating at the intersection of ML and systems.
+At DTU; Operating at the intersection of ML and systems. Co-advised by [R. Singh](https://ritambharasingh.com).
 
 [E-mail](mailto:ioannagemou@gmail.com) | [Github](http://github.com/yoghurtina)</p>
 
