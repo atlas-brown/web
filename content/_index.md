@@ -7,14 +7,16 @@ We build systems that lift the capabilities of programmers dealing with the vast
 
 ## News
 
-Dec'23: [Nikos Vasilakis](https://nikos.vasilak.is) is co-chairing the PC of [EuroSec'24](https://secopera.eu/eurosec-2024/), co-located with [EuroSys](https://2024.eurosys.org/).  
-Oct'23: We're hosting the [3rd PaSh Research Workshop](https://docs.google.com/document/d/1sAwonBVJr4tCBQdaoXGRAr5R4pi-Jw7Oumf_VQg-nQs) at Brown University.  
-Sep'23: [Nikos Pagonas](https://nikpag.github.io/) joins the group for a six-month visit on serverless computing.  
-Sep'23: Brown CS News published [an article on our ACM AsiaCCS'23 distinguished paper award](https://awards.cs.brown.edu/2023/09/26/ntousakis-kemerlis-vasilakis-and-collaborators-win-the-acm-asiaccs-23-distinguished-paper-award/)!  
-Aug'23: [Anirudh Narsipur](https://www.anarsipur.com/) and [Seth Sabar](https://www.linkedin.com/in/sethsabar/) start their undergraduate dissertations.  
-Jul'23: [Oğuzhan Çölkesen](https://www.oguzhancolkesen.com/) and [Yizheng Xie](https://yizhengx.github.io/) join the group for their PhD.  
-Jun'23: [Nikos Vasilakis](https://nikos.vasilak.is) is co-chairing [ACM SCORED'23](https://scored.dev), a workshop co-located with [ACM CCS'23](https://www.sigsac.org/ccs/CCS2023/).  
-Jun'23: [BinWrap](https://nikos.vasilak.is/p/binwrap:asiaccs:2023.pdf) to receive the distinguished-paper award at [AsiaCCS'23](https://asiaccs2023.org/)!
+Apr'25: [Apply](https://forms.gle/zL2giouQjeKyfcGR6) to attend the [Brown Systems Week 2025](https://brown-systems-week.github.io/)!  
+Mar'25: Our paper on [semantics-driven static analysis for the shell](https://nikos.vasilak.is/p/sash:hotos:2025.pdf) made it to [HotOS'25](https://sigops.org/s/conferences/hotos/2025/)!  
+Mar'25: Received an Amazon Research Award (ARA) on Automated Reasoning for the Unix/Linux shell!  
+Jan'25: [Nikos Vasilakis](https://nikos.vasilak.is) is organizing [EuroSec'25](https://eurosec-workshop.github.io/), co-located with [EuroSys'25](https://2025.eurosys.org/) and [ASPLOS'25](https://www.asplos-conference.org/asplos2025/).  
+Dec'24: [Eric Zhao](https://mustardfox.org/) discusses the intricacies of symbolic execution for the shell at [NJPLS'24](https://njpls.org/).  
+Oct'24: [Anirudh Narsipur](https://anarsipur.com/) discusses static analysis for the Unix shell at [NEPLS'24](https://nepls.org/Events/34/).  
+Aug'24: [Lukas Lazarek](https://llazarek.github.io/) and [Di Jin](https://sleepymug.me/) join the group as postdoctoral associates—welcome!  
+Jul'24: [Eric Zhao](https://mustardfox.org/), [Ethan Lavi](https://ethanlavi.github.io/), [Grigoris Ntousakis](https://www.ntousakis.com/), and [Yuchen Lu](https://www.linkedin.com/in/luyc/) join the group for their PhDs!  
+Jun'24: [Ioanna Gemou](https://yoghurtina.github.io/) starts her research visit on machine learning for systems, co-hosted by [Ritambhara Singh](https://ritambharasingh.com/).  
+Jan'24: [Evangelos Lamprou](https://vagos.lamprou.xyz/) starts his research visit on parallel, distributed, and secure systems.  
 
 See [all news]({{< ref "news.md" >}})
 
