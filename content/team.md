@@ -93,6 +93,11 @@ Exploring the component development and interplay in large-scale systems.
 
 [E-mail](mailto:yutong0020@gmail.com) | [Github](http://github.com/tAnother)</p>
 
+<img class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/zhicheng.jpg" alt="Zhicheng Huang"><p> __[Zhicheng Huang](https://huangworld.github.io/)__\
+Exploring the interface between systems and software engineering.
+
+[E-mail](mailto:zhicheng_huang@brown.edu) | [Github](http://github.com/huangworld)</p>
+
 <--->
 
 <img class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/ramiz.jpg" alt="Ramiz Dundar"><p> __[Ramiz Dundar](https://www.linkedin.com/in/ramizdundar/)__\
@@ -100,10 +105,10 @@ Designing and fine-tuning systems for cutting-edge hardware in the next generati
 
 [E-mail](mailto:ramiz_dundar@brown.edu) | [Github](https://github.com/ramizdundar)</p>
 
-<img class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/zhicheng.jpg" alt="Zhicheng Huang"><p> __[Zhicheng Huang](https://huangworld.github.io/)__\
-Exploring the interface between systems and software engineering.
+<img class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/zekai.jpg" alt="Zekai Li"><p>__Zekai Li__\
+Exploring formal methods and how AI enhances them.
 
-[E-mail](mailto:zhicheng_huang@brown.edu) | [Github](http://github.com/huangworld)</p>
+[E-mail](mailto:zekai_li@brown.edu) | [Github](http://github.com/spanning-tree)</p>
 
 {{< /columns >}}
 

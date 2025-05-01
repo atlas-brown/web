@@ -99,6 +99,10 @@ See [all news]({{< ref "news.md" >}})
     <strong><a href="https://yizhengx.github.io/" title="Yizheng Xie">Yizheng Xie</a></strong> <br> Ph.D. Student 
 </div>
 <div class="gallery-item grid-w20">
+  <img class="imgStuff" src="../profile_pictures/zekai.jpg" alt="Zekai Li" /> 
+  <strong><a href="#" title="Zekai Li">Zekai Li</a></strong> <br> M.Sc. Student
+</div>
+<div class="gallery-item grid-w20">
     <img class="imgStuff" src="../profile_pictures/zhicheng.jpg" alt="Zhicheng Huang" /> 
     <strong><a href="https://huangworld.github.io/" title="Zhicheng Huang">Zhicheng Huang</a></strong> <br> M.Sc. Student
 </div>
