@@ -52,12 +52,12 @@ Interested in principled and provably correct abstractions. Co-advised by [R. Le
 [E-mail](mailto:eric_c_zhao@brown.edu) | [Github](http://github.com/mirryi)</p>
 
 <img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/vagos.jpg" alt="Evangelos Lamprou" /> <p> __[Evangelos Lamprou](https://vagos.lamprou.xyz/)__\
-Interested in distributed systems,  LLMs, and beyond.&nbsp;&nbsp;&nbsp;
+Interested in distributed systems, LLMs, and beyond.&nbsp;&nbsp;&nbsp;
 
 [E-mail](mailto:vagos@lamprou.xyz) | [Github](http://github.com/vagos)</p>
 
 <img class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/oguzhan.jpg" alt="Oğuzhan Çölkesen"> <p>__[Oğuzhan Çölkesen](https://www.oguzhancolkesen.com)__\
-Interested in parallel and distributed systems, as well as their optimization.
+Interested in parallel and distributed systems, as well as their optimization.&nbsp;&nbsp;&nbsp;
 
 [E-mail](mailto:oguzhan@brown.edu) | [Github](http://github.com/ocolkesen)</p>
 
