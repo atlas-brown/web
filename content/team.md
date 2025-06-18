@@ -46,27 +46,15 @@ Exploring which language-systems features are practically useful.
 
 {{< columns >}} <!-- begin columns block -->
 
-<img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/ethan.jpg" alt="Ethan Lavi" /> <p> __Ethan Lavi__\
-Designing correct and scalable distributed systems.&nbsp;&nbsp;&nbsp;
-
-[E-mail](mailto:ethan_lavi@brown.edu) | [Github](http://github.com/EthanLavi)</p>
-
-<img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/grigoris_nt.jpg" alt="Grigoris Ntousakis" /> <p> __[Grigoris Ntousakis](https://www.ntousakis.com/)__\
-Reimagining third-party library and package ecosystems. Co-advised by [V. Kemerlis](https://cs.brown.edu/~vpk/).
-
-[E-mail](mailto:gntousakis@tuc.gr) | [Github](http://github.com/GNtousakis) | [Twitter](https://twitter.com/gntousakis)</p>
-
-<img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/yuchen.jpg" alt="Yuchen Lu" /> <p> __Yuchen Lu__\
-Leveraging ML to build high-performance systems.&nbsp;&nbsp;&nbsp;
-
-[E-mail](mailto:yuchen_lu@brown.edu) | [Github](http://github.com/lwwlwwl) </p>
-
-<--->
-
 <img class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/eric.jpg" alt="Eric Zhao"> <p>__[Eric Zhao](https://mustardfox.org/)__\
 Interested in principled and provably correct abstractions. Co-advised by [R. Lewis](https://robertylewis.com).
 
 [E-mail](mailto:eric_c_zhao@brown.edu) | [Github](http://github.com/mirryi)</p>
+
+<img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/vagos.jpg" alt="Evangelos Lamprou" /> <p> __[Evangelos Lamprou](https://vagos.lamprou.xyz/)__\
+Interested in distributed systems,  LLMs, and beyond.&nbsp;&nbsp;&nbsp;
+
+[E-mail](mailto:vagos@lamprou.xyz) | [Github](http://github.com/vagos)</p>
 
 <img class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/oguzhan.jpg" alt="Oğuzhan Çölkesen"> <p>__[Oğuzhan Çölkesen](https://www.oguzhancolkesen.com)__\
 Interested in parallel and distributed systems, as well as their optimization.
@@ -77,33 +65,29 @@ Interested in parallel and distributed systems, as well as their optimization.
 Enjoys working at the intersection of systems, software, and automation.
 
 [E-mail](mailto:yizhengx@brown.edu) | [Github](http://github.com/yizhengx)</p>
+
+<--->
+<img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/ethan.jpg" alt="Ethan Lavi" /> <p> __[Ethan Lavi](https://ethanlavi.github.io/)__\
+Designing correct and scalable distributed systems.&nbsp;&nbsp;&nbsp;
+
+[E-mail](mailto:ethan_lavi@brown.edu) | [Github](http://github.com/EthanLavi)</p>
+
+<img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/grigoris_nt.jpg" alt="Grigoris Ntousakis" /> <p> __[Grigoris Ntousakis](https://www.ntousakis.com/)__\
+Reimagining third-party library and package ecosystems. Co-advised by [V. Kemerlis](https://cs.brown.edu/~vpk/).
+
+[E-mail](mailto:gntousakis@tuc.gr) | [Github](http://github.com/GNtousakis) | [Twitter](https://twitter.com/gntousakis)</p>
+
+
+<img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/yuchen.jpg" alt="Yuchen Lu" /> <p> __Yuchen Lu__\
+Leveraging ML to build high-performance systems.&nbsp;&nbsp;&nbsp;
+
+[E-mail](mailto:yuchen_lu@brown.edu) | [Github](http://github.com/lwwlwwl) </p>
+
 {{< /columns >}}
 
 ## M.Sc. Students
 
 {{< columns >}} <!-- begin columns block -->
-
-<img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/anirudh.jpg" alt="Anirudh Narsipur" /> <p>__[Anirudh Narsipur](https://www.anarsipur.com/)__\
-Towards type systems for language-angostic composition of black-box software components.
-
-[E-mail](mailto:anirudh_narsipur@brown.edu) | [Github](http://github.com/AnirudhNarsipur)</p>
-
-<img class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/yutong.jpg" alt="Yutong Li"><p>__Yutong Li__\
-Exploring the component development and interplay in large-scale systems.
-
-[E-mail](mailto:yutong0020@gmail.com) | [Github](http://github.com/tAnother)</p>
-
-<img class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/zhicheng.jpg" alt="Zhicheng Huang"><p> __[Zhicheng Huang](https://huangworld.github.io/)__\
-Exploring the interface between systems and software engineering.
-
-[E-mail](mailto:zhicheng_huang@brown.edu) | [Github](http://github.com/huangworld)</p>
-
-<--->
-
-<img class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/ramiz.jpg" alt="Ramiz Dundar"><p> __[Ramiz Dundar](https://www.linkedin.com/in/ramizdundar/)__\
-Designing and fine-tuning systems for cutting-edge hardware in the next generation.
-
-[E-mail](mailto:ramiz_dundar@brown.edu) | [Github](https://github.com/ramizdundar)</p>
 
 <img class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/zekai.jpg" alt="Zekai Li"><p>__Zekai Li__\
 Exploring formal methods and how AI enhances them.
@@ -115,11 +99,6 @@ Exploring formal methods and how AI enhances them.
 ## Undergaduate Students
 
 {{< columns >}} <!-- begin columns block -->
-
-<img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/christina.jpg" alt="Christina Stepin" /> <p> __[Christina Stepin](https://www.linkedin.com/in/christinastepin/)__\
-Working on a distributed multidimensional store for dynamic objects.
-
-[E-mail](mailto:christina_stepin@brown.edu) | [Github](http://github.com/cstepin)</p>
 
 <img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/megan.jpg" alt="Megan Zheng" /> <p> __[Megan Zheng](https://yuuu23.github.io/)__\
 Synthesizing correct and high-performance runtime primitives.
@@ -133,33 +112,34 @@ Solving the scalability challenges of secure regeneration for real-world ecosyst
 
 [E-mail](mailto:julian_dai@brown.edu) | [Github](http://github.com/jdai1)</p>
 
-<img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/seongheon.jpg" alt="Seong-Heon Jung" /> <p>__[Seong-Heon Jung](https://forthoney.github.io/)__\
-Automatic compilation of shell scripts into Airflow DAGs.
-
-[E-mail](mailto:seong-heon_jung@brown.edu) | [Github](http://github.com/forthoney)</p>
-
 {{< /columns >}}
 
-## Visiting Students
+<!-- ## Visiting Students -->
 
-{{< columns >}} <!-- begin columns block -->
-
+<!-- {{< columns >}} begin columns block -->
+<!-- 
 <img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/ioanna.jpg" alt="Ioanna Gemou" /> <p>__[Ioanna Gemou](https://yoghurtina.github.io/)__\
 At DTU; Operating at the intersection of ML and systems. Co-advised by [R. Singh](https://ritambharasingh.com).
 
-[E-mail](mailto:ioannagemou@gmail.com) | [Github](http://github.com/yoghurtina)</p>
+[E-mail](mailto:ioannagemou@gmail.com) | [Github](http://github.com/yoghurtina)</p> -->
 
-<--->
-
+<!-- 
 <img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/vagos.jpg" alt="Vagos Lamprou" /> <p>__[Vagos Lamprou](https://vagos.github.io/)__\
 At DTU; Intersted in distributed systems,  LLMs, and beyond.
 
 [E-mail](mailto:vagoslabrou@gmail.com) | [Github](http://github.com/vagos)</p>
 
-{{< /columns >}}
+{{< /columns >}} -->
 
 ## Alumni
 
+[Ramiz Dundar](https://ramiz.dev/) (M.Sc., 2025, next: Google)\
+[Zhicheng Huang](https://huangworld.github.io/) (M.Sc., 2025, next: University of California San Diego)\
+[Ioanna Gemou](https://yoghurtina.github.io/) (Visiting Student, 2025, next: Brown University)\
+[Seong-Heon Jung](https://forthoney.github.io/) (B.Sc., 2025, next: New York University)\
+[Anirudh Narsipur](anarsipur.com) (M.Sc., 2025, next:)\
+[Christina Stepin](https://www.linkedin.com/in/christinastepin/) (B.Sc., 2025, next:\)\
+[Yutong Li](http://github.com/tAnother) (B.Sc., 2024, next:)\
 [Seth Sabar](https://www.linkedin.com/in/sethsabar/) (UROP, 2024, next: The Voleon Group)\
 [Nikos Pagonas](https://nikpag.github.io/) (Visiting Student, 2024, next: Columbia University)\
 [Giorgos Liargkovas](https://gliargovas.github.io) (Visiting Student, 2024, next: Columbia University)\

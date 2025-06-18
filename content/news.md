@@ -1,8 +1,10 @@
 ## News 
 
+Jul'25: [Evangelos Lamprou](https://vagos.lamprou.xyz/) joins the group for his PhD!  
+Jun'25: Our paper on the [Koala benchmark for the shells](https://kben.sh/) was accepted at Usenix [ATC'25](https://www.usenix.org/conference/atc25/presentation/lamprou)---the last one, ever!  
 Apr'25: [Apply](https://forms.gle/zL2giouQjeKyfcGR6) to attend the [Brown Systems Week 2025](https://brown-systems-week.github.io/)!  
 Mar'25: Our paper on [semantics-driven static analysis for the shell](https://nikos.vasilak.is/p/sash:hotos:2025.pdf) made it to [HotOS'25](https://sigops.org/s/conferences/hotos/2025/)!  
-Mar'25: Received an Amazon Research Award (ARA) on Automated Reasoning for the Unix/Linux shell!  
+Mar'25: Received an [Amazon Research Award (ARA)](https://www.amazon.science/research-awards/program-updates/70-amazon-research-award-recipients-announced) on Automated Reasoning for the Unix/Linux shell!  
 Jan'25: [Nikos Vasilakis](https://nikos.vasilak.is) is organizing [EuroSec'25](https://eurosec-workshop.github.io/), co-located with [EuroSys'25](https://2025.eurosys.org/) and [ASPLOS'25](https://www.asplos-conference.org/asplos2025/).  
 Dec'24: [Eric Zhao](https://mustardfox.org/) discusses the intricacies of symbolic execution for the shell at [NJPLS'24](https://njpls.org/).  
 Oct'24: [Anirudh Narsipur](https://anarsipur.com/) discusses static analysis for the Unix shell at [NEPLS'24](https://nepls.org/Events/34/).  
