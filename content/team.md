@@ -135,11 +135,9 @@ At DTU; Intersted in distributed systems,  LLMs, and beyond.
 
 [Ramiz Dundar](https://ramiz.dev/) (M.Sc., 2025, next: Google)\
 [Zhicheng Huang](https://huangworld.github.io/) (M.Sc., 2025, next: University of California San Diego)\
+[Anirudh Narsipur](anarsipur.com) (M.Sc., 2025, next: Evolver)\
 [Ioanna Gemou](https://yoghurtina.github.io/) (Visiting Student, 2025, next: Brown University)\
 [Seong-Heon Jung](https://forthoney.github.io/) (B.Sc., 2025, next: New York University)\
-[Anirudh Narsipur](anarsipur.com) (M.Sc., 2025, next:)\
-[Christina Stepin](https://www.linkedin.com/in/christinastepin/) (B.Sc., 2025, next:\)\
-[Yutong Li](http://github.com/tAnother) (B.Sc., 2024, next:)\
 [Seth Sabar](https://www.linkedin.com/in/sethsabar/) (UROP, 2024, next: The Voleon Group)\
 [Nikos Pagonas](https://nikpag.github.io/) (Visiting Student, 2024, next: Columbia University)\
 [Giorgos Liargkovas](https://gliargovas.github.io) (Visiting Student, 2024, next: Columbia University)\
