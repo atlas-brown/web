@@ -6,9 +6,9 @@ We build systems that lift the capabilities of programmers dealing with the vast
 ---
 
 ## News
-Jul'25: Our group received a [Google ML-and-Systems Junior Faculty](https://blog.google/products/google-cloud/ml-systems-junior-faculty-awards/) Award on [Securing Open-Source Software](https://atlas.cs.brown.edu/supply-chain/)!  
-Jul'25: [Evangelos Lamprou](https://vagos.lamprou.xyz/) joins the group for his PhD!     
-Jun'25: Our paper on the [Koala benchmark for the shells](https://kben.sh/) was accepted at Usenix [ATC'25](https://www.usenix.org/conference/atc25/presentation/lamprou)---the last one, ever!  
+Aug'25: [Evangelos Lamprou](https://vagos.lamprou.xyz) joins BrownCS and the group for his PhD!     
+Jul'25: [Nikos Vasilakis](https://nikos.vasilak.is) received a [Google ML-and-Systems Junior Faculty Award](https://blog.google/products/google-cloud/ml-systems-junior-faculty-awards/)!  
+Jun'25: [Our paper](https://nikos.vasilak.is/p/koala:atc:2025.pdf) on the [Koala benchmarks for the shell](https://kben.sh/) was accepted at Usenix [ATC'25](https://www.usenix.org/conference/atc25/presentation/lamprou)---the [last one](https://www.usenix.org/blog/usenix-atc-announcement), _ever_!  
 Apr'25: [Apply](https://forms.gle/zL2giouQjeKyfcGR6) to attend the [Brown Systems Week 2025](https://brown-systems-week.github.io/)!  
 Mar'25: Our paper on [semantics-driven static analysis for the shell](https://nikos.vasilak.is/p/sash:hotos:2025.pdf) made it to [HotOS'25](https://sigops.org/s/conferences/hotos/2025/)!  
 Mar'25: Received an [Amazon Research Award (ARA)](https://www.amazon.science/research-awards/program-updates/70-amazon-research-award-recipients-announced) on Automated Reasoning for the Unix/Linux shell!  
