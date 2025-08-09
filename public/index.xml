@@ -54,7 +54,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://atlas.cs.brown.edu/news/</guid>
-      <description>News # Jul&#39;25: Our group received a Google ML-and-Systems Junior Faculty Award on Securing Open-Source Software!</description>
+      <description>News # Aug&#39;25: Two NSDI&#39;26 papers on optimization prediction and fault tolerance for opaque distributed systems!</description>
       
     </item>
     
@@ -64,7 +64,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://atlas.cs.brown.edu/publications/</guid>
-      <description>Peer-Reviewed Conference Publications # BinWrap: Hybrid Protection Against Native Node.</description>
+      <description>Peer-Reviewed Conference Publications # [Fractal: Fault-Tolerant Shell-Script Distribution] Zhicheng Huang, Ramiz Dundar, Yizheng Xie, Konstantinos Kallas, Nikos Vasilakis.</description>
       
     </item>
     
