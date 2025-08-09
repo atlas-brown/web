@@ -1,5 +1,18 @@
 ## Peer-Reviewed Conference Publications
 
+[Fractal: Fault-Tolerant Shell-Script Distribution] \
+Zhicheng Huang, Ramiz Dundar, Yizheng Xie, Konstantinos Kallas, Nikos Vasilakis. _23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI'26)_ \
+[PDF (coming)] | [code](https://github.com/binpash/fractal)
+
+[Slowpoke: End-to-end Throughput Optimization Modeling for Microservice Applications] \
+Yizheng Xie, Di Jin, Oğuzhan Çölkesen, Vasiliki Kalavri, John Liagouris, Nikos Vasilakis. _23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI'26)_ \
+[PDF (coming)] | [code](https://github.com/atlas-brown/slowpoke)
+
+[The Koala Benchmarks for the Shell: Characterization and Implications](https://nikos.vasilak.is/p/koala:atc:2025.pdf) \
+Evangelos Lamprou, Ethan Williams, Georgios Kaoukis, Zhuoxuan Zhang, Michael Greenberg, Konstantinos Kallas, Lukas Lazarek, Nikos Vasilakis. _2025 USENIX Annual Technical Conference (ATC'25)_ \
+_**Received Best Paper Award**_ \
+[Usenix](https://www.usenix.org/conference/atc25/presentation/lamprou) | [PDF](https://nikos.vasilak.is/p/koala:atc:2025.pdf) | [website](https://kben.sh) | [code](https://github.com/kbensh) 
+
 [BinWrap: Hybrid Protection Against Native Node.js Add-ons](http://nikos.vasilak.is/p/binwrap:asiaccs:2023.pdf)  
 George Christou, Grigoris Ntousakis, Eric Lahtinen, Sotiris Ioannidis, Vasileios P. Kemerlis, and Nikos Vasilakis. _ACM ASIA Conference on Computer and Communications Security (ASIA CCS ’23)_  \
 _Received Distinguished Paper Award_ \
