@@ -1,4 +1,6 @@
 ## News 
+Aug'25: Two [NSDI'26](https://www.usenix.org/conference/nsdi26) papers on optimization prediction and fault tolerance for opaque distributed systems! \
+Jul'25: Our [benchmark suite for the shell](https://nikos.vasilak.is/p/koala:atc:2025.pdf) received the [Best Paper Award](https://www.usenix.org/conferences/best-papers) at [USENIX ATC'25](https://www.usenix.org/conference/atc25)! \
 Jul'25: Our group received a [Google ML-and-Systems Junior Faculty](https://blog.google/products/google-cloud/ml-systems-junior-faculty-awards/) Award on [Securing Open-Source Software](https://atlas.cs.brown.edu/supply-chain/)!  
 Jul'25: [Evangelos Lamprou](https://vagos.lamprou.xyz/) joins the group for his PhD!  
 Jun'25: Our paper on the [Koala benchmark for the shells](https://kben.sh/) was accepted at Usenix [ATC'25](https://www.usenix.org/conference/atc25/presentation/lamprou)---the last one, ever!  
