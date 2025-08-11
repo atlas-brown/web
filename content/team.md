@@ -107,10 +107,18 @@ Synthesizing correct and high-performance runtime primitives.
 
 <--->
 
+<!--- ## Eliminating Julian 
 <img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/julian.jpg" alt="Julian Dai" /> <p> __[Julian Dai](https://jdai1.github.io/)__\
 Solving the scalability challenges of secure regeneration for real-world ecosystems.
 
 [E-mail](mailto:julian_dai@brown.edu) | [Github](http://github.com/jdai1)</p>
+
+-->
+
+<img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/atharv.jpg" alt="Atharv Chowdhary" /> <p> __[Atharv Chowdhary](https://achowd32.github.io/)__\
+Bridging the gap between machine learning and computer systems.
+
+[E-mail](mailto:atharv_chowdhary@brown.edu) | [Github](https://github.com/achowd32)</p>
 
 {{< /columns >}}
 
