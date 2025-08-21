@@ -1,10 +1,10 @@
 ## Peer-Reviewed Conference Publications
 
-Fractal: Fault-Tolerant Shell-Script Distribution \
+**Fractal: Fault-Tolerant Shell-Script Distribution** \
 Zhicheng Huang, Ramiz Dundar, Yizheng Xie, Konstantinos Kallas, Nikos Vasilakis. _23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI'26)_ \
 PDF _(coming)_ | [code](https://github.com/binpash/fractal)
 
-Slowpoke: End-to-end Throughput Optimization Modeling for Microservice Applications \
+**Slowpoke: End-to-end Throughput Optimization Modeling for Microservice Applications** \
 Yizheng Xie, Di Jin, Oğuzhan Çölkesen, Vasiliki Kalavri, John Liagouris, Nikos Vasilakis. _23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI'26)_ \
 PDF _(coming)_ | [code](https://github.com/atlas-brown/slowpoke)
 
