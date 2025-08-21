@@ -108,6 +108,21 @@ See [all news]({{< ref "news.md" >}})
     <strong><a href="https://huangworld.github.io/" title="Zhicheng Huang">Zhicheng Huang</a></strong> <br> M.Sc. Student
 </div> -->
 
+<div class="gallery-item grid-w20">
+  <img class="imgStuff" src="../profile_pictures/atharv.jpg" alt="Atharv Chowdhary" /> 
+  <strong><a href="#" title="Atharv Chowdhary">Atharv Chowdhary</a></strong> <br> B.Sc. Student
+</div>
+
+<div class="gallery-item grid-w20">
+  <img class="imgStuff" src="../profile_pictures/george.jpg" alt="George Kapetanakis" /> 
+  <strong><a href="#" title="George Kapetanakis">George Kapetanakis</a></strong> <br> Visiting Student
+</div>
+
+<div class="gallery-item grid-w20">
+  <img class="imgStuff" src="../profile_pictures/maria.jpg" alt="Maria Lazou" /> 
+  <strong><a href="#" title="Maria Lazou">Maria Lazou</a></strong> <br> Visiting Student
+</div>
+
 {{< /gallery >}}
 
 ---

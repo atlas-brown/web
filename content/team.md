@@ -122,9 +122,9 @@ Bridging the gap between machine learning and computer systems.
 
 {{< /columns >}}
 
-<!-- ## Visiting Students -->
+## Visiting Research Fellows
 
-<!-- {{< columns >}} begin columns block -->
+{{< columns >}} <!-- begin columns block -->
 <!-- 
 <img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/ioanna.jpg" alt="Ioanna Gemou" /> <p>__[Ioanna Gemou](https://yoghurtina.github.io/)__\
 At DTU; Operating at the intersection of ML and systems. Co-advised by [R. Singh](https://ritambharasingh.com).
@@ -135,9 +135,21 @@ At DTU; Operating at the intersection of ML and systems. Co-advised by [R. Singh
 <img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/vagos.jpg" alt="Vagos Lamprou" /> <p>__[Vagos Lamprou](https://vagos.github.io/)__\
 At DTU; Intersted in distributed systems,  LLMs, and beyond.
 
-[E-mail](mailto:vagoslabrou@gmail.com) | [Github](http://github.com/vagos)</p>
+[E-mail](mailto:vagoslabrou@gmail.com) | [Github](http://github.com/vagos)</p> -->
 
-{{< /columns >}} -->
+<img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/george.jpg" alt="George Kapetanakis" /> <p>__George Kapetanakis__\
+Writing good code to make writing good code easier.
+
+[E-mail](mailto:george@kapetanak.is) | [Github](http://github.com/gkapetanakis)</p>
+
+<--->
+
+<img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/maria.jpg" alt="Maria Lazou" /> <p>__Maria Lazou__\
+Exploring the intersection of operating systems with secure computation and low-level optimizations.
+
+[E-mail](mailto:maria_lazou1@brown.edu) | [Github](http://github.com/mlazoy)</p>
+
+{{< /columns >}} 
 
 ## Alumni
 

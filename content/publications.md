@@ -1,12 +1,12 @@
 ## Peer-Reviewed Conference Publications
 
-[Fractal: Fault-Tolerant Shell-Script Distribution] \
+Fractal: Fault-Tolerant Shell-Script Distribution \
 Zhicheng Huang, Ramiz Dundar, Yizheng Xie, Konstantinos Kallas, Nikos Vasilakis. _23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI'26)_ \
-[PDF (coming)] | [code](https://github.com/binpash/fractal)
+PDF _(coming)_ | [code](https://github.com/binpash/fractal)
 
-[Slowpoke: End-to-end Throughput Optimization Modeling for Microservice Applications] \
+Slowpoke: End-to-end Throughput Optimization Modeling for Microservice Applications \
 Yizheng Xie, Di Jin, Oğuzhan Çölkesen, Vasiliki Kalavri, John Liagouris, Nikos Vasilakis. _23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI'26)_ \
-[PDF (coming)] | [code](https://github.com/atlas-brown/slowpoke)
+PDF _(coming)_ | [code](https://github.com/atlas-brown/slowpoke)
 
 [The Koala Benchmarks for the Shell: Characterization and Implications](https://nikos.vasilak.is/p/koala:atc:2025.pdf) \
 Evangelos Lamprou, Ethan Williams, Georgios Kaoukis, Zhuoxuan Zhang, Michael Greenberg, Konstantinos Kallas, Lukas Lazarek, Nikos Vasilakis. _2025 USENIX Annual Technical Conference (ATC'25)_ \
@@ -82,6 +82,10 @@ Orestis Akribopoulos, Marios Logaras, Nikos Vasilakis, Panagiotis Kokkinos, Geor
 
 
 ## Peer-Reviewed Workshop Publications
+
+[From Ahead-of- to Just-in-Time and Back Again: Static Analysis for Unix Shell Programs](https://nikos.vasilak.is/p/sash:hotos:2025.pdf) \
+Lukas Lazarek, Seong-Heon Jung, Evangelos Lamprou, Zekai Li, Anirudh Narsipur, Eric Zhao, Michael Greenberg, Konstantinos Kallas, Konstantinos Mamouras, Nikos Vasilakis. _20th ACM Workshop on Hot Topics in Operating Systems (HotOS XX)_ \
+[ACM DL](https://dl.acm.org/doi/10.1145/3713082.3730395) | [PDF](https://nikos.vasilak.is/p/sash:hotos:2025.pdf)
 
 [Executing Shell Scripts in the Wrong Order, Correctly](http://nikos.vasilak.is/p/pash:hotos:2021.pdf)  
 Georgios Liargkovas, Konstantinos Kallas, Michael Greenberg, Nikos Vasilakis. _19th ACM Workshop on Hot Topics in Operating Systems (HotOS XIV)_ \
