@@ -83,6 +83,22 @@ Orestis Akribopoulos, Marios Logaras, Nikos Vasilakis, Panagiotis Kokkinos, Geor
 
 ## Peer-Reviewed Workshop Publications
 
+**Securing MCP-based Agent Workflows** \
+Grigoris Ntousakis, Julian James Stephen, Michael V. Le, Sai Sree Laya Chukkapalli, Teryl Taylor, I. Molloy, Frederico Araujo. _Practical Adoption Challenges of ML for Systems (PACMI '25)_ \
+PDF _(coming soon)_
+
+**Automated Annotation Inference for MCP-based Agents** \
+Grigoris Ntousakis, Julian James Stephen, Michael V. Le, Sai Sree Laya Chukkapalli, Teryl Taylor, Frederico Araujo. _1st Workshop on Systems for Agentic AI (SAA ’25)_ \
+PDF _(coming soon)_
+
+**Guarding LLM-aided Software Transformation Tasks via Component Exoskeletons** \
+Evangelos Lamprou, Christian Gram Kalhauge, Martin Rinard, Nikos Vasilakis. _Practical Adoption Challenges of ML for Systems (PACMI '25)_ \
+PDF _(coming soon)_
+
+**Towards Hybrid Cooperative-Preemptive Scheduling** \
+Yizheng Xie, Di Jin and Nikos Vasilakis. _13th Workshop on Programming Languages and Operating Systems_ \
+PDF _(coming soon)_
+
 [From Ahead-of- to Just-in-Time and Back Again: Static Analysis for Unix Shell Programs](https://nikos.vasilak.is/p/sash:hotos:2025.pdf) \
 Lukas Lazarek, Seong-Heon Jung, Evangelos Lamprou, Zekai Li, Anirudh Narsipur, Eric Zhao, Michael Greenberg, Konstantinos Kallas, Konstantinos Mamouras, Nikos Vasilakis. _20th ACM Workshop on Hot Topics in Operating Systems (HotOS XX)_ \
 [ACM DL](https://dl.acm.org/doi/10.1145/3713082.3730395) | [PDF](https://nikos.vasilak.is/p/sash:hotos:2025.pdf)
