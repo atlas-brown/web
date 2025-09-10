@@ -19,7 +19,7 @@ Dec'24: [Eric Zhao](https://mustardfox.org/) discusses the intricacies of symbol
 Oct'24: [Anirudh Narsipur](https://anarsipur.com/) discusses static analysis for the Unix shell at [NEPLS'24](https://nepls.org/Events/34/).  
 Aug'24: [Lukas Lazarek](https://llazarek.github.io/) and [Di Jin](https://sleepymug.me/) join the group as postdoctoral associates—welcome!  
 Jul'24: [Eric Zhao](https://mustardfox.org/), [Ethan Lavi](https://ethanlavi.github.io/), [Grigoris Ntousakis](https://www.ntousakis.com/), and [Yuchen Lu](https://www.linkedin.com/in/luyc/) join the group for their PhDs!  
-Jun'24: [Ioanna Gemou](https://yoghurtina.github.io/) starts her research visit on machine learning for systems, co-hosted by [Ritambhara Singh](https://ritambharasingh.com/).  
+Jun'24: [Ioanna Gemou](https://igemou.github.io/) starts her research visit on machine learning for systems, co-hosted by [Ritambhara Singh](https://ritambharasingh.com/).  
 
 See [all news]({{< ref "news.md" >}})
 
@@ -58,7 +58,7 @@ See [all news]({{< ref "news.md" >}})
 </div>
 <!-- <div class="gallery-item grid-w20">
     <img class="imgStuff" src="../profile_pictures/ioanna.jpg" alt="Ioanna Gemou" />
-    <strong><a href="https://yoghurtina.github.io/" title="Ioanna Gemou">Ioanna Gemou</a></strong> <br> Visiting Student 
+    <strong><a href="https://igemou.github.io/" title="Ioanna Gemou">Ioanna Gemou</a></strong> <br> Visiting Student 
 </div> -->
 <div class="gallery-item grid-w20">
     <img class="imgStuff" src="../profile_pictures/julian.jpg" alt="Julian Dai" />

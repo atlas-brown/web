@@ -126,10 +126,10 @@ Bridging the gap between machine learning and computer systems.
 
 {{< columns >}} <!-- begin columns block -->
 <!-- 
-<img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/ioanna.jpg" alt="Ioanna Gemou" /> <p>__[Ioanna Gemou](https://yoghurtina.github.io/)__\
+<img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/ioanna.jpg" alt="Ioanna Gemou" /> <p>__[Ioanna Gemou](https://igemou.github.io/)__\
 At DTU; Operating at the intersection of ML and systems. Co-advised by [R. Singh](https://ritambharasingh.com).
 
-[E-mail](mailto:ioannagemou@gmail.com) | [Github](http://github.com/yoghurtina)</p> -->
+[E-mail](mailto:ioannagemou@gmail.com) | [Github](http://github.com/igemou)</p> -->
 
 <!-- 
 <img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/vagos.jpg" alt="Vagos Lamprou" /> <p>__[Vagos Lamprou](https://vagos.github.io/)__\
@@ -156,7 +156,7 @@ Exploring the intersection of operating systems with secure computation and low-
 [Ramiz Dundar](https://ramiz.dev/) (M.Sc., 2025, next: Google)\
 [Zhicheng Huang](https://huangworld.github.io/) (M.Sc., 2025, next: University of California San Diego)\
 [Anirudh Narsipur](anarsipur.com) (M.Sc., 2025, next: Evolver)\
-[Ioanna Gemou](https://yoghurtina.github.io/) (Visiting Student, 2025, next: Brown University)\
+[Ioanna Gemou](https://igemou.github.io/) (Visiting Student, 2025, next: Brown University)\
 [Seong-Heon Jung](https://forthoney.github.io/) (B.Sc., 2025, next: New York University)\
 [Seth Sabar](https://www.linkedin.com/in/sethsabar/) (UROP, 2024, next: The Voleon Group)\
 [Nikos Pagonas](https://nikpag.github.io/) (Visiting Student, 2024, next: Columbia University)\
