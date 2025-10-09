@@ -1,9 +1,11 @@
 ## News 
+Sep'25: Early ideas on [LLM guardrails](https://nikos.vasilak.is/p/exo:pacmi:2025.pdf), [hybrid scheduling](https://nikos.vasilak.is/p/cocoon:plos:2025.pdf), and [verifiable kernel extensions](https://nikos.vasilak.is/p/klean:plos:2025.pdf) at [SOSP'25 workshops](https://sigops.org/s/conferences/sosp/2025/workshops.html)! \
 Aug'25: Two [NSDI'26](https://www.usenix.org/conference/nsdi26) papers on optimization prediction and fault tolerance for opaque distributed systems! \
 Jul'25: Our [benchmark suite for the shell](https://nikos.vasilak.is/p/koala:atc:2025.pdf) received the [Best Paper Award](https://www.usenix.org/conferences/best-papers) at [USENIX ATC'25](https://www.usenix.org/conference/atc25)! \
 Jul'25: Our group received a [Google ML-and-Systems Junior Faculty](https://blog.google/products/google-cloud/ml-systems-junior-faculty-awards/) Award on [Securing Open-Source Software](https://atlas.cs.brown.edu/supply-chain/)!  
 Jul'25: [Evangelos Lamprou](https://vagos.lamprou.xyz/) joins the group for his PhD!  
-Jun'25: Our paper on the [Koala benchmark for the shells](https://kben.sh/) was accepted at Usenix [ATC'25](https://www.usenix.org/conference/atc25/presentation/lamprou)---the last one, ever!  
+Jun'25: Our paper on the [Koala benchmark for the shells](https://kben.sh/) was accepted at Usenix [ATC'25](https://www.usenix.org/conference/atc25/presentation/lamprou)---the last one, ever! \
+May'25: [Grigoris Ntousakis](https://www.ntousakis.com/) started his internship at IBM research! \
 Apr'25: [Apply](https://forms.gle/zL2giouQjeKyfcGR6) to attend the [Brown Systems Week 2025](https://brown-systems-week.github.io/)!  
 Mar'25: Our paper on [semantics-driven static analysis for the shell](https://nikos.vasilak.is/p/sash:hotos:2025.pdf) made it to [HotOS'25](https://sigops.org/s/conferences/hotos/2025/)!  
 Mar'25: Received an [Amazon Research Award (ARA)](https://www.amazon.science/research-awards/program-updates/70-amazon-research-award-recipients-announced) on Automated Reasoning for the Unix/Linux shell!  
