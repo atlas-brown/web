@@ -83,14 +83,6 @@ Orestis Akribopoulos, Marios Logaras, Nikos Vasilakis, Panagiotis Kokkinos, Geor
 
 ## Peer-Reviewed Workshop Publications
 
-**Securing MCP-based Agent Workflows** \
-Grigoris Ntousakis, Julian James Stephen, Michael V. Le, Sai Sree Laya Chukkapalli, Teryl Taylor, I. Molloy, Frederico Araujo. _Practical Adoption Challenges of ML for Systems (PACMI '25)_ \
-PDF _(coming soon)_
-
-**Automated Annotation Inference for MCP-based Agents** \
-Grigoris Ntousakis, Julian James Stephen, Michael V. Le, Sai Sree Laya Chukkapalli, Teryl Taylor, Frederico Araujo. _1st Workshop on Systems for Agentic AI (SAA ’25)_ \
-PDF _(coming soon)_
-
 [Guarding LLM-aided Software Transformation Tasks via Component Exoskeletons](https://nikos.vasilak.is/p/exo:pacmi:2025.pdf) \
 Evangelos Lamprou, Christian Gram Kalhauge, Martin Rinard, Nikos Vasilakis. _Practical Adoption Challenges of ML for Systems (PACMI '25)_ \
 [ACM](https://dl.acm.org/doi/10.1145/3766882.3767171) | [PDF](https://nikos.vasilak.is/p/exo:pacmi:2025.pdf) 
