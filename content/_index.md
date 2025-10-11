@@ -6,6 +6,7 @@ We build systems that lift the capabilities of programmers dealing with the vast
 ---
 
 ## News
+Sep'25: Early ideas on [LLM guardrails](https://nikos.vasilak.is/p/exo:pacmi:2025.pdf), [hybrid scheduling](https://nikos.vasilak.is/p/cocoon:plos:2025.pdf), and [verifiable kernel extensions](https://nikos.vasilak.is/p/klean:plos:2025.pdf) at [SOSP'25 workshops](https://sigops.org/s/conferences/sosp/2025/workshops.html)! \
 Aug'25: Two [NSDI'26](https://www.usenix.org/conference/nsdi26) papers on optimization prediction and fault tolerance for opaque distributed systems!  
 Aug'25: [Evangelos Lamprou](https://vagos.lamprou.xyz) joins BrownCS and the group for his PhD!     
 Jul'25: Our [benchmark suite for the shell](https://nikos.vasilak.is/p/koala:atc:2025.pdf) received the [Best Paper Award](https://www.usenix.org/conferences/best-papers) at [USENIX ATC'25](https://www.usenix.org/conference/atc25)!  
@@ -37,6 +38,11 @@ See [all news]({{< ref "news.md" >}})
     <strong><a href="https://www.linkedin.com/in/christinastepin/" title="Christina Stepin">Christina Stepin</a></strong> <br> B.Sc. student
 </div> -->
 <div class="gallery-item grid-w20">
+  <img class="imgStuff" src="../profile_pictures/atharv.jpg" alt="Atharv Chowdhary" /> 
+  <strong><a href="#" title="Atharv Chowdhary">Atharv Chowdhary</a></strong> <br> B.Sc. Student
+</div>
+
+<div class="gallery-item grid-w20">
     <img class="imgStuff" src="../profile_pictures/di.jpg" alt="Di Jin" />
     <strong><a href="https://sleepymug.me" title="Di Jin">Di Jin</a></strong> <br> Postdoc
 </div>
@@ -52,22 +58,34 @@ See [all news]({{< ref "news.md" >}})
     <img class="imgStuff" src="../profile_pictures/vagos.jpg" alt="Evangelos Lamprou" />
     <strong><a href="https://vagos.github.io/" title="Vagos Lamprou">Evangelos Lamprou</a></strong> <br> Ph.D. Student 
 </div>
+
 <div class="gallery-item grid-w20">
-    <img class="imgStuff" src="../profile_pictures/grigoris_nt.jpg" alt="Grigoris Ntousakis" />
+  <img class="imgStuff" src="../profile_pictures/george.jpg" alt="George Kapetanakis" /> 
+  <strong><a href="#" title="George Kapetanakis">George Kapetanakis</a></strong> <br> Visiting Student
+</div>
+
+<div class="gallery-item grid-w20">
+    <img class="imgStuff" src="../profile_pictures/grigoris.jpg" alt="Grigoris Ntousakis" />
     <strong><a href="https://www.ntousakis.com/" title="Grigoris Ntousakis">Grigoris Ntousakis</a></strong> <br> Ph.D. Student 
 </div>
 <!-- <div class="gallery-item grid-w20">
     <img class="imgStuff" src="../profile_pictures/ioanna.jpg" alt="Ioanna Gemou" />
     <strong><a href="https://igemou.github.io/" title="Ioanna Gemou">Ioanna Gemou</a></strong> <br> Visiting Student 
-</div> -->
+</div> 
 <div class="gallery-item grid-w20">
     <img class="imgStuff" src="../profile_pictures/julian.jpg" alt="Julian Dai" />
     <strong><a href="https://jdai1.github.io/" title="Julian Dai">Julian Dai</a></strong> <br> B.Sc. student
-</div>
+</div> -->
 <div class="gallery-item grid-w20">
     <img class="imgStuff" src="../profile_pictures/lukas.jpg" alt="Lukas Lazarek" />
     <strong><a href="https://llazarek.github.io" title="Lukas Lazarek">Lukas Lazarek</a></strong> <br> Postdoc
 </div>
+
+<div class="gallery-item grid-w20">
+  <img class="imgStuff" src="../profile_pictures/maria.jpg" alt="Maria Lazou" /> 
+  <strong><a href="#" title="Maria Lazou">Maria Lazou</a></strong> <br> Visiting Student
+</div>
+
 <div class="gallery-item grid-w20">
     <img class="imgStuff" src="../profile_pictures/megan.jpg" alt="Megan Zheng" />
     <strong><a href="https://yuuu23.github.io/" title="Megan Zheng">Megan Zheng</a></strong> <br> B.Sc. student
@@ -91,7 +109,7 @@ See [all news]({{< ref "news.md" >}})
 </div> -->
 <div class="gallery-item grid-w20">
     <img class="imgStuff" src="../profile_pictures/yuchen.jpg" alt="Yuchen Lu" />
-    <strong><a href="https://www.linkedin.com/in/luyc/" title="Yuchen Lu">Yuchen Lu</a></strong> <br> Ph.D. Student 
+    <strong><a href="https://lwwlwwl.github.io/" title="Yuchen Lu">Yuchen Lu</a></strong> <br> Ph.D. Student 
 </div>
 <!-- <div class="gallery-item grid-w20">
     <img class="imgStuff" src="../profile_pictures/yutong.jpg" alt="Yutong Li" />
@@ -109,21 +127,6 @@ See [all news]({{< ref "news.md" >}})
     <img class="imgStuff" src="../profile_pictures/zhicheng.jpg" alt="Zhicheng Huang" /> 
     <strong><a href="https://huangworld.github.io/" title="Zhicheng Huang">Zhicheng Huang</a></strong> <br> M.Sc. Student
 </div> -->
-
-<div class="gallery-item grid-w20">
-  <img class="imgStuff" src="../profile_pictures/atharv.jpg" alt="Atharv Chowdhary" /> 
-  <strong><a href="#" title="Atharv Chowdhary">Atharv Chowdhary</a></strong> <br> B.Sc. Student
-</div>
-
-<div class="gallery-item grid-w20">
-  <img class="imgStuff" src="../profile_pictures/george.jpg" alt="George Kapetanakis" /> 
-  <strong><a href="#" title="George Kapetanakis">George Kapetanakis</a></strong> <br> Visiting Student
-</div>
-
-<div class="gallery-item grid-w20">
-  <img class="imgStuff" src="../profile_pictures/maria.jpg" alt="Maria Lazou" /> 
-  <strong><a href="#" title="Maria Lazou">Maria Lazou</a></strong> <br> Visiting Student
-</div>
 
 {{< /gallery >}}
 

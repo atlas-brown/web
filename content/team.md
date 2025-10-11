@@ -72,13 +72,13 @@ Designing correct and scalable distributed systems.&nbsp;&nbsp;&nbsp;
 
 [E-mail](mailto:ethan_lavi@brown.edu) | [Github](http://github.com/EthanLavi)</p>
 
-<img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/grigoris_nt.jpg" alt="Grigoris Ntousakis" /> <p> __[Grigoris Ntousakis](https://www.ntousakis.com/)__\
+<img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/grigoris.jpg" alt="Grigoris Ntousakis" /> <p> __[Grigoris Ntousakis](https://www.ntousakis.com/)__\
 Reimagining third-party library and package ecosystems. Co-advised by [V. Kemerlis](https://cs.brown.edu/~vpk/).
 
 [E-mail](mailto:gntousakis@tuc.gr) | [Github](http://github.com/GNtousakis) | [Twitter](https://twitter.com/gntousakis)</p>
 
 
-<img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/yuchen.jpg" alt="Yuchen Lu" /> <p> __Yuchen Lu__\
+<img  class="imgStuffTeam" width="150" height="150" align="left" src="../profile_pictures/yuchen.jpg" alt="Yuchen Lu" /> <p> __[Yuchen Lu](https://lwwlwwl.github.io/)__\
 Leveraging ML to build high-performance systems.&nbsp;&nbsp;&nbsp;
 
 [E-mail](mailto:yuchen_lu@brown.edu) | [Github](http://github.com/lwwlwwl) </p>
