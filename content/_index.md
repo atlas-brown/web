@@ -7,7 +7,7 @@ We build systems that lift the capabilities of programmers dealing with the vast
 
 ## News
 Sep'25: Early ideas on [LLM guardrails](https://nikos.vasilak.is/p/exo:pacmi:2025.pdf), [hybrid scheduling](https://nikos.vasilak.is/p/cocoon:plos:2025.pdf), and [verifiable kernel extensions](https://nikos.vasilak.is/p/klean:plos:2025.pdf) at [SOSP'25 workshops](https://sigops.org/s/conferences/sosp/2025/workshops.html)! \
-Aug'25: Two [NSDI'26](https://www.usenix.org/conference/nsdi26) papers on optimization prediction and fault tolerance for opaque distributed systems!  
+Aug'25: Two [NSDI'26](https://www.usenix.org/conference/nsdi26) papers on [optimization prediction](https://github.com/atlas-brown/slowpoke) and [fault tolerance](https://github.com/binpash/fractal) for opaque distributed systems!  
 Aug'25: [Evangelos Lamprou](https://vagos.lamprou.xyz) joins BrownCS and the group for his PhD!     
 Jul'25: Our [benchmark suite for the shell](https://nikos.vasilak.is/p/koala:atc:2025.pdf) received the [Best Paper Award](https://www.usenix.org/conferences/best-papers) at [USENIX ATC'25](https://www.usenix.org/conference/atc25)!  
 Jul'25: [Nikos Vasilakis](https://nikos.vasilak.is) received a [Google ML-and-Systems Junior Faculty Award](https://blog.google/products/google-cloud/ml-systems-junior-faculty-awards/)!  
