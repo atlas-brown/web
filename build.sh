@@ -8,6 +8,10 @@ if [ "$1" == "-s" ]; then
   git checkout -- README.md
 fi
 
+# parse bib entries first 
+source ./content/publications/venv/bin/activate
+./content/publications/bib_parser.py
+deactivate
 # Build the new version of the website
 ./hugo 
 
