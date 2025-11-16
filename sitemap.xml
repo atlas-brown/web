@@ -41,6 +41,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://atlas.cs.brown.edu/publications/publications/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://atlas.cs.brown.edu/team/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

@@ -1,59 +1,83 @@
 {{ define "main" }}
 
-<section class="mt-0 prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
-  <div class="min-w-0 min-h-0 max-w-prose">
-    <div class="mb-6 flex flex-wrap gap-4 items-center">
-      <!-- Search Input -->
-      <input type="text" id="pubSearch" placeholder="Search publications..." 
-      class="flex-1 p-2 border rounded text-sm"
-      onkeyup="filterPublications()" />
+{{/* -------------------------------  PRE-COLLECT TYPES  ------------------------------- */}}
+{{ $types := slice }}
+{{ $categories := slice }}
 
-      <!-- Type Dropdown -->
-      <select id="pubType" class="p-2 border rounded text-sm" onchange="filterPublications()">
-      <option value="">All Types</option>
-      {{ $types := slice }}
-      {{ range $pubs := $.Site.Data.publications }}
-      {{ range $entry := $pubs.entries }}
-      {{ if not (in $types $entry.ENTRYTYPE) }}
+{{ range $pubs := $.Site.Data.publications }}
+  {{ range $entry := $pubs.entries }}
+
+    {{/* Collect types */}}
+    {{ if not (in $types $entry.ENTRYTYPE) }}
       {{ $types = $types | append $entry.ENTRYTYPE }}
-      {{ end }}
-      {{ end }}
-      {{ end }}
-      {{ range $t := $types }}
-      <option value="{{ $t }}">{{ $t }}</option>
-      {{ end }}
-      </select>
+    {{ end }}
 
-      <!-- Categories Dropdown -->
-      <select id="pubCategory" class="p-2 border rounded text-sm" onchange="filterPublications()">
-      <option value="">All Categories</option>
-      {{ $categories := slice }}
-      {{ range $pubs := $.Site.Data.publications }}
-      {{ range $entry := $pubs.entries }}
-      {{ if .category }}
-      {{ if not (in $categories $entry.category) }}
-        {{ $categories = $categories | append $entry.category }}
+    {{/* Collect categories */}}
+    {{ with $entry.category }}
+      {{ if not (in $categories .) }}
+        {{ $categories = $categories | append . }}
       {{ end }}
-      {{ end }}
-      {{ end }}
-      {{ end }}
-      {{ range $c := $categories }}
-      <option value="{{ $c }}">{{ $c }}</option>
-      {{ end }}
-      </select>
+    {{ end }}
 
-      </div>
+  {{ end }}
+{{ end }}
 
+
+<section class="mt-0 prose max-w-full flex flex-col dark:prose-invert">
+  <div class="min-w-0 min-h-0 max-w-prose">
+    <h2>Publications</h2>
+
+    <div class="publications-container">
+      <!-- FILTER BLOCK -->
+      <div class="flex flex-col gap-16 mb-16 not-prose">
+
+          <!-- SEARCH BAR -->
+          <div>
+            <input type="text" id="pubSearch"
+                   placeholder="Search keywords..."
+                   class="publication-search">
+          </div>
+    
+        <!-- TYPES ROW -->
+        <div>
+          <h3 class="filter-title">Types</h3>
+          <div class="filter-row">
+            {{ range $types }}
+            <label class="pill cursor-pointer filter-type" data-value="{{ lower . }}">
+              <span>{{ . }}</span>
+              <span class="pill-x hidden">X</span>
+            </label>            
+            {{ end }}
+          </div>
+        </div>
+    
+        <!-- CATEGORIES ROW -->
+        <div>
+          <h3 class="filter-title">Categories</h3>
+          <div class="filter-row">
+            {{ range $categories }}
+            <label class="pill cursor-pointer filter-type" data-value="{{ lower . }}">
+              <span>{{ . }}</span>
+              <span class="pill-x hidden">X</span>
+            </label>            
+            {{ end }}
+          </div>
+        </div>
+    
+      </div> <!-- END FILTER BLOCK -->
+
+
+    <!-- PUBLICATIONS LIST -->
     {{ $pubs := $.Site.Data.publications }}
     {{ range $pubs }}
     <div class="year-block mt-12 mb-6">
-      <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">{{ .year }}</h2> 
-      <!-- Separation line -->
-      <hr class="border-t border-gray-300 dark:border-gray-600 mb-4" />
+      <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">{{ .year }}</h2>
+      <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
 
       <ul class="space-y-4">
-      {{ range .entries }}
-        <li class="pub">
+        {{ range .entries }}
+        <li class="pub" data-type="{{ lower .ENTRYTYPE }}" data-category="{{ lower .category }}">
+
           {{ if .url }}
             <strong><a href="{{ .url }}" target="_blank">{{ .title }}</a></strong><br>
           {{ else }}
@@ -61,132 +85,41 @@
           {{ end }}
 
           {{ .author }}.
-          <em>{{ .booktitle }}</em> <br>
+          <em>{{ .booktitle }}</em><br>
 
+          {{/* LINKS */}}
           {{ $links := slice }}
-          {{ if .pdf }}
-            {{ $links = $links | append (printf `<a href="%s" target="_blank">PDF</a>` .pdf) }}
-          {{ end }}
-          {{ if .url }}
-            {{ $links = $links | append (printf `<a href="%s" target="_blank">DOI</a>` .url) }}
-          {{ end }}
-          {{ if .code }}
-            {{ $links = $links | append (printf `<a href="%s" target="_blank">Code</a>` .code) }}
-          {{ end }}
-          {{ if .abstract }}
-            {{ $links = $links | append (printf `<a href="javascript:void(0);" onclick="document.getElementById('abs-%s').classList.toggle('hidden')">Abstract</a>` .ID) }}
-          {{ end }}
-          {{ if .raw_bib_html }}
-            {{ $links = $links | append (printf `<a href="javascript:void(0);" onclick="document.getElementById('bib-%s').classList.toggle('hidden')">BibTeX</a>` .ID) }}
-          {{ end }}
+          {{ if .pdf }}{{ $links = $links | append (printf `<a href="%s" target="_blank">PDF</a>` .pdf) }}{{ end }}
+          {{ if .url }}{{ $links = $links | append (printf `<a href="%s" target="_blank">DOI</a>` .url) }}{{ end }}
+          {{ if .code }}{{ $links = $links | append (printf `<a href="%s" target="_blank">Code</a>` .code) }}{{ end }}
+          {{ if .abstract }}{{ $links = $links | append (printf `<a href="javascript:void(0);" onclick="toggleBlock('abs-%s')">Abstract</a>` .ID) }}{{ end }}
+          {{ if .raw_bib_html }}{{ $links = $links | append (printf `<a href="javascript:void(0);" onclick="toggleBlock('bib-%s')">BibTeX</a>` .ID) }}{{ end }}
 
           <span class="links text-sm">[ {{ delimit $links " | " }} ]</span>
 
           {{ if .abstract }}
-            <div id="abs-{{ .ID }}" class="hidden abstract-block mt-2 text-sm italic">
-              {{ .abstract }}
-            </div>
+          <div id="abs-{{ .ID }}" class="hidden abstract-block mt-2 text-sm italic">{{ .abstract }}</div>
           {{ end }}
 
           {{ if .raw_bib_html }}
-          <div id="bib-{{ .ID }}" class="hidden mt-2 text-sm">
-            {{ .raw_bib_html | safeHTML }}
-          </div>
-          {{ end }}        
+          <div id="bib-{{ .ID }}" class="hidden mt-2 text-sm">{{ .raw_bib_html | safeHTML }}</div>
+          {{ end }}
 
         </li>
-      {{ end }}
+        {{ end }}
       </ul>
+    </div>
     {{ end }}
 
   </div>
 </section>
 
-<!-- Toggle visibility helper -->
-<style>
-.hidden { display: none; }
-</style>
 
-<script>
-  function filterPublications() {
-      const input = document.getElementById('pubSearch');
-      const filter = input.value.toLowerCase();
-      const pubs = document.querySelectorAll('.pub');
-  
-      pubs.forEach(pub => {
-          const text = pub.innerText.toLowerCase();
-          if (text.includes(filter)) {
-              pub.style.display = '';
-          } else {
-              pub.style.display = 'none';
-          }
-      });
-  }
-  </script>
+<!-- External JS + CSS -->
+{{ $js := resources.Get "js/publications.js" | minify }}
+<script src="{{ $js.RelPermalink }}"></script>
 
-<!-- Pygments emacs style CSS -->
-<style>
-  .language-bibtex .c { color: #408080; font-style: italic } /* Comment */
-  .language-bibtex .err { border: 1px solid #FF0000 } /* Error */
-  .language-bibtex .k { color: #954121; font-weight: bold } /* Keyword */
-  .language-bibtex .o { color: #666666 } /* Operator */
-  .language-bibtex .cm { color: #408080; font-style: italic } /* Comment.Multiline */
-  .language-bibtex .cp { color: #BC7A00 } /* Comment.Preproc */
-  .language-bibtex .c1 { color: #408080; font-style: italic } /* Comment.Single */
-  .language-bibtex .cs { color: #408080; font-style: italic } /* Comment.Special */
-  .language-bibtex .gd { color: #A00000 } /* Generic.Deleted */
-  .language-bibtex .ge { font-style: italic } /* Generic.Emph */
-  .language-bibtex .gr { color: #FF0000 } /* Generic.Error */
-  .language-bibtex .gh { color: #000080; font-weight: bold } /* Generic.Heading */
-  .language-bibtex .gi { color: #00A000 } /* Generic.Inserted */
-  .language-bibtex .go { color: #888888 } /* Generic.Output */
-  .language-bibtex .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
-  .language-bibtex .gs { font-weight: bold } /* Generic.Strong */
-  .language-bibtex .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
-  .language-bibtex .kc { color: #954121; font-weight: bold } /* Keyword.Constant */
-  .language-bibtex .kd { color: #954121; font-weight: bold } /* Keyword.Declaration */
-  .language-bibtex .kn { color: #954121; font-weight: bold } /* Keyword.Namespace */
-  .language-bibtex .kp { color: #954121; font-weight: bold } /* Keyword.Pseudo */
-  .language-bibtex .kr { color: #954121; font-weight: bold } /* Keyword.Reserved */
-  .language-bibtex .kt { color: #B00040; font-weight: bold } /* Keyword.Type */
-  .language-bibtex .m { color: #666666 } /* Literal.Number */
-  .language-bibtex .s { color: #219161 } /* Literal.String */
-  .language-bibtex .na { color: #7D9029 } /* Name.Attribute */
-  .language-bibtex .nb { color: #954121 } /* Name.Builtin */
-  .language-bibtex .nc { color: #0000FF; font-weight: bold } /* Name.Class */
-  .language-bibtex .no { color: #880000 } /* Name.Constant */
-  .language-bibtex .nd { color: #AA22FF } /* Name.Decorator */
-  .language-bibtex .ni { color: #999999; font-weight: bold } /* Name.Entity */
-  .language-bibtex .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
-  .language-bibtex .nf { color: #0000FF } /* Name.Function */
-  .language-bibtex .nl { color: #A0A000; font-weight: bold } /* Name.Label */
-  .language-bibtex .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
-  .language-bibtex .nt { color: #954121; font-weight: bold } /* Name.Tag */
-  .language-bibtex .nv { color: #19469D } /* Name.Variable */
-  .language-bibtex .ow { color: #954121; font-weight: bold } /* Operator.Word */
-  .language-bibtex .w { color: #bbbbbb } /* Text.Whitespace */
-  .language-bibtex .mf { color: #666666 } /* Literal.Number.Float */
-  .language-bibtex .mh { color: #666666 } /* Literal.Number.Hex */
-  .language-bibtex .mi { color: #666666 } /* Literal.Number.Integer */
-  .language-bibtex .mo { color: #666666 } /* Literal.Number.Oct */
-  .language-bibtex .sb { color: #219161 } /* Literal.String.Backtick */
-  .language-bibtex .sc { color: #219161 } /* Literal.String.Char */
-  .language-bibtex .sd { color: #219161; font-style: italic } /* Literal.String.Doc */
-  .language-bibtex .s2 { color: #219161 } /* Literal.String.Double */
-  .language-bibtex .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
-  .language-bibtex .sh { color: #219161 } /* Literal.String.Heredoc */
-  .language-bibtex .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
-  .language-bibtex .sx { color: #954121 } /* Literal.String.Other */
-  .language-bibtex .sr { color: #BB6688 } /* Literal.String.Regex */
-  .language-bibtex .s1 { color: #219161 } /* Literal.String.Single */
-  .language-bibtex .ss { color: #19469D } /* Literal.String.Symbol */
-  .language-bibtex .bp { color: #954121 } /* Name.Builtin.Pseudo */
-  .language-bibtex .fm { color: #0000FF } /* Name.Function.Magic */
-  .language-bibtex .vc { color: #19469D } /* Name.Variable.Class */
-  .language-bibtex .vg { color: #19469D } /* Name.Variable.Global */
-  .language-bibtex .vi { color: #19469D } /* Name.Variable.Instance */
-  .language-bibtex .il { color: #666666 } /* Literal.Number.Integer.Long */
-  </style>
+{{ $css := resources.Get "css/publications.css" | minify }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
 
-</div>
 {{ end }}

@@ -1,2 +1,4 @@
 .DS_Store
 hugo
+venv/
+content/publications/venv
