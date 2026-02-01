@@ -7258,6 +7258,7 @@ body:has(#menu-controller:checked) {
   border-radius: 10px;
   width: 120px;
   height: 120px;
+  float: left;
 }
 
 .imgStuffResearch {
