@@ -93,16 +93,11 @@
           {{ if .url }}{{ $links = $links | append (printf `<a href="%s" target="_blank">DOI</a>` .url) }}{{ end }}
           {{ if .code }}{{ $links = $links | append (printf `<a href="%s" target="_blank">Code</a>` .code) }}{{ end }}
           {{ if .abstract }}{{ $links = $links | append (printf `<a href="javascript:void(0);" onclick="toggleBlock('abs-%s')">Abstract</a>` .ID) }}{{ end }}
-          {{ if .raw_bib_html }}{{ $links = $links | append (printf `<a href="javascript:void(0);" onclick="toggleBlock('bib-%s')">BibTeX</a>` .ID) }}{{ end }}
 
-          <span class="links text-sm">[ {{ delimit $links " | " }} ]</span>
+          <span class="links text-sm">[ {{ delimit $links " | " | safeHTML }} ]</span>
 
           {{ if .abstract }}
           <div id="abs-{{ .ID }}" class="hidden abstract-block mt-2 text-sm italic">{{ .abstract }}</div>
-          {{ end }}
-
-          {{ if .raw_bib_html }}
-          <div id="bib-{{ .ID }}" class="hidden mt-2 text-sm">{{ .raw_bib_html | safeHTML }}</div>
           {{ end }}
 
         </li>

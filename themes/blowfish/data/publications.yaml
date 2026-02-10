@@ -47,45 +47,6 @@
       and Nikos Vasilakis
     ENTRYTYPE: inproceedings
     ID: fractal:nsdi:2026
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">fractal:nsdi:2026</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Renton, WA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Zhicheng Huang and
-      Ramiz Dundar and Yizheng Xie and Konstantinos Kallas and Nikos Vasilakis}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{23rd USENIX Symposium
-      on Networked Systems Design and Implementation (NSDI 26)}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">month</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{May}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{USENIX Association}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Fractal: Fault-Tolerant
-      Shell-Script Distribution}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2026}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - code: https://github.com/atlas-brown/slowpoke
     month: May
     publisher: USENIX Association
@@ -101,43 +62,6 @@
     ID: slowpoke:nsdi:2026
     pdf: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">slowpoke:nsdi:2026</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Renton, WA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Yizheng Xie and Di
-      Jin and Oğuzhan Çölkesen and Vasiliki Kalavri and John Liagouris and Nikos Vasilakis}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{23rd USENIX Symposium
-      on Networked Systems Design and Implementation (NSDI 26)}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">month</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{May}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{USENIX Association}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Slowpoke: End-to-end
-      Throughput Optimization Modeling for Microservice Applications}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2026}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
 - year: 2025
   entries:
   - code: https://github.com/kbensh/koala
@@ -189,54 +113,6 @@
     title: 'The Koala Benchmarks for the Shell: Characterization and Implications'
     ENTRYTYPE: inproceedings
     ID: koala:atc:2025
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">koala:atc:2025</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Boston, MA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Evangelos Lamprou
-      and Ethan Williams and Georgios Kaoukis and Zhuoxuan Zhang and Michael Greenberg
-      and Konstantinos Kallas and Lukas Lazarek and Nikos Vasilakis}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2025 USENIX Annual
-      Technical Conference (USENIX ATC &#39;25)}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">isbn</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{978-1-939133-48-9}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">month</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{July}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{449--64}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{USENIX Association}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{The Koala Benchmarks
-      for the Shell: Characterization and Implications}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://www.usenix.org/conference/atc25/presentation/lamprou}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2025}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - series: HotOS '25
     location: Banff, AB, Canada
     keywords: Linux, Unix, inference, shell, static analysis, type systems
@@ -259,71 +135,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">sash:hotos:2025</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{New York, NY, USA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Lazarek, Lukas and
-      Jung, Seong-Heon and Lamprou, Evangelos and Li, Zekai and Narsipur, Anirudh
-      and Zhao, Eric and Greenberg, Michael and Kallas, Konstantinos and Mamouras,
-      Konstantinos and Vasilakis, Nikos}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2025 Workshop on
-      Hot Topics in Operating Systems}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.1145/3713082.3730395}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">isbn</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{9798400714757}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">keywords</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Linux, Unix, inference,
-      shell, static analysis, type systems}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">location</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Banff, AB, Canada}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">numpages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{8}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{88–95}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Association for Computing
-      Machinery}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">series</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{HotOS &#39;25}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{From Ahead-of- to
-      Just-in-Time and Back Again: Static Analysis for Unix Shell Programs}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://doi.org/10.1145/3713082.3730395}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2025}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - note: '\url{https://brown-systems-week.github.io/} [Accessed: 2025-07-15]'
     year: '2025'
     location: Providence, RI
@@ -335,37 +146,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@misc</span><span
-      class="p">{</span><span class="nl">bsw:gh</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Nikos Vasilakis}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">location</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Providence, RI}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">month</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{June 13--19}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">note</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{\url{https://brown-systems-week.github.io/}
-      [Accessed: 2025-07-15]}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Brown Systems Week}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2025}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - howpublished: \url{https://www.infoworld.com/article/3977802/static-analysis-proposed-to-rehabilitate-shell-programs.html}
     month: May
     year: '2025'
@@ -376,33 +156,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@misc</span><span
-      class="p">{</span><span class="nl">sash:</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Paul Krill}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">howpublished</span><span class="w">
-      </span><span class="p">=</span><span class="w"> </span><span class="s">{\url{https://www.infoworld.com/article/3977802/static-analysis-proposed-to-rehabilitate-shell-programs.html}}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">month</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{May}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Static analysis proposed
-      to ‘rehabilitate’ shell programs}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2025}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - howpublished: \url{https://www.theregister.com/2025/04/30/shell_script_code_correctness/}
     month: April
     year: '2025'
@@ -413,33 +166,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@misc</span><span
-      class="p">{</span><span class="nl">sash:register</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Thomas Claburn}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">howpublished</span><span class="w">
-      </span><span class="p">=</span><span class="w"> </span><span class="s">{\url{https://www.theregister.com/2025/04/30/shell_script_code_correctness/}}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">month</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{April}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Ghost in the shell
-      script}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2025}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - howpublished: '\url{https://www.requiresecurity.com/} [Accessed: 2025-05-12]'
     year: '2025'
     author: RequireSecurity
@@ -449,29 +175,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@misc</span><span
-      class="p">{</span><span class="nl">req:seq</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{RequireSecurity}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">howpublished</span><span class="w">
-      </span><span class="p">=</span><span class="w"> </span><span class="s">{\url{https://www.requiresecurity.com/}
-      [Accessed: 2025-05-12]}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{{Advanced Protection
-      Against Supply Chain Threats}}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2025}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - year: '2025'
     school: Brown University
     title: Fault tolerant distributed shell scripting
@@ -482,33 +185,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@mastersthesis</span><span
-      class="p">{</span><span class="nl">fractal:brown:2025</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Zhicheng Huang}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">school</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Brown University}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Fault tolerant distributed
-      shell scripting}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">type</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Sc.M. Thesis}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2025}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - year: '2025'
     school: Brown University
     title: Static effect analysis for shell programs
@@ -519,33 +195,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@mastersthesis</span><span
-      class="p">{</span><span class="nl">sash:brown:2025</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Anirudh Narsipur}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">school</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Brown University}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Static effect analysis
-      for shell programs}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">type</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Sc.M. Thesis}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2025}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
 - year: 2024
   entries:
   - note: '\url{https://github.com/kbensh/koala} [Accessed: 2025-06-11]'
@@ -557,29 +206,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@misc</span><span
-      class="p">{</span><span class="nl">koala:gh</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{The Koala Authors}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">note</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{\url{https://github.com/kbensh/koala}
-      [Accessed: 2025-06-11]}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{The Koala Benchmarks
-      for the Shell}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2024}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - note: '\url{https://github.com/binpash/libbash} [Accessed: 2025-06-11]'
     year: '2024'
     author: The PaSh Authors
@@ -589,29 +215,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@misc</span><span
-      class="p">{</span><span class="nl">libbash:gh</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{The PaSh Authors}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">note</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{\url{https://github.com/binpash/libbash}
-      [Accessed: 2025-06-11]}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{libbash: bash bindings
-      as a library}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2024}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - howpublished: '\url{https://www.brown.edu/news/2024-12-19/christelle-alvarez}
       [Accessed: 2025-06-11]'
     month: December
@@ -624,34 +227,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@misc</span><span
-      class="p">{</span><span class="nl">dpt:brown:2024</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Jenna Pelletier}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">howpublished</span><span class="w">
-      </span><span class="p">=</span><span class="w"> </span><span class="s">{\url{https://www.brown.edu/news/2024-12-19/christelle-alvarez}
-      [Accessed: 2025-06-11]}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">month</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{December}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{From the Lab: Christelle
-      Alvarez illuminates ancient Egyptian insights, encoded in hieroglyphs}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2024}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - howpublished: '\url{dpt.cs.brown.edu} [Accessed: 2025-06-11]'
     year: '2024'
     author: Ioanna Gemou and Seong-Heon Jung and Calvin Eng and Komron Aripov and
@@ -662,30 +237,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@misc</span><span
-      class="p">{</span><span class="nl">dpt:platform:2024</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Ioanna Gemou and
-      Seong-Heon Jung and Calvin Eng and Komron Aripov and Sita Pawar and Christelle
-      Alvarez and Nikos Vasilakis}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">howpublished</span><span class="w">
-      </span><span class="p">=</span><span class="w"> </span><span class="s">{\url{dpt.cs.brown.edu}
-      [Accessed: 2025-06-11]}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{The DPT Platform}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2024}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - year: '2024'
     school: Brown University
     title: Towards Automated Reasoning For Shell Programs
@@ -696,33 +247,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@mastersthesis</span><span
-      class="p">{</span><span class="nl">sash:brown:2024</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Anirudh Narsipur}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">school</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Brown University}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Towards Automated
-      Reasoning For Shell Programs}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">type</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Bachelor&#39;s Thesis}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2024}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - year: '2024'
     school: Brown University
     title: Bash-Compliant PaSh
@@ -733,33 +257,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@mastersthesis</span><span
-      class="p">{</span><span class="nl">libbash:brown:2024</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Seth Sabar}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">school</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Brown University}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Bash-Compliant PaSh}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">type</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Bachelor&#39;s Thesis}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2024}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
 - year: 2023
   entries:
   - abstract: Modern applications, written in high-level programming languages, enjoy
@@ -797,73 +294,6 @@
     ENTRYTYPE: inproceedings
     ID: binwrap:asiaccs:2023
     pdf: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">binwrap:asiaccs:2023</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{New York, NY, USA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Christou, George
-      and Ntousakis, Grigoris and Lahtinen, Eric and Ioannidis, Sotiris and Kemerlis,
-      Vasileios P. and Vasilakis, Nikos}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2023 ACM Asia Conference
-      on Computer and Communications Security}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.1145/3579856.3590330}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">isbn</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{9798400700989}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">keywords</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Intel MPK/PKU, Node.js,
-      native add-ons, seccomp-BPF}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">location</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Melbourne, VIC, Australia}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">numpages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{14}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{429–442}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">pfd</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://dl.acm.org/doi/pdf/10.1145/3579856.3590330}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Association for Computing
-      Machinery}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">series</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{ASIA CCS &#39;23}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{BinWrap: Hybrid Protection
-      against Native Node.js Add-ons}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://doi.org/10.1145/3579856.3590330}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2023}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - series: HotOS '23
     location: Providence, RI, USA
     numpages: '7'
@@ -883,65 +313,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">hs:hotos:2023</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{New York, NY, USA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Liargkovas, Georgios
-      and Kallas, Konstantinos and Greenberg, Michael and Vasilakis, Nikos}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{19th Workshop on
-      Hot Topics in Operating Systems}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.1145/3593856.3595891}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">isbn</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{9798400701955}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">location</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Providence, RI, USA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">numpages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{7}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{103–109}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Association for Computing
-      Machinery}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">series</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{HotOS &#39;23}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Executing Shell Scripts
-      in the Wrong Order, Correctly}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://doi.org/10.1145/3593856.3595891}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2023}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - code: https://github.com/binpash/pash/
     abstract: 'Shell scripting remains prevalent for automation and data-processing
       tasks, partly due to its dynamic features—e.g., expansion, substitution—and
@@ -975,53 +346,6 @@
     author: Tammam Mustafa and Konstantinos Kallas and Pratyush Das and Nikos Vasilakis
     ENTRYTYPE: inproceedings
     ID: dish:nsdi:2023
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">dish:nsdi:2023</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Boston, MA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Tammam Mustafa and
-      Konstantinos Kallas and Pratyush Das and Nikos Vasilakis}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{20th USENIX Symposium
-      on Networked Systems Design and Implementation (NSDI 23)}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">isbn</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{978-1-939133-33-5}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">month</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{April}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{341--356}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{USENIX Association}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{{DiSh}: Dynamic {Shell-Script}
-      Distribution}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://www.usenix.org/conference/nsdi23/presentation/mustafa}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2023}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - code: https://github.com/cristianstaicu/SecBench.js
     abstract: 'NPM is the largest software ecosystem in the world, offering millions
       of free, reusable packages. In recent years, various security threats to packages
@@ -1062,52 +386,6 @@
       Nikos and Pradel, Michael and Staicu, Cristian-Alexandru
     ENTRYTYPE: inproceedings
     ID: secbench:icse:2023
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">secbench:icse:2023</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Bhuiyan, Masudul
-      Hasan Masud and Parthasarathy, Adithya Srinivas and Vasilakis, Nikos and Pradel,
-      Michael and Staicu, Cristian-Alexandru}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2023 IEEE/ACM 45th
-      International Conference on Software Engineering (ICSE)}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.1109/ICSE48619.2023.00096}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">keywords</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Fault diagnosis;Codes;Benchmark
-      testing;Software;Safety;Security;Public policy}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">number</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{1059-1070}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{SecBench.js: An Executable
-      Security Benchmark Suite for Server-Side JavaScript}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://ieeexplore.ieee.org/document/10172577}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">volume</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2023}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - note: '\url{https://github.com/binpash/try} [Accessed: 2024-06-11]'
     year: '2023'
     author: The PaSh Authors
@@ -1117,29 +395,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@misc</span><span
-      class="p">{</span><span class="nl">try:gh</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{The PaSh Authors}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">note</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{\url{https://github.com/binpash/try}
-      [Accessed: 2024-06-11]}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Try: Controlling
-      a Command&#39;s Side-Effects}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2023}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - url: https://brill.com/view/title/68194
     doi: 10.1163/9789004677982
     isbn: 978-90-04-67798-2
@@ -1153,46 +408,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@book</span><span
-      class="p">{</span><span class="nl">VariabilityintheEarlierEgyptianMortuaryTexts</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Leiden, The Netherlands}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Carlos Gracia Zamacona}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.1163/9789004677982}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">isbn</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{978-90-04-67798-2}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Brill}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Variability in the
-      Earlier Egyptian Mortuary Texts}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://brill.com/view/title/68194}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2023}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - url: https://doi.org/10.1163/9789004677982_010
     pages: 219 - 249
     doi: 10.1163/9789004677982_010
@@ -1209,53 +424,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inbook</span><span
-      class="p">{</span><span class="nl">dpt:etc:2023</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Leiden, The Netherlands}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Christelle Alvarez}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.1163/9789004677982_010}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">isbn</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{9789004677982}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{219 - 249}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Brill}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{The Variability of
-      Ritual Texts: Knowledge Transfer at the Interface of Oral and Written Forms}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://doi.org/10.1163/9789004677982_010}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2023}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
 - year: 2022
   entries:
   - series: ACSAC '22
@@ -1278,66 +446,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">pitchfork:acsac:2022</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{New York, NY, USA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Sultana, Nik and
-      Zhu, Henry and Zhong, Ke and Zheng, Zhilei and Mao, Ruijie and Chauhan, Digvijaysinh
-      and Carrasquillo, Stephen and Zhao, Junyong and Shi, Lei and Vasilakis, Nikos
-      and Loo, Boon Thau}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{38th Annual Computer
-      Security Applications Conference}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.1145/3564625.3564664}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">isbn</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{9781450397599}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">location</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Austin, TX, USA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">numpages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{17}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{71–87}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Association for Computing
-      Machinery}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">series</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{ACSAC &#39;22}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Towards Practical
-      Application-level Support for Privilege Separation}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://doi.org/10.1145/3564625.3564664}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2022}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - abstract: 'In serverless computing, applications are composed of stand-alone
 
       microservices that are invoked and scale up independently. Peer-
@@ -1399,69 +507,6 @@
     ENTRYTYPE: inproceedings
     ID: themis:ares:2022
     code: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">themis:ares:2022</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{New York, NY, USA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">articleno</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Aktypi, Angeliki
-      and Karnikis, Dimitris and Vasilakis, Nikos and Rasmussen, Kasper}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{17th International
-      Conference on Availability, Reliability and Security}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.1145/3538969.3538983}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">isbn</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{9781450396707}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">keywords</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{DHT, Security, Serverless,
-      Service mesh.}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">location</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Vienna, Austria}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">numpages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{11}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Association for Computing
-      Machinery}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">series</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{ARES &#39;22}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Themis: A Secure
-      Decentralized Framework for Microservice Interaction in Serverless Computing}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://doi.org/10.1145/3538969.3538983}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2022}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - pdf: http://nikos.vasilak.is/p/pash:eurosys:2021.pdf
     code: https://github.com/binpash/pash
     abstract: 'This paper presents PaSh, a system for parallelizing POSIX
@@ -1511,54 +556,6 @@
       and Thurston H.Y. Dang and Michael Greenberg and Nikos Vasilakis
     ENTRYTYPE: inproceedings
     ID: pash:osdi:2022
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">pash:osdi:2022</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Carlsbad, CA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Konstantinos Kallas
-      and Tammam Mustafa and Jan Bielak and Dimitris Karnikis and Thurston H.Y. Dang
-      and Michael Greenberg and Nikos Vasilakis}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{16th USENIX Symposium
-      on Operating Systems Design and Implementation (OSDI 22)}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">isbn</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{978-1-939133-28-1}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">month</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{July}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{769--785}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{USENIX Association}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Practically Correct,
-      {Just-in-Time} Shell Script Parallelization}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://www.usenix.org/conference/osdi22/presentation/kallas}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2022}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - series: EuroSec '22
     location: Rennes, France
     keywords: JavaScript, components, event-stream, software supply chain, third-party
@@ -1580,69 +577,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">ev:eurosec:2022</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{New York, NY, USA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Arvanitis, Iosif
-      and Ntousakis, Grigoris and Ioannidis, Sotiris and Vasilakis, Nikos}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{15th European Workshop
-      on Systems Security}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.1145/3517208.3523753}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">isbn</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{9781450392556}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">keywords</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{JavaScript, components,
-      event-stream, software supply chain, third-party libraries}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">location</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Rennes, France}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">numpages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{7}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{22–28}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Association for Computing
-      Machinery}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">series</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{EuroSec &#39;22}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{A systematic analysis
-      of the event-stream incident}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://doi.org/10.1145/3517208.3523753}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2022}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - note: '\url{https://github.com/binpash/pash} [Accessed: 2024-06-11]'
     year: '2022'
     author: The PaSh Authors
@@ -1652,29 +586,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@misc</span><span
-      class="p">{</span><span class="nl">pash:gh</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{The PaSh Authors}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">note</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{\url{https://github.com/binpash/pash}
-      [Accessed: 2024-06-11]}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{The PaSh Project}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2022}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - howpublished: \url{https://www.linuxfoundation.org/press/press-release/linux-foundation-to-host-the-pash-project-accelerating-shell-scripting-with-automated-parallelization-for-industrial-use-cases}
     month: September
     year: '2022'
@@ -1685,33 +596,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@misc</span><span
-      class="p">{</span><span class="nl">pash:lf</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Kristin OConnell}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">howpublished</span><span class="w">
-      </span><span class="p">=</span><span class="w"> </span><span class="s">{\url{https://www.linuxfoundation.org/press/press-release/linux-foundation-to-host-the-pash-project-accelerating-shell-scripting-with-automated-parallelization-for-industrial-use-cases}}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">month</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{September}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Linux Foundation
-      to Host the PaSh Project}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2022}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - howpublished: '\url{https://news.mit.edu/2022/faster-unix-computing-program-0607}
       [Accessed: 2024-06-11]'
     year: '2022'
@@ -1722,29 +606,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@misc</span><span
-      class="p">{</span><span class="nl">pash:mit</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Adam Zewe}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">howpublished</span><span class="w">
-      </span><span class="p">=</span><span class="w"> </span><span class="s">{\url{https://news.mit.edu/2022/faster-unix-computing-program-0607}
-      [Accessed: 2024-06-11]}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Faster computing
-      results without fear of errors}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2022}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - pages: 112–142
     month: May
     year: '2022'
@@ -1759,48 +620,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@article</span><span
-      class="p">{</span><span class="nl">dpt:mtc:2022</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Alvarez, Christelle}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.56004/v1a112}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">journal</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Manuscript and Text
-      Cultures (MTC)}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">month</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{May}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{112–142}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Monumentalizing ritual
-      texts in Ancient Egyptian pyramids}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://mtc-journal.org/index.php/mtc/article/view/5}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">volume</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{1}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2022}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - series: PPoPP '22
     location: Seoul, Republic of Korea
     keywords: automatic parallelization, program synthesis
@@ -1821,69 +640,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">kumquat:ppopp:2022</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{New York, NY, USA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Shen, Jiasi and Rinard,
-      Martin and Vasilakis, Nikos}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Proceedings of the
-      27th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.1145/3503221.3508400}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">isbn</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{9781450392044}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">keywords</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{automatic parallelization,
-      program synthesis}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">location</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Seoul, Republic of
-      Korea}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">numpages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{431–432}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Association for Computing
-      Machinery}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">series</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{PPoPP &#39;22}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Automatic synthesis
-      of parallel unix commands and pipelines with KumQuat}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://doi.org/10.1145/3503221.3508400}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2022}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
 - year: 2021
   entries:
   - series: CCS '21
@@ -1907,70 +663,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">harp:ccs:2021</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{New York, NY, USA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Vasilakis, Nikos
-      and Benetopoulos, Achilles and Handa, Shivam and Schoen, Alizee and Shen, Jiasi
-      and Rinard, Martin C.}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2021 ACM SIGSAC Conference
-      on Computer and Communications Security}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.1145/3460120.3484736}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">isbn</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{9781450384544}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">keywords</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{program inference,
-      packages, supply-chain attacks, program synthesis, third-party libraries, modules}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">location</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Virtual Event, Republic
-      of Korea}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">numpages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{16}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{1755–1770}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Association for Computing
-      Machinery}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">series</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{CCS &#39;21}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Supply-Chain Vulnerability
-      Elimination via Active Learning and Regeneration}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://doi.org/10.1145/3460120.3484736}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2021}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - series: CCS '21
     location: Virtual Event, Republic of Korea
     keywords: third-party libraries, supply-chain attacks, program analysis
@@ -1992,70 +684,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">mir:ccs:2021</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{New York, NY, USA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Vasilakis, Nikos
-      and Staicu, Cristian-Alexandru and Ntousakis, Grigoris and Kallas, Konstantinos
-      and Karel, Ben and DeHon, Andr\&#39;{e} and Pradel, Michael}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2021 ACM SIGSAC Conference
-      on Computer and Communications Security}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.1145/3460120.3484535}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">isbn</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{9781450384544}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">keywords</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{third-party libraries,
-      supply-chain attacks, program analysis}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">location</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Virtual Event, Republic
-      of Korea}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">numpages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{18}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{1821–1838}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Association for Computing
-      Machinery}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">series</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{CCS &#39;21}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Preventing Dynamic
-      Library Compromise on Node.js via RWX-Based Privilege Reduction}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://doi.org/10.1145/3460120.3484535}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2021}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - numpages: '12'
     pages: 1202–1213
     booktitle: 29th ACM Joint Meeting on European Software Engineering Conference
@@ -2074,55 +702,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inbook</span><span
-      class="p">{</span><span class="nl">lya:fse:2021</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{New York, NY, USA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Vasilakis, Nikos
-      and Ntousakis, Grigoris and Heller, Veit and Rinard, Martin C.}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{29th ACM Joint Meeting
-      on European Software Engineering Conference and Symposium on the Foundations
-      of Software Engineering}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">isbn</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{9781450385626}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">numpages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{12}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{1202–1213}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Association for Computing
-      Machinery}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Efficient Module-Level
-      Dynamic Analysis for Dynamic Languages with Module Recontextualization}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://doi.org/10.1145/3468264.3468574}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2021}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - keywords: Dataflow, Order-awareness, POSIX, Parallelism, Shell, Unix
     numpages: '28'
     articleno: '65'
@@ -2144,71 +723,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">pash:icfp:2021</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{New York, NY, USA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">articleno</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{65}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Handa, Shivam and
-      Kallas, Konstantinos and Vasilakis, Nikos and Rinard, Martin C.}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{International Conference
-      on Functional Programming}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.1145/3473570}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">issue_date</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{August 2021}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">journal</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Proc. ACM Program.
-      Lang.}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">keywords</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Dataflow, Order-awareness,
-      POSIX, Parallelism, Shell, Unix}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">month</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{August}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">numpages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{28}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Association for Computing
-      Machinery}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{An order-aware dataflow
-      model for parallel Unix pipelines}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://doi.org/10.1145/3473570}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">volume</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{5}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2021}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - series: HotOS '21
     location: Ann Arbor, Michigan
     keywords: transformation, shell, Unix, JIT, optimization, analysis
@@ -2228,68 +742,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">pash:hotos:2021</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{New York, NY, USA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Greenberg, Michael
-      and Kallas, Konstantinos and Vasilakis, Nikos}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Workshop on Hot Topics
-      in Operating Systems}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.1145/3458336.3465294}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">isbn</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{9781450384384}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">keywords</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{transformation, shell,
-      Unix, JIT, optimization, analysis}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">location</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Ann Arbor, Michigan}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">numpages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{8}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{104–111}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Association for Computing
-      Machinery}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">series</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{HotOS &#39;21}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Unix Shell Programming:
-      The Next 50 Years}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://doi.org/10.1145/3458336.3465294}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2021}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - series: EuroSys '21
     location: Online Event, United Kingdom
     keywords: Unix, shell, source-to-source compiler, automatic parallelization, pipelines,
@@ -2311,69 +763,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">pash:eurosys:2021</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{New York, NY, USA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Vasilakis, Nikos
-      and Kallas, Konstantinos and Mamouras, Konstantinos and Benetopoulos, Achilles
-      and Cvetkovi\&#39;{c}, Lazar}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{16th European Conference
-      on Computer Systems}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.1145/3447786.3456228}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">isbn</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{9781450383349}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">keywords</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Unix, shell, source-to-source
-      compiler, automatic parallelization, pipelines, POSIX}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">location</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Online Event, United
-      Kingdom}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">numpages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{18}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{49–66}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Association for Computing
-      Machinery}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">series</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{EuroSys &#39;21}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{PaSh: Light-Touch
-      Data-Parallel Shell Processing}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://doi.org/10.1145/3447786.3456228}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2021}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - series: CCS '21
     location: Virtual Event, Republic of Korea
     keywords: dynamic program analysis, static program analysis
@@ -2393,68 +782,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">combined:ccs:2021</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{New York, NY, USA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Ntousakis, Grigoris
-      and Ioannidis, Sotiris and Vasilakis, Nikos}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2021 ACM SIGSAC Conference
-      on Computer and Communications Security}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.1145/3460120.3485351}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">isbn</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{9781450384544}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">keywords</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{dynamic program analysis,
-      static program analysis}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">location</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Virtual Event, Republic
-      of Korea}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">numpages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{3}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2429–2431}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Association for Computing
-      Machinery}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">series</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{CCS &#39;21}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Demo: Detecting Third-Party
-      Library Problems with Combined Program Analysis}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://doi.org/10.1145/3460120.3485351}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2021}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - series: HotOS '21
     location: Ann Arbor, Michigan
     numpages: '2'
@@ -2473,64 +800,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">shellpanel:hotos:2021</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{New York, NY, USA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Greenberg, Michael
-      and Kallas, Konstantinos and Vasilakis, Nikos}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Workshop on Hot Topics
-      in Operating Systems}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.1145/3458336.3465296}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">isbn</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{9781450384384}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">location</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Ann Arbor, Michigan}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">numpages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{240–241}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Association for Computing
-      Machinery}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">series</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{HotOS &#39;21}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{The Future of the
-      Shell: Unix and Beyond}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://doi.org/10.1145/3458336.3465296}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2021}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - bibsource: dblp computer science bibliography, https://dblp.org
     biburl: https://dblp.org/rec/journals/corr/abs-2109-11016.bib
     timestamp: Mon, 27 Sep 2021 15:21:05 +0200
@@ -2550,61 +819,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">shellpanel:report:2021</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Michael Greenberg
-      and Konstantinos Kallas and Nikos Vasilakis and Stephen Kell}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">bibsource</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{dblp computer science
-      bibliography, https://dblp.org}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">biburl</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://dblp.org/rec/journals/corr/abs-2109-11016.bib}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{HotOS &#39;21: Proceedings
-      of the Workshop on Hot Topics in Operating Systems}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">eprint</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2109.11016}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">eprinttype</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{arXiv}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">journal</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{CoRR}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">timestamp</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Mon, 27 Sep 2021
-      15:21:05 +0200}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Report on the &quot;The
-      Future of the Shell&quot; Panel at HotOS 2021}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://arxiv.org/abs/2109.11016}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">volume</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{abs/2109.11016}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2021}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - note: US Patent 11,003,377
     publisher: Google Patents
     month: May~11
@@ -2617,38 +831,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@misc</span><span
-      class="p">{</span><span class="nl">xenon:patent:2021</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Chrysanthakopoulos,
-      Georgios and Noordhuis, Pieter and Malkhi, Dahlia and Vasilakis, Nikos and Kariv,
-      Asaf}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">month</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{May~11}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">note</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{US Patent 11,003,377}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Google Patents}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Transactions in a
-      decentralized control plane of a computing system}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2021}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
 - year: 2020
   entries:
   - bibsource: dblp computer science bibliography, https://dblp.org
@@ -2667,57 +849,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@article</span><span
-      class="p">{</span><span class="nl">kumquat:arxiv:2020</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Nikos Vasilakis and
-      Jiasi Shen and Martin C. Rinard}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">bibsource</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{dblp computer science
-      bibliography, https://dblp.org}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">biburl</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://dblp.org/rec/journals/corr/abs-2012-15443.bib}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">eprint</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2012.15443}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">eprinttype</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{arXiv}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">journal</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{CoRR}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">timestamp</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Sat, 30 Sep 2023
-      10:08:30 +0200}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Automatic Synthesis
-      of Parallel and Distributed Unix Commands with KumQuat}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://arxiv.org/abs/2012.15443}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">volume</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{abs/2012.15443}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2020}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
 - year: 2019
   entries:
   - series: Onward! 2019
@@ -2741,70 +872,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">alr:splash:2019</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{New York, NY, USA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Cambronero, Jos\&#39;{e}
-      P. and Dang, Thurston H. Y. and Vasilakis, Nikos and Shen, Jiasi and Wu, Jerry
-      and Rinard, Martin C.}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2019 ACM SIGPLAN
-      International Symposium on New Ideas, New Paradigms, and Reflections on Programming
-      and Software}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.1145/3359591.3359732}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">isbn</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{9781450369954}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">keywords</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{program modeling,
-      program inference, active learning}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">location</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Athens, Greece}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">numpages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{17}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{62–78}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Association for Computing
-      Machinery}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">series</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Onward! 2019}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Active learning for
-      software engineering}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://doi.org/10.1145/3359591.3359732}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2019}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - month: July
     publisher: '{USENIX} Association'
     url: https://www.usenix.org/conference/atc19/presentation/demoulin
@@ -2822,55 +889,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">finelame:atc:2019</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Renton, WA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Henri Maxime Demoulin
-      and Isaac Pedisich and Nikos Vasilakis and Vincent Liu and Boon Thau Loo and
-      Linh Thi Xuan Phan}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2019 {USENIX} Annual
-      Technical Conference ({USENIX} {ATC} 19)}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">isbn</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{978-1-939133-03-8}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">month</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{July}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{693--708}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{{USENIX} Association}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Detecting Asymmetric
-      Application-layer Denial-of-Service Attacks In-Flight with Finelame}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://www.usenix.org/conference/atc19/presentation/demoulin}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2019}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - keywords: ' Distribution, Profiling, Load detection, Transformations, Scale-out,
       Scalability, Parallelism,  Decomposition '
     address: New York, NY, USA
@@ -2892,70 +910,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">ignis:pldi:2019</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{New York, NY, USA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Vasilakis, Nikos
-      and Karel, Ben and Palkhiwala, Yash and Sonchack, John and DeHon, Andr{\&#39;e}
-      and Smith, Jonathan M.}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{40th ACM SIGPLAN
-      Conference on Programming Language Design and Implementation}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.1145/3314221.3314586}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">isbn</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{978-1-4503-6712-7/19/06}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">keywords</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{ Distribution, Profiling,
-      Load detection, Transformations, Scale-out, Scalability, Parallelism,  Decomposition
-      }</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">location</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Phoenix, AZ, USA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">numpages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{17}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{1010--1026}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{ACM}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">series</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{PLDI 2019}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Ignis: Scaling Distribution-Oblivious
-      Systems with Light-Touch Distribution}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{http://doi.acm.org/10.1145/3314221.3314586}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2019}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - pdf: http://nikos.vasilak.is/p/andromeda:upenn:2019.pdf
     school: Computer and Information Science, University of Pennsylvania
     year: '2019'
@@ -2966,33 +920,6 @@
     ID: andromeda:penn:2019
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@phdthesis</span><span
-      class="p">{</span><span class="nl">andromeda:penn:2019</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">advisor</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Jonathan M. Smith}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Nikos Vasilakis}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">school</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Computer and Information
-      Science, University of Pennsylvania}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Andromeda---A Distributed
-      Userspace}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2019}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
 - year: 2018
   entries:
   - series: EdgeSys'18
@@ -3015,69 +942,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">ar:edgesys:2018</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{New York, NY, USA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Vasilakis, Nikos
-      and Goel, Pranjal and Demoulin, Henri Maxime and Smith, Jonathan M.}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{1st International
-      Workshop on Edge Systems, Analytics and Networking}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.1145/3213344.3213346}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">isbn</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{9781450358378}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">keywords</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Web, JavaScript,
-      Internet, Distribution}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">location</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Munich, Germany}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">numpages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{6}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{7–12}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Association for Computing
-      Machinery}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">series</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{EdgeSys&#39;18}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{The Web as a Distributed
-      Computing Platform}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://doi.org/10.1145/3213344.3213346}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2018}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - keywords: Compartmentalization, Least-Privilege Separation, Modules, Packages,
       Security
     pages: 693--708
@@ -3095,54 +959,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">breakapp:ndss:2018</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Vasilakis, Nikos
-      and Karel, Ben and Roessler, Nick and Dautenhahn, Nathan and DeHon, Andr{\&#39;e}
-      and Smith, Jonathan M.}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Networked and Distributed
-      Systems Security}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.14722/ndss.2018.23131}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">keywords</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Compartmentalization,
-      Least-Privilege Separation, Modules, Packages, Security}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">location</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{San Diego, California}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{693--708}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">series</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{NDSS&#39;18}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{BreakApp: Automated,
-      Flexible Application Compartmentalization}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{http://dx.doi.org/10.14722/ndss.2018.23131}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2018}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
 - year: 2017
   entries:
   - series: PLOS '17
@@ -3166,69 +982,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">breakapp:plos:2017</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{New York, NY, USA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Vasilakis, Nikos
-      and Karel, Ben and Roessler, Nick and Dautenhahn, Nathan and DeHon, Andr\&#39;{e}
-      and Smith, Jonathan M.}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{9th Workshop on Programming
-      Languages and Operating Systems}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.1145/3144555.3144563}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">isbn</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{9781450351539}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">keywords</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Compartmentalization,
-      Least-Privilege Separation, Modules, Packages, Security}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">location</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Shanghai, China}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">numpages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{8}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{43–50}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Association for Computing
-      Machinery}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">series</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{PLOS &#39;17}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Towards Fine-grained,
-      Automated Application Compartmentalization}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://doi.org/10.1145/3144555.3144563}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2017}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - series: APSys '17
     location: Mumbai, India
     keywords: Queries, Partitioning, NoSQL, Key-Value Store, Dynamic
@@ -3248,67 +1001,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">unispace:apsys:2017</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{New York, NY, USA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">articleno</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{23}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Vasilakis, Nikos
-      and Palkhiwala, Yash and Smith, Jonathan M.}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{8th Asia-Pacific
-      Workshop on Systems}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.1145/3124680.3124744}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">isbn</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{9781450351973}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">keywords</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Queries, Partitioning,
-      NoSQL, Key-Value Store, Dynamic}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">location</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Mumbai, India}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">numpages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{8}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Association for Computing
-      Machinery}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">series</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{APSys &#39;17}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Query-efficient Partitions
-      for Dynamic Data}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://doi.org/10.1145/3124680.3124744}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2017}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
 - year: 2015
   entries:
   - series: HOTOS'15
@@ -3330,65 +1022,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">andromeda:hotos:2015</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{USA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Vasilakis, Nikos
-      and Karel, Ben and Smith, Jonathan M.}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{15th Workshop on
-      Hot Topics in Operating Systems (HotOS XV)}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.1145/3144555.3144563}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">location</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Kartause Ittingen,
-      Switzerland}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">month</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{May}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">numpages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{6}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{84--90}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{USENIX Association}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">series</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{HOTOS&#39;15}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{From Lone Dwarfs
-      to Giant Superclusters: Rethinking Operating System Abstractions for the Cloud}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://www.usenix.org/conference/hotos15/workshop-program/presentation/vasilakis}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2015}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - keywords: CFI, memory safety, metadata, security, tagged architecture, taint tracking
     address: New York, NY, USA
     publisher: ACM
@@ -3412,75 +1045,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">pump:asplos:2015</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">acmid</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2694383}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{New York, NY, USA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Dhawan, Udit and
-      Hritcu, Catalin and Rubin, Raphael and Vasilakis, Nikos and Chiricescu, Silviu
-      and Smith, Jonathan M. and Knight,Jr., Thomas F. and Pierce, Benjamin C. and
-      DeHon, Andre}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{20th International
-      Conference on Architectural Support for Programming Languages and Operating
-      Systems}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.1145/2694344.2694383}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">isbn</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{978-1-4503-2835-7}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">keywords</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{CFI, memory safety,
-      metadata, security, tagged architecture, taint tracking}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">location</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Istanbul, Turkey}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">numpages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{16}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{487--502}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{ACM}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">series</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{ASPLOS &#39;15}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Architectural Support
-      for Software-Defined Metadata Processing}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{http://doi.acm.org/10.1145/2694344.2694383}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2015}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
 - year: 2014
   entries:
   - keywords: control-flow integrity, memory safety, metadata, security, tagged architecture,
@@ -3508,78 +1072,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">pump:hasp:2014</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">acmid</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2611773}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{New York, NY, USA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">articleno</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{8}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Dhawan, Udit and
-      Vasilakis, Nikos and Rubin, Raphael and Chiricescu, Silviu and Smith, Jonathan
-      M. and Knight,Jr., Thomas F. and Pierce, Benjamin C. and DeHon, Andr{\&#39;e}}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{3rd Workshop on Hardware
-      and Architectural Support for Security and Privacy}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.1145/2611765.2611773}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">isbn</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{978-1-4503-2777-0}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">keywords</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{control-flow integrity,
-      memory safety, metadata, security, tagged architecture, taint tracking}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">location</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Minneapolis, Minnesota,
-      USA}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">numpages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{8}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{8:1--8:8}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{ACM}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">series</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{HASP &#39;14}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{PUMP: A Programmable
-      Unit for Metadata Processing}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{http://doi.acm.org/10.1145/2611765.2611773}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2014}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
 - year: 2013
   entries:
   - keywords: DNA analysis, RNA analysis, genomic pipeline, mapping service
@@ -3596,42 +1088,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">handsfree:dils:2013</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Loher, Phillipe and
-      Vasilakis, Nikos and Malamon, John  and Chen, Huang-Wen and Rigoutsos, Isidore}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Data Integration
-      in the Life Sciences: 9th International Conference}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">keywords</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{DNA analysis, RNA
-      analysis, genomic pipeline, mapping service}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">location</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Montreal, QC, Canada}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">series</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{DILS&#39;13}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{HandsFree: Next Generation
-      Sequence Processing, Mapping and Analysis Made Easy}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2013}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
 - year: 2010
   entries:
   - pdf: http://nikos.vasilak.is/p/finn:upatras:2009.pdf
@@ -3645,37 +1101,6 @@
     ID: finn:upatras:2010
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@mastersthesis</span><span
-      class="p">{</span><span class="nl">finn:upatras:2010</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Nikos Vasilakis}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">document_type</span><span class="w">
-      </span><span class="p">=</span><span class="w"> </span><span class="s">{Bachelor&#39;s
-      Thesis}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">school</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Computer Engineering
-      and Informatics -- University of Patras}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{A Novel Application
-      of Ubiquitous Computing Using Interactive Installations}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">type</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Bachelor&#39;s Thesis}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2010}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
 - year: 2009
   entries:
   - series: ACE '09
@@ -3699,66 +1124,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">finn:ace:2009</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{New York, NY, USA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Akribopoulos, Orestis
-      and Logaras, Marios and Vasilakis, Nikos and Kokkinos, Panagiotis and Mylonas,
-      Georgios and Chatzigiannakis, Ioannis and Spirakis, Paul}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{International Conference
-      on Advances in Computer Entertainment Technology}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.1145/1690388.1690418}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">isbn</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{9781605588643}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">location</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Athens, Greece}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">numpages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{8}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{174–181}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Association for Computing
-      Machinery}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">series</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{ACE &#39;09}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Developing multiplayer
-      pervasive games and networked interactive installations using ad hoc mobile
-      sensor nets}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://doi.org/10.1145/1690388.1690418}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2009}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - series: ACE '09
     location: Athens, Greece
     numpages: '1'
@@ -3785,66 +1150,6 @@
     ID: finndemo:ace:2009
     pdf: null
     code: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">finndemo:ace:2009</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">address</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{New York, NY, USA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Akribopoulos, Orestis
-      and Logaras, Marios and Vasilakis, Nikos and Kokkinos, Panagiotis and Mylonas,
-      Georgios and Chatzigiannakis, Ioannis and Spirakis, Paul}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{International Conference
-      on Advances in Computer Entertainment Technology}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.1145/1690388.1690500}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">isbn</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{9781605588643}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">location</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Athens, Greece}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">numpages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{1}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{453}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">publisher</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Association for Computing
-      Machinery}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">series</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{ACE &#39;09}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Multiplayer pervasive
-      games and networked interactive installations using ad hoc mobile sensor networks}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{https://doi.org/10.1145/1690388.1690500}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2009}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
 - year: 2008
   entries:
   - doi: 10.1145/1460412.1460459
@@ -3863,54 +1168,6 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">finn:sensys:2008</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Orestis Akribopoulos
-      and Marios Logaras and Nikos Vasilakis and Panagiotis C. Kokkinos and Georgios
-      Mylonas and Ioannis Chatzigiannakis}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{6th International
-      Conference on Embedded Networked Sensor Systems}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.1145/1460412.1460459}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">location</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Raleigh, NC, USA}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">month</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{November}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{375--376}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">series</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{SenSys 2008}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Using wireless sensor
-      networks to develop pervasive multi-player games}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">url</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{http://doi.acm.org/10.1145/1460412.1460459}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2008}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '
   - month: Sept
     issn: 2155-6806
     doi: 10.1109/MAHSS.2008.4660084
@@ -3929,46 +1186,3 @@
     pdf: null
     code: null
     abstract: null
-    raw_bib_html: '<div class="language-bibtex"><pre><span></span><span class="nc">@inproceedings</span><span
-      class="p">{</span><span class="nl">finn:mass:2008</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">author</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Orestis Akribopoulos
-      and Dimitrios Bousis and Dionysios Efstathiou and Haris Koutsouridis and Marios
-      Logaras and Andreas Loukas and Alexandros Nafas and Georgios Oikonomou and Irini
-      Thireou and Nikos Vasilakis and Panagiotis C. Kokkinos and Georgios Mylonas
-      and Ioannis Chatzigiannakis}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2008 5th IEEE International
-      Conference on Mobile Ad Hoc and Sensor Systems}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">doi</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{10.1109/MAHSS.2008.4660084}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">issn</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2155-6806}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">month</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{Sept}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">pages</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{544-546}</span><span
-      class="p">,</span>
-
-      <span class="w"> </span><span class="na">title</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{A software platform
-      for developing multi-player pervasive games using small programmable object
-      technologies}</span><span class="p">,</span>
-
-      <span class="w"> </span><span class="na">year</span><span class="w"> </span><span
-      class="p">=</span><span class="w"> </span><span class="s">{2008}</span>
-
-      <span class="p">}</span>
-
-      </pre></div>
-
-      '

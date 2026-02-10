@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on ATLAS Group</title>
-    <link>https://atlas.cs.brown.edu/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on ATLAS Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© ATLAS Group 2025 | [Brown Systems Group](https://systems.cs.brown.edu) | [Brown University](https://www.brown.edu/)</copyright>
-    <atom:link href="https://atlas.cs.brown.edu/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

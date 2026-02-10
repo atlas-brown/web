@@ -3,7 +3,7 @@ function toggleDropdown(id) {
     document.getElementById(id).classList.toggle("hidden");
 }
 
-// Toggle visibility of a block (e.g., abstract, bib)
+// Toggle visibility of a block (e.g., abstract)
 function toggleBlock(id) {
     document.getElementById(id).classList.toggle("hidden");
 }

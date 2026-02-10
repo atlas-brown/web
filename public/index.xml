@@ -2,79 +2,79 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ATLAS Group</title>
-    <link>https://atlas.cs.brown.edu/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on ATLAS Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© ATLAS Group 2025 | [Brown Systems Group](https://systems.cs.brown.edu) | [Brown University](https://www.brown.edu/)</copyright>
-    <atom:link href="https://atlas.cs.brown.edu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://atlas.cs.brown.edu/supply-chain/</link>
+      <link>http://localhost:1313/supply-chain/</link>
       <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://atlas.cs.brown.edu/supply-chain/</guid>
-      <description>Software Supply-Chain Security # Modern software incorporates thousands of dependencies as a means of accelerating its development and reducing its cost—at a significant risk to safety and security for both developers and end-users.</description>
+      <guid>http://localhost:1313/supply-chain/</guid>
+      <description></description>
       
     </item>
     
     <item>
       <title></title>
-      <link>https://atlas.cs.brown.edu/ssc/</link>
+      <link>http://localhost:1313/ssc/</link>
       <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://atlas.cs.brown.edu/ssc/</guid>
-      <description>Towards Secure Scalable Computing # Recent trends are pushing developers towards new paradigms of secure and scalable computing—e.</description>
+      <guid>http://localhost:1313/ssc/</guid>
+      <description></description>
       
     </item>
     
     <item>
       <title></title>
-      <link>https://atlas.cs.brown.edu/acceleration/</link>
+      <link>http://localhost:1313/acceleration/</link>
       <pubDate>Sat, 06 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://atlas.cs.brown.edu/acceleration/</guid>
-      <description>Acceleration and Scaleout of Software Systems # Shell scripting is used pervasively, partly due to its simplicity in combining components (commands) written in multiple languages.</description>
+      <guid>http://localhost:1313/acceleration/</guid>
+      <description></description>
       
     </item>
     
     <item>
       <title></title>
-      <link>https://atlas.cs.brown.edu/contact/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://atlas.cs.brown.edu/contact/</guid>
-      <description>Research with us # Research is fun — especially when it&amp;rsquo;s collaborative.</description>
+      <guid>http://localhost:1313/contact/</guid>
+      <description></description>
       
     </item>
     
     <item>
       <title></title>
-      <link>https://atlas.cs.brown.edu/news/</link>
+      <link>http://localhost:1313/news/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://atlas.cs.brown.edu/news/</guid>
-      <description>News # Sep&#39;25: Early ideas on LLM guardrails, hybrid scheduling, and verifiable kernel extensions at SOSP&#39;25 workshops!</description>
+      <guid>http://localhost:1313/news/</guid>
+      <description></description>
       
     </item>
     
     <item>
       <title></title>
-      <link>https://atlas.cs.brown.edu/publications/publications/</link>
+      <link>http://localhost:1313/publications/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://atlas.cs.brown.edu/publications/publications/</guid>
-      <description>Peer-Reviewed Conference Publications # Fractal: Fault-Tolerant Shell-Script Distribution Zhicheng Huang, Ramiz Dundar, Yizheng Xie, Konstantinos Kallas, Nikos Vasilakis.</description>
+      <guid>http://localhost:1313/publications/publications/</guid>
+      <description></description>
       
     </item>
     
     <item>
       <title></title>
-      <link>https://atlas.cs.brown.edu/team/</link>
+      <link>http://localhost:1313/team/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://atlas.cs.brown.edu/team/</guid>
-      <description>Faculty # Nikos Vasilakis Building transition paths toward secure multi-scale distributed enviroments.</description>
+      <guid>http://localhost:1313/team/</guid>
+      <description></description>
       
     </item>
     
