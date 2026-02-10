@@ -1,71 +1,107 @@
-// Toggle dropdown visibility
-function toggleDropdown(id) {
-    document.getElementById(id).classList.toggle("hidden");
+const q = (s) => document.querySelector(s);
+const qa = (s, root = document) => [...root.querySelectorAll(s)];
+
+const TYPE_LABELS = {
+  article: 'Article',
+  inproceedings: 'Conference',
+  inbook: 'Book Chapter',
+  book: 'Book',
+  phdthesis: 'PhD Thesis',
+  mastersthesis: 'Masters Thesis'
+};
+
+function typeLabel(type) {
+  return TYPE_LABELS[type] || String(type || '').replace(/[_-]/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
-// Toggle visibility of a block (e.g., abstract)
-function toggleBlock(id) {
-    document.getElementById(id).classList.toggle("hidden");
+function renderFilters() {
+  const app = q('#publicationsApp');
+  const typeFilters = q('#typeFilters');
+  const yearFilters = q('#yearFilters');
+  const pubs = qa('.pub');
+
+  const types = [...new Set(pubs.map((pub) => pub.dataset.type))].sort();
+  const years = [...new Set(pubs.map((pub) => Number.parseInt(pub.dataset.year, 10)).filter(Boolean))].sort((a, b) => b - a);
+
+  const anchorYear = Math.max(new Date().getFullYear(), years[0] || new Date().getFullYear());
+  const recentYears = Array.from({ length: 5 }, (_, i) => anchorYear - i);
+  const olderCutoff = anchorYear - 4;
+
+  if (app) {
+    app.dataset.yearCutoff = String(olderCutoff);
+  }
+
+  typeFilters.innerHTML = types
+    .map((type) => `<label class="pill cursor-pointer filter-type" data-value="${type}"><span>${typeLabel(type)}</span><span class="pill-x hidden">X</span></label>`)
+    .join('');
+
+  yearFilters.innerHTML = recentYears
+    .map((year) => `<label class="pill cursor-pointer filter-year" data-value="${year}"><span>${year}</span><span class="pill-x hidden">X</span></label>`)
+    .concat(`<label class="pill cursor-pointer filter-year" data-value="older"><span>${olderCutoff} and earlier</span><span class="pill-x hidden">X</span></label>`)
+    .join('');
 }
 
-document.addEventListener("DOMContentLoaded", () => {
+function applyFilters() {
+  const yearCutoff = Number.parseInt(q('#publicationsApp')?.dataset.yearCutoff || '0', 10);
+  const search = String(q('#pubSearch')?.value || '').trim().toLowerCase();
+  const selectedTypes = new Set(qa('.filter-type.selected').map((el) => el.dataset.value));
+  const selectedYears = new Set(qa('.filter-year.selected').map((el) => el.dataset.value));
 
-    function enablePillBehavior(selector) {
-        document.querySelectorAll(selector).forEach(label => {
-            const pillX = label.querySelector(".pill-x");
+  let found = false;
 
-            label.addEventListener("click", () => {
-                const isSelected = label.classList.contains("selected");
+  qa('.year-block').forEach((yearBlock) => {
+    let visibleInYear = 0;
 
-                if (isSelected) {
-                    // Deselect
-                    label.classList.remove("selected");
-                    if (pillX) pillX.classList.add("hidden");
-                } else {
-                    // Select
-                    label.classList.add("selected");
-                    if (pillX) pillX.classList.remove("hidden");
-                }
+    qa('.pub', yearBlock).forEach((pub) => {
+      const pubYear = Number.parseInt(pub.dataset.year || '0', 10);
+      const yearMatch =
+        selectedYears.size === 0 ||
+        selectedYears.has(pub.dataset.year) ||
+        (selectedYears.has('older') && pubYear <= yearCutoff);
 
-                filterPublications();
-            });
-        });
+      const visible =
+        (selectedTypes.size === 0 || selectedTypes.has(pub.dataset.type)) &&
+        yearMatch &&
+        (!search || (pub.dataset.search || '').includes(search));
+
+      pub.style.display = visible ? '' : 'none';
+      if (visible) {
+        visibleInYear += 1;
+        found = true;
+      }
+    });
+
+    yearBlock.style.display = visibleInYear ? '' : 'none';
+  });
+
+  q('#pubNoResults')?.classList.toggle('hidden', found);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const app = q('#publicationsApp');
+  if (!app) {
+    return;
+  }
+
+  renderFilters();
+  applyFilters();
+
+  q('#pubSearch')?.addEventListener('input', applyFilters);
+
+  app.addEventListener('click', (event) => {
+    const abstractButton = event.target.closest('[data-abs-id]');
+    if (abstractButton) {
+      q(`#${abstractButton.dataset.absId}`)?.classList.toggle('hidden');
+      return;
     }
 
-    enablePillBehavior(".publications-container .pill");
-
-    const searchInput = document.getElementById("pubSearch");
-    if (searchInput) searchInput.addEventListener("input", filterPublications);
-
-    function filterPublications() {
-        const selectedTypes = Array.from(document.querySelectorAll(".filter-type.selected"))
-                                   .map(el => el.dataset.value);
-        const selectedCategories = Array.from(document.querySelectorAll(".filter-category.selected"))
-                                        .map(el => el.dataset.value);
-        const searchTerm = searchInput ? searchInput.value.trim().toLowerCase() : "";
-
-        document.querySelectorAll(".year-block").forEach(yearBlock => {
-            const pubs = yearBlock.querySelectorAll(".pub");
-            let visibleCount = 0;
-
-            pubs.forEach(pub => {
-                const type = pub.dataset.type.toLowerCase().trim();
-                const category = pub.dataset.category.toLowerCase().trim();
-                const text = pub.textContent.toLowerCase();
-
-                // AND logic across filters, OR logic inside a filter
-                const typeMatch = selectedTypes.length === 0 || selectedTypes.includes(type);
-                const categoryMatch = selectedCategories.length === 0 || selectedCategories.includes(category);
-                const searchMatch = searchTerm === "" || text.includes(searchTerm);
-
-                const isVisible = typeMatch && categoryMatch && searchMatch;
-
-                pub.style.display = isVisible ? "" : "none";
-                if (isVisible) visibleCount++;
-            });
-
-            yearBlock.style.display = visibleCount > 0 ? "" : "none";
-        });
+    const pill = event.target.closest('.pill');
+    if (!pill) {
+      return;
     }
 
+    pill.classList.toggle('selected');
+    pill.querySelector('.pill-x')?.classList.toggle('hidden');
+    applyFilters();
+  });
 });

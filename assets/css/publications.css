@@ -1,11 +1,11 @@
 /* Scope all styles to publications container */
 .publications-container .filter-title {
     font-size: 1rem;
-    color: black;
+    color: inherit;
     font-weight: bold;
-    margin-top:1em;
+    margin-top: 1em;
     margin-bottom: 0.5rem;
-    font-family: ui-sans-serif;
+    font-family: inherit;
 }
 
 .publications-container .filter-row {
@@ -19,18 +19,20 @@
     align-items: center;
     gap: 0.4rem;
     padding: 6px 12px;
-    background: #e5e5e5;
-    border: none;
+    background: transparent;
+    border: 1px solid #d1d5db;
     border-radius: 20px;
     cursor: pointer;
-    font-size: 0.85rem;
-    transition: background 0.2s;
-    color: #ed1c24;
+    font-size: 0.875rem;
+    transition: background 0.2s, border-color 0.2s;
+    color: inherit;
+    font-family: inherit;
 }
 
 .publications-container .pill.selected {
-    background: #ed1c24;
-    color: white;
+    background: #f3f4f6;
+    border-color: #9ca3af;
+    color: inherit;
 }
 
 .publications-container .pill .pill-x {
@@ -57,3 +59,33 @@
     box-shadow: 0 0 0 2px #9ca3af; /* gray-400 ring */
 }
 
+.publications-container .pub-status {
+    margin: 0.75rem 0;
+    color: #4b5563;
+    font-size: 0.95rem;
+}
+
+.publications-container #pubError {
+    color: #b91c1c;
+}
+
+.publications-container .pub-action-link {
+    border: 0;
+    background: transparent;
+    color: inherit;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.publications-container .pub-action-link:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .publication-search {
+        width: 100%;
+    }
+}

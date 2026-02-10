@@ -486,2158 +486,1368 @@
 
 
 
-
-
-
   
-
-    
-    
-      
-    
-
-    
-    
-
   
-
     
-    
-
-    
-    
-
   
 
   
-
-    
-    
-
-    
-    
-
   
-
-    
-    
-
-    
-    
 
   
-
-    
-    
-      
-    
-
-    
-    
-
   
-
-    
-    
-
     
-    
-
   
 
-    
-    
-
-    
-    
-
   
-
-    
-    
-
-    
-    
-
   
-
-    
-    
-      
-    
-
-    
-    
 
   
-
-    
-    
-
-    
-    
-
   
 
   
-
-    
-    
-
-    
-    
-
   
-
-    
-    
-
-    
-    
 
   
-
-    
-    
-
-    
-    
-
   
-
-    
-    
-
-    
     
-
   
-
-    
-    
-
-    
-    
 
   
-
-    
-    
-
-    
-    
-
   
 
   
-
-    
-    
-
-    
-    
-
   
-
-    
-    
-
     
-    
-
   
-
-    
-    
-
-    
-    
 
   
-
-    
-    
-
-    
-    
-
   
-
-    
-    
-
-    
-    
 
   
-
-    
-    
-      
-    
-
-    
-    
-
   
-
-    
-    
-      
-    
 
-    
-    
-
   
-
   
-
-    
-    
-
-    
-    
 
   
-
-    
-    
-
-    
-    
-
   
-
-    
     
-
-    
-    
-
   
-
-    
-    
 
-    
-    
-
   
-
-    
-    
-
-    
-    
-
   
-
-    
-    
 
-    
-    
-
   
-
-    
-    
-
-    
-    
-
   
-
-    
-    
-      
-    
-
-    
-    
 
   
-
-    
-    
-
-    
-    
-
   
 
   
-
-    
-    
-
-    
-    
-
   
 
-    
-    
-
-    
-    
-
   
-
-    
-    
-
-    
-    
-
   
-
-    
-    
-
-    
     
-
   
-
-    
-    
-
-    
-    
 
   
-
-    
-    
-
-    
-    
-
   
-
-    
-    
-
-    
-    
 
   
-
-    
-    
-
-    
-    
-
   
-
-    
-    
-
-    
-    
 
   
-
-    
-    
-
-    
-    
-
   
 
   
-
-    
-    
-
-    
-    
-
   
 
   
-
-    
-    
-
-    
-    
-
   
 
-    
-    
-
-    
-    
-
   
-
-    
-    
-
-    
-    
-
   
 
-    
-    
-      
-    
-
-    
-    
-
   
-
   
-
-    
-    
-
-    
-    
 
   
+  
 
-    
+  
+  
     
+  
 
-    
+  
+  
     
+  
 
+  
   
 
   
+  
 
-    
-    
+  
+  
 
-    
+  
+  
     
-
   
 
-    
-    
+  
+  
 
-    
+  
+  
     
-
   
 
   
-
-    
-    
+  
 
-    
+  
+  
     
+  
 
+  
   
 
-    
+  
+  
     
+  
 
-    
+  
+  
     
-
   
 
   
-
-    
+  
     
+  
 
-    
+  
+  
     
-
   
 
   
-
-    
-    
+  
 
-    
+  
+  
     
-
   
 
   
+  
 
-    
-    
 
-    
-    
 
   
 
   
 
-    
-    
+  
 
-    
-    
+  
 
   
 
-    
-    
+  
 
-    
-    
+  
 
   
 
   
 
-    
-    
+  
 
-    
-    
+  
 
   
 
-    
-    
+  
 
-    
-    
+  
 
   
 
+  
 
 
 <section class="mt-0 prose max-w-full flex flex-col dark:prose-invert">
   <div class="min-w-0 min-h-0 max-w-prose">
     <h2>Publications</h2>
 
-    <div class="publications-container">
-      
+    <div
+      id="publicationsApp"
+      class="publications-container"
+    >
       <div class="flex flex-col gap-16 mb-16 not-prose">
+        <div>
+          <input
+            type="text"
+            id="pubSearch"
+            placeholder="Search keywords..."
+            class="publication-search"
+          >
+        </div>
 
-          
-          <div>
-            <input type="text" id="pubSearch"
-                   placeholder="Search keywords..."
-                   class="publication-search">
-          </div>
-    
-        
         <div>
           <h3 class="filter-title">Types</h3>
-          <div class="filter-row">
-            
-            <label class="pill cursor-pointer filter-type" data-value="inproceedings">
-              <span>inproceedings</span>
-              <span class="pill-x hidden">X</span>
-            </label>            
-            
-            <label class="pill cursor-pointer filter-type" data-value="misc">
-              <span>misc</span>
-              <span class="pill-x hidden">X</span>
-            </label>            
-            
-            <label class="pill cursor-pointer filter-type" data-value="mastersthesis">
-              <span>mastersthesis</span>
-              <span class="pill-x hidden">X</span>
-            </label>            
-            
-            <label class="pill cursor-pointer filter-type" data-value="book">
-              <span>book</span>
-              <span class="pill-x hidden">X</span>
-            </label>            
-            
-            <label class="pill cursor-pointer filter-type" data-value="inbook">
-              <span>inbook</span>
-              <span class="pill-x hidden">X</span>
-            </label>            
-            
-            <label class="pill cursor-pointer filter-type" data-value="article">
-              <span>article</span>
-              <span class="pill-x hidden">X</span>
-            </label>            
-            
-            <label class="pill cursor-pointer filter-type" data-value="phdthesis">
-              <span>phdthesis</span>
-              <span class="pill-x hidden">X</span>
-            </label>            
-            
-          </div>
+          <div id="typeFilters" class="filter-row"></div>
         </div>
-    
-        
+
         <div>
-          <h3 class="filter-title">Categories</h3>
-          <div class="filter-row">
-            
-          </div>
+          <h3 class="filter-title">Years</h3>
+          <div id="yearFilters" class="filter-row"></div>
         </div>
-    
-      </div> 
+      </div>
 
+      <p id="pubNoResults" class="pub-status hidden">No publications match the current filters.</p>
 
-    
-    
-    
-    <div class="year-block mt-12 mb-6">
-      <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2026</h2>
-      <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
-
-      <ul class="space-y-4">
+      <div id="publicationYears">
         
-        <li class="pub" data-type="inproceedings" data-category="">
+        <div class="year-block mt-12 mb-6" data-year="2026">
+          <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2026</h2>
+          <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
+          <ul class="space-y-4">
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2026" data-search="fractal: fault-tolerant shell-script distribution zhicheng huang, ramiz dundar, yizheng xie, konstantinos kallas, nikos vasilakis 23rd usenix symposium on networked systems design and implementation (nsdi 26) inproceedings 2026">
+                
+                  <strong>Fractal: Fault-Tolerant Shell-Script Distribution</strong><br>
+                
 
-          
-            <strong>Fractal: Fault-Tolerant Shell-Script Distribution</strong><br>
-          
+                Zhicheng Huang, Ramiz Dundar, Yizheng Xie, Konstantinos Kallas, Nikos Vasilakis. 
+                <em>23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI 26)</em><br>
 
-          Zhicheng Huang and Ramiz Dundar and Yizheng Xie and Konstantinos Kallas and Nikos Vasilakis.
-          <em>23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI 26)</em><br>
+                
+                
+                
+                
+                
 
-          
-          
-          
-          
-          
-          
+                
 
-          <span class="links text-sm">[ <a href="https://nikos.vasilak.is/p/fractal:nsdi:2026.pdf" target="_blank">PDF</a> | <a href="javascript:void(0);" onclick="toggleBlock('abs-fractal:nsdi:2026')">Abstract</a> ]</span>
+                
+              </li>
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2026" data-search="slowpoke: end-to-end throughput optimization modeling for microservice applications yizheng xie, di jin, oğuzhan çölkesen, vasiliki kalavri, john liagouris, nikos vasilakis 23rd usenix symposium on networked systems design and implementation (nsdi 26) inproceedings 2026">
+                
+                  <strong>Slowpoke: End-to-end Throughput Optimization Modeling for Microservice Applications</strong><br>
+                
 
-          
-          <div id="abs-fractal:nsdi:2026" class="hidden abstract-block mt-2 text-sm italic">This paper presents FRACTAL, a new system that offers
-fault tolerant distributed shell script execution for unmod-
-ified scripts. FRACTAL first distinguishes recoverable regions
-from side-effectful ones, and augments them with additional
-runtime support aimed at fault recovery. It employs precise de-
-pendency and progress tracking at the subgraph level to offer
-sound and efficient fault recovery. It minimizes the number of
-upstream regions that are re-executed during recovery and en-
-sures exactly-once semantics upon recovery for downstream
-regions. Evaluation on 4- and 30-node clusters indicates aver-
-age fault-free speedups of (1) &gt;9.6×over Bash, a single-node
-shell-interpreter baseline, (2) &gt;5.5×over Hadoop Streaming,
-a MapReduce system that supports language-agnostic third-
-party components, and (3) 17% over DISH, a state-of-the-art
-fault-intolerant shell-script distribution system—all while re-
-covering 7.8–16.4×faster than Hadoop Streaming in cases
-of faults.</div>
-          
+                Yizheng Xie, Di Jin, Oğuzhan Çölkesen, Vasiliki Kalavri, John Liagouris, Nikos Vasilakis. 
+                <em>23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI 26)</em><br>
 
-        </li>
+                
+                
+                
+                
+                
+
+                
+
+                
+              </li>
+            
+          </ul>
+        </div>
         
-        <li class="pub" data-type="inproceedings" data-category="">
+        <div class="year-block mt-12 mb-6" data-year="2025">
+          <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2025</h2>
+          <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
+          <ul class="space-y-4">
+            
+              
+              
+              <li class="pub" data-type="mastersthesis" data-year="2025" data-search="fault tolerant distributed shell scripting zhicheng huang brown university mastersthesis 2025">
+                
+                  <strong>Fault tolerant distributed shell scripting</strong><br>
+                
 
-          
-            <strong>Slowpoke: End-to-end Throughput Optimization Modeling for Microservice Applications</strong><br>
-          
+                Zhicheng Huang. 
+                <em>Brown University</em><br>
 
-          Yizheng Xie and Di Jin and Oğuzhan Çölkesen and Vasiliki Kalavri and John Liagouris and Nikos Vasilakis.
-          <em>23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI 26)</em><br>
+                
+                
+                
+                
+                
 
-          
-          
-          
-          
-          
-          
+                
 
-          <span class="links text-sm">[ <a href="https://github.com/atlas-brown/slowpoke" target="_blank">Code</a> ]</span>
+                
+              </li>
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2025" data-search="from ahead-of- to just-in-time and back again: static analysis for unix shell programs lukas lazarek, seong-heon jung, evangelos lamprou, zekai li, anirudh narsipur, eric zhao, michael greenberg, konstantinos kallas, konstantinos mamouras, nikos vasilakis 2025 workshop on hot topics in operating systems inproceedings 2025">
+                
+                  <strong><a href="https://doi.org/10.1145/3713082.3730395" target="_blank" rel="noopener noreferrer">From Ahead-of- to Just-in-Time and Back Again: Static Analysis for Unix Shell Programs</a></strong><br>
+                
 
-          
+                Lukas Lazarek, Seong-Heon Jung, Evangelos Lamprou, Zekai Li, Anirudh Narsipur, Eric Zhao, Michael Greenberg, Konstantinos Kallas, Konstantinos Mamouras, Nikos Vasilakis. 
+                <em>2025 Workshop on Hot Topics in Operating Systems</em><br>
 
-        </li>
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://doi.org/10.1145/3713082.3730395" target="_blank" rel="noopener noreferrer">DOI</a> ]</span>
+                
+
+                
+              </li>
+            
+              
+              
+              <li class="pub" data-type="mastersthesis" data-year="2025" data-search="static effect analysis for shell programs anirudh narsipur brown university mastersthesis 2025">
+                
+                  <strong>Static effect analysis for shell programs</strong><br>
+                
+
+                Anirudh Narsipur. 
+                <em>Brown University</em><br>
+
+                
+                
+                
+                
+                
+
+                
+
+                
+              </li>
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2025" data-search="the koala benchmarks for the shell: characterization and implications evangelos lamprou, ethan williams, georgios kaoukis, zhuoxuan zhang, michael greenberg, konstantinos kallas, lukas lazarek, nikos vasilakis 2025 usenix annual technical conference (usenix atc &#39;25) inproceedings 2025">
+                
+                  <strong><a href="https://www.usenix.org/conference/atc25/presentation/lamprou" target="_blank" rel="noopener noreferrer">The Koala Benchmarks for the Shell: Characterization and Implications</a></strong><br>
+                
+
+                Evangelos Lamprou, Ethan Williams, Georgios Kaoukis, Zhuoxuan Zhang, Michael Greenberg, Konstantinos Kallas, Lukas Lazarek, Nikos Vasilakis. 
+                <em>2025 USENIX Annual Technical Conference (USENIX ATC &#39;25)</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://www.usenix.org/conference/atc25/presentation/lamprou" target="_blank" rel="noopener noreferrer">URL</a> ]</span>
+                
+
+                
+              </li>
+            
+          </ul>
+        </div>
         
-      </ul>
+        <div class="year-block mt-12 mb-6" data-year="2024">
+          <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2024</h2>
+          <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
+          <ul class="space-y-4">
+            
+              
+              
+              <li class="pub" data-type="mastersthesis" data-year="2024" data-search="bash-compliant pash seth sabar brown university mastersthesis 2024">
+                
+                  <strong>Bash-Compliant PaSh</strong><br>
+                
+
+                Seth Sabar. 
+                <em>Brown University</em><br>
+
+                
+                
+                
+                
+                
+
+                
+
+                
+              </li>
+            
+              
+              
+              <li class="pub" data-type="mastersthesis" data-year="2024" data-search="towards automated reasoning for shell programs anirudh narsipur brown university mastersthesis 2024">
+                
+                  <strong>Towards Automated Reasoning For Shell Programs</strong><br>
+                
+
+                Anirudh Narsipur. 
+                <em>Brown University</em><br>
+
+                
+                
+                
+                
+                
+
+                
+
+                
+              </li>
+            
+          </ul>
+        </div>
+        
+        <div class="year-block mt-12 mb-6" data-year="2023">
+          <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2023</h2>
+          <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
+          <ul class="space-y-4">
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2023" data-search="binwrap: hybrid protection against native node.js add-ons george christou, grigoris ntousakis, eric lahtinen, sotiris ioannidis, vasileios p. kemerlis, nikos vasilakis 2023 acm asia conference on computer and communications security inproceedings 2023">
+                
+                  <strong><a href="https://doi.org/10.1145/3579856.3590330" target="_blank" rel="noopener noreferrer">BinWrap: Hybrid Protection against Native Node.js Add-ons</a></strong><br>
+                
+
+                George Christou, Grigoris Ntousakis, Eric Lahtinen, Sotiris Ioannidis, Vasileios P. Kemerlis, Nikos Vasilakis. 
+                <em>2023 ACM Asia Conference on Computer and Communications Security</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://doi.org/10.1145/3579856.3590330" target="_blank" rel="noopener noreferrer">DOI</a> ]</span>
+                
+
+                
+              </li>
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2023" data-search="dish: dynamic shell-script distribution tammam mustafa, konstantinos kallas, pratyush das, nikos vasilakis 20th usenix symposium on networked systems design and implementation (nsdi 23) inproceedings 2023">
+                
+                  <strong><a href="https://www.usenix.org/conference/nsdi23/presentation/mustafa" target="_blank" rel="noopener noreferrer">DiSh: Dynamic Shell-Script Distribution</a></strong><br>
+                
+
+                Tammam Mustafa, Konstantinos Kallas, Pratyush Das, Nikos Vasilakis. 
+                <em>20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23)</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://www.usenix.org/conference/nsdi23/presentation/mustafa" target="_blank" rel="noopener noreferrer">URL</a> ]</span>
+                
+
+                
+              </li>
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2023" data-search="executing shell scripts in the wrong order, correctly georgios liargkovas, konstantinos kallas, michael greenberg, nikos vasilakis 19th workshop on hot topics in operating systems inproceedings 2023">
+                
+                  <strong><a href="https://doi.org/10.1145/3593856.3595891" target="_blank" rel="noopener noreferrer">Executing Shell Scripts in the Wrong Order, Correctly</a></strong><br>
+                
+
+                Georgios Liargkovas, Konstantinos Kallas, Michael Greenberg, Nikos Vasilakis. 
+                <em>19th Workshop on Hot Topics in Operating Systems</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://doi.org/10.1145/3593856.3595891" target="_blank" rel="noopener noreferrer">DOI</a> ]</span>
+                
+
+                
+              </li>
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2023" data-search="secbench.js: an executable security benchmark suite for server-side javascript masudul hasan masud bhuiyan, adithya srinivas parthasarathy, nikos vasilakis, michael pradel, cristian-alexandru staicu 2023 ieee/acm 45th international conference on software engineering (icse) inproceedings 2023">
+                
+                  <strong><a href="https://doi.org/10.1109/ICSE48619.2023.00096" target="_blank" rel="noopener noreferrer">SecBench.js: An Executable Security Benchmark Suite for Server-Side JavaScript</a></strong><br>
+                
+
+                Masudul Hasan Masud Bhuiyan, Adithya Srinivas Parthasarathy, Nikos Vasilakis, Michael Pradel, Cristian-Alexandru Staicu. 
+                <em>2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://doi.org/10.1109/ICSE48619.2023.00096" target="_blank" rel="noopener noreferrer">DOI</a> ]</span>
+                
+
+                
+              </li>
+            
+          </ul>
+        </div>
+        
+        <div class="year-block mt-12 mb-6" data-year="2022">
+          <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2022</h2>
+          <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
+          <ul class="space-y-4">
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2022" data-search="a systematic analysis of the event-stream incident iosif arvanitis, grigoris ntousakis, sotiris ioannidis, nikos vasilakis 15th european workshop on systems security inproceedings 2022">
+                
+                  <strong><a href="https://doi.org/10.1145/3517208.3523753" target="_blank" rel="noopener noreferrer">A systematic analysis of the event-stream incident</a></strong><br>
+                
+
+                Iosif Arvanitis, Grigoris Ntousakis, Sotiris Ioannidis, Nikos Vasilakis. 
+                <em>15th European Workshop on Systems Security</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://doi.org/10.1145/3517208.3523753" target="_blank" rel="noopener noreferrer">DOI</a> ]</span>
+                
+
+                
+              </li>
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2022" data-search="automatic synthesis of parallel unix commands and pipelines with kumquat jiasi shen, martin rinard, nikos vasilakis proceedings of the 27th acm sigplan symposium on principles and practice of parallel programming inproceedings 2022">
+                
+                  <strong><a href="https://doi.org/10.1145/3503221.3508400" target="_blank" rel="noopener noreferrer">Automatic synthesis of parallel unix commands and pipelines with KumQuat</a></strong><br>
+                
+
+                Jiasi Shen, Martin Rinard, Nikos Vasilakis. 
+                <em>Proceedings of the 27th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://doi.org/10.1145/3503221.3508400" target="_blank" rel="noopener noreferrer">DOI</a> ]</span>
+                
+
+                
+              </li>
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2022" data-search="practically correct, just-in-time shell script parallelization konstantinos kallas, tammam mustafa, jan bielak, dimitris karnikis, thurston h.y. dang, michael greenberg, nikos vasilakis 16th usenix symposium on operating systems design and implementation (osdi 22) inproceedings 2022">
+                
+                  <strong><a href="https://www.usenix.org/conference/osdi22/presentation/kallas" target="_blank" rel="noopener noreferrer">Practically Correct, Just-in-Time Shell Script Parallelization</a></strong><br>
+                
+
+                Konstantinos Kallas, Tammam Mustafa, Jan Bielak, Dimitris Karnikis, Thurston H.Y. Dang, Michael Greenberg, Nikos Vasilakis. 
+                <em>16th USENIX Symposium on Operating Systems Design and Implementation (OSDI 22)</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://www.usenix.org/conference/osdi22/presentation/kallas" target="_blank" rel="noopener noreferrer">URL</a> ]</span>
+                
+
+                
+              </li>
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2022" data-search="themis: a secure decentralized framework for microservice interaction in serverless computing angeliki aktypi, dimitris karnikis, nikos vasilakis, kasper rasmussen 17th international conference on availability, reliability and security inproceedings 2022">
+                
+                  <strong><a href="https://doi.org/10.1145/3538969.3538983" target="_blank" rel="noopener noreferrer">Themis: A Secure Decentralized Framework for Microservice Interaction in Serverless Computing</a></strong><br>
+                
+
+                Angeliki Aktypi, Dimitris Karnikis, Nikos Vasilakis, Kasper Rasmussen. 
+                <em>17th International Conference on Availability, Reliability and Security</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://doi.org/10.1145/3538969.3538983" target="_blank" rel="noopener noreferrer">DOI</a> ]</span>
+                
+
+                
+              </li>
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2022" data-search="towards practical application-level support for privilege separation nik sultana, henry zhu, ke zhong, zhilei zheng, ruijie mao, digvijaysinh chauhan, stephen carrasquillo, junyong zhao, lei shi, nikos vasilakis, boon thau loo 38th annual computer security applications conference inproceedings 2022">
+                
+                  <strong><a href="https://doi.org/10.1145/3564625.3564664" target="_blank" rel="noopener noreferrer">Towards Practical Application-level Support for Privilege Separation</a></strong><br>
+                
+
+                Nik Sultana, Henry Zhu, Ke Zhong, Zhilei Zheng, Ruijie Mao, Digvijaysinh Chauhan, Stephen Carrasquillo, Junyong Zhao, Lei Shi, Nikos Vasilakis, Boon Thau Loo. 
+                <em>38th Annual Computer Security Applications Conference</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://doi.org/10.1145/3564625.3564664" target="_blank" rel="noopener noreferrer">DOI</a> ]</span>
+                
+
+                
+              </li>
+            
+          </ul>
+        </div>
+        
+        <div class="year-block mt-12 mb-6" data-year="2021">
+          <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2021</h2>
+          <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
+          <ul class="space-y-4">
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2021" data-search="an order-aware dataflow model for parallel unix pipelines shivam handa, konstantinos kallas, nikos vasilakis, martin c. rinard international conference on functional programming inproceedings 2021">
+                
+                  <strong><a href="https://doi.org/10.1145/3473570" target="_blank" rel="noopener noreferrer">An order-aware dataflow model for parallel Unix pipelines</a></strong><br>
+                
+
+                Shivam Handa, Konstantinos Kallas, Nikos Vasilakis, Martin C. Rinard. 
+                <em>International Conference on Functional Programming</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://doi.org/10.1145/3473570" target="_blank" rel="noopener noreferrer">DOI</a> ]</span>
+                
+
+                
+              </li>
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2021" data-search="demo: detecting third-party library problems with combined program analysis grigoris ntousakis, sotiris ioannidis, nikos vasilakis 2021 acm sigsac conference on computer and communications security inproceedings 2021">
+                
+                  <strong><a href="https://doi.org/10.1145/3460120.3485351" target="_blank" rel="noopener noreferrer">Demo: Detecting Third-Party Library Problems with Combined Program Analysis</a></strong><br>
+                
+
+                Grigoris Ntousakis, Sotiris Ioannidis, Nikos Vasilakis. 
+                <em>2021 ACM SIGSAC Conference on Computer and Communications Security</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://doi.org/10.1145/3460120.3485351" target="_blank" rel="noopener noreferrer">DOI</a> ]</span>
+                
+
+                
+              </li>
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2021" data-search="efficient module-level dynamic analysis for dynamic languages with module recontextualization nikos vasilakis, grigoris ntousakis, veit heller, martin c. rinard 29th acm joint meeting on european software engineering conference and symposium on the foundations of software engineering inproceedings 2021">
+                
+                  <strong><a href="https://doi.org/10.1145/3468264.3468574" target="_blank" rel="noopener noreferrer">Efficient Module-Level Dynamic Analysis for Dynamic Languages with Module Recontextualization</a></strong><br>
+                
+
+                Nikos Vasilakis, Grigoris Ntousakis, Veit Heller, Martin C. Rinard. 
+                <em>29th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://doi.org/10.1145/3468264.3468574" target="_blank" rel="noopener noreferrer">URL</a> ]</span>
+                
+
+                
+              </li>
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2021" data-search="pash: light-touch data-parallel shell processing nikos vasilakis, konstantinos kallas, konstantinos mamouras, achilles benetopoulos, lazar cvetković 16th european conference on computer systems inproceedings 2021">
+                
+                  <strong><a href="https://doi.org/10.1145/3447786.3456228" target="_blank" rel="noopener noreferrer">PaSh: Light-Touch Data-Parallel Shell Processing</a></strong><br>
+                
+
+                Nikos Vasilakis, Konstantinos Kallas, Konstantinos Mamouras, Achilles Benetopoulos, Lazar Cvetković. 
+                <em>16th European Conference on Computer Systems</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://doi.org/10.1145/3447786.3456228" target="_blank" rel="noopener noreferrer">DOI</a> ]</span>
+                
+
+                
+              </li>
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2021" data-search="preventing dynamic library compromise on node.js via rwx-based privilege reduction nikos vasilakis, cristian-alexandru staicu, grigoris ntousakis, konstantinos kallas, ben karel, andré dehon, michael pradel 2021 acm sigsac conference on computer and communications security inproceedings 2021">
+                
+                  <strong><a href="https://doi.org/10.1145/3460120.3484535" target="_blank" rel="noopener noreferrer">Preventing Dynamic Library Compromise on Node.js via RWX-Based Privilege Reduction</a></strong><br>
+                
+
+                Nikos Vasilakis, Cristian-Alexandru Staicu, Grigoris Ntousakis, Konstantinos Kallas, Ben Karel, André DeHon, Michael Pradel. 
+                <em>2021 ACM SIGSAC Conference on Computer and Communications Security</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://doi.org/10.1145/3460120.3484535" target="_blank" rel="noopener noreferrer">DOI</a> ]</span>
+                
+
+                
+              </li>
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2021" data-search="report on the &#34;the future of the shell&#34; panel at hotos 2021 michael greenberg, konstantinos kallas, nikos vasilakis, stephen kell hotos &#39;21: proceedings of the workshop on hot topics in operating systems inproceedings 2021">
+                
+                  <strong><a href="https://arxiv.org/abs/2109.11016" target="_blank" rel="noopener noreferrer">Report on the &#34;The Future of the Shell&#34; Panel at HotOS 2021</a></strong><br>
+                
+
+                Michael Greenberg, Konstantinos Kallas, Nikos Vasilakis, Stephen Kell. 
+                <em>HotOS &#39;21: Proceedings of the Workshop on Hot Topics in Operating Systems</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://arxiv.org/abs/2109.11016" target="_blank" rel="noopener noreferrer">URL</a> ]</span>
+                
+
+                
+              </li>
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2021" data-search="supply-chain vulnerability elimination via active learning and regeneration nikos vasilakis, achilles benetopoulos, shivam handa, alizee schoen, jiasi shen, martin c. rinard 2021 acm sigsac conference on computer and communications security inproceedings 2021">
+                
+                  <strong><a href="https://doi.org/10.1145/3460120.3484736" target="_blank" rel="noopener noreferrer">Supply-Chain Vulnerability Elimination via Active Learning and Regeneration</a></strong><br>
+                
+
+                Nikos Vasilakis, Achilles Benetopoulos, Shivam Handa, Alizee Schoen, Jiasi Shen, Martin C. Rinard. 
+                <em>2021 ACM SIGSAC Conference on Computer and Communications Security</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://doi.org/10.1145/3460120.3484736" target="_blank" rel="noopener noreferrer">DOI</a> ]</span>
+                
+
+                
+              </li>
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2021" data-search="the future of the shell: unix and beyond michael greenberg, konstantinos kallas, nikos vasilakis workshop on hot topics in operating systems inproceedings 2021">
+                
+                  <strong><a href="https://doi.org/10.1145/3458336.3465296" target="_blank" rel="noopener noreferrer">The Future of the Shell: Unix and Beyond</a></strong><br>
+                
+
+                Michael Greenberg, Konstantinos Kallas, Nikos Vasilakis. 
+                <em>Workshop on Hot Topics in Operating Systems</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://doi.org/10.1145/3458336.3465296" target="_blank" rel="noopener noreferrer">DOI</a> ]</span>
+                
+
+                
+              </li>
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2021" data-search="unix shell programming: the next 50 years michael greenberg, konstantinos kallas, nikos vasilakis workshop on hot topics in operating systems inproceedings 2021">
+                
+                  <strong><a href="https://doi.org/10.1145/3458336.3465294" target="_blank" rel="noopener noreferrer">Unix Shell Programming: The Next 50 Years</a></strong><br>
+                
+
+                Michael Greenberg, Konstantinos Kallas, Nikos Vasilakis. 
+                <em>Workshop on Hot Topics in Operating Systems</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://doi.org/10.1145/3458336.3465294" target="_blank" rel="noopener noreferrer">DOI</a> ]</span>
+                
+
+                
+              </li>
+            
+          </ul>
+        </div>
+        
+        <div class="year-block mt-12 mb-6" data-year="2020">
+          <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2020</h2>
+          <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
+          <ul class="space-y-4">
+            
+              
+              
+              <li class="pub" data-type="article" data-year="2020" data-search="automatic synthesis of parallel and distributed unix commands with kumquat nikos vasilakis, jiasi shen, martin c. rinard corr article 2020">
+                
+                  <strong><a href="https://arxiv.org/abs/2012.15443" target="_blank" rel="noopener noreferrer">Automatic Synthesis of Parallel and Distributed Unix Commands with KumQuat</a></strong><br>
+                
+
+                Nikos Vasilakis, Jiasi Shen, Martin C. Rinard. 
+                <em>CoRR</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://arxiv.org/abs/2012.15443" target="_blank" rel="noopener noreferrer">URL</a> ]</span>
+                
+
+                
+              </li>
+            
+          </ul>
+        </div>
+        
+        <div class="year-block mt-12 mb-6" data-year="2019">
+          <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2019</h2>
+          <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
+          <ul class="space-y-4">
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2019" data-search="active learning for software engineering josé p. cambronero, thurston h. y. dang, nikos vasilakis, jiasi shen, jerry wu, martin c. rinard 2019 acm sigplan international symposium on new ideas, new paradigms, and reflections on programming and software inproceedings 2019">
+                
+                  <strong><a href="https://doi.org/10.1145/3359591.3359732" target="_blank" rel="noopener noreferrer">Active learning for software engineering</a></strong><br>
+                
+
+                José P. Cambronero, Thurston H. Y. Dang, Nikos Vasilakis, Jiasi Shen, Jerry Wu, Martin C. Rinard. 
+                <em>2019 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://doi.org/10.1145/3359591.3359732" target="_blank" rel="noopener noreferrer">DOI</a> ]</span>
+                
+
+                
+              </li>
+            
+              
+              
+              <li class="pub" data-type="phdthesis" data-year="2019" data-search="andromeda—a distributed userspace nikos vasilakis computer and information science, university of pennsylvania phdthesis 2019">
+                
+                  <strong>Andromeda—A Distributed Userspace</strong><br>
+                
+
+                Nikos Vasilakis. 
+                <em>Computer and Information Science, University of Pennsylvania</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="http://nikos.vasilak.is/p/andromeda:upenn:2019.pdf" target="_blank" rel="noopener noreferrer">PDF</a> ]</span>
+                
+
+                
+              </li>
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2019" data-search="detecting asymmetric application-layer denial-of-service attacks in-flight with finelame henri maxime demoulin, isaac pedisich, nikos vasilakis, vincent liu, boon thau loo, linh thi xuan phan 2019 usenix annual technical conference (usenix atc 19) inproceedings 2019">
+                
+                  <strong><a href="https://www.usenix.org/conference/atc19/presentation/demoulin" target="_blank" rel="noopener noreferrer">Detecting Asymmetric Application-layer Denial-of-Service Attacks In-Flight with Finelame</a></strong><br>
+                
+
+                Henri Maxime Demoulin, Isaac Pedisich, Nikos Vasilakis, Vincent Liu, Boon Thau Loo, Linh Thi Xuan Phan. 
+                <em>2019 USENIX Annual Technical Conference (USENIX ATC 19)</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://www.usenix.org/conference/atc19/presentation/demoulin" target="_blank" rel="noopener noreferrer">URL</a> ]</span>
+                
+
+                
+              </li>
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2019" data-search="ignis: scaling distribution-oblivious systems with light-touch distribution nikos vasilakis, ben karel, yash palkhiwala, john sonchack, andré dehon, jonathan m. smith 40th acm sigplan conference on programming language design and implementation inproceedings 2019">
+                
+                  <strong><a href="http://doi.acm.org/10.1145/3314221.3314586" target="_blank" rel="noopener noreferrer">Ignis: Scaling Distribution-Oblivious Systems with Light-Touch Distribution</a></strong><br>
+                
+
+                Nikos Vasilakis, Ben Karel, Yash Palkhiwala, John Sonchack, André DeHon, Jonathan M. Smith. 
+                <em>40th ACM SIGPLAN Conference on Programming Language Design and Implementation</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://doi.org/10.1145/3314221.3314586" target="_blank" rel="noopener noreferrer">DOI</a> ]</span>
+                
+
+                
+              </li>
+            
+          </ul>
+        </div>
+        
+        <div class="year-block mt-12 mb-6" data-year="2018">
+          <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2018</h2>
+          <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
+          <ul class="space-y-4">
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2018" data-search="breakapp: automated, flexible application compartmentalization nikos vasilakis, ben karel, nick roessler, nathan dautenhahn, andré dehon, jonathan m. smith networked and distributed systems security inproceedings 2018">
+                
+                  <strong><a href="http://dx.doi.org/10.14722/ndss.2018.23131" target="_blank" rel="noopener noreferrer">BreakApp: Automated, Flexible Application Compartmentalization</a></strong><br>
+                
+
+                Nikos Vasilakis, Ben Karel, Nick Roessler, Nathan Dautenhahn, André DeHon, Jonathan M. Smith. 
+                <em>Networked and Distributed Systems Security</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://doi.org/10.14722/ndss.2018.23131" target="_blank" rel="noopener noreferrer">DOI</a> ]</span>
+                
+
+                
+              </li>
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2018" data-search="the web as a distributed computing platform nikos vasilakis, pranjal goel, henri maxime demoulin, jonathan m. smith 1st international workshop on edge systems, analytics and networking inproceedings 2018">
+                
+                  <strong><a href="https://doi.org/10.1145/3213344.3213346" target="_blank" rel="noopener noreferrer">The Web as a Distributed Computing Platform</a></strong><br>
+                
+
+                Nikos Vasilakis, Pranjal Goel, Henri Maxime Demoulin, Jonathan M. Smith. 
+                <em>1st International Workshop on Edge Systems, Analytics and Networking</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://doi.org/10.1145/3213344.3213346" target="_blank" rel="noopener noreferrer">DOI</a> ]</span>
+                
+
+                
+              </li>
+            
+          </ul>
+        </div>
+        
+        <div class="year-block mt-12 mb-6" data-year="2017">
+          <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2017</h2>
+          <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
+          <ul class="space-y-4">
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2017" data-search="query-efficient partitions for dynamic data nikos vasilakis, yash palkhiwala, jonathan m. smith 8th asia-pacific workshop on systems inproceedings 2017">
+                
+                  <strong><a href="https://doi.org/10.1145/3124680.3124744" target="_blank" rel="noopener noreferrer">Query-efficient Partitions for Dynamic Data</a></strong><br>
+                
+
+                Nikos Vasilakis, Yash Palkhiwala, Jonathan M. Smith. 
+                <em>8th Asia-Pacific Workshop on Systems</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://doi.org/10.1145/3124680.3124744" target="_blank" rel="noopener noreferrer">DOI</a> ]</span>
+                
+
+                
+              </li>
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2017" data-search="towards fine-grained, automated application compartmentalization nikos vasilakis, ben karel, nick roessler, nathan dautenhahn, andré dehon, jonathan m. smith 9th workshop on programming languages and operating systems inproceedings 2017">
+                
+                  <strong><a href="https://doi.org/10.1145/3144555.3144563" target="_blank" rel="noopener noreferrer">Towards Fine-grained, Automated Application Compartmentalization</a></strong><br>
+                
+
+                Nikos Vasilakis, Ben Karel, Nick Roessler, Nathan Dautenhahn, André DeHon, Jonathan M. Smith. 
+                <em>9th Workshop on Programming Languages and Operating Systems</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://doi.org/10.1145/3144555.3144563" target="_blank" rel="noopener noreferrer">DOI</a> ]</span>
+                
+
+                
+              </li>
+            
+          </ul>
+        </div>
+        
+        <div class="year-block mt-12 mb-6" data-year="2015">
+          <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2015</h2>
+          <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
+          <ul class="space-y-4">
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2015" data-search="architectural support for software-defined metadata processing udit dhawan, catalin hritcu, raphael rubin, nikos vasilakis, silviu chiricescu, jonathan m. smith, thomas f. knight, benjamin c. pierce, andre dehon 20th international conference on architectural support for programming languages and operating systems inproceedings 2015">
+                
+                  <strong><a href="http://doi.acm.org/10.1145/2694344.2694383" target="_blank" rel="noopener noreferrer">Architectural Support for Software-Defined Metadata Processing</a></strong><br>
+                
+
+                Udit Dhawan, Catalin Hritcu, Raphael Rubin, Nikos Vasilakis, Silviu Chiricescu, Jonathan M. Smith, Thomas F. Knight, Benjamin C. Pierce, Andre DeHon. 
+                <em>20th International Conference on Architectural Support for Programming Languages and Operating Systems</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://doi.org/10.1145/2694344.2694383" target="_blank" rel="noopener noreferrer">DOI</a> ]</span>
+                
+
+                
+              </li>
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2015" data-search="from lone dwarfs to giant superclusters: rethinking operating system abstractions for the cloud nikos vasilakis, ben karel, jonathan m. smith 15th workshop on hot topics in operating systems (hotos xv) inproceedings 2015">
+                
+                  <strong><a href="https://www.usenix.org/conference/hotos15/workshop-program/presentation/vasilakis" target="_blank" rel="noopener noreferrer">From Lone Dwarfs to Giant Superclusters: Rethinking Operating System Abstractions for the Cloud</a></strong><br>
+                
+
+                Nikos Vasilakis, Ben Karel, Jonathan M. Smith. 
+                <em>15th Workshop on Hot Topics in Operating Systems (HotOS XV)</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://doi.org/10.1145/3144555.3144563" target="_blank" rel="noopener noreferrer">DOI</a> ]</span>
+                
+
+                
+              </li>
+            
+          </ul>
+        </div>
+        
+        <div class="year-block mt-12 mb-6" data-year="2014">
+          <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2014</h2>
+          <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
+          <ul class="space-y-4">
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2014" data-search="pump: a programmable unit for metadata processing udit dhawan, nikos vasilakis, raphael rubin, silviu chiricescu, jonathan m. smith, thomas f. knight, benjamin c. pierce, andré dehon 3rd workshop on hardware and architectural support for security and privacy inproceedings 2014">
+                
+                  <strong><a href="http://doi.acm.org/10.1145/2611765.2611773" target="_blank" rel="noopener noreferrer">PUMP: A Programmable Unit for Metadata Processing</a></strong><br>
+                
+
+                Udit Dhawan, Nikos Vasilakis, Raphael Rubin, Silviu Chiricescu, Jonathan M. Smith, Thomas F. Knight, Benjamin C. Pierce, André DeHon. 
+                <em>3rd Workshop on Hardware and Architectural Support for Security and Privacy</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://doi.org/10.1145/2611765.2611773" target="_blank" rel="noopener noreferrer">DOI</a> ]</span>
+                
+
+                
+              </li>
+            
+          </ul>
+        </div>
+        
+        <div class="year-block mt-12 mb-6" data-year="2013">
+          <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2013</h2>
+          <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
+          <ul class="space-y-4">
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2013" data-search="handsfree: next generation sequence processing, mapping and analysis made easy phillipe loher, nikos vasilakis, john malamon, huang-wen chen, isidore rigoutsos data integration in the life sciences: 9th international conference inproceedings 2013">
+                
+                  <strong>HandsFree: Next Generation Sequence Processing, Mapping and Analysis Made Easy</strong><br>
+                
+
+                Phillipe Loher, Nikos Vasilakis, John Malamon, Huang-Wen Chen, Isidore Rigoutsos. 
+                <em>Data Integration in the Life Sciences: 9th International Conference</em><br>
+
+                
+                
+                
+                
+                
+
+                
+
+                
+              </li>
+            
+          </ul>
+        </div>
+        
+        <div class="year-block mt-12 mb-6" data-year="2010">
+          <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2010</h2>
+          <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
+          <ul class="space-y-4">
+            
+              
+              
+              <li class="pub" data-type="mastersthesis" data-year="2010" data-search="a novel application of ubiquitous computing using interactive installations nikos vasilakis computer engineering and informatics, university of patras mastersthesis 2010">
+                
+                  <strong>A Novel Application of Ubiquitous Computing Using Interactive Installations</strong><br>
+                
+
+                Nikos Vasilakis. 
+                <em>Computer Engineering and Informatics, University of Patras</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="http://nikos.vasilak.is/p/finn:upatras:2009.pdf" target="_blank" rel="noopener noreferrer">PDF</a> ]</span>
+                
+
+                
+              </li>
+            
+          </ul>
+        </div>
+        
+        <div class="year-block mt-12 mb-6" data-year="2009">
+          <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2009</h2>
+          <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
+          <ul class="space-y-4">
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2009" data-search="developing multiplayer pervasive games and networked interactive installations using ad hoc mobile sensor nets orestis akribopoulos, marios logaras, nikos vasilakis, panagiotis kokkinos, georgios mylonas, ioannis chatzigiannakis, paul spirakis international conference on advances in computer entertainment technology inproceedings 2009">
+                
+                  <strong><a href="https://doi.org/10.1145/1690388.1690418" target="_blank" rel="noopener noreferrer">Developing multiplayer pervasive games and networked interactive installations using ad hoc mobile sensor nets</a></strong><br>
+                
+
+                Orestis Akribopoulos, Marios Logaras, Nikos Vasilakis, Panagiotis Kokkinos, Georgios Mylonas, Ioannis Chatzigiannakis, Paul Spirakis. 
+                <em>International Conference on Advances in Computer Entertainment Technology</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://doi.org/10.1145/1690388.1690418" target="_blank" rel="noopener noreferrer">DOI</a> ]</span>
+                
+
+                
+              </li>
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2009" data-search="multiplayer pervasive games and networked interactive installations using ad hoc mobile sensor networks orestis akribopoulos, marios logaras, nikos vasilakis, panagiotis kokkinos, georgios mylonas, ioannis chatzigiannakis, paul spirakis international conference on advances in computer entertainment technology inproceedings 2009">
+                
+                  <strong><a href="https://doi.org/10.1145/1690388.1690500" target="_blank" rel="noopener noreferrer">Multiplayer pervasive games and networked interactive installations using ad hoc mobile sensor networks</a></strong><br>
+                
+
+                Orestis Akribopoulos, Marios Logaras, Nikos Vasilakis, Panagiotis Kokkinos, Georgios Mylonas, Ioannis Chatzigiannakis, Paul Spirakis. 
+                <em>International Conference on Advances in Computer Entertainment Technology</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://doi.org/10.1145/1690388.1690500" target="_blank" rel="noopener noreferrer">DOI</a> | <button type="button" class="pub-action-link" data-abs-id="abs-finndemo-ace-2009-1">Abstract</button> ]</span>
+                
+
+                
+                <div id="abs-finndemo-ace-2009-1" class="hidden abstract-block mt-2 text-sm italic">In this work, we showcase a set of implemented multiplayer games and interactive installations based on Fun in Numbers (FinN). FinN allows the quick prototyping of applications that utilize input from multiple physical sources (sensors and other means of interfacing), by offering a set of programming templates and services, such as proximity, localization and synchronization, that hide the underlying complexity.</div>
+                
+              </li>
+            
+          </ul>
+        </div>
+        
+        <div class="year-block mt-12 mb-6" data-year="2008">
+          <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2008</h2>
+          <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
+          <ul class="space-y-4">
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2008" data-search="a software platform for developing multi-player pervasive games using small programmable object technologies orestis akribopoulos, dimitrios bousis, dionysios efstathiou, haris koutsouridis, marios logaras, andreas loukas, alexandros nafas, georgios oikonomou, irini thireou, nikos vasilakis, panagiotis c. kokkinos, georgios mylonas, ioannis chatzigiannakis 2008 5th ieee international conference on mobile ad hoc and sensor systems inproceedings 2008">
+                
+                  <strong><a href="https://doi.org/10.1109/MAHSS.2008.4660084" target="_blank" rel="noopener noreferrer">A software platform for developing multi-player pervasive games using small programmable object technologies</a></strong><br>
+                
+
+                Orestis Akribopoulos, Dimitrios Bousis, Dionysios Efstathiou, Haris Koutsouridis, Marios Logaras, Andreas Loukas, Alexandros Nafas, Georgios Oikonomou, Irini Thireou, Nikos Vasilakis, Panagiotis C. Kokkinos, Georgios Mylonas, Ioannis Chatzigiannakis. 
+                <em>2008 5th IEEE International Conference on Mobile Ad Hoc and Sensor Systems</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://doi.org/10.1109/MAHSS.2008.4660084" target="_blank" rel="noopener noreferrer">DOI</a> ]</span>
+                
+
+                
+              </li>
+            
+              
+              
+              <li class="pub" data-type="inproceedings" data-year="2008" data-search="using wireless sensor networks to develop pervasive multi-player games orestis akribopoulos, marios logaras, nikos vasilakis, panagiotis c. kokkinos, georgios mylonas, ioannis chatzigiannakis 6th international conference on embedded networked sensor systems inproceedings 2008">
+                
+                  <strong><a href="http://doi.acm.org/10.1145/1460412.1460459" target="_blank" rel="noopener noreferrer">Using wireless sensor networks to develop pervasive multi-player games</a></strong><br>
+                
+
+                Orestis Akribopoulos, Marios Logaras, Nikos Vasilakis, Panagiotis C. Kokkinos, Georgios Mylonas, Ioannis Chatzigiannakis. 
+                <em>6th International Conference on Embedded Networked Sensor Systems</em><br>
+
+                
+                
+                
+                
+                
+
+                
+                <span class="links text-sm">[ <a href="https://doi.org/10.1145/1460412.1460459" target="_blank" rel="noopener noreferrer">DOI</a> ]</span>
+                
+
+                
+              </li>
+            
+          </ul>
+        </div>
+        
+      </div>
     </div>
-    
-    <div class="year-block mt-12 mb-6">
-      <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2025</h2>
-      <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
-
-      <ul class="space-y-4">
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="https://www.usenix.org/conference/atc25/presentation/lamprou" target="_blank">The Koala Benchmarks for the Shell: Characterization and Implications</a></strong><br>
-          
-
-          Evangelos Lamprou and Ethan Williams and Georgios Kaoukis and Zhuoxuan Zhang and Michael Greenberg and Konstantinos Kallas and Lukas Lazarek and Nikos Vasilakis.
-          <em>2025 USENIX Annual Technical Conference (USENIX ATC &#39;25)</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="https://www.usenix.org/system/files/atc25-lamprou.pdf" target="_blank">PDF</a> | <a href="https://www.usenix.org/conference/atc25/presentation/lamprou" target="_blank">DOI</a> | <a href="https://github.com/kbensh/koala" target="_blank">Code</a> | <a href="javascript:void(0);" onclick="toggleBlock('abs-koala:atc:2025')">Abstract</a> ]</span>
-
-          
-          <div id="abs-koala:atc:2025" class="hidden abstract-block mt-2 text-sm italic">KOALA is a benchmark suite aimed at performance-oriented
-research targeting the Unix and Linux shell. It combines a
-systematic collection of diverse shell programs collected from
-tasks found out in the wild, various real inputs to these pro-
-grams facilitating small and large deployments, extensive
-analysis and characterization aiding their understanding, and
-additional infrastructure and tooling aimed at usability and
-reproducibility in systems research. The KOALA benchmarks
-perform a variety of common shell tasks; they combine all
-major language features of the POSIX shell; they use a vari-
-ety of POSIX, GNU Coreutils, and third-party components;
-and they operate on inputs of varying size and composition—
-available on both permanent archival storage and scalable
-cloud storage. Applying KOALA to four systems aimed at
-accelerating shell programs offers a broader perspective on
-their trade-offs, generalizes their key results, and contributes
-to a better understanding of these systems.</div>
-          
-
-        </li>
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="https://doi.org/10.1145/3713082.3730395" target="_blank">From Ahead-of- to Just-in-Time and Back Again: Static Analysis for Unix Shell Programs</a></strong><br>
-          
-
-          Lazarek, Lukas and Jung, Seong-Heon and Lamprou, Evangelos and Li, Zekai and Narsipur, Anirudh and Zhao, Eric and Greenberg, Michael and Kallas, Konstantinos and Mamouras, Konstantinos and Vasilakis, Nikos.
-          <em>2025 Workshop on Hot Topics in Operating Systems</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="https://doi.org/10.1145/3713082.3730395" target="_blank">DOI</a> ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="misc" data-category="">
-
-          
-            <strong>Brown Systems Week</strong><br>
-          
-
-          Nikos Vasilakis.
-          <em></em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[  ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="misc" data-category="">
-
-          
-            <strong>Static analysis proposed to ‘rehabilitate’ shell programs</strong><br>
-          
-
-          Paul Krill.
-          <em></em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[  ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="misc" data-category="">
-
-          
-            <strong>Ghost in the shell script</strong><br>
-          
-
-          Thomas Claburn.
-          <em></em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[  ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="misc" data-category="">
-
-          
-            <strong>{Advanced Protection Against Supply Chain Threats}</strong><br>
-          
-
-          RequireSecurity.
-          <em></em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[  ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="mastersthesis" data-category="">
-
-          
-            <strong>Fault tolerant distributed shell scripting</strong><br>
-          
-
-          Zhicheng Huang.
-          <em></em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[  ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="mastersthesis" data-category="">
-
-          
-            <strong>Static effect analysis for shell programs</strong><br>
-          
-
-          Anirudh Narsipur.
-          <em></em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[  ]</span>
-
-          
-
-        </li>
-        
-      </ul>
-    </div>
-    
-    <div class="year-block mt-12 mb-6">
-      <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2024</h2>
-      <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
-
-      <ul class="space-y-4">
-        
-        <li class="pub" data-type="misc" data-category="">
-
-          
-            <strong>The Koala Benchmarks for the Shell</strong><br>
-          
-
-          The Koala Authors.
-          <em></em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[  ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="misc" data-category="">
-
-          
-            <strong>libbash: bash bindings as a library</strong><br>
-          
-
-          The PaSh Authors.
-          <em></em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[  ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="misc" data-category="">
-
-          
-            <strong>From the Lab: Christelle Alvarez illuminates ancient Egyptian insights, encoded in hieroglyphs</strong><br>
-          
-
-          Jenna Pelletier.
-          <em></em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[  ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="misc" data-category="">
-
-          
-            <strong>The DPT Platform</strong><br>
-          
-
-          Ioanna Gemou and Seong-Heon Jung and Calvin Eng and Komron Aripov and Sita Pawar and Christelle Alvarez and Nikos Vasilakis.
-          <em></em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[  ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="mastersthesis" data-category="">
-
-          
-            <strong>Towards Automated Reasoning For Shell Programs</strong><br>
-          
-
-          Anirudh Narsipur.
-          <em></em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[  ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="mastersthesis" data-category="">
-
-          
-            <strong>Bash-Compliant PaSh</strong><br>
-          
-
-          Seth Sabar.
-          <em></em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[  ]</span>
-
-          
-
-        </li>
-        
-      </ul>
-    </div>
-    
-    <div class="year-block mt-12 mb-6">
-      <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2023</h2>
-      <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
-
-      <ul class="space-y-4">
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="https://doi.org/10.1145/3579856.3590330" target="_blank">BinWrap: Hybrid Protection against Native Node.js Add-ons</a></strong><br>
-          
-
-          Christou, George and Ntousakis, Grigoris and Lahtinen, Eric and Ioannidis, Sotiris and Kemerlis, Vasileios P. and Vasilakis, Nikos.
-          <em>2023 ACM Asia Conference on Computer and Communications Security</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="https://doi.org/10.1145/3579856.3590330" target="_blank">DOI</a> | <a href="https://github.com/atlas-brown/binwrap" target="_blank">Code</a> | <a href="javascript:void(0);" onclick="toggleBlock('abs-binwrap:asiaccs:2023')">Abstract</a> ]</span>
-
-          
-          <div id="abs-binwrap:asiaccs:2023" class="hidden abstract-block mt-2 text-sm italic">Modern applications, written in high-level programming languages, enjoy the security benefits of memory and type safety. Unfortunately, even a single memory-unsafe library can wreak havoc on the rest of an otherwise safe application, nullifying all the security guarantees offered by the high-level language and its managed runtime. We perform a study across the Node.js ecosystem to understand the use patterns of binary add-ons. Taking the identified trends into account, we propose a new hybrid permission model aimed at protecting both a binary add-on and its language-specific wrapper. The permission model is applied all around a native add-on and is enforced through a hybrid language-binary scheme that interposes on accesses to sensitive resources from all parts of the native library. We infer the add-on’s permission set automatically over both its binary and JavaScript sides, via a set of novel program analyses. Applied to a wide variety of native add-ons, we show that our framework, BinWrap, reduces access to sensitive resources, defends against real-world exploits, and imposes an overhead that ranges between 0.71%–10.4%.</div>
-          
-
-        </li>
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="https://doi.org/10.1145/3593856.3595891" target="_blank">Executing Shell Scripts in the Wrong Order, Correctly</a></strong><br>
-          
-
-          Liargkovas, Georgios and Kallas, Konstantinos and Greenberg, Michael and Vasilakis, Nikos.
-          <em>19th Workshop on Hot Topics in Operating Systems</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="https://doi.org/10.1145/3593856.3595891" target="_blank">DOI</a> ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="https://www.usenix.org/conference/nsdi23/presentation/mustafa" target="_blank">{DiSh}: Dynamic {Shell-Script} Distribution</a></strong><br>
-          
-
-          Tammam Mustafa and Konstantinos Kallas and Pratyush Das and Nikos Vasilakis.
-          <em>20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23)</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="http://nikos.vasilak.is/p/pash:nsdi:2023.pdf" target="_blank">PDF</a> | <a href="https://www.usenix.org/conference/nsdi23/presentation/mustafa" target="_blank">DOI</a> | <a href="https://github.com/binpash/pash/" target="_blank">Code</a> | <a href="javascript:void(0);" onclick="toggleBlock('abs-dish:nsdi:2023')">Abstract</a> ]</span>
-
-          
-          <div id="abs-dish:nsdi:2023" class="hidden abstract-block mt-2 text-sm italic">Shell scripting remains prevalent for automation and data-processing tasks, partly due to its dynamic features—e.g., expansion, substitution—and language agnosticism—i.e., the ability to combine third-party commands implemented in any programming language. Unfortunately, these characteristics hinder automated shell-script distribution, often necessary for dealing with large datasets that do not fit on a single computer. This paper introduces DiSh, a system that distributes the execution of dynamic shell scripts operating on distributed filesystems. DiSh is designed as a shim that applies program analyses and transformations to leverage distributed computing, while delegating all execution to the underlying shell available on each computing node. As a result, DiSh does not require modifications to shell scripts and maintains compatibility with existing shells and legacy functionality. We evaluate DiSh against several options available to users today: (i) Bash, a single-node shell-interpreter baseline, (ii) PaSh, a state-of-the-art automated-parallelization system, and (iii) Hadoop Streaming, a MapReduce system that supports language-agnostic third-party components. Combined, our results demonstrate that DiSh offers significant performance gains, requires no developer effort, and handles arbitrary dynamic behaviors pervasive in real-world shell scripts.</div>
-          
-
-        </li>
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="https://ieeexplore.ieee.org/document/10172577" target="_blank">SecBench.js: An Executable Security Benchmark Suite for Server-Side JavaScript</a></strong><br>
-          
-
-          Bhuiyan, Masudul Hasan Masud and Parthasarathy, Adithya Srinivas and Vasilakis, Nikos and Pradel, Michael and Staicu, Cristian-Alexandru.
-          <em>2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="https://nikos.vasilak.is/p/secbench:icse:2023.pdf" target="_blank">PDF</a> | <a href="https://ieeexplore.ieee.org/document/10172577" target="_blank">DOI</a> | <a href="https://github.com/cristianstaicu/SecBench.js" target="_blank">Code</a> | <a href="javascript:void(0);" onclick="toggleBlock('abs-secbench:icse:2023')">Abstract</a> ]</span>
-
-          
-          <div id="abs-secbench:icse:2023" class="hidden abstract-block mt-2 text-sm italic">NPM is the largest software ecosystem in the world, offering millions of free, reusable packages. In recent years, various security threats to packages published on npm have been reported, including vulnerabilities that affect millions of users. To continuously improve techniques for detecting vulnerabilities and mitigating attacks that exploit them, a reusable benchmark of vulnerabilities would be highly desirable. Ideally, such a benchmark should be realistic, come with executable exploits, and include fixes of vulnerabilities. Unfortunately, there currently is no such benchmark, forcing researchers to repeatedly develop their own evaluation datasets and making it difficult to compare techniques with each other. This paper presents SecBench.js,, the first comprehensive benchmark suite of vulnerabilities and executable exploits for npm. The benchmark comprises 600 vulnerabilities, which cover the five most common vulnerability classes for server-side JavaScript. Each vulnerability comes with a payload that exploits the vulnerability and an oracle that validates successful exploitation. SecBench.js, enables various applications, of which we explore three in this paper: (i) cross-checking SecBench.js, against public security advisories reveals 168 vulnerable versions in 19 packages that are mislabeled in the advisories; (ii) applying simple code transformations to the exploits in our suite helps identify flawed fixes of vulnerabilities; (iii) dynamically analyzing calls to common sink APIs, e.g., exec(), yields a ground truth of code locations for evaluating vulnerability detectors. Beyond providing a reusable benchmark to the community, our work identified 20 zero-day vulnerabilities, most of which are already acknowledged by practitioners.</div>
-          
-
-        </li>
-        
-        <li class="pub" data-type="misc" data-category="">
-
-          
-            <strong>Try: Controlling a Command&#39;s Side-Effects</strong><br>
-          
-
-          The PaSh Authors.
-          <em></em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[  ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="book" data-category="">
-
-          
-            <strong><a href="https://brill.com/view/title/68194" target="_blank">Variability in the Earlier Egyptian Mortuary Texts</a></strong><br>
-          
-
-          Carlos Gracia Zamacona.
-          <em></em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="https://brill.com/view/title/68194" target="_blank">DOI</a> ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="inbook" data-category="">
-
-          
-            <strong><a href="https://doi.org/10.1163/9789004677982_010" target="_blank">The Variability of Ritual Texts: Knowledge Transfer at the Interface of Oral and Written Forms</a></strong><br>
-          
-
-          Christelle Alvarez.
-          <em></em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="https://doi.org/10.1163/9789004677982_010" target="_blank">DOI</a> ]</span>
-
-          
-
-        </li>
-        
-      </ul>
-    </div>
-    
-    <div class="year-block mt-12 mb-6">
-      <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2022</h2>
-      <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
-
-      <ul class="space-y-4">
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="https://doi.org/10.1145/3564625.3564664" target="_blank">Towards Practical Application-level Support for Privilege Separation</a></strong><br>
-          
-
-          Sultana, Nik and Zhu, Henry and Zhong, Ke and Zheng, Zhilei and Mao, Ruijie and Chauhan, Digvijaysinh and Carrasquillo, Stephen and Zhao, Junyong and Shi, Lei and Vasilakis, Nikos and Loo, Boon Thau.
-          <em>38th Annual Computer Security Applications Conference</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="https://doi.org/10.1145/3564625.3564664" target="_blank">DOI</a> ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="https://doi.org/10.1145/3538969.3538983" target="_blank">Themis: A Secure Decentralized Framework for Microservice Interaction in Serverless Computing</a></strong><br>
-          
-
-          Aktypi, Angeliki and Karnikis, Dimitris and Vasilakis, Nikos and Rasmussen, Kasper.
-          <em>17th International Conference on Availability, Reliability and Security</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="http://nikos.vasilak.is/p/themis:ares:2022.pdf" target="_blank">PDF</a> | <a href="https://doi.org/10.1145/3538969.3538983" target="_blank">DOI</a> | <a href="javascript:void(0);" onclick="toggleBlock('abs-themis:ares:2022')">Abstract</a> ]</span>
-
-          
-          <div id="abs-themis:ares:2022" class="hidden abstract-block mt-2 text-sm italic">In serverless computing, applications are composed of stand-alone
-microservices that are invoked and scale up independently. Peer-
-to-peer protocols can be used to enable decentralized communica-
-tion among the services that compose each application. This paper
-presents Themis, a framework for secure service-to-service interac-
-tion targeting these environments and the underlying service mesh
-architectures. Themis builds on a notion of decentralized identity
-management to allow confidential and authenticated service-to-
-service interaction without the need for a centralized certificate
-authority. Themis adopts a layered architecture. Its lower layer
-forms a core communication protocol pair that offers strong se-
-curity guarantees without depending on a centralized point of
-authority. Building on this pair, an upper layer provides a series of
-actions related to communication and identifier management—e.g.,
-store, find, and join. This paper analyzes the security properties
-of Themis’s protocol suite and shows how it provides a decen-
-tralized and flexible communication platform. The evaluation of
-our Themis prototype targeting serverless applications written
-in JavaScript shows that these security benefits come with small
-runtime latency and throughput overheads, and modest startup
-overheads.</div>
-          
-
-        </li>
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="https://www.usenix.org/conference/osdi22/presentation/kallas" target="_blank">Practically Correct, {Just-in-Time} Shell Script Parallelization</a></strong><br>
-          
-
-          Konstantinos Kallas and Tammam Mustafa and Jan Bielak and Dimitris Karnikis and Thurston H.Y. Dang and Michael Greenberg and Nikos Vasilakis.
-          <em>16th USENIX Symposium on Operating Systems Design and Implementation (OSDI 22)</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="http://nikos.vasilak.is/p/pash:eurosys:2021.pdf" target="_blank">PDF</a> | <a href="https://www.usenix.org/conference/osdi22/presentation/kallas" target="_blank">DOI</a> | <a href="https://github.com/binpash/pash" target="_blank">Code</a> | <a href="javascript:void(0);" onclick="toggleBlock('abs-pash:osdi:2022')">Abstract</a> ]</span>
-
-          
-          <div id="abs-pash:osdi:2022" class="hidden abstract-block mt-2 text-sm italic">This paper presents PaSh, a system for parallelizing POSIX
-shell scripts. Given a script, PaSh converts it to a dataflow
-graph, performs a series of semantics-preserving program
-transformations that expose parallelism, and then converts
-the dataflow graph back into a script—one that adds POSIX
-constructs to explicitly guide parallelism coupled with PaSh-
-provided Unix-aware runtime primitives for addressing per-
-formance- and correctness-related issues. A lightweight an-
-notation language allows command developers to express
-key parallelizability properties about their commands. An
-accompanying parallelizability study of POSIX and GNU
-commands—two large and commonly used groups—guides
-the annotation language and optimized aggregator library
-that PaSh uses. PaSh’s extensive evaluation over 44 unmod-
-ified Unix scripts shows significant speedups (0.89–61.1×,
-avg: 6.7×) stemming from the combination of its program
-transformations and runtime primitives.</div>
-          
-
-        </li>
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="https://doi.org/10.1145/3517208.3523753" target="_blank">A systematic analysis of the event-stream incident</a></strong><br>
-          
-
-          Arvanitis, Iosif and Ntousakis, Grigoris and Ioannidis, Sotiris and Vasilakis, Nikos.
-          <em>15th European Workshop on Systems Security</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="https://doi.org/10.1145/3517208.3523753" target="_blank">DOI</a> ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="misc" data-category="">
-
-          
-            <strong>The PaSh Project</strong><br>
-          
-
-          The PaSh Authors.
-          <em></em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[  ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="misc" data-category="">
-
-          
-            <strong>Linux Foundation to Host the PaSh Project</strong><br>
-          
-
-          Kristin OConnell.
-          <em></em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[  ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="misc" data-category="">
-
-          
-            <strong>Faster computing results without fear of errors</strong><br>
-          
-
-          Adam Zewe.
-          <em></em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[  ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="article" data-category="">
-
-          
-            <strong><a href="https://mtc-journal.org/index.php/mtc/article/view/5" target="_blank">Monumentalizing ritual texts in Ancient Egyptian pyramids</a></strong><br>
-          
-
-          Alvarez, Christelle.
-          <em></em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="https://mtc-journal.org/index.php/mtc/article/view/5" target="_blank">DOI</a> ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="https://doi.org/10.1145/3503221.3508400" target="_blank">Automatic synthesis of parallel unix commands and pipelines with KumQuat</a></strong><br>
-          
-
-          Shen, Jiasi and Rinard, Martin and Vasilakis, Nikos.
-          <em>Proceedings of the 27th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="https://doi.org/10.1145/3503221.3508400" target="_blank">DOI</a> ]</span>
-
-          
-
-        </li>
-        
-      </ul>
-    </div>
-    
-    <div class="year-block mt-12 mb-6">
-      <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2021</h2>
-      <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
-
-      <ul class="space-y-4">
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="https://doi.org/10.1145/3460120.3484736" target="_blank">Supply-Chain Vulnerability Elimination via Active Learning and Regeneration</a></strong><br>
-          
-
-          Vasilakis, Nikos and Benetopoulos, Achilles and Handa, Shivam and Schoen, Alizee and Shen, Jiasi and Rinard, Martin C..
-          <em>2021 ACM SIGSAC Conference on Computer and Communications Security</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="https://doi.org/10.1145/3460120.3484736" target="_blank">DOI</a> ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="https://doi.org/10.1145/3460120.3484535" target="_blank">Preventing Dynamic Library Compromise on Node.js via RWX-Based Privilege Reduction</a></strong><br>
-          
-
-          Vasilakis, Nikos and Staicu, Cristian-Alexandru and Ntousakis, Grigoris and Kallas, Konstantinos and Karel, Ben and DeHon, Andr\&#39;{e} and Pradel, Michael.
-          <em>2021 ACM SIGSAC Conference on Computer and Communications Security</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="https://doi.org/10.1145/3460120.3484535" target="_blank">DOI</a> ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="inbook" data-category="">
-
-          
-            <strong><a href="https://doi.org/10.1145/3468264.3468574" target="_blank">Efficient Module-Level Dynamic Analysis for Dynamic Languages with Module Recontextualization</a></strong><br>
-          
-
-          Vasilakis, Nikos and Ntousakis, Grigoris and Heller, Veit and Rinard, Martin C..
-          <em>29th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="https://doi.org/10.1145/3468264.3468574" target="_blank">DOI</a> ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="https://doi.org/10.1145/3473570" target="_blank">An order-aware dataflow model for parallel Unix pipelines</a></strong><br>
-          
-
-          Handa, Shivam and Kallas, Konstantinos and Vasilakis, Nikos and Rinard, Martin C..
-          <em>International Conference on Functional Programming</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="https://doi.org/10.1145/3473570" target="_blank">DOI</a> ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="https://doi.org/10.1145/3458336.3465294" target="_blank">Unix Shell Programming: The Next 50 Years</a></strong><br>
-          
-
-          Greenberg, Michael and Kallas, Konstantinos and Vasilakis, Nikos.
-          <em>Workshop on Hot Topics in Operating Systems</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="https://doi.org/10.1145/3458336.3465294" target="_blank">DOI</a> ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="https://doi.org/10.1145/3447786.3456228" target="_blank">PaSh: Light-Touch Data-Parallel Shell Processing</a></strong><br>
-          
-
-          Vasilakis, Nikos and Kallas, Konstantinos and Mamouras, Konstantinos and Benetopoulos, Achilles and Cvetkovi\&#39;{c}, Lazar.
-          <em>16th European Conference on Computer Systems</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="https://doi.org/10.1145/3447786.3456228" target="_blank">DOI</a> ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="https://doi.org/10.1145/3460120.3485351" target="_blank">Demo: Detecting Third-Party Library Problems with Combined Program Analysis</a></strong><br>
-          
-
-          Ntousakis, Grigoris and Ioannidis, Sotiris and Vasilakis, Nikos.
-          <em>2021 ACM SIGSAC Conference on Computer and Communications Security</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="https://doi.org/10.1145/3460120.3485351" target="_blank">DOI</a> ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="https://doi.org/10.1145/3458336.3465296" target="_blank">The Future of the Shell: Unix and Beyond</a></strong><br>
-          
-
-          Greenberg, Michael and Kallas, Konstantinos and Vasilakis, Nikos.
-          <em>Workshop on Hot Topics in Operating Systems</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="https://doi.org/10.1145/3458336.3465296" target="_blank">DOI</a> ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="https://arxiv.org/abs/2109.11016" target="_blank">Report on the &#34;The Future of the Shell&#34; Panel at HotOS 2021</a></strong><br>
-          
-
-          Michael Greenberg and Konstantinos Kallas and Nikos Vasilakis and Stephen Kell.
-          <em>HotOS &#39;21: Proceedings of the Workshop on Hot Topics in Operating Systems</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="https://arxiv.org/abs/2109.11016" target="_blank">DOI</a> ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="misc" data-category="">
-
-          
-            <strong>Transactions in a decentralized control plane of a computing system</strong><br>
-          
-
-          Chrysanthakopoulos, Georgios and Noordhuis, Pieter and Malkhi, Dahlia and Vasilakis, Nikos and Kariv, Asaf.
-          <em></em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[  ]</span>
-
-          
-
-        </li>
-        
-      </ul>
-    </div>
-    
-    <div class="year-block mt-12 mb-6">
-      <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2020</h2>
-      <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
-
-      <ul class="space-y-4">
-        
-        <li class="pub" data-type="article" data-category="">
-
-          
-            <strong><a href="https://arxiv.org/abs/2012.15443" target="_blank">Automatic Synthesis of Parallel and Distributed Unix Commands with KumQuat</a></strong><br>
-          
-
-          Nikos Vasilakis and Jiasi Shen and Martin C. Rinard.
-          <em></em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="https://arxiv.org/abs/2012.15443" target="_blank">DOI</a> ]</span>
-
-          
-
-        </li>
-        
-      </ul>
-    </div>
-    
-    <div class="year-block mt-12 mb-6">
-      <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2019</h2>
-      <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
-
-      <ul class="space-y-4">
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="https://doi.org/10.1145/3359591.3359732" target="_blank">Active learning for software engineering</a></strong><br>
-          
-
-          Cambronero, Jos\&#39;{e} P. and Dang, Thurston H. Y. and Vasilakis, Nikos and Shen, Jiasi and Wu, Jerry and Rinard, Martin C..
-          <em>2019 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="https://doi.org/10.1145/3359591.3359732" target="_blank">DOI</a> ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="https://www.usenix.org/conference/atc19/presentation/demoulin" target="_blank">Detecting Asymmetric Application-layer Denial-of-Service Attacks In-Flight with Finelame</a></strong><br>
-          
-
-          Henri Maxime Demoulin and Isaac Pedisich and Nikos Vasilakis and Vincent Liu and Boon Thau Loo and Linh Thi Xuan Phan.
-          <em>2019 {USENIX} Annual Technical Conference ({USENIX} {ATC} 19)</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="https://www.usenix.org/conference/atc19/presentation/demoulin" target="_blank">DOI</a> ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="http://doi.acm.org/10.1145/3314221.3314586" target="_blank">Ignis: Scaling Distribution-Oblivious Systems with Light-Touch Distribution</a></strong><br>
-          
-
-          Vasilakis, Nikos and Karel, Ben and Palkhiwala, Yash and Sonchack, John and DeHon, Andr{\&#39;e} and Smith, Jonathan M..
-          <em>40th ACM SIGPLAN Conference on Programming Language Design and Implementation</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="http://doi.acm.org/10.1145/3314221.3314586" target="_blank">DOI</a> ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="phdthesis" data-category="">
-
-          
-            <strong>Andromeda---A Distributed Userspace</strong><br>
-          
-
-          Nikos Vasilakis.
-          <em></em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="http://nikos.vasilak.is/p/andromeda:upenn:2019.pdf" target="_blank">PDF</a> ]</span>
-
-          
-
-        </li>
-        
-      </ul>
-    </div>
-    
-    <div class="year-block mt-12 mb-6">
-      <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2018</h2>
-      <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
-
-      <ul class="space-y-4">
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="https://doi.org/10.1145/3213344.3213346" target="_blank">The Web as a Distributed Computing Platform</a></strong><br>
-          
-
-          Vasilakis, Nikos and Goel, Pranjal and Demoulin, Henri Maxime and Smith, Jonathan M..
-          <em>1st International Workshop on Edge Systems, Analytics and Networking</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="https://doi.org/10.1145/3213344.3213346" target="_blank">DOI</a> ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="http://dx.doi.org/10.14722/ndss.2018.23131" target="_blank">BreakApp: Automated, Flexible Application Compartmentalization</a></strong><br>
-          
-
-          Vasilakis, Nikos and Karel, Ben and Roessler, Nick and Dautenhahn, Nathan and DeHon, Andr{\&#39;e} and Smith, Jonathan M..
-          <em>Networked and Distributed Systems Security</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="http://dx.doi.org/10.14722/ndss.2018.23131" target="_blank">DOI</a> ]</span>
-
-          
-
-        </li>
-        
-      </ul>
-    </div>
-    
-    <div class="year-block mt-12 mb-6">
-      <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2017</h2>
-      <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
-
-      <ul class="space-y-4">
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="https://doi.org/10.1145/3144555.3144563" target="_blank">Towards Fine-grained, Automated Application Compartmentalization</a></strong><br>
-          
-
-          Vasilakis, Nikos and Karel, Ben and Roessler, Nick and Dautenhahn, Nathan and DeHon, Andr\&#39;{e} and Smith, Jonathan M..
-          <em>9th Workshop on Programming Languages and Operating Systems</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="https://doi.org/10.1145/3144555.3144563" target="_blank">DOI</a> ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="https://doi.org/10.1145/3124680.3124744" target="_blank">Query-efficient Partitions for Dynamic Data</a></strong><br>
-          
-
-          Vasilakis, Nikos and Palkhiwala, Yash and Smith, Jonathan M..
-          <em>8th Asia-Pacific Workshop on Systems</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="https://doi.org/10.1145/3124680.3124744" target="_blank">DOI</a> ]</span>
-
-          
-
-        </li>
-        
-      </ul>
-    </div>
-    
-    <div class="year-block mt-12 mb-6">
-      <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2015</h2>
-      <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
-
-      <ul class="space-y-4">
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="https://www.usenix.org/conference/hotos15/workshop-program/presentation/vasilakis" target="_blank">From Lone Dwarfs to Giant Superclusters: Rethinking Operating System Abstractions for the Cloud</a></strong><br>
-          
-
-          Vasilakis, Nikos and Karel, Ben and Smith, Jonathan M..
-          <em>15th Workshop on Hot Topics in Operating Systems (HotOS XV)</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="https://www.usenix.org/conference/hotos15/workshop-program/presentation/vasilakis" target="_blank">DOI</a> ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="http://doi.acm.org/10.1145/2694344.2694383" target="_blank">Architectural Support for Software-Defined Metadata Processing</a></strong><br>
-          
-
-          Dhawan, Udit and Hritcu, Catalin and Rubin, Raphael and Vasilakis, Nikos and Chiricescu, Silviu and Smith, Jonathan M. and Knight,Jr., Thomas F. and Pierce, Benjamin C. and DeHon, Andre.
-          <em>20th International Conference on Architectural Support for Programming Languages and Operating Systems</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="http://doi.acm.org/10.1145/2694344.2694383" target="_blank">DOI</a> ]</span>
-
-          
-
-        </li>
-        
-      </ul>
-    </div>
-    
-    <div class="year-block mt-12 mb-6">
-      <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2014</h2>
-      <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
-
-      <ul class="space-y-4">
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="http://doi.acm.org/10.1145/2611765.2611773" target="_blank">PUMP: A Programmable Unit for Metadata Processing</a></strong><br>
-          
-
-          Dhawan, Udit and Vasilakis, Nikos and Rubin, Raphael and Chiricescu, Silviu and Smith, Jonathan M. and Knight,Jr., Thomas F. and Pierce, Benjamin C. and DeHon, Andr{\&#39;e}.
-          <em>3rd Workshop on Hardware and Architectural Support for Security and Privacy</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="http://doi.acm.org/10.1145/2611765.2611773" target="_blank">DOI</a> ]</span>
-
-          
-
-        </li>
-        
-      </ul>
-    </div>
-    
-    <div class="year-block mt-12 mb-6">
-      <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2013</h2>
-      <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
-
-      <ul class="space-y-4">
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong>HandsFree: Next Generation Sequence Processing, Mapping and Analysis Made Easy</strong><br>
-          
-
-          Loher, Phillipe and Vasilakis, Nikos and Malamon, John  and Chen, Huang-Wen and Rigoutsos, Isidore.
-          <em>Data Integration in the Life Sciences: 9th International Conference</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[  ]</span>
-
-          
-
-        </li>
-        
-      </ul>
-    </div>
-    
-    <div class="year-block mt-12 mb-6">
-      <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2010</h2>
-      <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
-
-      <ul class="space-y-4">
-        
-        <li class="pub" data-type="mastersthesis" data-category="">
-
-          
-            <strong>A Novel Application of Ubiquitous Computing Using Interactive Installations</strong><br>
-          
-
-          Nikos Vasilakis.
-          <em></em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="http://nikos.vasilak.is/p/finn:upatras:2009.pdf" target="_blank">PDF</a> ]</span>
-
-          
-
-        </li>
-        
-      </ul>
-    </div>
-    
-    <div class="year-block mt-12 mb-6">
-      <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2009</h2>
-      <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
-
-      <ul class="space-y-4">
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="https://doi.org/10.1145/1690388.1690418" target="_blank">Developing multiplayer pervasive games and networked interactive installations using ad hoc mobile sensor nets</a></strong><br>
-          
-
-          Akribopoulos, Orestis and Logaras, Marios and Vasilakis, Nikos and Kokkinos, Panagiotis and Mylonas, Georgios and Chatzigiannakis, Ioannis and Spirakis, Paul.
-          <em>International Conference on Advances in Computer Entertainment Technology</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="https://doi.org/10.1145/1690388.1690418" target="_blank">DOI</a> ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="https://doi.org/10.1145/1690388.1690500" target="_blank">Multiplayer pervasive games and networked interactive installations using ad hoc mobile sensor networks</a></strong><br>
-          
-
-          Akribopoulos, Orestis and Logaras, Marios and Vasilakis, Nikos and Kokkinos, Panagiotis and Mylonas, Georgios and Chatzigiannakis, Ioannis and Spirakis, Paul.
-          <em>International Conference on Advances in Computer Entertainment Technology</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="https://doi.org/10.1145/1690388.1690500" target="_blank">DOI</a> | <a href="javascript:void(0);" onclick="toggleBlock('abs-finndemo:ace:2009')">Abstract</a> ]</span>
-
-          
-          <div id="abs-finndemo:ace:2009" class="hidden abstract-block mt-2 text-sm italic">In this work, we showcase a set of implemented multiplayer games and interactive installations based on Fun in Numbers (FinN). FinN allows the quick prototyping of applications that utilize input from multiple physical sources (sensors and other means of interfacing), by offering a set of programming templates and services, such as proximity, localization and synchronization, that hide the underlying complexity.</div>
-          
-
-        </li>
-        
-      </ul>
-    </div>
-    
-    <div class="year-block mt-12 mb-6">
-      <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">2008</h2>
-      <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
-
-      <ul class="space-y-4">
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong><a href="http://doi.acm.org/10.1145/1460412.1460459" target="_blank">Using wireless sensor networks to develop pervasive multi-player games</a></strong><br>
-          
-
-          Orestis Akribopoulos and Marios Logaras and Nikos Vasilakis and Panagiotis C. Kokkinos and Georgios Mylonas and Ioannis Chatzigiannakis.
-          <em>6th International Conference on Embedded Networked Sensor Systems</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[ <a href="http://doi.acm.org/10.1145/1460412.1460459" target="_blank">DOI</a> ]</span>
-
-          
-
-        </li>
-        
-        <li class="pub" data-type="inproceedings" data-category="">
-
-          
-            <strong>A software platform for developing multi-player pervasive games using small programmable object technologies</strong><br>
-          
-
-          Orestis Akribopoulos and Dimitrios Bousis and Dionysios Efstathiou and Haris Koutsouridis and Marios Logaras and Andreas Loukas and Alexandros Nafas and Georgios Oikonomou and Irini Thireou and Nikos Vasilakis and Panagiotis C. Kokkinos and Georgios Mylonas and Ioannis Chatzigiannakis.
-          <em>2008 5th IEEE International Conference on Mobile Ad Hoc and Sensor Systems</em><br>
-
-          
-          
-          
-          
-          
-          
-
-          <span class="links text-sm">[  ]</span>
-
-          
-
-        </li>
-        
-      </ul>
-    </div>
-    
-
   </div>
 </section>
 

@@ -1,111 +1,87 @@
 {{ define "main" }}
-
-{{/* -------------------------------  PRE-COLLECT TYPES  ------------------------------- */}}
-{{ $types := slice }}
-{{ $categories := slice }}
-
-{{ range $pubs := $.Site.Data.publications }}
-  {{ range $entry := $pubs.entries }}
-
-    {{/* Collect types */}}
-    {{ if not (in $types $entry.ENTRYTYPE) }}
-      {{ $types = $types | append $entry.ENTRYTYPE }}
-    {{ end }}
-
-    {{/* Collect categories */}}
-    {{ with $entry.category }}
-      {{ if not (in $categories .) }}
-        {{ $categories = $categories | append . }}
-      {{ end }}
-    {{ end }}
-
+{{ $entries := site.Data.publications_generated.entries | default (slice) }}
+{{ $yearsDict := dict }}
+{{ range $entries }}
+  {{ $y := printf "%v" .year }}
+  {{ if not (isset $yearsDict $y) }}
+    {{ $yearsDict = merge $yearsDict (dict $y true) }}
   {{ end }}
 {{ end }}
-
-
+{{ $years := slice }}
+{{ range $k, $_ := $yearsDict }}
+  {{ $years = $years | append (int $k) }}
+{{ end }}
+{{ $years = sort $years "value" "desc" }}
 <section class="mt-0 prose max-w-full flex flex-col dark:prose-invert">
   <div class="min-w-0 min-h-0 max-w-prose">
     <h2>Publications</h2>
 
-    <div class="publications-container">
-      <!-- FILTER BLOCK -->
+    <div
+      id="publicationsApp"
+      class="publications-container"
+    >
       <div class="flex flex-col gap-16 mb-16 not-prose">
+        <div>
+          <input
+            type="text"
+            id="pubSearch"
+            placeholder="Search keywords..."
+            class="publication-search"
+          >
+        </div>
 
-          <!-- SEARCH BAR -->
-          <div>
-            <input type="text" id="pubSearch"
-                   placeholder="Search keywords..."
-                   class="publication-search">
-          </div>
-    
-        <!-- TYPES ROW -->
         <div>
           <h3 class="filter-title">Types</h3>
-          <div class="filter-row">
-            {{ range $types }}
-            <label class="pill cursor-pointer filter-type" data-value="{{ lower . }}">
-              <span>{{ . }}</span>
-              <span class="pill-x hidden">X</span>
-            </label>            
-            {{ end }}
-          </div>
+          <div id="typeFilters" class="filter-row"></div>
         </div>
-    
-        <!-- CATEGORIES ROW -->
+
         <div>
-          <h3 class="filter-title">Categories</h3>
-          <div class="filter-row">
-            {{ range $categories }}
-            <label class="pill cursor-pointer filter-type" data-value="{{ lower . }}">
-              <span>{{ . }}</span>
-              <span class="pill-x hidden">X</span>
-            </label>            
-            {{ end }}
-          </div>
+          <h3 class="filter-title">Years</h3>
+          <div id="yearFilters" class="filter-row"></div>
         </div>
-    
-      </div> <!-- END FILTER BLOCK -->
+      </div>
 
+      <p id="pubNoResults" class="pub-status hidden">No publications match the current filters.</p>
 
-    <!-- PUBLICATIONS LIST -->
-    {{ $pubs := $.Site.Data.publications }}
-    {{ range $pubs }}
-    <div class="year-block mt-12 mb-6">
-      <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">{{ .year }}</h2>
-      <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
+      <div id="publicationYears">
+        {{ range $year := $years }}
+        <div class="year-block mt-12 mb-6" data-year="{{ $year }}">
+          <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">{{ $year }}</h2>
+          <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
+          <ul class="space-y-4">
+            {{ range $i, $entry := where $entries "year" $year }}
+              {{ $absID := printf "abs-%s-%d" (replaceRE "[^A-Za-z0-9_-]" "-" $entry.id) $i }}
+              {{ $search := printf "%s %s %s %s %v" $entry.title $entry.authors $entry.venue $entry.type $entry.year }}
+              <li class="pub" data-type="{{ $entry.type }}" data-year="{{ $entry.year }}" data-search="{{ lower $search }}">
+                {{ if $entry.url }}
+                  <strong><a href="{{ $entry.url }}" target="_blank" rel="noopener noreferrer">{{ $entry.title }}</a></strong><br>
+                {{ else }}
+                  <strong>{{ $entry.title }}</strong><br>
+                {{ end }}
 
-      <ul class="space-y-4">
-        {{ range .entries }}
-        <li class="pub" data-type="{{ lower .ENTRYTYPE }}" data-category="{{ lower .category }}">
+                {{ if $entry.authors }}{{ $entry.authors }}. {{ end }}
+                {{ if $entry.venue }}<em>{{ $entry.venue }}</em>{{ end }}<br>
 
-          {{ if .url }}
-            <strong><a href="{{ .url }}" target="_blank">{{ .title }}</a></strong><br>
-          {{ else }}
-            <strong>{{ .title }}</strong><br>
-          {{ end }}
+                {{ $links := slice }}
+                {{ if $entry.pdf }}{{ $links = $links | append (printf `<a href="%s" target="_blank" rel="noopener noreferrer">PDF</a>` $entry.pdf) }}{{ end }}
+                {{ if $entry.doi }}{{ $links = $links | append (printf `<a href="https://doi.org/%s" target="_blank" rel="noopener noreferrer">DOI</a>` $entry.doi) }}{{ else if $entry.url }}{{ $links = $links | append (printf `<a href="%s" target="_blank" rel="noopener noreferrer">URL</a>` $entry.url) }}{{ end }}
+                {{ if $entry.code }}{{ $links = $links | append (printf `<a href="%s" target="_blank" rel="noopener noreferrer">Code</a>` $entry.code) }}{{ end }}
+                {{ if $entry.abstract }}{{ $links = $links | append (printf `<button type="button" class="pub-action-link" data-abs-id="%s">Abstract</button>` $absID) }}{{ end }}
 
-          {{ .author }}.
-          <em>{{ .booktitle }}</em><br>
+                {{ if gt (len $links) 0 }}
+                <span class="links text-sm">[ {{ delimit $links " | " | safeHTML }} ]</span>
+                {{ end }}
 
-          {{/* LINKS */}}
-          {{ $links := slice }}
-          {{ if .pdf }}{{ $links = $links | append (printf `<a href="%s" target="_blank">PDF</a>` .pdf) }}{{ end }}
-          {{ if .url }}{{ $links = $links | append (printf `<a href="%s" target="_blank">DOI</a>` .url) }}{{ end }}
-          {{ if .code }}{{ $links = $links | append (printf `<a href="%s" target="_blank">Code</a>` .code) }}{{ end }}
-          {{ if .abstract }}{{ $links = $links | append (printf `<a href="javascript:void(0);" onclick="toggleBlock('abs-%s')">Abstract</a>` .ID) }}{{ end }}
-
-          <span class="links text-sm">[ {{ delimit $links " | " | safeHTML }} ]</span>
-
-          {{ if .abstract }}
-          <div id="abs-{{ .ID }}" class="hidden abstract-block mt-2 text-sm italic">{{ .abstract }}</div>
-          {{ end }}
-
-        </li>
+                {{ if $entry.abstract }}
+                <div id="{{ $absID }}" class="hidden abstract-block mt-2 text-sm italic">{{ $entry.abstract }}</div>
+                {{ end }}
+              </li>
+            {{ end }}
+          </ul>
+        </div>
         {{ end }}
-      </ul>
+      </div>
     </div>
-    {{ end }}
-
   </div>
 </section>
 
