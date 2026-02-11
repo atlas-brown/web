@@ -2,38 +2,45 @@
 {{- range $group := $team.group_order -}}
 <h2>{{ $group }}</h2>
 {{- $members := where $team.people "group" $group -}}
-{{- range $members -}}
-<div>
-  <img class="imgStuffTeam" width="150" height="150" src="{{ printf "../profile_pictures/%s" .photo }}" alt="{{ .name }}">
-  <p>
-    <strong>
-      {{- if .website -}}
-        <a href="{{ .website }}">{{ .name }}</a>
-      {{- else -}}
-        {{ .name }}
+<div class="team-grid">
+  {{- range $members -}}
+  <article class="team-card">
+    <img class="team-photo" width="150" height="150" src="{{ printf "../profile_pictures/%s" .photo }}" alt="{{ .name }}">
+    <div class="team-card-body">
+      <p>
+        <strong>
+          {{- if .website -}}
+          <a href="{{ .website }}">{{ .name }}</a>
+          {{- else -}}
+          {{ .name }}
+          {{- end -}}
+        </strong>
+        {{- if .blurb }}<br>{{ .blurb }}{{ end -}}
+      </p>
+      {{- if .links }}
+      <p class="team-links">
+        {{- range $idx, $link := .links -}}
+          {{- if gt $idx 0 }} | {{ end -}}
+          <a href="{{ $link.url }}">{{ $link.label }}</a>
+        {{- end -}}
+      </p>
       {{- end -}}
-    </strong>
-    {{- if .blurb }}<br>{{ .blurb }}{{ end -}}
-    {{- if .links }}
-      <br><br>
-      {{- range $idx, $link := .links -}}
-        {{- if gt $idx 0 }} | {{ end -}}
-        <a href="{{ $link.url }}">{{ $link.label }}</a>
-      {{- end -}}
-    {{- end -}}
-  </p>
+    </div>
+  </article>
+  {{- end -}}
 </div>
-{{- end -}}
 {{- end -}}
 
 <h2>Alumni</h2>
-{{- range $team.alumni -}}
-<p>
-  {{- if .url -}}
-    <a href="{{ .url }}">{{ .name }}</a>
-  {{- else -}}
-    {{ .name }}
+<div class="team-alumni-list">
+  {{- range $team.alumni -}}
+  <p>
+    {{- if .url -}}
+      <a href="{{ .url }}">{{ .name }}</a>
+    {{- else -}}
+      {{ .name }}
+    {{- end -}}
+    {{- with .note }} {{ . }}{{ end -}}
+  </p>
   {{- end -}}
-  {{- with .note }} {{ . }}{{ end -}}
-</p>
-{{- end -}}
+</div>

@@ -1,14 +1,16 @@
 {{- $people := where site.Data.team.people "home" true -}}
-{{- range $people -}}
-<div class="gallery-item grid-w20">
-  <img class="imgStuff" src="{{ printf "../profile_pictures/%s" .photo }}" alt="{{ .name }}" />
-  <strong>
-    {{- if .website -}}
+<div class="team-home-grid">
+  {{- range $people -}}
+  <article class="team-home-card">
+    <img class="team-photo" src="{{ printf "../profile_pictures/%s" .photo }}" alt="{{ .name }}">
+    <strong>
+      {{- if .website -}}
       <a href="{{ .website }}" title="{{ .name }}">{{ .name }}</a>
-    {{- else -}}
-      <a href="#" title="{{ .name }}">{{ .name }}</a>
-    {{- end -}}
-  </strong>
-  <br> {{ .home_role | default .group }}
+      {{- else -}}
+      {{ .name }}
+      {{- end -}}
+    </strong>
+    <span class="team-home-role">{{ .home_role | default .group }}</span>
+  </article>
+  {{- end -}}
 </div>
-{{- end -}}

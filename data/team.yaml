@@ -22,20 +22,6 @@ people:
       - label: Github
         url: https://github.com/achowd32
 
-  - id: di
-    name: Di Jin
-    group: Postdocs
-    home: true
-    home_role: Postdoc
-    photo: di.jpg
-    website: https://sleepymug.me
-    blurb: Making software security approachable and scalable.
-    links:
-      - label: E-mail
-        url: mailto:di_jin@brown.edu
-      - label: Github
-        url: http://github.com/sleepymug
-
   - id: dawn
     name: Dawn T. Reed
     group: Administrative Assistant
@@ -54,7 +40,7 @@ people:
     home_role: Ph.D. Student
     photo: eric.jpg
     website: https://mustardfox.org/
-    blurb: Interested in principled and provably correct abstractions. Co-advised by R. Lewis.
+    blurb: Interested in principled and provably correct abstractions. Co-advised by Robert Lewis.
     links:
       - label: E-mail
         url: mailto:eric_c_zhao@brown.edu
@@ -109,7 +95,7 @@ people:
     home_role: Ph.D. Student
     photo: grigoris.jpg
     website: https://www.ntousakis.com/
-    blurb: Reimagining third-party library and package ecosystems. Co-advised by V. Kemerlis.
+    blurb: Reimagining third-party library and package ecosystems. Co-advised by Vasileios Kemerlis.
     links:
       - label: E-mail
         url: mailto:gntousakis@tuc.gr
@@ -232,6 +218,9 @@ people:
         url: http://github.com/spanning-tree
 
 alumni:
+  - name: Di Jin
+    url: https://sleepymug.me
+    note: "Postdoc, 2024-2025, next: Huawei Research"
   - name: Ramiz Dundar
     url: https://ramiz.dev/
     note: "(M.Sc., 2025, next: Google)"
@@ -287,7 +276,7 @@ alumni:
     url: https://www.linkedin.com/in/yash-palkhiwala
     note: "(UROP, 2017-2019, next: Flatiron Health)"
   - name: Arjun Dixit
-    url: https://janbielak.com/
+    url: https://www.linkedin.com/in/arjun-dixit-cmu/
     note: "(High School, 2021, next: CMU)"
   - name: Jan Bielak
     url: https://janbielak.com/

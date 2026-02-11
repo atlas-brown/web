@@ -14,9 +14,7 @@ See [all news]({{< ref "news.md" >}})
 
 ## Team
 
-{{< gallery >}}
 {{< team-home-members >}}
-{{< /gallery >}}
 
 ---
 
