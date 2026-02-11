@@ -6,21 +6,7 @@ We build systems that lift the capabilities of programmers dealing with the vast
 ---
 
 ## News
-Sep'25: Early ideas on [LLM guardrails](https://nikos.vasilak.is/p/exo:pacmi:2025.pdf), [hybrid scheduling](https://nikos.vasilak.is/p/cocoon:plos:2025.pdf), and [verifiable kernel extensions](https://nikos.vasilak.is/p/klean:plos:2025.pdf) at [SOSP'25 workshops](https://sigops.org/s/conferences/sosp/2025/workshops.html)! \
-Aug'25: Two [NSDI'26](https://www.usenix.org/conference/nsdi26) papers on [optimization prediction](https://github.com/atlas-brown/slowpoke) and [fault tolerance](https://github.com/binpash/fractal) for opaque distributed systems!  
-Aug'25: [Evangelos Lamprou](https://vagos.lamprou.xyz) joins BrownCS and the group for his PhD!     
-Jul'25: Our [benchmark suite for the shell](https://nikos.vasilak.is/p/koala:atc:2025.pdf) received the [Best Paper Award](https://www.usenix.org/conferences/best-papers) at [USENIX ATC'25](https://www.usenix.org/conference/atc25)!  
-Jul'25: [Nikos Vasilakis](https://nikos.vasilak.is) received a [Google ML-and-Systems Junior Faculty Award](https://blog.google/products/google-cloud/ml-systems-junior-faculty-awards/)!  
-Jun'25: [Our paper](https://nikos.vasilak.is/p/koala:atc:2025.pdf) on the [Koala benchmarks for the shell](https://kben.sh/) was accepted at Usenix [ATC'25](https://www.usenix.org/conference/atc25/presentation/lamprou)---the [last one](https://www.usenix.org/blog/usenix-atc-announcement), _ever_!  
-Apr'25: [Apply](https://forms.gle/zL2giouQjeKyfcGR6) to attend the [Brown Systems Week 2025](https://brown-systems-week.github.io/)!  
-Mar'25: Our paper on [semantics-driven static analysis for the shell](https://nikos.vasilak.is/p/sash:hotos:2025.pdf) made it to [HotOS'25](https://sigops.org/s/conferences/hotos/2025/)!  
-Mar'25: Received an [Amazon Research Award (ARA)](https://www.amazon.science/research-awards/program-updates/70-amazon-research-award-recipients-announced) on Automated Reasoning for the Unix/Linux shell!  
-Jan'25: [Nikos Vasilakis](https://nikos.vasilak.is) is organizing [EuroSec'25](https://eurosec-workshop.github.io/), co-located with [EuroSys'25](https://2025.eurosys.org/) and [ASPLOS'25](https://www.asplos-conference.org/asplos2025/).  
-Dec'24: [Eric Zhao](https://mustardfox.org/) discusses the intricacies of symbolic execution for the shell at [NJPLS'24](https://njpls.org/).  
-Oct'24: [Anirudh Narsipur](https://anarsipur.com/) discusses static analysis for the Unix shell at [NEPLS'24](https://nepls.org/Events/34/).  
-Aug'24: [Lukas Lazarek](https://llazarek.github.io/) and [Di Jin](https://sleepymug.me/) join the group as postdoctoral associates—welcome!  
-Jul'24: [Eric Zhao](https://mustardfox.org/), [Ethan Lavi](https://ethanlavi.github.io/), [Grigoris Ntousakis](https://www.ntousakis.com/), and [Yuchen Lu](https://www.linkedin.com/in/luyc/) join the group for their PhDs!  
-Jun'24: [Ioanna Gemou](https://igemou.github.io/) starts her research visit on machine learning for systems, co-hosted by [Ritambhara Singh](https://ritambharasingh.com/).  
+{{< news-feed limit="10" >}}
 
 See [all news]({{< ref "news.md" >}})
 
@@ -185,4 +171,3 @@ Clusters: [Systems](https://systems.cs.brown.edu), [PLT](https://cs.brown.edu/re
 Organizations: [DSI](https://dsi.brown.edu/), [CCV](https://ccv.brown.edu/)
 
 {{< /columns >}}
-

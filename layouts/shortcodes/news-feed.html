@@ -1,0 +1,21 @@
+{{- $items := site.Data.news.items | default (slice) -}}
+{{- $limit := 0 -}}
+{{- with .Get "limit" -}}
+  {{- $limit = int . -}}
+{{- end -}}
+
+{{- $selected := slice -}}
+{{- range $idx, $item := $items -}}
+  {{- if or (eq $limit 0) (lt $idx $limit) -}}
+    {{- $clean := trim (replaceRE `\s*\\\s*$` "" $item) " \t\r" -}}
+    {{- if $clean -}}
+      {{- $selected = $selected | append $clean -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- range $selected -}}
+  {{- $rendered := . | markdownify -}}
+  {{- $rendered = replaceRE `(?s)^<p>(.*)</p>\s*$` `${1}` $rendered -}}
+  <div>{{ $rendered | safeHTML }}</div>
+{{- end -}}
