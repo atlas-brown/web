@@ -27,7 +27,7 @@ function renderFilters() {
 
   const anchorYear = Math.max(new Date().getFullYear(), years[0] || new Date().getFullYear());
   const recentYears = Array.from({ length: 5 }, (_, i) => anchorYear - i);
-  const olderCutoff = anchorYear - 4;
+  const olderCutoff = anchorYear - 5;
 
   if (app) {
     app.dataset.yearCutoff = String(olderCutoff);
