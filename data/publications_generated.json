@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-11T02:57:50.943Z",
+  "generated_at": "2026-02-11T17:43:43.885Z",
   "sources": [
     "https://raw.githubusercontent.com/atlas-brown/bib/main/atlas.bib"
   ],
@@ -95,6 +95,20 @@
       "type_label": "Masters Thesis",
       "title": "Bash-Compliant PaSh",
       "authors": "Seth Sabar",
+      "venue": "Brown University",
+      "abstract": "",
+      "pdf": "",
+      "code": "",
+      "doi": "",
+      "url": ""
+    },
+    {
+      "id": "splash:brown:2024",
+      "year": 2024,
+      "type": "mastersthesis",
+      "type_label": "Masters Thesis",
+      "title": "SPLaSh: Scaling Out Shell Scripts on Serverless Platforms",
+      "authors": "Nikos Pagonas",
       "venue": "Brown University",
       "abstract": "",
       "pdf": "",
@@ -371,8 +385,8 @@
     {
       "id": "kumquat:arxiv:2020",
       "year": 2020,
-      "type": "article",
-      "type_label": "Article",
+      "type": "preprint",
+      "type_label": "preprint",
       "title": "Automatic Synthesis of Parallel and Distributed Unix Commands with KumQuat",
       "authors": "Nikos Vasilakis, Jiasi Shen, Martin C. Rinard",
       "venue": "CoRR",
@@ -395,20 +409,6 @@
       "code": "",
       "doi": "10.1145/3359591.3359732",
       "url": "https://doi.org/10.1145/3359591.3359732"
-    },
-    {
-      "id": "andromeda:penn:2019",
-      "year": 2019,
-      "type": "phdthesis",
-      "type_label": "PhD Thesis",
-      "title": "Andromeda—A Distributed Userspace",
-      "authors": "Nikos Vasilakis",
-      "venue": "Computer and Information Science, University of Pennsylvania",
-      "abstract": "",
-      "pdf": "http://nikos.vasilak.is/p/andromeda:upenn:2019.pdf",
-      "code": "",
-      "doi": "",
-      "url": ""
     },
     {
       "id": "finelame:atc:2019",
@@ -515,11 +515,11 @@
       "type_label": "Conference",
       "title": "From Lone Dwarfs to Giant Superclusters: Rethinking Operating System Abstractions for the Cloud",
       "authors": "Nikos Vasilakis, Ben Karel, Jonathan M. Smith",
-      "venue": "15th Workshop on Hot Topics in Operating Systems (HotOS XV)",
+      "venue": "Proceedings of the 15th USENIX Conference on Hot Topics in Operating Systems",
       "abstract": "",
       "pdf": "",
       "code": "",
-      "doi": "10.1145/3144555.3144563",
+      "doi": "10.5555/2831090.2831105",
       "url": "https://www.usenix.org/conference/hotos15/workshop-program/presentation/vasilakis"
     },
     {
@@ -548,77 +548,7 @@
       "pdf": "",
       "code": "",
       "doi": "",
-      "url": ""
-    },
-    {
-      "id": "finn:upatras:2010",
-      "year": 2010,
-      "type": "mastersthesis",
-      "type_label": "Masters Thesis",
-      "title": "A Novel Application of Ubiquitous Computing Using Interactive Installations",
-      "authors": "Nikos Vasilakis",
-      "venue": "Computer Engineering and Informatics, University of Patras",
-      "abstract": "",
-      "pdf": "http://nikos.vasilak.is/p/finn:upatras:2009.pdf",
-      "code": "",
-      "doi": "",
-      "url": ""
-    },
-    {
-      "id": "finn:ace:2009",
-      "year": 2009,
-      "type": "inproceedings",
-      "type_label": "Conference",
-      "title": "Developing multiplayer pervasive games and networked interactive installations using ad hoc mobile sensor nets",
-      "authors": "Orestis Akribopoulos, Marios Logaras, Nikos Vasilakis, Panagiotis Kokkinos, Georgios Mylonas, Ioannis Chatzigiannakis, Paul Spirakis",
-      "venue": "International Conference on Advances in Computer Entertainment Technology",
-      "abstract": "",
-      "pdf": "",
-      "code": "",
-      "doi": "10.1145/1690388.1690418",
-      "url": "https://doi.org/10.1145/1690388.1690418"
-    },
-    {
-      "id": "finndemo:ace:2009",
-      "year": 2009,
-      "type": "inproceedings",
-      "type_label": "Conference",
-      "title": "Multiplayer pervasive games and networked interactive installations using ad hoc mobile sensor networks",
-      "authors": "Orestis Akribopoulos, Marios Logaras, Nikos Vasilakis, Panagiotis Kokkinos, Georgios Mylonas, Ioannis Chatzigiannakis, Paul Spirakis",
-      "venue": "International Conference on Advances in Computer Entertainment Technology",
-      "abstract": "In this work, we showcase a set of implemented multiplayer games and interactive installations based on Fun in Numbers (FinN). FinN allows the quick prototyping of applications that utilize input from multiple physical sources (sensors and other means of interfacing), by offering a set of programming templates and services, such as proximity, localization and synchronization, that hide the underlying complexity.",
-      "pdf": "",
-      "code": "",
-      "doi": "10.1145/1690388.1690500",
-      "url": "https://doi.org/10.1145/1690388.1690500"
-    },
-    {
-      "id": "finn:mass:2008",
-      "year": 2008,
-      "type": "inproceedings",
-      "type_label": "Conference",
-      "title": "A software platform for developing multi-player pervasive games using small programmable object technologies",
-      "authors": "Orestis Akribopoulos, Dimitrios Bousis, Dionysios Efstathiou, Haris Koutsouridis, Marios Logaras, Andreas Loukas, Alexandros Nafas, Georgios Oikonomou, Irini Thireou, Nikos Vasilakis, Panagiotis C. Kokkinos, Georgios Mylonas, Ioannis Chatzigiannakis",
-      "venue": "2008 5th IEEE International Conference on Mobile Ad Hoc and Sensor Systems",
-      "abstract": "",
-      "pdf": "",
-      "code": "",
-      "doi": "10.1109/MAHSS.2008.4660084",
-      "url": "https://doi.org/10.1109/MAHSS.2008.4660084"
-    },
-    {
-      "id": "finn:sensys:2008",
-      "year": 2008,
-      "type": "inproceedings",
-      "type_label": "Conference",
-      "title": "Using wireless sensor networks to develop pervasive multi-player games",
-      "authors": "Orestis Akribopoulos, Marios Logaras, Nikos Vasilakis, Panagiotis C. Kokkinos, Georgios Mylonas, Ioannis Chatzigiannakis",
-      "venue": "6th International Conference on Embedded Networked Sensor Systems",
-      "abstract": "",
-      "pdf": "",
-      "code": "",
-      "doi": "10.1145/1460412.1460459",
-      "url": "http://doi.acm.org/10.1145/1460412.1460459"
+      "url": "http://nikos.vasilak.is/p/handsfree:dils:2013.pdf"
     }
   ]
 }
