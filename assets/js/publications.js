@@ -2,16 +2,18 @@ const q = (s) => document.querySelector(s);
 const qa = (s, root = document) => [...root.querySelectorAll(s)];
 
 const TYPE_LABELS = {
-  article: 'Article',
-  inproceedings: 'Conference',
-  inbook: 'Book Chapter',
+  article: 'Journal article',
+  inproceedings: 'Conference paper',
+  inbook: 'Book chapter',
   book: 'Book',
-  phdthesis: 'PhD Thesis',
-  mastersthesis: 'Masters Thesis'
+  phdthesis: 'Ph.D. dissertation',
+  mastersthesis: 'Sc.M./B.Sc./M.Eng. thesis',
+  preprint: 'Pre-print',
+  techreport: 'Technical report',
 };
 
 function typeLabel(type) {
-  return TYPE_LABELS[type] || String(type || '').replace(/[_-]/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+  return TYPE_LABELS[type];
 }
 
 function renderFilters() {
