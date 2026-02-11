@@ -1,0 +1,294 @@
+group_order:
+  - Faculty
+  - Administrative Assistant
+  - Postdocs
+  - Ph.D. Students
+  - M.Sc. Students
+  - Undergraduate Students
+  - Visiting Research Fellows
+
+people:
+  - id: atharv
+    name: Atharv Chowdhary
+    group: Undergraduate Students
+    home: true
+    home_role: B.Sc. Student
+    photo: atharv.jpg
+    website: https://achowd32.github.io/
+    blurb: Bridging the gap between machine learning and computer systems.
+    links:
+      - label: E-mail
+        url: mailto:atharv_chowdhary@brown.edu
+      - label: Github
+        url: https://github.com/achowd32
+
+  - id: di
+    name: Di Jin
+    group: Postdocs
+    home: true
+    home_role: Postdoc
+    photo: di.jpg
+    website: https://sleepymug.me
+    blurb: Making software security approachable and scalable.
+    links:
+      - label: E-mail
+        url: mailto:di_jin@brown.edu
+      - label: Github
+        url: http://github.com/sleepymug
+
+  - id: dawn
+    name: Dawn T. Reed
+    group: Administrative Assistant
+    home: false
+    photo: dawn.jpg
+    website: https://cs.brown.edu/people/dtreed/
+    blurb: Making all the science possible.
+    links:
+      - label: E-mail
+        url: mailto:dtreed@cs.brown.edu
+
+  - id: eric
+    name: Eric Zhao
+    group: Ph.D. Students
+    home: true
+    home_role: Ph.D. Student
+    photo: eric.jpg
+    website: https://mustardfox.org/
+    blurb: Interested in principled and provably correct abstractions. Co-advised by R. Lewis.
+    links:
+      - label: E-mail
+        url: mailto:eric_c_zhao@brown.edu
+      - label: Github
+        url: http://github.com/mirryi
+
+  - id: ethan
+    name: Ethan Lavi
+    group: Ph.D. Students
+    home: true
+    home_role: Ph.D. Student
+    photo: ethan.jpg
+    website: https://ethanlavi.github.io/
+    blurb: Designing correct and scalable distributed systems.
+    links:
+      - label: E-mail
+        url: mailto:ethan_lavi@brown.edu
+      - label: Github
+        url: http://github.com/EthanLavi
+
+  - id: evangelos
+    name: Evangelos Lamprou
+    group: Ph.D. Students
+    home: true
+    home_role: Ph.D. Student
+    photo: vagos.jpg
+    website: https://vagos.lamprou.xyz/
+    blurb: Interested in distributed systems, LLMs, and beyond.
+    links:
+      - label: E-mail
+        url: mailto:vagos@lamprou.xyz
+      - label: Github
+        url: http://github.com/vagos
+
+  - id: george
+    name: George Kapetanakis
+    group: Visiting Research Fellows
+    home: true
+    home_role: Visiting Student
+    photo: george.jpg
+    blurb: Writing good code to make writing good code easier.
+    links:
+      - label: E-mail
+        url: mailto:george@kapetanak.is
+      - label: Github
+        url: http://github.com/gkapetanakis
+
+  - id: grigoris
+    name: Grigoris Ntousakis
+    group: Ph.D. Students
+    home: true
+    home_role: Ph.D. Student
+    photo: grigoris.jpg
+    website: https://www.ntousakis.com/
+    blurb: Reimagining third-party library and package ecosystems. Co-advised by V. Kemerlis.
+    links:
+      - label: E-mail
+        url: mailto:gntousakis@tuc.gr
+      - label: Github
+        url: http://github.com/GNtousakis
+      - label: Twitter
+        url: https://twitter.com/gntousakis
+
+  - id: lukas
+    name: Lukas Lazarek
+    group: Postdocs
+    home: true
+    home_role: Postdoc
+    photo: lukas.jpg
+    website: https://llazarek.github.io
+    blurb: Exploring which language-systems features are practically useful.
+    links:
+      - label: E-mail
+        url: mailto:lukas_lazarek@brown.edu
+      - label: Github
+        url: http://github.com/llazarek
+
+  - id: maria
+    name: Maria Lazou
+    group: Visiting Research Fellows
+    home: true
+    home_role: Visiting Student
+    photo: maria.jpg
+    website: https://mlazoy.github.io/
+    blurb: Exploring the intersection of operating systems with secure computation and low-level optimizations.
+    links:
+      - label: E-mail
+        url: mailto:maria_lazou1@brown.edu
+      - label: Github
+        url: http://github.com/mlazoy
+
+  - id: megan
+    name: Megan Zheng
+    group: Undergraduate Students
+    home: true
+    home_role: B.Sc. student
+    photo: megan.jpg
+    website: https://yuuu23.github.io/
+    blurb: Synthesizing correct and high-performance runtime primitives.
+    links:
+      - label: E-mail
+        url: mailto:megan_zheng@brown.edu
+      - label: Github
+        url: http://github.com/YUUU23
+
+  - id: nikos
+    name: Nikos Vasilakis
+    group: Faculty
+    home: true
+    home_role: Faculty
+    photo: nikosv.jpg
+    website: https://nikos.vasilak.is/
+    blurb: Building transition paths toward secure multi-scale distributed enviroments.
+    links:
+      - label: E-mail
+        url: mailto:nikos@vasilak.is
+      - label: Github
+        url: http://github.com/nvasilakis
+      - label: Twitter
+        url: http://twitter.com/nikosvasilakis
+
+  - id: oguzhan
+    name: Oğuzhan Çölkesen
+    group: Ph.D. Students
+    home: true
+    home_role: Ph.D. Student
+    photo: oguzhan.jpg
+    website: https://www.oguzhancolkesen.com
+    blurb: Interested in parallel and distributed systems, as well as their optimization.
+    links:
+      - label: E-mail
+        url: mailto:oguzhan@brown.edu
+      - label: Github
+        url: http://github.com/ocolkesen
+
+  - id: yizheng
+    name: Yizheng Xie
+    group: Ph.D. Students
+    home: true
+    home_role: Ph.D. Student
+    photo: yizheng.jpg
+    website: https://yizhengx.github.io/
+    blurb: Enjoys working at the intersection of systems, software, and automation.
+    links:
+      - label: E-mail
+        url: mailto:yizhengx@brown.edu
+      - label: Github
+        url: http://github.com/yizhengx
+
+  - id: yuchen
+    name: Yuchen Lu
+    group: Ph.D. Students
+    home: true
+    home_role: Ph.D. Student
+    photo: yuchen.jpg
+    website: https://lwwlwwl.github.io/
+    blurb: Leveraging ML to build high-performance systems.
+    links:
+      - label: E-mail
+        url: mailto:yuchen_lu@brown.edu
+      - label: Github
+        url: http://github.com/lwwlwwl
+
+  - id: zekai
+    name: Zekai Li
+    group: M.Sc. Students
+    home: true
+    home_role: M.Sc. Student
+    photo: zekai.jpg
+    blurb: Exploring formal methods and how AI enhances them.
+    links:
+      - label: E-mail
+        url: mailto:zekai_li@brown.edu
+      - label: Github
+        url: http://github.com/spanning-tree
+
+alumni:
+  - name: Ramiz Dundar
+    url: https://ramiz.dev/
+    note: "(M.Sc., 2025, next: Google)"
+  - name: Zhicheng Huang
+    url: https://huangworld.github.io/
+    note: "(M.Sc., 2025, next: University of California San Diego)"
+  - name: Anirudh Narsipur
+    url: https://anarsipur.com
+    note: "(M.Sc., 2025, next: Evolver)"
+  - name: Ioanna Gemou
+    url: https://igemou.github.io/
+    note: "(Visiting Student, 2025, next: Brown University)"
+  - name: Seong-Heon Jung
+    url: https://forthoney.github.io/
+    note: "(B.Sc., 2025, next: New York University)"
+  - name: Seth Sabar
+    url: https://www.linkedin.com/in/sethsabar/
+    note: "(UROP, 2024, next: The Voleon Group)"
+  - name: Nikos Pagonas
+    url: https://nikpag.github.io/
+    note: "(Visiting Student, 2024, next: Columbia University)"
+  - name: Giorgos Liargkovas
+    url: https://gliargovas.github.io
+    note: "(Visiting Student, 2024, next: Columbia University)"
+  - name: Rutvik Saptarshi
+    url: https://www.linkedin.com/in/rutvik-s/
+    note: "(M.Sc., 2023, next: InterSystems)"
+  - name: Felix Stutz
+    url: https://fstutz.pages.mpi-sws.org/felix-stutz/
+    note: "(Ph.D. visit, 2022, next: Max Planck Institute for Software Systems)"
+  - name: Tammam Mustafa
+    url: https://www.linkedin.com/in/tammam-mustafa-884b22137
+    note: "(UROP and M.Eng., 2021-2022, next: Google)"
+  - name: Veit Heller
+    url: https://veitheller.de
+    note: "(Engineer, 2021, next: feenk/consulting)"
+  - name: Dimitris Karnikis
+    url: https://dkarnik.is
+    note: "(M.Sc., 2020-2021, next: Bang and Olufsen)"
+  - name: Alizee Schoen
+    url: https://www.linkedin.com/in/alizee-schoen/
+    note: "(UROP, 2020-2021, next: Square)"
+  - name: Achilles Benetopoulos
+    url: https://users.soe.ucsc.edu/~abenetop/
+    note: "(Engineer, 2020, next: UCSC)"
+  - name: Lazar Cvetković
+    url: https://systems.ethz.ch/people/profile.MjkzNzEw.TGlzdC8zODg4LDEyOTU2NDI2OTI=.html
+    note: "(B.Sc., 2019-2020, next: ETH Zurich)"
+  - name: Pranjal Goel
+    url: https://www.linkedin.com/in/pranjal-goel
+    note: "(UROP, 2018-2019, next: Goldman Sachs)"
+  - name: Yash Palkhiwala
+    url: https://www.linkedin.com/in/yash-palkhiwala
+    note: "(UROP, 2017-2019, next: Flatiron Health)"
+  - name: Arjun Dixit
+    url: https://janbielak.com/
+    note: "(High School, 2021, next: CMU)"
+  - name: Jan Bielak
+    url: https://janbielak.com/
+    note: "(High School, 2021, next: Nvidia)"

@@ -1,0 +1,39 @@
+{{- $team := site.Data.team -}}
+{{- range $group := $team.group_order -}}
+<h2>{{ $group }}</h2>
+{{- $members := where $team.people "group" $group -}}
+{{- range $members -}}
+<div>
+  <img class="imgStuffTeam" width="150" height="150" src="{{ printf "../profile_pictures/%s" .photo }}" alt="{{ .name }}">
+  <p>
+    <strong>
+      {{- if .website -}}
+        <a href="{{ .website }}">{{ .name }}</a>
+      {{- else -}}
+        {{ .name }}
+      {{- end -}}
+    </strong>
+    {{- if .blurb }}<br>{{ .blurb }}{{ end -}}
+    {{- if .links }}
+      <br><br>
+      {{- range $idx, $link := .links -}}
+        {{- if gt $idx 0 }} | {{ end -}}
+        <a href="{{ $link.url }}">{{ $link.label }}</a>
+      {{- end -}}
+    {{- end -}}
+  </p>
+</div>
+{{- end -}}
+{{- end -}}
+
+<h2>Alumni</h2>
+{{- range $team.alumni -}}
+<p>
+  {{- if .url -}}
+    <a href="{{ .url }}">{{ .name }}</a>
+  {{- else -}}
+    {{ .name }}
+  {{- end -}}
+  {{- with .note }} {{ . }}{{ end -}}
+</p>
+{{- end -}}
