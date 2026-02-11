@@ -38,6 +38,11 @@ Language-agnostic programming environments hinder automated parallelization and 
 [Automated Transformation Towards Secure Scalable Computing Paradigms]({{< ref "ssc.md" >}})  
 Recent trends are pushing developers towards new paradigms of secure and scalable computing—e.g., confidential computing, microservices, serverless computing, and edge computing. Transforming a conventional program to leverage these paradigms is a laborious manual process that can lead to suboptimal performance and in many cases even break the program. We are developing systems that support this kind of decomposition and leveraging special hardware capabilities when these are available in the network. Examples: [ARES'22](https://nikos.vasilak.is/p/themis:ares:2022.pdf), [PLDI'19](http://nikos.vasilak.is/p/ignis:pldi:2019.pdf), [ATC'19](http://nikos.vasilak.is/p/finelame:atc:2019.pdf).
 
+<br/><br/>
+
+[Automating Correctness for Modern Software Systems]({{< ref "correctness.md" >}})  
+Programming correctness in modern software systems is hard to maintain as applications scale across dependencies, languages, and distributed environments. We build systems that automatically enforce, validate, and preserve correctness properties while remaining practical for real workloads.
+
 ---
 
 {{< columns >}} <!-- begin columns block -->

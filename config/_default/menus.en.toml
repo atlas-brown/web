@@ -40,6 +40,12 @@
     weight = 23
 
 [[main]]
+    name = "Automating Correctness for Modern Software Systems"
+    parent = "Research"
+    pageRef = "correctness"
+    weight = 24
+
+[[main]]
     name = "Team"
     pageRef = "team"
     weight = 30
