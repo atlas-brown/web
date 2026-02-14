@@ -2,18 +2,42 @@
 
 ## Installation
 
-1. Download [Hugo v0.119.0](https://github.com/gohugoio/hugo/releases/tag/v0.119.0); this version is very important for compatibility with the chosen theme. Place the executable in the top-level directory.
-2. Run `git submodule init` and `git submodule update` to get the latest theme.
+1. Install Hugo (extended) `0.120.3`.
+2. Run `git submodule update --init --recursive`.
+3. Run `npm ci`.
 
-## Modifying Content
+## Local Development
 
-After any changes, run `./build.sh` to generate HTML. 
+1. Edit source files in `content/`, `layouts/`, `assets/`, `data/`, and `static/`.
+2. Preview locally with `hugo server`.
+3. Build locally with `./build.sh` (output is only in `public/`).
 
-* Make changes in the `/content/` folder using Markdown.
-* For image modifications, edit the files in the `/static/` folder.
+## Deployment Model (No Compiled Files In Git)
 
-To preview the changes locally, run `hugo server`.
+Compiled output is not committed.  
+GitHub Actions workflow `.github/workflows/build-site-artifact.yml` builds the site and uploads artifact `atlas-site` containing `atlas-site.tar.gz`.
 
-## Content assumptions
+On the web server, deploy by extracting the artifact into your served directory:
 
-* Images are 150x150.
+```bash
+tar -xzf atlas-site.tar.gz -C /path/to/web/root
+```
+
+If you use GitHub CLI on the server:
+
+```bash
+gh run download -R <owner>/<repo> -n atlas-site -D /tmp/atlas-artifact
+tar -xzf /tmp/atlas-artifact/atlas-site.tar.gz -C /path/to/web/root
+```
+
+If the server does not have `gh`, use the included `wget` deploy script:
+
+```bash
+bash scripts/deploy-from-artifact.sh /path/to/web/root
+```
+
+For private repos, also set:
+
+```bash
+export GITHUB_TOKEN=<token-with-actions-read>
+```

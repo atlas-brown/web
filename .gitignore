@@ -3,3 +3,6 @@ hugo
 venv/
 content/publications/venv
 node_modules/
+
+# Hugo build output
+public/

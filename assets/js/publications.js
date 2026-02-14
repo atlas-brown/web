@@ -97,6 +97,12 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
+    const bibButton = event.target.closest('[data-bib-id]');
+    if (bibButton) {
+      q(`#${bibButton.dataset.bibId}`)?.classList.toggle('hidden');
+      return;
+    }
+
     const pill = event.target.closest('.pill');
     if (!pill) {
       return;

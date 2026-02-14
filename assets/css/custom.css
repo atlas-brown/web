@@ -37,6 +37,8 @@
   height: 120px;
   object-fit: cover;
   border-radius: 10px;
+  margin: 0 !important;
+  align-self: start;
 }
 
 .team-card-body p {

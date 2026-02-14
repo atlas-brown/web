@@ -71,6 +71,22 @@ function typeInfo(rawType, cslType, rawTags) {
   return { key: 'misc', label: 'Misc' };
 }
 
+function toBibtex(rawEntry, fallbackId) {
+  const entryType = clean(rawEntry.entryType || 'misc').toLowerCase() || 'misc';
+  const citationKey = clean(rawEntry.citationKey || fallbackId || 'entry');
+  const tags = rawEntry.entryTags || {};
+
+  const lines = Object.entries(tags)
+    .filter(([, value]) => String(value || '').trim() !== '')
+    .map(([key, value]) => `  ${key} = {${String(value).trim()}}`);
+
+  if (lines.length === 0) {
+    return `@${entryType}{${citationKey}\n}`;
+  }
+
+  return `@${entryType}{${citationKey},\n${lines.join(',\n')}\n}`;
+}
+
 async function fetchBib(url) {
   const response = await fetch(url, { cache: 'no-store' });
   if (!response.ok) {
@@ -104,9 +120,10 @@ function parseSource(bibText) {
       venue: clean(first(item['container-title']) || first(item['collection-title']) || rawTags.booktitle || rawTags.journal || rawTags.school || rawTags.publisher),
       abstract: clean(item.abstract || rawTags.abstract),
       pdf: clean(rawTags.pdf),
-      code: clean(rawTags.code),
+      code: clean(rawTags.code || rawTags.artifact),
       doi,
-      url
+      url,
+      bibtex: toBibtex(raw, id)
     };
   });
 }

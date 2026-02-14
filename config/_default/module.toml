@@ -2,3 +2,10 @@
   extended = false
   min = "0.87.0"
 
+[[mounts]]
+  source = "static"
+  target = "static"
+
+[[mounts]]
+  source = "pdf"
+  target = "static/pdf"

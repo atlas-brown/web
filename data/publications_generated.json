@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T17:39:39.951Z",
+  "generated_at": "2026-02-14T19:07:51.657Z",
   "sources": [
     "https://raw.githubusercontent.com/atlas-brown/bib/main/atlas.bib"
   ],
@@ -14,9 +14,10 @@
       "venue": "23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI 26)",
       "abstract": "",
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/binpash/fractal",
       "doi": "",
-      "url": ""
+      "url": "",
+      "bibtex": "@inproceedings{fractal:nsdi:2026,\n  title = {Fractal: Fault-Tolerant Shell-Script Distribution},\n  author = {Zhicheng Huang and Ramiz Dundar and Yizheng Xie and Konstantinos Kallas and Nikos Vasilakis},\n  year = {2026},\n  month = {may},\n  booktitle = {23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI 26)},\n  publisher = {USENIX Association},\n  address = {Renton, WA},\n  keywords = {shell, distributed execution, fault tolerance},\n  artifact = {https://github.com/binpash/fractal}\n}"
     },
     {
       "id": "slowpoke:nsdi:2026",
@@ -28,9 +29,10 @@
       "venue": "23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI 26)",
       "abstract": "",
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/atlas-brown/slowpoke",
       "doi": "",
-      "url": ""
+      "url": "",
+      "bibtex": "@inproceedings{slowpoke:nsdi:2026,\n  title = {Slowpoke: End-to-end Throughput Optimization Modeling for Microservice Applications},\n  author = {Yizheng Xie and Di Jin and Oğuzhan Çölkesen and Vasiliki Kalavri and John Liagouris and Nikos Vasilakis},\n  year = {2026},\n  month = {may},\n  booktitle = {23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI 26)},\n  publisher = {USENIX Association},\n  address = {Renton, WA},\n  keywords = {microservices, performance modeling, throughput optimization},\n  artifact = {https://github.com/atlas-brown/slowpoke}\n}"
     },
     {
       "id": "fractal:brown:2025",
@@ -44,7 +46,8 @@
       "pdf": "",
       "code": "",
       "doi": "",
-      "url": ""
+      "url": "",
+      "bibtex": "@mastersthesis{fractal:brown:2025,\n  title = {Fault tolerant distributed shell scripting},\n  author = {Zhicheng Huang},\n  year = {2025},\n  type = {Sc.M. Thesis},\n  school = {Brown University}\n}"
     },
     {
       "id": "sash:hotos:2025",
@@ -58,7 +61,8 @@
       "pdf": "",
       "code": "",
       "doi": "10.1145/3713082.3730395",
-      "url": "https://doi.org/10.1145/3713082.3730395"
+      "url": "https://doi.org/10.1145/3713082.3730395",
+      "bibtex": "@inproceedings{sash:hotos:2025,\n  title = {From Ahead-of- to Just-in-Time and Back Again: Static Analysis for Unix Shell Programs},\n  author = {Lazarek, Lukas and Jung, Seong-Heon and Lamprou, Evangelos and Li, Zekai and Narsipur, Anirudh and Zhao, Eric and Greenberg, Michael and Kallas, Konstantinos and Mamouras, Konstantinos and Vasilakis, Nikos},\n  year = {2025},\n  booktitle = {2025 Workshop on Hot Topics in Operating Systems},\n  location = {Banff, AB, Canada},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {HotOS '25},\n  pages = {88–95},\n  doi = {10.1145/3713082.3730395},\n  isbn = {9798400714757},\n  url = {https://doi.org/10.1145/3713082.3730395},\n  numpages = {8},\n  keywords = {Unix, Linux, shell, static analysis, inference, type systems}\n}"
     },
     {
       "id": "sash:brown:2025",
@@ -72,7 +76,8 @@
       "pdf": "",
       "code": "",
       "doi": "",
-      "url": ""
+      "url": "",
+      "bibtex": "@mastersthesis{sash:brown:2025,\n  title = {Static effect analysis for shell programs},\n  author = {Anirudh Narsipur},\n  year = {2025},\n  type = {Sc.M. Thesis},\n  school = {Brown University}\n}"
     },
     {
       "id": "koala:atc:2025",
@@ -84,9 +89,10 @@
       "venue": "2025 USENIX Annual Technical Conference (USENIX ATC '25)",
       "abstract": "",
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/kbensh/koala",
       "doi": "",
-      "url": "https://www.usenix.org/conference/atc25/presentation/lamprou"
+      "url": "https://www.usenix.org/conference/atc25/presentation/lamprou",
+      "bibtex": "@inproceedings{koala:atc:2025,\n  title = {The Koala Benchmarks for the Shell: Characterization and Implications},\n  author = {Evangelos Lamprou and Ethan Williams and Georgios Kaoukis and Zhuoxuan Zhang and Michael Greenberg and Konstantinos Kallas and Lukas Lazarek and Nikos Vasilakis},\n  year = {2025},\n  month = {jul},\n  booktitle = {2025 USENIX Annual Technical Conference (USENIX ATC '25)},\n  publisher = {USENIX Association},\n  address = {Boston, MA},\n  pages = {449--64},\n  isbn = {978-1-939133-48-9},\n  url = {https://www.usenix.org/conference/atc25/presentation/lamprou},\n  keywords = {shell, benchmarking, workload characterization},\n  artifact = {https://github.com/kbensh/koala}\n}"
     },
     {
       "id": "libbash:brown:2024",
@@ -100,7 +106,8 @@
       "pdf": "",
       "code": "",
       "doi": "",
-      "url": ""
+      "url": "",
+      "bibtex": "@mastersthesis{libbash:brown:2024,\n  title = {Bash-Compliant PaSh},\n  author = {Seth Sabar},\n  year = {2024},\n  type = {Bachelor's Thesis},\n  school = {Brown University}\n}"
     },
     {
       "id": "splash:brown:2024",
@@ -114,7 +121,8 @@
       "pdf": "",
       "code": "",
       "doi": "",
-      "url": ""
+      "url": "",
+      "bibtex": "@mastersthesis{splash:brown:2024,\n  title = {SPLaSh: Scaling Out Shell Scripts on Serverless Platforms},\n  author = {Nikos Pagonas},\n  year = {2024},\n  type = {M.Eng. Thesis},\n  school = {Brown University}\n}"
     },
     {
       "id": "sash:brown:2024",
@@ -128,7 +136,8 @@
       "pdf": "",
       "code": "",
       "doi": "",
-      "url": ""
+      "url": "",
+      "bibtex": "@mastersthesis{sash:brown:2024,\n  title = {Towards Automated Reasoning For Shell Programs},\n  author = {Anirudh Narsipur},\n  year = {2024},\n  type = {Bachelor's Thesis},\n  school = {Brown University}\n}"
     },
     {
       "id": "binwrap:asiaccs:2023",
@@ -140,9 +149,10 @@
       "venue": "2023 ACM Asia Conference on Computer and Communications Security",
       "abstract": "",
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/atlas-brown/binwrap",
       "doi": "10.1145/3579856.3590330",
-      "url": "https://doi.org/10.1145/3579856.3590330"
+      "url": "https://doi.org/10.1145/3579856.3590330",
+      "bibtex": "@inproceedings{binwrap:asiaccs:2023,\n  title = {BinWrap: Hybrid Protection against Native Node.js Add-ons},\n  author = {Christou, George and Ntousakis, Grigoris and Lahtinen, Eric and Ioannidis, Sotiris and Kemerlis, Vasileios P. and Vasilakis, Nikos},\n  year = {2023},\n  booktitle = {2023 ACM Asia Conference on Computer and Communications Security},\n  location = {Melbourne, VIC, Australia},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {ASIA CCS '23},\n  pages = {429–442},\n  doi = {10.1145/3579856.3590330},\n  isbn = {9798400700989},\n  url = {https://doi.org/10.1145/3579856.3590330},\n  numpages = {14},\n  keywords = {Node.js, native add-ons, seccomp-BPF, Intel MPK/PKU},\n  artifact = {https://github.com/atlas-brown/binwrap}\n}"
     },
     {
       "id": "dish:nsdi:2023",
@@ -154,9 +164,10 @@
       "venue": "20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23)",
       "abstract": "",
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/binpash/dish",
       "doi": "",
-      "url": "https://www.usenix.org/conference/nsdi23/presentation/mustafa"
+      "url": "https://www.usenix.org/conference/nsdi23/presentation/mustafa",
+      "bibtex": "@inproceedings{dish:nsdi:2023,\n  title = {{DiSh}: Dynamic {Shell-Script} Distribution},\n  author = {Tammam Mustafa and Konstantinos Kallas and Pratyush Das and Nikos Vasilakis},\n  year = {2023},\n  month = {apr},\n  booktitle = {20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23)},\n  publisher = {USENIX Association},\n  address = {Boston, MA},\n  pages = {341--356},\n  isbn = {978-1-939133-33-5},\n  url = {https://www.usenix.org/conference/nsdi23/presentation/mustafa},\n  keywords = {shell, distributed execution, runtime},\n  artifact = {https://github.com/binpash/dish}\n}"
     },
     {
       "id": "hs:hotos:2023",
@@ -170,7 +181,8 @@
       "pdf": "",
       "code": "",
       "doi": "10.1145/3593856.3595891",
-      "url": "https://doi.org/10.1145/3593856.3595891"
+      "url": "https://doi.org/10.1145/3593856.3595891",
+      "bibtex": "@inproceedings{hs:hotos:2023,\n  title = {Executing Shell Scripts in the Wrong Order, Correctly},\n  author = {Liargkovas, Georgios and Kallas, Konstantinos and Greenberg, Michael and Vasilakis, Nikos},\n  year = {2023},\n  booktitle = {19th Workshop on Hot Topics in Operating Systems},\n  location = {Providence, RI, USA},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {HotOS '23},\n  pages = {103–109},\n  doi = {10.1145/3593856.3595891},\n  isbn = {9798400701955},\n  url = {https://doi.org/10.1145/3593856.3595891},\n  numpages = {7},\n  keywords = {shell, correctness, scheduling}\n}"
     },
     {
       "id": "secbench:icse:2023",
@@ -182,9 +194,10 @@
       "venue": "2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)",
       "abstract": "",
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/secbench-git/SecBench",
       "doi": "10.1109/ICSE48619.2023.00096",
-      "url": "https://doi.org/10.1109/ICSE48619.2023.00096"
+      "url": "https://doi.org/10.1109/ICSE48619.2023.00096",
+      "bibtex": "@inproceedings{secbench:icse:2023,\n  title = {SecBench.js: An Executable Security Benchmark Suite for Server-Side JavaScript},\n  author = {Bhuiyan, Masudul Hasan Masud and Parthasarathy, Adithya Srinivas and Vasilakis, Nikos and Pradel, Michael and Staicu, Cristian-Alexandru},\n  year = {2023},\n  booktitle = {2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)},\n  pages = {1059--1070},\n  doi = {10.1109/ICSE48619.2023.00096},\n  keywords = {Software security, JavaScript, Security benchmarks, Vulnerability testing},\n  artifact = {https://github.com/secbench-git/SecBench}\n}"
     },
     {
       "id": "ev:eurosec:2022",
@@ -196,9 +209,10 @@
       "venue": "15th European Workshop on Systems Security",
       "abstract": "",
       "pdf": "",
-      "code": "",
+      "code": "https://es-incident.github.io/",
       "doi": "10.1145/3517208.3523753",
-      "url": "https://doi.org/10.1145/3517208.3523753"
+      "url": "https://doi.org/10.1145/3517208.3523753",
+      "bibtex": "@inproceedings{ev:eurosec:2022,\n  title = {A systematic analysis of the event-stream incident},\n  author = {Arvanitis, Iosif and Ntousakis, Grigoris and Ioannidis, Sotiris and Vasilakis, Nikos},\n  year = {2022},\n  booktitle = {15th European Workshop on Systems Security},\n  location = {Rennes, France},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {EuroSec '22},\n  pages = {22–28},\n  doi = {10.1145/3517208.3523753},\n  isbn = {9781450392556},\n  url = {https://doi.org/10.1145/3517208.3523753},\n  numpages = {7},\n  keywords = {JavaScript, supply chain, third-party libraries, event-stream, incident analysis},\n  artifact = {https://es-incident.github.io/}\n}"
     },
     {
       "id": "kumquat:ppopp:2022",
@@ -212,7 +226,8 @@
       "pdf": "",
       "code": "",
       "doi": "10.1145/3503221.3508400",
-      "url": "https://doi.org/10.1145/3503221.3508400"
+      "url": "https://doi.org/10.1145/3503221.3508400",
+      "bibtex": "@inproceedings{kumquat:ppopp:2022,\n  title = {Automatic synthesis of parallel unix commands and pipelines with KumQuat},\n  author = {Shen, Jiasi and Rinard, Martin and Vasilakis, Nikos},\n  year = {2022},\n  booktitle = {Proceedings of the 27th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming},\n  location = {Seoul, Republic of Korea},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {PPoPP '22},\n  pages = {431–432},\n  doi = {10.1145/3503221.3508400},\n  isbn = {9781450392044},\n  url = {https://doi.org/10.1145/3503221.3508400},\n  numpages = {2},\n  keywords = {automatic parallelization, program synthesis}\n}"
     },
     {
       "id": "pash:osdi:2022",
@@ -224,9 +239,10 @@
       "venue": "16th USENIX Symposium on Operating Systems Design and Implementation (OSDI 22)",
       "abstract": "",
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/binpash/pash",
       "doi": "",
-      "url": "https://www.usenix.org/conference/osdi22/presentation/kallas"
+      "url": "https://www.usenix.org/conference/osdi22/presentation/kallas",
+      "bibtex": "@inproceedings{pash:osdi:2022,\n  title = {Practically Correct, {Just-in-Time} Shell Script Parallelization},\n  author = {Konstantinos Kallas and Tammam Mustafa and Jan Bielak and Dimitris Karnikis and Thurston H.Y. Dang and Michael Greenberg and Nikos Vasilakis},\n  year = {2022},\n  month = {jul},\n  booktitle = {16th USENIX Symposium on Operating Systems Design and Implementation (OSDI 22)},\n  publisher = {USENIX Association},\n  address = {Carlsbad, CA},\n  pages = {769--785},\n  isbn = {978-1-939133-28-1},\n  url = {https://www.usenix.org/conference/osdi22/presentation/kallas},\n  keywords = {shell, compiler optimization, automatic parallelization, jit compilation},\n  artifact = {https://github.com/binpash/pash}\n}"
     },
     {
       "id": "themis:ares:2022",
@@ -240,7 +256,8 @@
       "pdf": "",
       "code": "",
       "doi": "10.1145/3538969.3538983",
-      "url": "https://doi.org/10.1145/3538969.3538983"
+      "url": "https://doi.org/10.1145/3538969.3538983",
+      "bibtex": "@inproceedings{themis:ares:2022,\n  title = {Themis: A Secure Decentralized Framework for Microservice Interaction in Serverless Computing},\n  author = {Aktypi, Angeliki and Karnikis, Dimitris and Vasilakis, Nikos and Rasmussen, Kasper},\n  year = {2022},\n  booktitle = {17th International Conference on Availability, Reliability and Security},\n  location = {Vienna, Austria},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {ARES '22},\n  doi = {10.1145/3538969.3538983},\n  isbn = {9781450396707},\n  url = {https://doi.org/10.1145/3538969.3538983},\n  articleno = {10},\n  numpages = {11},\n  keywords = {security, Serverless, Service mesh, DHT}\n}"
     },
     {
       "id": "pitchfork:acsac:2022",
@@ -254,7 +271,8 @@
       "pdf": "",
       "code": "",
       "doi": "10.1145/3564625.3564664",
-      "url": "https://doi.org/10.1145/3564625.3564664"
+      "url": "https://doi.org/10.1145/3564625.3564664",
+      "bibtex": "@inproceedings{pitchfork:acsac:2022,\n  title = {Towards Practical Application-level Support for Privilege Separation},\n  author = {Sultana, Nik and Zhu, Henry and Zhong, Ke and Zheng, Zhilei and Mao, Ruijie and Chauhan, Digvijaysinh and Carrasquillo, Stephen and Zhao, Junyong and Shi, Lei and Vasilakis, Nikos and Loo, Boon Thau},\n  year = {2022},\n  booktitle = {38th Annual Computer Security Applications Conference},\n  location = {Austin, TX, USA},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {ACSAC '22},\n  pages = {71–87},\n  doi = {10.1145/3564625.3564664},\n  isbn = {9781450397599},\n  url = {https://doi.org/10.1145/3564625.3564664},\n  numpages = {17},\n  keywords = {security, privilege separation, application isolation}\n}"
     },
     {
       "id": "pash:icfp:2021",
@@ -268,7 +286,8 @@
       "pdf": "",
       "code": "",
       "doi": "10.1145/3473570",
-      "url": "https://doi.org/10.1145/3473570"
+      "url": "https://doi.org/10.1145/3473570",
+      "bibtex": "@inproceedings{pash:icfp:2021,\n  title = {An order-aware dataflow model for parallel Unix pipelines},\n  author = {Handa, Shivam and Kallas, Konstantinos and Vasilakis, Nikos and Rinard, Martin C.},\n  year = {2021},\n  month = {aug},\n  journal = {Proc. ACM Program. Lang.},\n  booktitle = {International Conference on Functional Programming},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  volume = {5},\n  doi = {10.1145/3473570},\n  url = {https://doi.org/10.1145/3473570},\n  issue_date = {August 2021},\n  articleno = {65},\n  numpages = {28},\n  keywords = {Unix, shell, POSIX, parallelism, Dataflow, Order-awareness}\n}"
     },
     {
       "id": "combined:ccs:2021",
@@ -282,7 +301,8 @@
       "pdf": "",
       "code": "",
       "doi": "10.1145/3460120.3485351",
-      "url": "https://doi.org/10.1145/3460120.3485351"
+      "url": "https://doi.org/10.1145/3460120.3485351",
+      "bibtex": "@inproceedings{combined:ccs:2021,\n  title = {Demo: Detecting Third-Party Library Problems with Combined Program Analysis},\n  author = {Ntousakis, Grigoris and Ioannidis, Sotiris and Vasilakis, Nikos},\n  year = {2021},\n  booktitle = {2021 ACM SIGSAC Conference on Computer and Communications Security},\n  location = {Virtual Event, Republic of Korea},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {CCS '21},\n  pages = {2429–2431},\n  doi = {10.1145/3460120.3485351},\n  isbn = {9781450384544},\n  url = {https://doi.org/10.1145/3460120.3485351},\n  numpages = {3},\n  keywords = {third-party libraries, static analysis, dynamic analysis}\n}"
     },
     {
       "id": "lya:fse:2021",
@@ -294,9 +314,10 @@
       "venue": "29th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering",
       "abstract": "",
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/andromeda/lya",
       "doi": "",
-      "url": "https://doi.org/10.1145/3468264.3468574"
+      "url": "https://doi.org/10.1145/3468264.3468574",
+      "bibtex": "@inproceedings{lya:fse:2021,\n  title = {Efficient Module-Level Dynamic Analysis for Dynamic Languages with Module Recontextualization},\n  author = {Vasilakis, Nikos and Ntousakis, Grigoris and Heller, Veit and Rinard, Martin C.},\n  year = {2021},\n  booktitle = {29th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  pages = {1202–1213},\n  isbn = {9781450385626},\n  url = {https://doi.org/10.1145/3468264.3468574},\n  numpages = {12},\n  keywords = {software engineering, dynamic languages, dynamic analysis, module recontextualization},\n  artifact = {https://github.com/andromeda/lya}\n}"
     },
     {
       "id": "pash:eurosys:2021",
@@ -308,9 +329,10 @@
       "venue": "16th European Conference on Computer Systems",
       "abstract": "",
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/binpash/pash",
       "doi": "10.1145/3447786.3456228",
-      "url": "https://doi.org/10.1145/3447786.3456228"
+      "url": "https://doi.org/10.1145/3447786.3456228",
+      "bibtex": "@inproceedings{pash:eurosys:2021,\n  title = {PaSh: Light-Touch Data-Parallel Shell Processing},\n  author = {Vasilakis, Nikos and Kallas, Konstantinos and Mamouras, Konstantinos and Benetopoulos, Achilles and Cvetkovi\\'{c}, Lazar},\n  year = {2021},\n  booktitle = {16th European Conference on Computer Systems},\n  location = {Online Event, United Kingdom},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {EuroSys '21},\n  pages = {49–66},\n  doi = {10.1145/3447786.3456228},\n  isbn = {9781450383349},\n  url = {https://doi.org/10.1145/3447786.3456228},\n  numpages = {18},\n  keywords = {Unix, shell, POSIX, automatic parallelization, pipelines, source to source compilation},\n  artifact = {https://github.com/binpash/pash}\n}"
     },
     {
       "id": "mir:ccs:2021",
@@ -322,9 +344,10 @@
       "venue": "2021 ACM SIGSAC Conference on Computer and Communications Security",
       "abstract": "",
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/andromeda/mir",
       "doi": "10.1145/3460120.3484535",
-      "url": "https://doi.org/10.1145/3460120.3484535"
+      "url": "https://doi.org/10.1145/3460120.3484535",
+      "bibtex": "@inproceedings{mir:ccs:2021,\n  title = {Preventing Dynamic Library Compromise on Node.js via RWX-Based Privilege Reduction},\n  author = {Vasilakis, Nikos and Staicu, Cristian-Alexandru and Ntousakis, Grigoris and Kallas, Konstantinos and Karel, Ben and DeHon, Andr\\'{e} and Pradel, Michael},\n  year = {2021},\n  booktitle = {2021 ACM SIGSAC Conference on Computer and Communications Security},\n  location = {Virtual Event, Republic of Korea},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {CCS '21},\n  pages = {1821–1838},\n  doi = {10.1145/3460120.3484535},\n  isbn = {9781450384544},\n  url = {https://doi.org/10.1145/3460120.3484535},\n  numpages = {18},\n  keywords = {Node.js, supply-chain attacks, third-party libraries, program analysis},\n  artifact = {https://github.com/andromeda/mir}\n}"
     },
     {
       "id": "shellpanel:report:2021",
@@ -338,7 +361,8 @@
       "pdf": "",
       "code": "",
       "doi": "",
-      "url": "https://arxiv.org/abs/2109.11016"
+      "url": "https://arxiv.org/abs/2109.11016",
+      "bibtex": "@inproceedings{shellpanel:report:2021,\n  title = {Report on the \"The Future of the Shell\" Panel at HotOS 2021},\n  author = {Michael Greenberg and Konstantinos Kallas and Nikos Vasilakis and Stephen Kell},\n  year = {2021},\n  journal = {CoRR},\n  booktitle = {HotOS '21: Proceedings of the Workshop on Hot Topics in Operating Systems},\n  volume = {abs/2109.11016},\n  url = {https://arxiv.org/abs/2109.11016},\n  eprinttype = {arXiv},\n  eprint = {2109.11016},\n  timestamp = {Mon, 27 Sep 2021 15:21:05 +0200},\n  biburl = {https://dblp.org/rec/journals/corr/abs-2109-11016.bib},\n  bibsource = {dblp computer science bibliography, https://dblp.org},\n  keywords = {shell, research agenda, future directions, panel report}\n}"
     },
     {
       "id": "harp:ccs:2021",
@@ -352,7 +376,8 @@
       "pdf": "",
       "code": "",
       "doi": "10.1145/3460120.3484736",
-      "url": "https://doi.org/10.1145/3460120.3484736"
+      "url": "https://doi.org/10.1145/3460120.3484736",
+      "bibtex": "@inproceedings{harp:ccs:2021,\n  title = {Supply-Chain Vulnerability Elimination via Active Learning and Regeneration},\n  author = {Vasilakis, Nikos and Benetopoulos, Achilles and Handa, Shivam and Schoen, Alizee and Shen, Jiasi and Rinard, Martin C.},\n  year = {2021},\n  booktitle = {2021 ACM SIGSAC Conference on Computer and Communications Security},\n  location = {Virtual Event, Republic of Korea},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {CCS '21},\n  pages = {1755–1770},\n  doi = {10.1145/3460120.3484736},\n  isbn = {9781450384544},\n  url = {https://doi.org/10.1145/3460120.3484736},\n  numpages = {16},\n  keywords = {supply-chain attacks, third-party libraries, modules, program inference, program synthesis}\n}"
     },
     {
       "id": "shellpanel:hotos:2021",
@@ -366,7 +391,8 @@
       "pdf": "",
       "code": "",
       "doi": "10.1145/3458336.3465296",
-      "url": "https://doi.org/10.1145/3458336.3465296"
+      "url": "https://doi.org/10.1145/3458336.3465296",
+      "bibtex": "@inproceedings{shellpanel:hotos:2021,\n  title = {The Future of the Shell: Unix and Beyond},\n  author = {Greenberg, Michael and Kallas, Konstantinos and Vasilakis, Nikos},\n  year = {2021},\n  booktitle = {Workshop on Hot Topics in Operating Systems},\n  location = {Ann Arbor, Michigan},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {HotOS '21},\n  pages = {240–241},\n  doi = {10.1145/3458336.3465296},\n  isbn = {9781450384384},\n  url = {https://doi.org/10.1145/3458336.3465296},\n  numpages = {2},\n  keywords = {shell, Unix, research agenda, future directions}\n}"
     },
     {
       "id": "pash:hotos:2021",
@@ -380,7 +406,8 @@
       "pdf": "",
       "code": "",
       "doi": "10.1145/3458336.3465294",
-      "url": "https://doi.org/10.1145/3458336.3465294"
+      "url": "https://doi.org/10.1145/3458336.3465294",
+      "bibtex": "@inproceedings{pash:hotos:2021,\n  title = {Unix Shell Programming: The Next 50 Years},\n  author = {Greenberg, Michael and Kallas, Konstantinos and Vasilakis, Nikos},\n  year = {2021},\n  booktitle = {Workshop on Hot Topics in Operating Systems},\n  location = {Ann Arbor, Michigan},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {HotOS '21},\n  pages = {104–111},\n  doi = {10.1145/3458336.3465294},\n  isbn = {9781450384384},\n  url = {https://doi.org/10.1145/3458336.3465294},\n  numpages = {8},\n  keywords = {Unix, shell, analysis, transformations, optimization, JIT}\n}"
     },
     {
       "id": "kumquat:arxiv:2020",
@@ -394,7 +421,8 @@
       "pdf": "",
       "code": "",
       "doi": "",
-      "url": "https://arxiv.org/abs/2012.15443"
+      "url": "https://arxiv.org/abs/2012.15443",
+      "bibtex": "@preprint{kumquat:arxiv:2020,\n  title = {Automatic Synthesis of Parallel and Distributed Unix Commands with KumQuat},\n  author = {Nikos Vasilakis and Jiasi Shen and Martin C. Rinard},\n  year = {2020},\n  journal = {CoRR},\n  volume = {abs/2012.15443},\n  url = {https://arxiv.org/abs/2012.15443},\n  eprinttype = {arXiv},\n  eprint = {2012.15443},\n  timestamp = {Sat, 30 Sep 2023 10:08:30 +0200},\n  biburl = {https://dblp.org/rec/journals/corr/abs-2012-15443.bib},\n  bibsource = {dblp computer science bibliography, https://dblp.org},\n  keywords = {distributed computing, shell, automatic parallelization, program synthesis}\n}"
     },
     {
       "id": "alr:splash:2019",
@@ -408,7 +436,8 @@
       "pdf": "",
       "code": "",
       "doi": "10.1145/3359591.3359732",
-      "url": "https://doi.org/10.1145/3359591.3359732"
+      "url": "https://doi.org/10.1145/3359591.3359732",
+      "bibtex": "@inproceedings{alr:splash:2019,\n  title = {Active learning for software engineering},\n  author = {Cambronero, Jos\\'{e} P. and Dang, Thurston H. Y. and Vasilakis, Nikos and Shen, Jiasi and Wu, Jerry and Rinard, Martin C.},\n  year = {2019},\n  booktitle = {2019 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software},\n  location = {Athens, Greece},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {Onward! 2019},\n  pages = {62–78},\n  doi = {10.1145/3359591.3359732},\n  isbn = {9781450369954},\n  url = {https://doi.org/10.1145/3359591.3359732},\n  numpages = {17},\n  keywords = {active learning, program modeling, program inference}\n}"
     },
     {
       "id": "finelame:atc:2019",
@@ -422,7 +451,8 @@
       "pdf": "",
       "code": "",
       "doi": "",
-      "url": "https://www.usenix.org/conference/atc19/presentation/demoulin"
+      "url": "https://www.usenix.org/conference/atc19/presentation/demoulin",
+      "bibtex": "@inproceedings{finelame:atc:2019,\n  title = {Detecting Asymmetric Application-layer Denial-of-Service Attacks In-Flight with Finelame},\n  author = {Henri Maxime Demoulin and Isaac Pedisich and Nikos Vasilakis and Vincent Liu and Boon Thau Loo and Linh Thi Xuan Phan},\n  year = {2019},\n  month = {jul},\n  booktitle = {2019 {USENIX} Annual Technical Conference ({USENIX} {ATC} 19)},\n  publisher = {{USENIX} Association},\n  address = {Renton, WA},\n  pages = {693--708},\n  isbn = {978-1-939133-03-8},\n  url = {https://www.usenix.org/conference/atc19/presentation/demoulin},\n  keywords = {network security, denial of service detection, application layer attacks, online detection}\n}"
     },
     {
       "id": "ignis:pldi:2019",
@@ -436,7 +466,8 @@
       "pdf": "",
       "code": "",
       "doi": "10.1145/3314221.3314586",
-      "url": "http://doi.acm.org/10.1145/3314221.3314586"
+      "url": "http://doi.acm.org/10.1145/3314221.3314586",
+      "bibtex": "@inproceedings{ignis:pldi:2019,\n  title = {Ignis: Scaling Distribution-Oblivious Systems with Light-Touch Distribution},\n  author = {Vasilakis, Nikos and Karel, Ben and Palkhiwala, Yash and Sonchack, John and DeHon, Andr{\\'e} and Smith, Jonathan M.},\n  year = {2019},\n  booktitle = {40th ACM SIGPLAN Conference on Programming Language Design and Implementation},\n  location = {Phoenix, AZ, USA},\n  publisher = {ACM},\n  address = {New York, NY, USA},\n  series = {PLDI 2019},\n  pages = {1010--1026},\n  doi = {10.1145/3314221.3314586},\n  isbn = {978-1-4503-6712-7/19/06},\n  url = {http://doi.acm.org/10.1145/3314221.3314586},\n  numpages = {17},\n  keywords = {distribution, Scalability, parallelism, Scale-out, transformations, Decomposition, Profiling, Load detection}\n}"
     },
     {
       "id": "breakapp:ndss:2018",
@@ -450,7 +481,8 @@
       "pdf": "",
       "code": "",
       "doi": "10.14722/ndss.2018.23131",
-      "url": "http://dx.doi.org/10.14722/ndss.2018.23131"
+      "url": "http://dx.doi.org/10.14722/ndss.2018.23131",
+      "bibtex": "@inproceedings{breakapp:ndss:2018,\n  title = {BreakApp: Automated, Flexible Application Compartmentalization},\n  author = {Vasilakis, Nikos and Karel, Ben and Roessler, Nick and Dautenhahn, Nathan and DeHon, Andr{\\'e} and Smith, Jonathan M.},\n  year = {2018},\n  booktitle = {Networked and Distributed Systems Security},\n  location = {San Diego, California},\n  series = {NDSS'18},\n  pages = {693--708},\n  doi = {10.14722/ndss.2018.23131},\n  url = {http://dx.doi.org/10.14722/ndss.2018.23131},\n  keywords = {security, Least privilege, compartmentalization, modules, packages}\n}"
     },
     {
       "id": "ar:edgesys:2018",
@@ -464,7 +496,8 @@
       "pdf": "",
       "code": "",
       "doi": "10.1145/3213344.3213346",
-      "url": "https://doi.org/10.1145/3213344.3213346"
+      "url": "https://doi.org/10.1145/3213344.3213346",
+      "bibtex": "@inproceedings{ar:edgesys:2018,\n  title = {The Web as a Distributed Computing Platform},\n  author = {Vasilakis, Nikos and Goel, Pranjal and Demoulin, Henri Maxime and Smith, Jonathan M.},\n  year = {2018},\n  booktitle = {1st International Workshop on Edge Systems, Analytics and Networking},\n  location = {Munich, Germany},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {EdgeSys'18},\n  pages = {7–12},\n  doi = {10.1145/3213344.3213346},\n  isbn = {9781450358378},\n  url = {https://doi.org/10.1145/3213344.3213346},\n  numpages = {6},\n  keywords = {Web, Internet, distribution, JavaScript}\n}"
     },
     {
       "id": "unispace:apsys:2017",
@@ -478,7 +511,8 @@
       "pdf": "",
       "code": "",
       "doi": "10.1145/3124680.3124744",
-      "url": "https://doi.org/10.1145/3124680.3124744"
+      "url": "https://doi.org/10.1145/3124680.3124744",
+      "bibtex": "@inproceedings{unispace:apsys:2017,\n  title = {Query-efficient Partitions for Dynamic Data},\n  author = {Vasilakis, Nikos and Palkhiwala, Yash and Smith, Jonathan M.},\n  year = {2017},\n  booktitle = {8th Asia-Pacific Workshop on Systems},\n  location = {Mumbai, India},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {APSys '17},\n  doi = {10.1145/3124680.3124744},\n  isbn = {9781450351973},\n  url = {https://doi.org/10.1145/3124680.3124744},\n  articleno = {23},\n  numpages = {8},\n  keywords = {NoSQL, Dynamic data, partitioning, queries, Key-Value Store}\n}"
     },
     {
       "id": "breakapp:plos:2017",
@@ -492,7 +526,8 @@
       "pdf": "",
       "code": "",
       "doi": "10.1145/3144555.3144563",
-      "url": "https://doi.org/10.1145/3144555.3144563"
+      "url": "https://doi.org/10.1145/3144555.3144563",
+      "bibtex": "@inproceedings{breakapp:plos:2017,\n  title = {Towards Fine-grained, Automated Application Compartmentalization},\n  author = {Vasilakis, Nikos and Karel, Ben and Roessler, Nick and Dautenhahn, Nathan and DeHon, Andr\\'{e} and Smith, Jonathan M.},\n  year = {2017},\n  booktitle = {9th Workshop on Programming Languages and Operating Systems},\n  location = {Shanghai, China},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {PLOS '17},\n  pages = {43–50},\n  doi = {10.1145/3144555.3144563},\n  isbn = {9781450351539},\n  url = {https://doi.org/10.1145/3144555.3144563},\n  numpages = {8},\n  keywords = {security, Least privilege, compartmentalization, modules, packages}\n}"
     },
     {
       "id": "pump:asplos:2015",
@@ -506,7 +541,8 @@
       "pdf": "",
       "code": "",
       "doi": "10.1145/2694344.2694383",
-      "url": "http://doi.acm.org/10.1145/2694344.2694383"
+      "url": "http://doi.acm.org/10.1145/2694344.2694383",
+      "bibtex": "@inproceedings{pump:asplos:2015,\n  title = {Architectural Support for Software-Defined Metadata Processing},\n  author = {Dhawan, Udit and Hritcu, Catalin and Rubin, Raphael and Vasilakis, Nikos and Chiricescu, Silviu and Smith, Jonathan M. and Knight,Jr., Thomas F. and Pierce, Benjamin C. and DeHon, Andre},\n  year = {2015},\n  booktitle = {20th International Conference on Architectural Support for Programming Languages and Operating Systems},\n  location = {Istanbul, Turkey},\n  publisher = {ACM},\n  address = {New York, NY, USA},\n  series = {ASPLOS '15},\n  pages = {487--502},\n  doi = {10.1145/2694344.2694383},\n  isbn = {978-1-4503-2835-7},\n  url = {http://doi.acm.org/10.1145/2694344.2694383},\n  numpages = {16},\n  acmid = {2694383},\n  keywords = {security, memory safety, CFI, tagged architecture, metadata, taint tracking}\n}"
     },
     {
       "id": "andromeda:hotos:2015",
@@ -520,7 +556,8 @@
       "pdf": "",
       "code": "",
       "doi": "10.5555/2831090.2831105",
-      "url": "https://www.usenix.org/conference/hotos15/workshop-program/presentation/vasilakis"
+      "url": "https://www.usenix.org/conference/hotos15/workshop-program/presentation/vasilakis",
+      "bibtex": "@inproceedings{andromeda:hotos:2015,\n  title = {From Lone Dwarfs to Giant Superclusters: Rethinking Operating System Abstractions for the Cloud},\n  author = {Vasilakis, Nikos and Karel, Ben and Smith, Jonathan M.},\n  year = {2015},\n  month = {may},\n  booktitle = {Proceedings of the 15th USENIX Conference on Hot Topics in Operating Systems},\n  location = {Switzerland},\n  publisher = {USENIX Association},\n  address = {USA},\n  series = {HotOS '15},\n  pages = {84--90},\n  doi = {10.5555/2831090.2831105},\n  url = {https://www.usenix.org/conference/hotos15/workshop-program/presentation/vasilakis},\n  numpages = {6},\n  keywords = {cloud, distributed computing, os abstractions, os design}\n}"
     },
     {
       "id": "pump:hasp:2014",
@@ -534,7 +571,8 @@
       "pdf": "",
       "code": "",
       "doi": "10.1145/2611765.2611773",
-      "url": "http://doi.acm.org/10.1145/2611765.2611773"
+      "url": "http://doi.acm.org/10.1145/2611765.2611773",
+      "bibtex": "@inproceedings{pump:hasp:2014,\n  title = {PUMP: A Programmable Unit for Metadata Processing},\n  author = {Dhawan, Udit and Vasilakis, Nikos and Rubin, Raphael and Chiricescu, Silviu and Smith, Jonathan M. and Knight,Jr., Thomas F. and Pierce, Benjamin C. and DeHon, Andr{\\'e}},\n  year = {2014},\n  booktitle = {3rd Workshop on Hardware and Architectural Support for Security and Privacy},\n  location = {Minneapolis, Minnesota, USA},\n  publisher = {ACM},\n  address = {New York, NY, USA},\n  series = {HASP '14},\n  pages = {8:1--8:8},\n  doi = {10.1145/2611765.2611773},\n  isbn = {978-1-4503-2777-0},\n  url = {http://doi.acm.org/10.1145/2611765.2611773},\n  articleno = {8},\n  numpages = {8},\n  acmid = {2611773},\n  keywords = {security, memory safety, control-flow integrity, tagged architecture, metadata, taint tracking}\n}"
     },
     {
       "id": "handsfree:dils:2013",
@@ -548,7 +586,8 @@
       "pdf": "",
       "code": "",
       "doi": "",
-      "url": "http://nikos.vasilak.is/p/handsfree:dils:2013.pdf"
+      "url": "http://nikos.vasilak.is/p/handsfree:dils:2013.pdf",
+      "bibtex": "@inproceedings{handsfree:dils:2013,\n  title = {HandsFree: Next Generation Sequence Processing, Mapping and Analysis Made Easy},\n  author = {Loher, Phillipe and Vasilakis, Nikos and Malamon, John  and Chen, Huang-Wen and Rigoutsos, Isidore},\n  year = {2013},\n  booktitle = {Data Integration in the Life Sciences: 9th International Conference},\n  location = {Montreal, QC, Canada},\n  series = {DILS'13},\n  url = {http://nikos.vasilak.is/p/handsfree:dils:2013.pdf},\n  keywords = {genomic pipeline, DNA analysis, RNA analysis, mapping service}\n}"
     }
   ]
 }
