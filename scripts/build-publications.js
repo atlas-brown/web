@@ -39,6 +39,26 @@ function formatAuthors(authors) {
     .join(', ');
 }
 
+function parseTags(rawValue) {
+  const value = Array.isArray(rawValue) ? rawValue.join(', ') : rawValue;
+  const text = clean(value);
+  if (!text) {
+    return [];
+  }
+
+  const seen = new Set();
+  const out = [];
+  for (const keyword of text.split(/\s*[;,]\s*/).map(clean).filter(Boolean)) {
+    const key = keyword.toLowerCase();
+    if (!seen.has(key)) {
+      seen.add(key);
+      out.push(keyword);
+    }
+  }
+
+  return out;
+}
+
 function getYear(item, rawTags) {
   const cslYear = item.issued && item.issued['date-parts'] && item.issued['date-parts'][0] && item.issued['date-parts'][0][0];
   if (cslYear) {
@@ -121,6 +141,7 @@ function parseSource(bibText) {
       abstract: clean(item.abstract || rawTags.abstract),
       thesis_type: clean(rawTags.type),
       school: clean(rawTags.school || rawTags.institution),
+      tags: parseTags(rawTags.tags),
       pdf: clean(rawTags.pdf),
       code: clean(rawTags.code || rawTags.artifact),
       doi,
