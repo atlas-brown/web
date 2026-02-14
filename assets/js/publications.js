@@ -99,6 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const bibButton = event.target.closest('[data-bib-id]');
     if (bibButton) {
+      event.preventDefault();
       q(`#${bibButton.dataset.bibId}`)?.classList.toggle('hidden');
       return;
     }

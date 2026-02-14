@@ -41,6 +41,10 @@
   align-self: start;
 }
 
+.team-home-card .team-photo {
+  align-self: center;
+}
+
 .team-card-body p {
   margin: 0;
 }

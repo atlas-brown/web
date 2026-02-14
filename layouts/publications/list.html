@@ -1,5 +1,24 @@
 {{ define "main" }}
 {{ $entries := site.Data.publications_generated.entries | default (slice) }}
+{{ $atlasNames := dict }}
+{{ range site.Data.team.people }}
+  {{ $nameKey := replace (urlize .name) "-" "" }}
+  {{ if $nameKey }}
+    {{ $atlasNames = merge $atlasNames (dict $nameKey true) }}
+  {{ end }}
+{{ end }}
+{{ range site.Data.team.alumni }}
+  {{ $alumniName := "" }}
+  {{ if reflect.IsMap . }}
+    {{ $alumniName = printf "%v" (index . "name") }}
+  {{ else }}
+    {{ $alumniName = printf "%v" . }}
+  {{ end }}
+  {{ $alumniKey := replace (urlize $alumniName) "-" "" }}
+  {{ if $alumniKey }}
+    {{ $atlasNames = merge $atlasNames (dict $alumniKey true) }}
+  {{ end }}
+{{ end }}
 {{ $yearsDict := dict }}
 {{ range $entries }}
   {{ $y := printf "%v" .year }}
@@ -63,7 +82,19 @@
                   <strong>{{ $entry.title }}</strong><br>
                 {{ end }}
 
-                {{ if $entry.authors }}{{ $entry.authors }}. {{ end }}
+                {{ if $entry.authors }}
+                  {{ $authorParts := slice }}
+                  {{ range split $entry.authors ", " }}
+                    {{ $author := trim . " " }}
+                    {{ $authorKey := replace (urlize $author) "-" "" }}
+                    {{ if isset $atlasNames $authorKey }}
+                      {{ $authorParts = $authorParts | append (printf `<span class="pub-author-atlas">%s</span>` ($author | htmlEscape)) }}
+                    {{ else }}
+                      {{ $authorParts = $authorParts | append ($author | htmlEscape) }}
+                    {{ end }}
+                  {{ end }}
+                  {{ delimit $authorParts ", " | safeHTML }}.
+                {{ end }}
                 {{ if $entry.venue }}<em>{{ $entry.venue }}</em>{{ end }}<br>
 
                 {{ $links := slice }}
@@ -75,7 +106,7 @@
                 {{ if $entry.doi }}{{ $links = $links | append (printf `<a href="https://doi.org/%s" target="_blank" rel="noopener noreferrer">DOI</a>` $entry.doi) }}{{ else if $entry.url }}{{ $links = $links | append (printf `<a href="%s" target="_blank" rel="noopener noreferrer">URL</a>` $entry.url) }}{{ end }}
                 {{ if $entry.code }}{{ $links = $links | append (printf `<a href="%s" target="_blank" rel="noopener noreferrer">Code</a>` $entry.code) }}{{ end }}
                 {{ if $entry.abstract }}{{ $links = $links | append (printf `<button type="button" class="pub-action-link" data-abs-id="%s">Abstract</button>` $absID) }}{{ end }}
-                {{ if $entry.bibtex }}{{ $links = $links | append (printf `<button type="button" class="pub-action-link" data-bib-id="%s">Cite</button>` $bibID) }}{{ end }}
+                {{ if $entry.bibtex }}{{ $links = $links | append (printf `<a href="#" class="pub-action-link" data-bib-id="%s">Cite</a>` $bibID) }}{{ end }}
 
                 {{ if gt (len $links) 0 }}
                 <span class="links text-sm">[ {{ delimit $links " | " | safeHTML }} ]</span>

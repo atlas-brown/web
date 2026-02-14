@@ -72,16 +72,21 @@
 .publications-container .pub-action-link {
     border: 0;
     background: transparent;
-    color: inherit;
+    color: #ed1c24;
     padding: 0;
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration: none;
     font-size: inherit;
     font-family: inherit;
 }
 
 .publications-container .pub-action-link:hover {
-    opacity: 0.8;
+    text-decoration: underline;
+}
+
+.publications-container .pub-author-atlas {
+    color: #c65b5f;
+    color: color-mix(in srgb, currentColor 50%, #ed1c24 50%);
 }
 
 .publications-container .bibtex-block {
