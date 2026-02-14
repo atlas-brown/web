@@ -119,6 +119,8 @@ function parseSource(bibText) {
       authors: clean(formatAuthors(item.author)) || clean(rawTags.author).replace(/\s+and\s+/gi, ', '),
       venue: clean(first(item['container-title']) || first(item['collection-title']) || rawTags.booktitle || rawTags.journal || rawTags.school || rawTags.publisher),
       abstract: clean(item.abstract || rawTags.abstract),
+      thesis_type: clean(rawTags.type),
+      school: clean(rawTags.school || rawTags.institution),
       pdf: clean(rawTags.pdf),
       code: clean(rawTags.code || rawTags.artifact),
       doi,

@@ -95,7 +95,21 @@
                   {{ end }}
                   {{ delimit $authorParts ", " | safeHTML }}.
                 {{ end }}
-                {{ if $entry.venue }}<em>{{ $entry.venue }}</em>{{ end }}<br>
+                {{ if or (eq $entry.type "mastersthesis") (eq $entry.type "phdthesis") }}
+                  {{ $thesisType := $entry.thesis_type | default $entry.type_label }}
+                  {{ $thesisSchool := $entry.school | default $entry.venue }}
+                  {{ if and $thesisType $thesisSchool }}
+                    {{ $thesisType }}, {{ $thesisSchool }}.
+                  {{ else if $thesisType }}
+                    {{ $thesisType }}.
+                  {{ else if $thesisSchool }}
+                    {{ $thesisSchool }}.
+                  {{ else if $entry.venue }}
+                    {{ $entry.venue }}.
+                  {{ end }}
+                {{ else }}
+                  {{ if $entry.venue }}<em>{{ $entry.venue }}</em>{{ end }}
+                {{ end }}<br>
 
                 {{ $links := slice }}
                 {{ if fileExists $pdfStaticPath }}
