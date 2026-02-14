@@ -53,6 +53,7 @@
               {{ $absID := printf "abs-%s-%d" (replaceRE "[^A-Za-z0-9_-]" "-" $entry.id) $i }}
               {{ $bibID := printf "bib-%s-%d" (replaceRE "[^A-Za-z0-9_-]" "-" $entry.id) $i }}
               {{ $pdfPath := printf "pdf/%s.pdf" $entry.id }}
+              {{ $pdfStaticPath := printf "static/%s" $pdfPath }}
               {{ $pdfURL := relURL $pdfPath }}
               {{ $search := printf "%s %s %s %s %v" $entry.title $entry.authors $entry.venue $entry.type $entry.year }}
               <li class="pub" data-type="{{ $entry.type }}" data-year="{{ $entry.year }}" data-search="{{ lower $search }}">
@@ -66,7 +67,7 @@
                 {{ if $entry.venue }}<em>{{ $entry.venue }}</em>{{ end }}<br>
 
                 {{ $links := slice }}
-                {{ if fileExists $pdfPath }}
+                {{ if fileExists $pdfStaticPath }}
                   {{ $links = $links | append (printf `<a href="%s" target="_blank" rel="noopener noreferrer">PDF</a>` $pdfURL) }}
                 {{ else if $entry.pdf }}
                   {{ $links = $links | append (printf `<a href="%s" target="_blank" rel="noopener noreferrer">PDF</a>` $entry.pdf) }}

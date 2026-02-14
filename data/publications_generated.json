@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T19:07:51.657Z",
+  "generated_at": "2026-02-14T19:39:39.809Z",
   "sources": [
     "https://raw.githubusercontent.com/atlas-brown/bib/main/atlas.bib"
   ],
@@ -194,10 +194,10 @@
       "venue": "2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)",
       "abstract": "",
       "pdf": "",
-      "code": "https://github.com/secbench-git/SecBench",
+      "code": "https://github.com/cristianstaicu/SecBench.js",
       "doi": "10.1109/ICSE48619.2023.00096",
       "url": "https://doi.org/10.1109/ICSE48619.2023.00096",
-      "bibtex": "@inproceedings{secbench:icse:2023,\n  title = {SecBench.js: An Executable Security Benchmark Suite for Server-Side JavaScript},\n  author = {Bhuiyan, Masudul Hasan Masud and Parthasarathy, Adithya Srinivas and Vasilakis, Nikos and Pradel, Michael and Staicu, Cristian-Alexandru},\n  year = {2023},\n  booktitle = {2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)},\n  pages = {1059--1070},\n  doi = {10.1109/ICSE48619.2023.00096},\n  keywords = {Software security, JavaScript, Security benchmarks, Vulnerability testing},\n  artifact = {https://github.com/secbench-git/SecBench}\n}"
+      "bibtex": "@inproceedings{secbench:icse:2023,\n  title = {SecBench.js: An Executable Security Benchmark Suite for Server-Side JavaScript},\n  author = {Bhuiyan, Masudul Hasan Masud and Parthasarathy, Adithya Srinivas and Vasilakis, Nikos and Pradel, Michael and Staicu, Cristian-Alexandru},\n  year = {2023},\n  booktitle = {2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)},\n  pages = {1059--1070},\n  doi = {10.1109/ICSE48619.2023.00096},\n  keywords = {Software security, JavaScript, Security benchmarks, Vulnerability testing},\n  artifact = {https://github.com/cristianstaicu/SecBench.js}\n}"
     },
     {
       "id": "ev:eurosec:2022",
@@ -314,10 +314,10 @@
       "venue": "29th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering",
       "abstract": "",
       "pdf": "",
-      "code": "https://github.com/andromeda/lya",
+      "code": "https://github.com/atlas-brown/lya",
       "doi": "",
       "url": "https://doi.org/10.1145/3468264.3468574",
-      "bibtex": "@inproceedings{lya:fse:2021,\n  title = {Efficient Module-Level Dynamic Analysis for Dynamic Languages with Module Recontextualization},\n  author = {Vasilakis, Nikos and Ntousakis, Grigoris and Heller, Veit and Rinard, Martin C.},\n  year = {2021},\n  booktitle = {29th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  pages = {1202–1213},\n  isbn = {9781450385626},\n  url = {https://doi.org/10.1145/3468264.3468574},\n  numpages = {12},\n  keywords = {software engineering, dynamic languages, dynamic analysis, module recontextualization},\n  artifact = {https://github.com/andromeda/lya}\n}"
+      "bibtex": "@inproceedings{lya:fse:2021,\n  title = {Efficient Module-Level Dynamic Analysis for Dynamic Languages with Module Recontextualization},\n  author = {Vasilakis, Nikos and Ntousakis, Grigoris and Heller, Veit and Rinard, Martin C.},\n  year = {2021},\n  booktitle = {29th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  pages = {1202–1213},\n  isbn = {9781450385626},\n  url = {https://doi.org/10.1145/3468264.3468574},\n  numpages = {12},\n  keywords = {software engineering, dynamic languages, dynamic analysis, module recontextualization},\n  artifact = {https://github.com/atlas-brown/lya}\n}"
     },
     {
       "id": "pash:eurosys:2021",
@@ -344,10 +344,10 @@
       "venue": "2021 ACM SIGSAC Conference on Computer and Communications Security",
       "abstract": "",
       "pdf": "",
-      "code": "https://github.com/andromeda/mir",
+      "code": "https://github.com/atlas-brown/mir",
       "doi": "10.1145/3460120.3484535",
       "url": "https://doi.org/10.1145/3460120.3484535",
-      "bibtex": "@inproceedings{mir:ccs:2021,\n  title = {Preventing Dynamic Library Compromise on Node.js via RWX-Based Privilege Reduction},\n  author = {Vasilakis, Nikos and Staicu, Cristian-Alexandru and Ntousakis, Grigoris and Kallas, Konstantinos and Karel, Ben and DeHon, Andr\\'{e} and Pradel, Michael},\n  year = {2021},\n  booktitle = {2021 ACM SIGSAC Conference on Computer and Communications Security},\n  location = {Virtual Event, Republic of Korea},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {CCS '21},\n  pages = {1821–1838},\n  doi = {10.1145/3460120.3484535},\n  isbn = {9781450384544},\n  url = {https://doi.org/10.1145/3460120.3484535},\n  numpages = {18},\n  keywords = {Node.js, supply-chain attacks, third-party libraries, program analysis},\n  artifact = {https://github.com/andromeda/mir}\n}"
+      "bibtex": "@inproceedings{mir:ccs:2021,\n  title = {Preventing Dynamic Library Compromise on Node.js via RWX-Based Privilege Reduction},\n  author = {Vasilakis, Nikos and Staicu, Cristian-Alexandru and Ntousakis, Grigoris and Kallas, Konstantinos and Karel, Ben and DeHon, Andr\\'{e} and Pradel, Michael},\n  year = {2021},\n  booktitle = {2021 ACM SIGSAC Conference on Computer and Communications Security},\n  location = {Virtual Event, Republic of Korea},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {CCS '21},\n  pages = {1821–1838},\n  doi = {10.1145/3460120.3484535},\n  isbn = {9781450384544},\n  url = {https://doi.org/10.1145/3460120.3484535},\n  numpages = {18},\n  keywords = {Node.js, supply-chain attacks, third-party libraries, program analysis},\n  artifact = {https://github.com/atlas-brown/mir}\n}"
     },
     {
       "id": "shellpanel:report:2021",

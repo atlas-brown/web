@@ -9,8 +9,9 @@
 ## Local Development
 
 1. Edit source files in `content/`, `layouts/`, `assets/`, `data/`, and `static/`.
-2. Preview locally with `hugo server`.
-3. Build locally with `./build.sh` (output is only in `public/`).
+2. Put publication PDFs in `static/pdf/` named `<bibtex-key>.pdf`.
+3. Preview locally with `hugo server`.
+4. Build locally with `./build.sh` (output is only in `public/`).
 
 ## Deployment Model (No Compiled Files In Git)
 
