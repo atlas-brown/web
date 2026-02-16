@@ -1,6 +1,7 @@
 .DS_Store
 hugo
 venv/
+data/
 content/publications/venv
 node_modules/
 
