@@ -16,29 +16,27 @@
 ## Deployment Model (No Compiled Files In Git)
 
 Compiled output is not committed.  
-GitHub Actions workflow `.github/workflows/build-site-artifact.yml` builds the site and uploads artifact `atlas-site` containing `atlas-site.tar.gz`.
+GitHub Actions workflow `.github/workflows/build-site-artifact.yml` builds the site and publishes `atlas-site.tar.gz` to the stable release URL:
 
-On the web server, deploy by extracting the artifact into your served directory:
+```text
+https://github.com/atlas-brown/web/releases/download/site-latest/atlas-site.tar.gz
+```
+
+On the web server, deploy by extracting the tarball into your served directory:
 
 ```bash
 tar -xzf atlas-site.tar.gz -C /path/to/web/root
 ```
 
-If you use GitHub CLI on the server:
+Direct download example:
 
 ```bash
-gh run download -R <owner>/<repo> -n atlas-site -D /tmp/atlas-artifact
-tar -xzf /tmp/atlas-artifact/atlas-site.tar.gz -C /path/to/web/root
+wget -O /tmp/atlas-site.tar.gz https://github.com/atlas-brown/web/releases/download/site-latest/atlas-site.tar.gz
+tar -xzf /tmp/atlas-site.tar.gz -C /path/to/web/root
 ```
 
-If the server does not have `gh`, use the included `wget` deploy script:
+Or use the included deploy script:
 
 ```bash
 bash scripts/deploy-from-artifact.sh /path/to/web/root
-```
-
-For private repos, also set:
-
-```bash
-export GITHUB_TOKEN=<token-with-actions-read>
 ```

@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build:
@@ -42,10 +42,18 @@ jobs:
       - name: Pack site artifact
         run: tar -C public -czf atlas-site.tar.gz .
 
-      - name: Upload site artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: atlas-site
-          path: atlas-site.tar.gz
-          if-no-files-found: error
-          retention-days: 14
+      - name: Publish stable release artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          TAG="site-latest"
+          TITLE="Site Build (latest)"
+          NOTES="Automated site build from ${GITHUB_SHA}"
+
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" atlas-site.tar.gz --clobber
+            gh release edit "$TAG" --title "$TITLE" --notes "$NOTES"
+          else
+            gh release create "$TAG" atlas-site.tar.gz --title "$TITLE" --notes "$NOTES"
+          fi
