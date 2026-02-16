@@ -40,7 +40,7 @@ jobs:
         run: hugo --cleanDestinationDir --minify
 
       - name: Pack site artifact
-        run: tar -C public -czf atlas-site.tar.gz .
+        run: tar -C public -czf atlas-web.tar.gz .
 
       - name: Publish stable release artifact
         env:
@@ -52,8 +52,8 @@ jobs:
           NOTES="Automated site build from ${GITHUB_SHA}"
 
           if gh release view "$TAG" >/dev/null 2>&1; then
-            gh release upload "$TAG" atlas-site.tar.gz --clobber
+            gh release upload "$TAG" atlas-web.tar.gz --clobber
             gh release edit "$TAG" --title "$TITLE" --notes "$NOTES"
           else
-            gh release create "$TAG" atlas-site.tar.gz --title "$TITLE" --notes "$NOTES"
+            gh release create "$TAG" atlas-web.tar.gz --title "$TITLE" --notes "$NOTES"
           fi
