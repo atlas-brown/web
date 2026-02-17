@@ -5,11 +5,6 @@ set -euo pipefail
 #
 # Usage:
 #   ./scripts/deploy.sh /absolute/path/to/web/root
-#
-# Safety model:
-#   - Files are synced into <web_root> with NO DELETE.
-#   - Existing unrelated files/directories in <web_root> are never removed.
-#   - This is safest for co-existing paths like /data/.
 
 web_root="${1:-}"
 dry_run="${DRY_RUN:-0}"
