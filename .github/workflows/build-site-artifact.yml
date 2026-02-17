@@ -50,10 +50,26 @@ jobs:
           TAG="site-latest"
           TITLE="Site Build (latest)"
           NOTES="Automated site build from ${GITHUB_SHA}"
+          REPO_API="repos/${GITHUB_REPOSITORY}"
+
+          # Force-move the stable tag to this workflow's commit.
+          if gh api "${REPO_API}/git/ref/tags/${TAG}" >/dev/null 2>&1; then
+            gh api \
+              --method PATCH \
+              "${REPO_API}/git/refs/tags/${TAG}" \
+              -f sha="${GITHUB_SHA}" \
+              -F force=true >/dev/null
+          else
+            gh api \
+              --method POST \
+              "${REPO_API}/git/refs" \
+              -f ref="refs/tags/${TAG}" \
+              -f sha="${GITHUB_SHA}" >/dev/null
+          fi
 
           if gh release view "$TAG" >/dev/null 2>&1; then
             gh release upload "$TAG" atlas-web.tar.gz --clobber
-            gh release edit "$TAG" --title "$TITLE" --notes "$NOTES"
+            gh release edit "$TAG" --target "${GITHUB_SHA}" --title "$TITLE" --notes "$NOTES"
           else
-            gh release create "$TAG" atlas-web.tar.gz --title "$TITLE" --notes "$NOTES"
+            gh release create "$TAG" atlas-web.tar.gz --target "${GITHUB_SHA}" --title "$TITLE" --notes "$NOTES"
           fi
