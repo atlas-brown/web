@@ -4,11 +4,22 @@ set -euo pipefail
 # Deploy latest site build from the stable GitHub release URL using wget.
 #
 # Usage:
-#   ./scripts/deploy-from-artifact.sh /absolute/path/to/web/root
+#   ./scripts/deploy.sh /absolute/path/to/web/root
+#
+# Safety model:
+#   - Files are synced into <web_root> with NO DELETE.
+#   - Existing unrelated files/directories in <web_root> are never removed.
+#   - This is safest for co-existing paths like /data/.
 
 web_root="${1:-}"
+dry_run="${DRY_RUN:-0}"
 if [ -z "$web_root" ]; then
   echo "Usage: $0 /absolute/path/to/web/root" >&2
+  exit 1
+fi
+
+if [ ! -d "$web_root" ]; then
+  echo "Target directory does not exist: $web_root" >&2
   exit 1
 fi
 
@@ -16,22 +27,17 @@ release_url="https://github.com/atlas-brown/web/releases/download/site-latest/at
 
 tmp="$(mktemp -d)"
 trap 'rm -rf "$tmp"' EXIT
+artifact="$tmp/atlas-web.tar.gz"
 
-echo "Downloading ${release_url}..."
-if ! wget -qO "$tmp/atlas-site.tar.gz" --max-redirect=20 "$release_url"; then
-  echo "Release artifact download failed." >&2
-  exit 1
-fi
+wget -qO "$artifact" --max-redirect=20 "$release_url"
 
 mkdir -p "$tmp/site"
-tar -xzf "$tmp/atlas-site.tar.gz" -C "$tmp/site"
+tar -xzf "$artifact" -C "$tmp/site"
 
-if command -v rsync >/dev/null 2>&1; then
-  echo "Deploying to ${web_root} with rsync..."
-  rsync -a --delete "$tmp/site"/ "$web_root"/
-else
-  echo "Need rsync for robust deployment (with delete)." >&2
-  exit 1
+rsync_args=(
+  -a
+)
+if [ "$dry_run" = "1" ]; then
+  rsync_args+=(--dry-run --itemize-changes)
 fi
-
-echo "Deployment complete."
+rsync "${rsync_args[@]}" "$tmp/site"/ "$web_root"/

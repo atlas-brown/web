@@ -18,27 +18,24 @@
 ## Deployment Model (No Compiled Files In Git)
 
 Compiled output is not committed.  
-GitHub Actions workflow `.github/workflows/build-site-artifact.yml` builds the site and publishes `atlas-site.tar.gz` to the stable release URL:
+GitHub Actions workflow `.github/workflows/build-site-artifact.yml` builds the site and publishes `atlas-web.tar.gz` to the stable release URL:
 
 ```text
-https://github.com/atlas-brown/web/releases/download/site-latest/atlas-site.tar.gz
+https://github.com/atlas-brown/web/releases/download/site-latest/atlas-web.tar.gz
 ```
 
-On the web server, deploy by extracting the tarball into your served directory:
+For Brown's path (`/web/cs/web/sites/atlas`), use:
 
 ```bash
-tar -xzf atlas-site.tar.gz -C /path/to/web/root
+bash scripts/deploy.sh /web/cs/web/sites/atlas
 ```
 
-Direct download example:
+This syncs the built website files directly into `/web/cs/web/sites/atlas`.
+
+Safety:
+The deploy script uses `rsync` without delete, so `/web/cs/web/sites/atlas/data` and any other unrelated files are never removed.
+If you want to preview changes first:
 
 ```bash
-wget -O /tmp/atlas-site.tar.gz https://github.com/atlas-brown/web/releases/download/site-latest/atlas-site.tar.gz
-tar -xzf /tmp/atlas-site.tar.gz -C /path/to/web/root
-```
-
-Or use the included deploy script:
-
-```bash
-bash scripts/deploy-from-artifact.sh /path/to/web/root
+DRY_RUN=1 bash scripts/deploy.sh /web/cs/web/sites/atlas
 ```
