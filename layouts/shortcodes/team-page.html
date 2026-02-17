@@ -5,7 +5,7 @@
 <div class="team-grid">
   {{- range $members -}}
   <article class="team-card">
-    <img class="team-photo" width="150" height="150" src="{{ printf "../profile_pictures/%s" .photo }}" alt="{{ .name }}">
+    <img class="team-photo" width="150" height="150" src="{{ (printf "profile_pictures/%s" .photo) | relURL }}" alt="{{ .name }}">
     <div class="team-card-body">
       <p>
         <strong>

@@ -12,6 +12,8 @@
 2. Put publication PDFs in `static/pdf/` named `<bibtex-key>.pdf`.
 3. Preview locally with `hugo server`.
 4. Build locally with `./build.sh` (output is only in `public/`).
+5. If testing built files, serve them over HTTP:
+   `./scripts/serve-public.sh public 8000`
 
 ## Deployment Model (No Compiled Files In Git)
 

@@ -20,20 +20,20 @@ See [all news]({{< ref "news.md" >}})
 
 ## Research
 
-<img class="imgStuffResearch" src="../supply-chain.jpeg" alt="supply-chain" align="left"/> 
+<img class="imgStuffResearch" src="./supply-chain.jpeg" alt="supply-chain" align="left"/> 
 
 [Automating Protections Against Software Supply-Chain Threats
 ]({{< ref "supply-chain.md" >}})  
 Modern software incorporates thousands of dependencies as a means of accelerating development and reducing cost—risking safety and security for both developers and end-users. We have built a series of systems targeting the JavaScript ecosystem—the largest such ecosystem out there—automating the analysis, transformation, and synthesis of JavaScript dependencies across a variety of threat models. Examples: [AsiaCCS'23](http://nikos.vasilak.is/p/binwrap:asiaccs:2023.pdf), [CCS'21](http://nikos.vasilak.is/p/harp:ccs:2021.pdf), [CCS'21](http://nikos.vasilak.is/p/mir:ccs:2021.pdf).
 <br/><br/>
 
-<img class="imgStuffResearch" src="../systems.jpg" alt="systems" align="left"/> 
+<img class="imgStuffResearch" src="./systems.jpg" alt="systems" align="left"/> 
 
 [Automating Acceleration and Scale-out of Software Systems]({{< ref "acceleration.md" >}})  
 Language-agnostic programming environments hinder automated parallelization and distribution, often forcing developers that deal with large datasets to manually rewrite programs and their components in languages that support these features. We have built a series of systems that accelerate, parallelize, distribute, and scale out computations fully automatically — while maintaining key correctness and security guarantees. Our systems target widely used environments — e.g., JavaScript, Python, the Shell — and are offered by open-source consortia such as the Linux Foundation. Examples: [NSDI'23](http://nikos.vasilak.is/p/pash:nsdi:2023.pdf), [OSDI'22](http://nikos.vasilak.is/p/pash:osdi:2022.pdf), [EuroSys'21](http://nikos.vasilak.is/p/pash:eurosys:2021.pdf).
 <br/><br/>
 
-<img class="imgStuffResearch" src="../microservices.png" alt="microservices" align="left"/> 
+<img class="imgStuffResearch" src="./microservices.png" alt="microservices" align="left"/> 
 
 [Automated Transformation Towards Secure Scalable Computing Paradigms]({{< ref "ssc.md" >}})  
 Recent trends are pushing developers towards new paradigms of secure and scalable computing—e.g., confidential computing, microservices, serverless computing, and edge computing. Transforming a conventional program to leverage these paradigms is a laborious manual process that can lead to suboptimal performance and in many cases even break the program. We are developing systems that support this kind of decomposition and leveraging special hardware capabilities when these are available in the network. Examples: [ARES'22](https://nikos.vasilak.is/p/themis:ares:2022.pdf), [PLDI'19](http://nikos.vasilak.is/p/ignis:pldi:2019.pdf), [ATC'19](http://nikos.vasilak.is/p/finelame:atc:2019.pdf).

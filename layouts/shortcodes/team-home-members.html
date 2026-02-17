@@ -2,7 +2,7 @@
 <div class="team-home-grid">
   {{- range $people -}}
   <article class="team-home-card">
-    <img class="team-photo" src="{{ printf "../profile_pictures/%s" .photo }}" alt="{{ .name }}">
+    <img class="team-photo" src="{{ (printf "profile_pictures/%s" .photo) | relURL }}" alt="{{ .name }}">
     <strong>
       {{- if .website -}}
       <a href="{{ .website }}" title="{{ .name }}">{{ .name }}</a>
