@@ -1,8 +1,8 @@
 #!/bin/bash
 set -euo pipefail
 
-# If there's a data directory, it means we're in the Brown server and shouldn't build the site. 
-[ -d data ] && exit 1
+top=$(git rev-parse --show-toplevel)
+cd "$top" || exit 1
 
 hugo_bin="./hugo"
 command -v hugo >/dev/null 2>&1 && hugo_bin="hugo"

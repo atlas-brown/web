@@ -33,11 +33,8 @@ jobs:
           hugo-version: "0.120.3"
           extended: true
 
-      - name: Build publications data
-        run: npm run build:publications
-
       - name: Build site
-        run: hugo --cleanDestinationDir --minify
+        run: bash scripts/build.sh
 
       - name: Pack site artifact
         run: tar -C public -czf atlas-web.tar.gz .
