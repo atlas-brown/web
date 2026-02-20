@@ -1,3 +1,5 @@
-## News
+---
+title: "News"
+---
 
 {{< news-feed >}}

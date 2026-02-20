@@ -31,49 +31,45 @@
   {{ $years = $years | append (int $k) }}
 {{ end }}
 {{ $years = sort $years "value" "desc" }}
+<header class="mt-5 max-w-prose">
+  <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+    {{ .Title | default "Publications" }}
+  </h1>
+</header>
 <section class="mt-0 prose max-w-full flex flex-col dark:prose-invert">
   <div class="min-w-0 min-h-0 max-w-prose">
-    <h2>Publications</h2>
-
     <div
       id="publicationsApp"
       class="publications-container"
     >
-      <div class="flex flex-col gap-16 mb-16 not-prose">
-        <div>
-          <input
-            type="text"
-            id="pubSearch"
-            placeholder="Search"
-            class="publication-search"
-          >
-        </div>
+      <div class="pub-layout not-prose">
+        <aside class="pub-filters">
+          <div class="filter-section">
+            <h3 class="filter-title">Types</h3>
+            <div id="typeFilters" class="filter-row"></div>
+          </div>
 
-        <div>
-          <h3 class="filter-title">Types</h3>
-          <div id="typeFilters" class="filter-row"></div>
-        </div>
+          <div class="filter-section">
+            <h3 class="filter-title">Tags</h3>
+            <div id="tagFilters" class="filter-row"></div>
+          </div>
 
-        <div>
-          <h3 class="filter-title">Tags</h3>
-          <div id="tagFilters" class="filter-row"></div>
-        </div>
+          <div class="filter-section">
+            <h3 class="filter-title">Years</h3>
+            <div id="yearFilters" class="filter-row"></div>
+          </div>
+        </aside>
 
-        <div>
-          <h3 class="filter-title">Years</h3>
-          <div id="yearFilters" class="filter-row"></div>
-        </div>
-      </div>
+        <div class="pub-results">
+          <p id="pubNoResults" class="pub-status hidden">No publications match the current filters.</p>
 
-      <p id="pubNoResults" class="pub-status hidden">No publications match the current filters.</p>
-
-      <div id="publicationYears">
-        {{ range $year := $years }}
-        <div class="year-block mt-12 mb-6" data-year="{{ $year }}">
-          <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">{{ $year }}</h2>
-          <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
-          <ul class="space-y-4">
-            {{ range $i, $entry := where $entries "year" $year }}
+          <div id="publicationYears">
+            {{ range $year := $years }}
+            <div class="year-block mt-12 mb-6" data-year="{{ $year }}">
+              <h2 class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-2">{{ $year }}</h2>
+              <hr class="border-t border-gray-300 dark:border-gray-600 mb-4">
+              <ul class="space-y-5">
+                {{ range $i, $entry := where $entries "year" $year }}
               {{ $absID := printf "abs-%s-%d" (replaceRE "[^A-Za-z0-9_-]" "-" $entry.id) $i }}
               {{ $bibID := printf "bib-%s-%d" (replaceRE "[^A-Za-z0-9_-]" "-" $entry.id) $i }}
               {{ $pdfPath := printf "pdf/%s.pdf" $entry.id }}
@@ -82,11 +78,17 @@
               {{ $tags := $entry.tags | default (slice) }}
               {{ $searchTags := delimit $tags " " }}
               {{ $search := printf "%s %s %s %s %v %s" $entry.title $entry.authors $entry.venue $entry.type $entry.year $searchTags }}
+              {{ $titleURL := "" }}
+              {{ if $entry.url }}
+                {{ $titleURL = $entry.url }}
+              {{ else if $entry.doi }}
+                {{ $titleURL = printf "https://doi.org/%s" $entry.doi }}
+              {{ end }}
               <li class="pub" data-type="{{ $entry.type }}" data-year="{{ $entry.year }}" data-search="{{ lower $search }}" data-tags="{{ delimit $tags "||" }}">
-                {{ if $entry.url }}
-                  <strong><a href="{{ $entry.url }}" target="_blank" rel="noopener noreferrer">{{ $entry.title }}</a></strong><br>
+                {{ if $titleURL }}
+                  <a class="pub-title-link" href="{{ $titleURL }}" target="_blank" rel="noopener noreferrer">{{ $entry.title }}</a><br>
                 {{ else }}
-                  <strong>{{ $entry.title }}</strong><br>
+                  {{ $entry.title }}<br>
                 {{ end }}
 
                 {{ if $entry.authors }}
@@ -101,22 +103,23 @@
                     {{ end }}
                   {{ end }}
                   {{ delimit $authorParts ", " | safeHTML }}.
+                  <br>
                 {{ end }}
                 {{ if or (eq $entry.type "mastersthesis") (eq $entry.type "phdthesis") }}
                   {{ $thesisType := $entry.thesis_type | default $entry.type_label }}
                   {{ $thesisSchool := $entry.school | default $entry.venue }}
                   {{ if and $thesisType $thesisSchool }}
-                    {{ $thesisType }}, {{ $thesisSchool }}.
+                    {{ $thesisType }}, {{ $thesisSchool }}.<br>
                   {{ else if $thesisType }}
-                    {{ $thesisType }}.
+                    {{ $thesisType }}.<br>
                   {{ else if $thesisSchool }}
-                    {{ $thesisSchool }}.
+                    {{ $thesisSchool }}.<br>
                   {{ else if $entry.venue }}
-                    {{ $entry.venue }}.
+                    {{ $entry.venue }}.<br>
                   {{ end }}
                 {{ else }}
-                  {{ if $entry.venue }}<em>{{ $entry.venue }}</em>{{ end }}
-                {{ end }}<br>
+                  {{ if $entry.venue }}<em>{{ $entry.venue }}</em><br>{{ end }}
+                {{ end }}
 
                 {{ $links := slice }}
                 {{ if fileExists $pdfStaticPath }}
@@ -124,10 +127,16 @@
                 {{ else if $entry.pdf }}
                   {{ $links = $links | append (printf `<a href="%s" target="_blank" rel="noopener noreferrer">PDF</a>` $entry.pdf) }}
                 {{ end }}
-                {{ if $entry.doi }}{{ $links = $links | append (printf `<a href="https://doi.org/%s" target="_blank" rel="noopener noreferrer">DOI</a>` $entry.doi) }}{{ else if $entry.url }}{{ $links = $links | append (printf `<a href="%s" target="_blank" rel="noopener noreferrer">URL</a>` $entry.url) }}{{ end }}
+                {{ if $entry.url }}{{ $links = $links | append (printf `<a href="%s" target="_blank" rel="noopener noreferrer">URL</a>` $entry.url) }}{{ else if $entry.doi }}{{ $links = $links | append (printf `<a href="https://doi.org/%s" target="_blank" rel="noopener noreferrer">URL</a>` $entry.doi) }}{{ end }}
                 {{ if $entry.code }}{{ $links = $links | append (printf `<a href="%s" target="_blank" rel="noopener noreferrer">Code</a>` $entry.code) }}{{ end }}
                 {{ if $entry.abstract }}{{ $links = $links | append (printf `<button type="button" class="pub-action-link" data-abs-id="%s">Abstract</button>` $absID) }}{{ end }}
-                {{ if $entry.bibtex }}{{ $links = $links | append (printf `<a href="#" class="pub-action-link" data-bib-id="%s">Cite</a>` $bibID) }}{{ end }}
+                {{ if $entry.bibtex }}
+                  {{ $bibLabel := "Bibtex" }}
+                  {{ if eq $entry.type "preprint" }}
+                    {{ $bibLabel = "Bibtex (Pre-print)" }}
+                  {{ end }}
+                  {{ $links = $links | append (printf `<a href="#" class="pub-action-link" data-bib-id="%s">%s</a>` $bibID $bibLabel) }}
+                {{ end }}
 
                 {{ if gt (len $links) 0 }}
                 <span class="links text-sm">[ {{ delimit $links " | " | safeHTML }} ]</span>
@@ -142,10 +151,12 @@
                 </div>
                 {{ end }}
               </li>
+                {{ end }}
+              </ul>
+            </div>
             {{ end }}
-          </ul>
+          </div>
         </div>
-        {{ end }}
       </div>
     </div>
   </div>

@@ -1,3 +1,5 @@
-## Team
+---
+title: "Team"
+---
 
 {{< team-page >}}
