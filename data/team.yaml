@@ -277,19 +277,19 @@ people:
       - label: Github
         url: https://github.com/jiayiw005
 
-#   - id: kaitlyn
-#     name: Kaitlyn Cheng
-#     group: Undergraduate Students
-#     home: true
-#     home_role: B.Sc. Student
-#     photo: kaitlyn.jpg
-#     website: https://www.linkedin.com/in/kaitlyn-h-cheng/
-#     blurb: Building guardrails for LLM-assisted workflows.  
-#     links:
-#       - label: E-mail
-#         url: mailto:kaitlyn_cheng@brown.edu
-#       - label: Github
-#         url: https://github.com/kaitlyncheng519
+  - id: kaitlyn
+    name: Kaitlyn Cheng
+    group: Undergraduate Students
+    home: true
+    home_role: B.Sc. Student
+    photo: kaitlyn.png
+    website: https://www.linkedin.com/in/kaitlyn-h-cheng/
+    blurb: Building guardrails for LLM-assisted workflows.  
+    links:
+      - label: E-mail
+        url: mailto:kaitlyn_cheng@brown.edu
+      - label: Github
+        url: https://github.com/kaitlyncheng519
 
   # - id: feiyang
   #   name: Feiyang Wang

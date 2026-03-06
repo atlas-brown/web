@@ -2,7 +2,7 @@ items:
   - |
     Mar'26: [Jiayi Wu](https://jiayiw005.github.io/) and [Kaitlyn Cheng](https://www.linkedin.com/in/kaitlyn-h-cheng/) join the group as [undergraduate research assistants](https://utra.brown.edu/)!
   - |
-    Feb'26: [Lukas Lazarek](https://llazarek.github.io/) gives a talk on static analysis for shell programs at [Northeastern University](https://www.northeastern.edu/).
+    Feb'26: [Lukas Lazarek](https://llazarek.github.io/) presents our recently developed static analysis engine and type-system for polyglot environments at [Northeastern University](https://www.northeastern.edu/).
   - |
     Jan'26: Our group, together with our collaborators from Stevens and UCLA are presenting a POPL tutorial on [static, dynamic, and just-in-time analysis for shell scripts](https://popl26.sigplan.org/details/POPL-2026-tutorials/3/Analyzing-Shell-Scripts).
   - |
