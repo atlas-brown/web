@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-06T21:23:57.535Z",
+  "generated_at": "2026-03-06T21:38:36.558Z",
   "sources": [
     "https://raw.githubusercontent.com/atlas-brown/bib/main/atlas.bib"
   ],
@@ -101,7 +101,7 @@
       "title": "Guarding LLM-aided Software Transformation Tasks via Component Exoskeletons",
       "authors": "Evangelos Lamprou, Christian Gram Kalhauge, Martin C. Rinard, Nikos Vasilakis",
       "venue": "Proceedings of the 4th Workshop on Practical Adoption Challenges of ML for Systems",
-      "abstract": "Large language models (LLMs) are achieving state-of-the-art results across a wide variety of software transformation tasks—including translating across languages and lifting opaque software components to high-level languages. Unfortunately, their results are often subtly incorrect, insecure, or underperformant—affecting the widespread deployment of these LLM-driven techniques in settings that go beyond the narrow scope of academic papers. This paper posits that such widespread deployment crucially depends on developing appropriate model guardrails for safeguarding the results of the transformation process. Such guardrails can be supported by component exoskeletons, tunable partial specifications extracted mostly automatically from the original, pre-transformed component. Exoskeletons serve as component projections that supplement, and often go through, the entire transformation process, confirming that the new, transformed component meets the original specifications. They show promise on several real-world scenarios and unearth exciting research directions.",
+      "abstract": "",
       "thesis_type": "",
       "school": "",
       "tags": [
@@ -113,7 +113,7 @@
       "url": "https://doi.org/10.1145/3766882.3767171",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@inproceedings{exo:pacmi:2025,\n  title = {Guarding LLM-aided Software Transformation Tasks via Component Exoskeletons},\n  author = {Lamprou, Evangelos and Kalhauge, Christian Gram and Rinard, Martin C. and Vasilakis, Nikos},\n  year = {2025},\n  booktitle = {Proceedings of the 4th Workshop on Practical Adoption Challenges of ML for Systems},\n  location = {Seoul, Republic of Korea},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {PACMI '25},\n  pages = {13–18},\n  doi = {10.1145/3766882.3767171},\n  isbn = {9798400722059},\n  url = {https://doi.org/10.1145/3766882.3767171},\n  abstract = {Large language models (LLMs) are achieving state-of-the-art results across a wide variety of software transformation tasks---including translating across languages and lifting opaque software components to high-level languages. Unfortunately, their results are often subtly incorrect, insecure, or underperformant---affecting the widespread deployment of these LLM-driven techniques in settings that go beyond the narrow scope of academic papers. This paper posits that such widespread deployment crucially depends on developing appropriate model guardrails for safeguarding the results of the transformation process. Such guardrails can be supported by component exoskeletons, tunable partial specifications extracted mostly automatically from the original, pre-transformed component. Exoskeletons serve as component projections that supplement, and often go through, the entire transformation process, confirming that the new, transformed component meets the original specifications. They show promise on several real-world scenarios and unearth exciting research directions.},\n  numpages = {6},\n  keywords = {component exoskeletons, large language models, software transformation},\n  tags = {correctness}\n}"
+      "bibtex": "@inproceedings{exo:pacmi:2025,\n  title = {Guarding LLM-aided Software Transformation Tasks via Component Exoskeletons},\n  author = {Lamprou, Evangelos and Kalhauge, Christian Gram and Rinard, Martin C. and Vasilakis, Nikos},\n  year = {2025},\n  booktitle = {Proceedings of the 4th Workshop on Practical Adoption Challenges of ML for Systems},\n  location = {Seoul, Republic of Korea},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {PACMI '25},\n  pages = {13–18},\n  doi = {10.1145/3766882.3767171},\n  isbn = {9798400722059},\n  url = {https://doi.org/10.1145/3766882.3767171},\n  numpages = {6},\n  keywords = {component exoskeletons, large language models, software transformation},\n  tags = {correctness}\n}"
     },
     {
       "id": "koala:atc:2025",

@@ -1,5 +1,7 @@
 {{ define "main" }}
 {{ $entries := site.Data.publications_generated.entries | default (slice) }}
+{{ $entries = where $entries "type" "!=" "mastersthesis" }}
+{{ $entries = where $entries "type" "!=" "phdthesis" }}
 {{ $atlasAffiliates := dict }}
 {{ range site.Data.team.people }}
   {{ $memberURL := .website | default "" }}
