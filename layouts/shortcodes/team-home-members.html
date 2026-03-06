@@ -1,4 +1,4 @@
-{{- $people := where site.Data.team.people "home" true -}}
+{{- $people := sort (where site.Data.team.people "home" true) "name" -}}
 <div class="team-home-grid">
   {{- range $people -}}
   <article class="team-home-card">
