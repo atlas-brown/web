@@ -104,8 +104,6 @@ people:
         url: mailto:gntousakis@tuc.gr
       - label: Github
         url: http://github.com/GNtousakis
-      - label: Twitter
-        url: https://twitter.com/gntousakis
 
   - id: lukas
     name: Lukas Lazarek
@@ -162,8 +160,6 @@ people:
         url: mailto:nikos@vasilak.is
       - label: Github
         url: http://github.com/nvasilakis
-      - label: Twitter
-        url: http://twitter.com/nikosvasilakis
 
   - id: oguzhan
     name: Oğuzhan Çölkesen
