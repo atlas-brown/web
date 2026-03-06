@@ -1,22 +1,31 @@
 {{ define "main" }}
 {{ $entries := site.Data.publications_generated.entries | default (slice) }}
-{{ $atlasNames := dict }}
+{{ $atlasAffiliates := dict }}
 {{ range site.Data.team.people }}
-  {{ $nameKey := replace (urlize .name) "-" "" }}
-  {{ if $nameKey }}
-    {{ $atlasNames = merge $atlasNames (dict $nameKey true) }}
+  {{ $memberURL := .website | default "" }}
+  {{ $memberNames := slice .name }}
+  {{ range .aliases | default (slice) }}
+    {{ $memberNames = $memberNames | append . }}
+  {{ end }}
+  {{ range $memberNames }}
+    {{ $nameKey := replace (urlize .) "-" "" }}
+    {{ if $nameKey }}
+      {{ $atlasAffiliates = merge $atlasAffiliates (dict $nameKey $memberURL) }}
+    {{ end }}
   {{ end }}
 {{ end }}
 {{ range site.Data.team.alumni }}
   {{ $alumniName := "" }}
+  {{ $alumniURL := "" }}
   {{ if reflect.IsMap . }}
     {{ $alumniName = printf "%v" (index . "name") }}
+    {{ $alumniURL = printf "%v" (index . "url") }}
   {{ else }}
     {{ $alumniName = printf "%v" . }}
   {{ end }}
   {{ $alumniKey := replace (urlize $alumniName) "-" "" }}
   {{ if $alumniKey }}
-    {{ $atlasNames = merge $atlasNames (dict $alumniKey true) }}
+    {{ $atlasAffiliates = merge $atlasAffiliates (dict $alumniKey $alumniURL) }}
   {{ end }}
 {{ end }}
 {{ $yearsDict := dict }}
@@ -58,6 +67,10 @@
             <h3 class="filter-title">Years</h3>
             <div id="yearFilters" class="filter-row"></div>
           </div>
+
+          <p class="pub-affiliation-note">
+            <span class="pub-author-atlas">Colored names</span> indicate members who were affiliated with the group while this research was conducted.
+          </p>
         </aside>
 
         <div class="pub-results">
@@ -96,8 +109,13 @@
                   {{ range split $entry.authors ", " }}
                     {{ $author := trim . " " }}
                     {{ $authorKey := replace (urlize $author) "-" "" }}
-                    {{ if isset $atlasNames $authorKey }}
-                      {{ $authorParts = $authorParts | append (printf `<span class="pub-author-atlas">%s</span>` ($author | htmlEscape)) }}
+                    {{ if isset $atlasAffiliates $authorKey }}
+                      {{ $authorURL := index $atlasAffiliates $authorKey }}
+                      {{ if $authorURL }}
+                        {{ $authorParts = $authorParts | append (printf `<a class="pub-author-atlas" href="%s" target="_blank" rel="noopener noreferrer">%s</a>` ($authorURL | htmlEscape) ($author | htmlEscape)) }}
+                      {{ else }}
+                        {{ $authorParts = $authorParts | append (printf `<span class="pub-author-atlas">%s</span>` ($author | htmlEscape)) }}
+                      {{ end }}
                     {{ else }}
                       {{ $authorParts = $authorParts | append ($author | htmlEscape) }}
                     {{ end }}

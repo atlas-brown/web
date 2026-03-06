@@ -25,23 +25,25 @@ See [all news]({{< ref "news.md" >}})
 [Automating Protections Against Software Supply-Chain Threats
 ]({{< ref "supply-chain.md" >}})  
 Modern software incorporates thousands of dependencies as a means of accelerating development and reducing cost—risking safety and security for both developers and end-users. We have built a series of systems targeting the JavaScript ecosystem—the largest such ecosystem out there—automating the analysis, transformation, and synthesis of JavaScript dependencies across a variety of threat models. Examples: [AsiaCCS'23](http://nikos.vasilak.is/p/binwrap:asiaccs:2023.pdf), [CCS'21](http://nikos.vasilak.is/p/harp:ccs:2021.pdf), [CCS'21](http://nikos.vasilak.is/p/mir:ccs:2021.pdf).
-<br/><br/>
+<div style="clear: both; margin-bottom: 1.5rem;"></div>
 
 <img class="imgStuffResearch" src="./systems.jpg" alt="systems" align="left"/> 
 
 [Automating Acceleration and Scale-out of Software Systems]({{< ref "acceleration.md" >}})  
-Language-agnostic programming environments hinder automated parallelization and distribution, often forcing developers that deal with large datasets to manually rewrite programs and their components in languages that support these features. We have built a series of systems that accelerate, parallelize, distribute, and scale out computations fully automatically — while maintaining key correctness and security guarantees. Our systems target widely used environments — e.g., JavaScript, Python, the Shell — and are offered by open-source consortia such as the Linux Foundation. Examples: [NSDI'23](http://nikos.vasilak.is/p/pash:nsdi:2023.pdf), [OSDI'22](http://nikos.vasilak.is/p/pash:osdi:2022.pdf), [EuroSys'21](http://nikos.vasilak.is/p/pash:eurosys:2021.pdf).
-<br/><br/>
+Language-agnostic programming environments hinder automated parallelization and distribution, often forcing developers to manually rewrite programs and their components in languages that support these features. We have built a series of systems that accelerate, parallelize, distribute, and scale out computations fully automatically---while maintaining key correctness and security guarantees. Our systems target widely used environments---e.g., JavaScript, Python, the Shell---and are offered by open-source consortia such as the Linux Foundation. Examples: [NSDI'23](http://nikos.vasilak.is/p/pash:nsdi:2023.pdf), [OSDI'22](http://nikos.vasilak.is/p/pash:osdi:2022.pdf), [EuroSys'21](http://nikos.vasilak.is/p/pash:eurosys:2021.pdf).
+<div style="clear: both; margin-bottom: 1.5rem;"></div>
 
 <img class="imgStuffResearch" src="./microservices.png" alt="microservices" align="left"/> 
 
 [Automated Transformation Towards Secure Scalable Computing Paradigms]({{< ref "ssc.md" >}})  
 Recent trends are pushing developers towards new paradigms of secure and scalable computing—e.g., confidential computing, microservices, serverless computing, and edge computing. Transforming a conventional program to leverage these paradigms is a laborious manual process that can lead to suboptimal performance and in many cases even break the program. We are developing systems that support this kind of decomposition and leveraging special hardware capabilities when these are available in the network. Examples: [ARES'22](https://nikos.vasilak.is/p/themis:ares:2022.pdf), [PLDI'19](http://nikos.vasilak.is/p/ignis:pldi:2019.pdf), [ATC'19](http://nikos.vasilak.is/p/finelame:atc:2019.pdf).
 
-<br/><br/>
+<div style="clear: both; margin-bottom: 1.5rem;"></div>
 
-[Automating Correctness for Modern Software Systems]({{< ref "correctness.md" >}})  
-Programming correctness in modern software systems is hard to maintain as applications scale across dependencies, languages, and distributed environments. We build systems that automatically enforce, validate, and preserve correctness properties while remaining practical for real workloads.
+<img class="imgStuffResearch" src="./correctness.jpeg" alt="correctness" align="left"/> 
+
+[Automating Software Correctness]({{< ref "correctness.md" >}})  
+Programming correctness in modern software systems is hard to maintain as applications scale across dependencies, languages, and distributed environments. We build systems that automatically enforce, validate, and preserve correctness properties while remaining practical for real workloads. Examples: [HotOS'25](https://nikos.vasilak.is/p/sash:hotos:2025.pdf), [ICFP'21](https://doi.org/10.1145/3473570), [HotOS'23](https://doi.org/10.1145/3593856.3595891), [ARES'22](https://doi.org/10.1145/3538969.3538983), [CCS'21](http://nikos.vasilak.is/p/harp:ccs:2021.pdf).
 
 ---
 

@@ -29,6 +29,13 @@
     margin-top: 1.25rem;
 }
 
+.publications-container .pub-affiliation-note {
+    margin-top: 1.25rem;
+    font-size: 0.85rem;
+    line-height: 1.35;
+    color: #6b7280;
+}
+
 .publications-container .filter-row {
     display: flex;
     flex-wrap: wrap;
@@ -115,8 +122,8 @@
 }
 
 .publications-container .pub-author-atlas {
-    color: #c65b5f;
-    color: color-mix(in srgb, currentColor 50%, #ed1c24 50%);
+    color: #ed1c24;
+    text-decoration: none;
 }
 
 .publications-container .bibtex-block {

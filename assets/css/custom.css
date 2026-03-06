@@ -57,6 +57,12 @@
   margin: 0.2rem 0;
 }
 
+.imgStuffResearch {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
 @media (max-width: 640px) {
   .team-grid {
     grid-template-columns: 1fr;

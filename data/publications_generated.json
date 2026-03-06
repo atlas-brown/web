@@ -1,9 +1,29 @@
 {
-  "generated_at": "2026-02-20T06:04:32.016Z",
+  "generated_at": "2026-03-06T05:36:41.172Z",
   "sources": [
     "https://raw.githubusercontent.com/atlas-brown/bib/main/atlas.bib"
   ],
   "entries": [
+    {
+      "id": "koala:ntua:2026",
+      "year": 2026,
+      "type": "mastersthesis",
+      "type_label": "Masters Thesis",
+      "title": "Characterization of the Koala Benchmarks",
+      "authors": "Georgios Kaoukis",
+      "venue": "National Technical University of Athens",
+      "abstract": "",
+      "thesis_type": "M. Eng. Thesis",
+      "school": "National Technical University of Athens",
+      "tags": [
+        "performance"
+      ],
+      "pdf": "",
+      "code": "https://github.com/kbensh/koala",
+      "doi": "",
+      "url": "",
+      "bibtex": "@mastersthesis{koala:ntua:2026,\n  title = {Characterization of the Koala Benchmarks},\n  author = {Georgios Kaoukis},\n  year = {2026},\n  type = {M. Eng. Thesis},\n  school = {National Technical University of Athens},\n  artifact = {https://github.com/kbensh/koala},\n  tags = {performance}\n}"
+    },
     {
       "id": "fractal:nsdi:2026",
       "year": 2026,
@@ -156,6 +176,26 @@
       "doi": "",
       "url": "https://www.usenix.org/conference/atc25/presentation/lamprou",
       "bibtex": "@inproceedings{koala:atc:2025,\n  title = {The Koala Benchmarks for the Shell: Characterization and Implications},\n  author = {Evangelos Lamprou and Ethan Williams and Georgios Kaoukis and Zhuoxuan Zhang and Michael Greenberg and Konstantinos Kallas and Lukas Lazarek and Nikos Vasilakis},\n  year = {2025},\n  month = {jul},\n  booktitle = {2025 USENIX Annual Technical Conference (USENIX ATC '25)},\n  publisher = {USENIX Association},\n  address = {Boston, MA},\n  pages = {449--64},\n  isbn = {978-1-939133-48-9},\n  url = {https://www.usenix.org/conference/atc25/presentation/lamprou},\n  keywords = {shell, benchmarking, workload characterization},\n  artifact = {https://github.com/kbensh/koala},\n  tags = {performance}\n}"
+    },
+    {
+      "id": "mir:tuc:2024",
+      "year": 2024,
+      "type": "mastersthesis",
+      "type_label": "Masters Thesis",
+      "title": "Applying Dynamic Coarse-Grained Library Interposition to Security",
+      "authors": "Grigorios Ntousakis",
+      "venue": "Technical University of Crete",
+      "abstract": "",
+      "thesis_type": "M.Sc. Thesis",
+      "school": "Technical University of Crete",
+      "tags": [
+        "security"
+      ],
+      "pdf": "",
+      "code": "https://github.com/atlas-brown/mir",
+      "doi": "",
+      "url": "",
+      "bibtex": "@mastersthesis{mir:tuc:2024,\n  title = {Applying Dynamic Coarse-Grained Library Interposition to Security},\n  author = {Grigorios Ntousakis},\n  year = {2024},\n  type = {M.Sc. Thesis},\n  school = {Technical University of Crete},\n  artifact = {https://github.com/atlas-brown/mir},\n  tags = {security}\n}"
     },
     {
       "id": "libbash:brown:2024",
@@ -593,6 +633,26 @@
       "doi": "",
       "url": "https://arxiv.org/abs/2012.15443",
       "bibtex": "@preprint{kumquat:arxiv:2020,\n  title = {Automatic Synthesis of Parallel and Distributed Unix Commands with KumQuat},\n  author = {Nikos Vasilakis and Jiasi Shen and Martin C. Rinard},\n  year = {2020},\n  journal = {CoRR},\n  volume = {abs/2012.15443},\n  url = {https://arxiv.org/abs/2012.15443},\n  eprinttype = {arXiv},\n  eprint = {2012.15443},\n  timestamp = {Sat, 30 Sep 2023 10:08:30 +0200},\n  biburl = {https://dblp.org/rec/journals/corr/abs-2012-15443.bib},\n  bibsource = {dblp computer science bibliography, https://dblp.org},\n  keywords = {distributed computing, shell, automatic parallelization, program synthesis},\n  tags = {performance, correctness}\n}"
+    },
+    {
+      "id": "lya:tuc:2020",
+      "year": 2020,
+      "type": "mastersthesis",
+      "type_label": "Masters Thesis",
+      "title": "Coarse-Grained Dynamic Analysis of Software Libraries",
+      "authors": "Grigorios Ntousakis",
+      "venue": "Technical University of Crete",
+      "abstract": "",
+      "thesis_type": "Sc.B. Thesis",
+      "school": "Technical University of Crete",
+      "tags": [
+        "security"
+      ],
+      "pdf": "",
+      "code": "https://github.com/atlas-brown/lya",
+      "doi": "",
+      "url": "",
+      "bibtex": "@mastersthesis{lya:tuc:2020,\n  title = {Coarse-Grained Dynamic Analysis of Software Libraries},\n  author = {Grigorios Ntousakis},\n  year = {2020},\n  type = {Sc.B. Thesis},\n  school = {Technical University of Crete},\n  artifact = {https://github.com/atlas-brown/lya},\n  tags = {security}\n}"
     },
     {
       "id": "alr:splash:2019",

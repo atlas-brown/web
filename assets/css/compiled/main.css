@@ -7272,6 +7272,7 @@ body:has(#menu-controller:checked) {
   margin-bottom: 1em;
   margin-right: 1.2em;
   border-radius: 10px;
-  width: 15%;
-  height: 15%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
 }

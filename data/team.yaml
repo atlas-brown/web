@@ -82,6 +82,7 @@ people:
     home_role: Visiting Student
     photo: george.jpg
     blurb: Writing good code to make writing good code easier.
+    website: https://kapetanak.is
     links:
       - label: E-mail
         url: mailto:george@kapetanak.is
@@ -89,7 +90,9 @@ people:
         url: http://github.com/gkapetanakis
 
   - id: grigoris
-    name: Grigoris Ntousakis
+    name: Grigorios Ntousakis
+    aliases:
+      - Grigoris Ntousakis
     group: Ph.D. Students
     home: true
     home_role: Ph.D. Student
@@ -125,7 +128,7 @@ people:
     home_role: Visiting Student
     photo: maria.jpg
     website: https://mlazoy.github.io/
-    blurb: Exploring the intersection of operating systems with secure computation and low-level optimizations.
+    blurb: Exploring secure computation across the computing stack.
     links:
       - label: E-mail
         url: mailto:maria_lazou1@brown.edu
@@ -217,6 +220,57 @@ people:
         url: mailto:zekai_li@brown.edu
       - label: Github
         url: http://github.com/spanning-tree
+
+  - id: jerry
+    name: Jerry Xia
+    group: Undergraduate Students
+    home: true
+    home_role: B.Sc. Student
+    website: https://jerryxia.github.io/
+    blurb: Developing bolt-on performance improvement techniques. 
+    photo: jerry.jpg
+    links: 
+      - label: E-mail
+        url: mailto:jerry_xia@brown.edu
+      - label: Github
+        url: https://github.com/jxia3
+
+  - id: ken
+    name: Ken Mahattanadul 
+    group: M.Sc. Students
+    photo: ken.jpg
+    home: true
+    home_role: M.Sc. Student
+    website: https://piyawatm.github.io/
+    blurb: Developing tools and techniques to automatically secure the software supply-chain.
+    links:
+      - label: E-mail
+        url: piyawatchara_mahattanadul@brown.edu
+      - label: Github
+        url: https://github.com/piyawatm
+
+  - id: yasmin
+    name: Yasmin Kadyrova
+    group: M.Sc. Students
+    photo: yasmin.jpg
+    home: true
+    home_role: M.Sc. Student
+    website: https://www.linkedin.com/in/yasmin-kadyrova/
+    blurb: Integrating security into the software development lifecycle.
+    links: 
+      - label: E-mail
+        url: mailto:yasmin_kadyrova@brown.edu
+      - label: Github
+        url: https://github.com/YasminKadyrova
+
+  # - id: feiyang
+  #   name: Feiyang Wang
+  #   group: M.Sc. Students
+  #   home: true
+  #   home_role: M.Sc. Student
+  #   blurb: Building tools to make it easier to write correct code.
+
+
 
 alumni:
   - name: Di Jin
