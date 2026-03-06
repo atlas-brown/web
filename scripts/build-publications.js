@@ -146,6 +146,8 @@ function parseSource(bibText) {
       code: clean(rawTags.code || rawTags.artifact),
       doi,
       url,
+      eprint: clean(rawTags.eprint),
+      archiveprefix: clean(rawTags.archiveprefix || rawTags.eprinttype),
       bibtex: toBibtex(raw, id)
     };
   });

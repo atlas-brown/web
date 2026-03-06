@@ -135,6 +135,14 @@
                   {{ else if $entry.venue }}
                     {{ $entry.venue }}.<br>
                   {{ end }}
+                {{ else if eq $entry.type "preprint" }}
+                  {{ if and (eq (lower $entry.archiveprefix) "arxiv") $entry.eprint }}
+                    <em>arXiv preprint arXiv:{{ $entry.eprint }}</em><br>
+                  {{ else if $entry.eprint }}
+                    <em>{{ $entry.archiveprefix | default "Preprint" }} preprint {{ $entry.eprint }}</em><br>
+                  {{ else if $entry.venue }}
+                    <em>{{ $entry.venue }}</em><br>
+                  {{ end }}
                 {{ else }}
                   {{ if $entry.venue }}<em>{{ $entry.venue }}</em><br>{{ end }}
                 {{ end }}
