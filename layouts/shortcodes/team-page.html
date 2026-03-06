@@ -15,8 +15,10 @@
           {{ .name }}
           {{- end -}}
         </strong>
-        {{- if .blurb }}<br>{{ .blurb }}{{ end -}}
       </p>
+      {{- if .blurb }}
+      <p>{{ .blurb }}</p>
+      {{- end -}}
       {{- if .links }}
       <p class="team-links">
         {{- range $idx, $link := .links -}}

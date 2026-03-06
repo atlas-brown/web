@@ -1,5 +1,6 @@
 {{ define "main" }}
 {{ .Scratch.Set "scope" "single" }}
+{{ $isWide := .Params.wide | default false }}
 
 <article>
   {{ if .Params.showHero | default (.Site.Params.article.showHero | default false) }}
@@ -73,11 +74,11 @@
       </div>
       {{ end }}
 
-      <div class="min-w-0 min-h-0 max-w-fit">
+      <div class="min-w-0 min-h-0 {{ if $isWide }}max-w-full{{ else }}max-w-fit{{ end }}">
         
         {{ partial "series.html" . }}
 
-        <div class="max-w-prose mb-20">
+        <div class="{{ if $isWide }}max-w-full{{ else }}max-w-prose{{ end }} mb-20">
           {{ .Content | emojify }}
         </div>
                 
@@ -95,7 +96,7 @@
       <script type="text/javascript" src="{{ $jsPage.RelPermalink }}" integrity="{{ $jsPage.Data.Integrity }}"></script>
   
     </section>
-  <footer class="pt-8 max-w-prose print:hidden">
+  <footer class="pt-8 {{ if $isWide }}max-w-full{{ else }}max-w-prose{{ end }} print:hidden">
 
     {{ partial "article-pagination.html" . }}
     {{ if .Params.showComments | default (.Site.Params.article.showComments | default false) }}
