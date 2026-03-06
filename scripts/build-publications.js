@@ -33,6 +33,15 @@ function typeRank(type) {
   return index === -1 ? TYPE_ORDER.length : index;
 }
 
+function thesisInstitutionRank(entry) {
+  if (entry.type !== 'phdthesis' && entry.type !== 'mastersthesis') {
+    return 0;
+  }
+
+  const school = clean(entry.school || entry.venue).toLowerCase();
+  return school.includes('brown') ? 0 : 1;
+}
+
 function first(value) {
   if (Array.isArray(value)) {
     return value[0] || '';
@@ -193,6 +202,9 @@ async function main() {
     }
     if (typeRank(a.type) !== typeRank(b.type)) {
       return typeRank(a.type) - typeRank(b.type);
+    }
+    if (thesisInstitutionRank(a) !== thesisInstitutionRank(b)) {
+      return thesisInstitutionRank(a) - thesisInstitutionRank(b);
     }
     return a.title.localeCompare(b.title);
   });
