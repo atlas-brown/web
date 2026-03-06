@@ -40,7 +40,7 @@
     weight = 23
 
 [[main]]
-    name = "Automating Correctness for Modern Software Systems"
+    name = "Automating Software Correctness"
     parent = "Research"
     pageRef = "correctness"
     weight = 24
