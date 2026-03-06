@@ -4,9 +4,10 @@ type: "project"
 date: 2026-02-11
 ---
 
-## Automating Software Correctness
+## Improving the Robustness of Modern Software Systems
 
-Modern software correctness often fails at boundaries: between components, across languages, and under transformation. We build analyses and systems that recover missing structure, make behavior inspectable, and justify key transformations with formal or protocol-level guarantees.
+Modern software systems fail in a variety of ways. 
+We are developing systems for improving the reliability and robustness of these sytems—including checks and guarantees before, during, and after their execution.
 
 **Systems and papers:** Our [HotOS'25 paper](https://nikos.vasilak.is/p/sash:hotos:2025.pdf), *From Ahead-of- to Just-in-Time and Back Again*, pushes this line toward static analysis for real shell programs. Towards expanding the reach of these analyses, [Caruca](https://arxiv.org/abs/2510.14279) mines specifications for the observable behavior of opaque components, and [Try](https://github.com/binpash/try) complements this direction with a lightweight frontend for inspecting a command's effects before it touches a live system.
 
