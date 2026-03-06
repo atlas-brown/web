@@ -1,5 +1,11 @@
 items:
   - |
+    Mar'26: [Jiayi Wu](https://jiayiw005.github.io/) and [Kaitlyn Cheng](https://www.linkedin.com/in/kaitlyn-h-cheng/) join the group as [undergraduate research assistants](https://utra.brown.edu/)!
+  - |
+    Feb'26: [Lukas Lazarek](https://llazarek.github.io/) gives a talk on static analysis for shell programs at [Northeastern University](https://www.northeastern.edu/).
+  - |
+    Jan'26: Our group, together with our collaborators from Stevens and UCLA are presenting a POPL tutorial on [static, dynamic, and just-in-time analysis for shell scripts](https://popl26.sigplan.org/details/POPL-2026-tutorials/3/Analyzing-Shell-Scripts).
+  - |
       Sep'25: Early ideas on [LLM guardrails](https://nikos.vasilak.is/p/exo:pacmi:2025.pdf), [hybrid scheduling](https://nikos.vasilak.is/p/cocoon:plos:2025.pdf), and [verifiable kernel extensions](https://nikos.vasilak.is/p/klean:plos:2025.pdf) at [SOSP'25 workshops](https://sigops.org/s/conferences/sosp/2025/workshops.html)! \
   - |
       Aug'25: Two [NSDI'26](https://www.usenix.org/conference/nsdi26) papers on [optimization prediction](https://github.com/atlas-brown/slowpoke) and [fault tolerance](https://github.com/binpash/fractal) for opaque distributed systems! \
