@@ -99,9 +99,9 @@
               {{ end }}
               <li class="pub" data-type="{{ $entry.type }}" data-year="{{ $entry.year }}" data-search="{{ lower $search }}" data-tags="{{ delimit $tags "||" }}">
                 {{ if $titleURL }}
-                  <a class="pub-title-link" href="{{ $titleURL }}" target="_blank" rel="noopener noreferrer">{{ $entry.title }}</a><br>
+                  <a class="pub-title pub-title-link" href="{{ $titleURL }}" target="_blank" rel="noopener noreferrer">{{ $entry.title }}</a><br>
                 {{ else }}
-                  {{ $entry.title }}<br>
+                  <span class="pub-title">{{ $entry.title }}</span><br>
                 {{ end }}
 
                 {{ if $entry.authors }}
@@ -149,11 +149,11 @@
 
                 {{ $links := slice }}
                 {{ if fileExists $pdfStaticPath }}
-                  {{ $links = $links | append (printf `<a href="%s" target="_blank" rel="noopener noreferrer">PDF</a>` $pdfURL) }}
+                  {{ $links = $links | append (printf `<a href="%s" target="_blank" rel="noopener noreferrer">Local PDF</a>` $pdfURL) }}
                 {{ else if $entry.pdf }}
-                  {{ $links = $links | append (printf `<a href="%s" target="_blank" rel="noopener noreferrer">PDF</a>` $entry.pdf) }}
+                  {{ $links = $links | append (printf `<a href="%s" target="_blank" rel="noopener noreferrer">Local PDF</a>` $entry.pdf) }}
                 {{ end }}
-                {{ if $entry.url }}{{ $links = $links | append (printf `<a href="%s" target="_blank" rel="noopener noreferrer">URL</a>` $entry.url) }}{{ else if $entry.doi }}{{ $links = $links | append (printf `<a href="https://doi.org/%s" target="_blank" rel="noopener noreferrer">URL</a>` $entry.doi) }}{{ end }}
+                {{ if $entry.url }}{{ $links = $links | append (printf `<a href="%s" target="_blank" rel="noopener noreferrer">Publisher</a>` $entry.url) }}{{ else if $entry.doi }}{{ $links = $links | append (printf `<a href="https://doi.org/%s" target="_blank" rel="noopener noreferrer">Publisher</a>` $entry.doi) }}{{ end }}
                 {{ if $entry.code }}{{ $links = $links | append (printf `<a href="%s" target="_blank" rel="noopener noreferrer">Code</a>` $entry.code) }}{{ end }}
                 {{ if $entry.abstract }}{{ $links = $links | append (printf `<button type="button" class="pub-action-link" data-abs-id="%s">Abstract</button>` $absID) }}{{ end }}
                 {{ if $entry.bibtex }}

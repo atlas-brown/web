@@ -1,31 +1,9 @@
 {
-  "generated_at": "2026-03-06T16:43:35.427Z",
+  "generated_at": "2026-03-06T18:26:02.597Z",
   "sources": [
     "https://raw.githubusercontent.com/atlas-brown/bib/main/atlas.bib"
   ],
   "entries": [
-    {
-      "id": "koala:ntua:2026",
-      "year": 2026,
-      "type": "mastersthesis",
-      "type_label": "Masters Thesis",
-      "title": "Characterization of the Koala Benchmarks",
-      "authors": "Georgios Kaoukis",
-      "venue": "National Technical University of Athens",
-      "abstract": "",
-      "thesis_type": "M. Eng. Thesis",
-      "school": "National Technical University of Athens",
-      "tags": [
-        "performance"
-      ],
-      "pdf": "",
-      "code": "https://github.com/kbensh/koala",
-      "doi": "",
-      "url": "",
-      "eprint": "",
-      "archiveprefix": "",
-      "bibtex": "@mastersthesis{koala:ntua:2026,\n  title = {Characterization of the Koala Benchmarks},\n  author = {Georgios Kaoukis},\n  year = {2026},\n  type = {M. Eng. Thesis},\n  school = {National Technical University of Athens},\n  artifact = {https://github.com/kbensh/koala},\n  tags = {performance}\n}"
-    },
     {
       "id": "fractal:nsdi:2026",
       "year": 2026,
@@ -72,44 +50,26 @@
       "bibtex": "@inproceedings{slowpoke:nsdi:2026,\n  title = {Slowpoke: End-to-end Throughput Optimization Modeling for Microservice Applications},\n  author = {Yizheng Xie and Di Jin and Oğuzhan Çölkesen and Vasiliki Kalavri and John Liagouris and Nikos Vasilakis},\n  year = {2026},\n  month = {may},\n  booktitle = {23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI 26)},\n  publisher = {USENIX Association},\n  address = {Renton, WA},\n  url = {https://www.usenix.org/conference/nsdi26/presentation/xie},\n  keywords = {microservices, performance modeling, throughput optimization},\n  artifact = {https://github.com/atlas-brown/slowpoke},\n  tags = {performance}\n}"
     },
     {
-      "id": "caruca:arxiv:2025",
-      "year": 2025,
-      "type": "preprint",
-      "type_label": "preprint",
-      "title": "Caruca: Effective and Efficient Specification Mining for Opaque Software Components",
-      "authors": "Evangelos Lamprou, Seong-Heon Jung, Mayank Keoliya, Lukas Lazarek, Konstantinos Kallas, Michael Greenberg, Nikos Vasilakis",
-      "venue": "",
-      "abstract": "",
-      "thesis_type": "",
-      "school": "",
-      "tags": [],
-      "pdf": "",
-      "code": "",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2510.14279",
-      "eprint": "2510.14279",
-      "archiveprefix": "arXiv",
-      "bibtex": "@preprint{caruca:arxiv:2025,\n  title = {Caruca: Effective and Efficient Specification Mining for Opaque Software Components},\n  author = {Evangelos Lamprou and Seong-Heon Jung and Mayank Keoliya and Lukas Lazarek and Konstantinos Kallas and Michael Greenberg and Nikos Vasilakis},\n  year = {2025},\n  url = {https://arxiv.org/abs/2510.14279},\n  eprint = {2510.14279},\n  archiveprefix = {arXiv},\n  primaryclass = {cs.SE}\n}"
-    },
-    {
-      "id": "fractal:brown:2025",
-      "year": 2025,
+      "id": "koala:ntua:2026",
+      "year": 2026,
       "type": "mastersthesis",
       "type_label": "Masters Thesis",
-      "title": "Exploring Fault-Tolerant Shell-Script Distribution",
-      "authors": "Zhicheng Huang",
-      "venue": "Brown University",
+      "title": "Characterization of the Koala Benchmarks",
+      "authors": "Georgios Kaoukis",
+      "venue": "National Technical University of Athens",
       "abstract": "",
-      "thesis_type": "Sc.M. Thesis",
-      "school": "Brown University",
-      "tags": [],
+      "thesis_type": "M. Eng. Thesis",
+      "school": "National Technical University of Athens",
+      "tags": [
+        "performance"
+      ],
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/kbensh/koala",
       "doi": "",
-      "url": "https://cs.brown.edu/media/filer_public/c2/11/c21127ed-9395-4fb2-944e-986441a85895/huang_zhicheng.pdf",
+      "url": "",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@mastersthesis{fractal:brown:2025,\n  title = {Exploring Fault-Tolerant Shell-Script Distribution},\n  author = {Zhicheng Huang},\n  year = {2025},\n  url = {https://cs.brown.edu/media/filer_public/c2/11/c21127ed-9395-4fb2-944e-986441a85895/huang_zhicheng.pdf},\n  type = {Sc.M. Thesis},\n  school = {Brown University}\n}"
+      "bibtex": "@mastersthesis{koala:ntua:2026,\n  title = {Characterization of the Koala Benchmarks},\n  author = {Georgios Kaoukis},\n  year = {2026},\n  type = {M. Eng. Thesis},\n  school = {National Technical University of Athens},\n  artifact = {https://github.com/kbensh/koala},\n  tags = {performance}\n}"
     },
     {
       "id": "sash:hotos:2025",
@@ -134,24 +94,46 @@
       "bibtex": "@inproceedings{sash:hotos:2025,\n  title = {From Ahead-of- to Just-in-Time and Back Again: Static Analysis for Unix Shell Programs},\n  author = {Lazarek, Lukas and Jung, Seong-Heon and Lamprou, Evangelos and Li, Zekai and Narsipur, Anirudh and Zhao, Eric and Greenberg, Michael and Kallas, Konstantinos and Mamouras, Konstantinos and Vasilakis, Nikos},\n  year = {2025},\n  booktitle = {2025 Workshop on Hot Topics in Operating Systems},\n  location = {Banff, AB, Canada},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {HotOS '25},\n  pages = {88–95},\n  doi = {10.1145/3713082.3730395},\n  isbn = {9798400714757},\n  url = {https://doi.org/10.1145/3713082.3730395},\n  numpages = {8},\n  keywords = {Unix, Linux, shell, static analysis, inference, type systems},\n  tags = {correctness}\n}"
     },
     {
-      "id": "lexo:arxiv:2025",
+      "id": "koala:atc:2025",
       "year": 2025,
-      "type": "preprint",
-      "type_label": "preprint",
-      "title": "Lexo: Eliminating Stealthy Supply-Chain Attacks via LLM-Assisted Program Regeneration",
-      "authors": "Evangelos Lamprou, Julian Dai, Grigoris Ntousakis, Martin C. Rinard, Nikos Vasilakis",
-      "venue": "",
+      "type": "inproceedings",
+      "type_label": "Conference",
+      "title": "The Koala Benchmarks for the Shell: Characterization and Implications",
+      "authors": "Evangelos Lamprou, Ethan Williams, Georgios Kaoukis, Zhuoxuan Zhang, Michael Greenberg, Konstantinos Kallas, Lukas Lazarek, Nikos Vasilakis",
+      "venue": "2025 USENIX Annual Technical Conference (USENIX ATC '25)",
       "abstract": "",
       "thesis_type": "",
       "school": "",
+      "tags": [
+        "performance"
+      ],
+      "pdf": "",
+      "code": "https://github.com/kbensh/koala",
+      "doi": "",
+      "url": "https://www.usenix.org/conference/atc25/presentation/lamprou",
+      "eprint": "",
+      "archiveprefix": "",
+      "bibtex": "@inproceedings{koala:atc:2025,\n  title = {The Koala Benchmarks for the Shell: Characterization and Implications},\n  author = {Evangelos Lamprou and Ethan Williams and Georgios Kaoukis and Zhuoxuan Zhang and Michael Greenberg and Konstantinos Kallas and Lukas Lazarek and Nikos Vasilakis},\n  year = {2025},\n  month = {jul},\n  booktitle = {2025 USENIX Annual Technical Conference (USENIX ATC '25)},\n  publisher = {USENIX Association},\n  address = {Boston, MA},\n  pages = {449--64},\n  isbn = {978-1-939133-48-9},\n  url = {https://www.usenix.org/conference/atc25/presentation/lamprou},\n  keywords = {shell, benchmarking, workload characterization},\n  artifact = {https://github.com/kbensh/koala},\n  tags = {performance}\n}"
+    },
+    {
+      "id": "fractal:brown:2025",
+      "year": 2025,
+      "type": "mastersthesis",
+      "type_label": "Masters Thesis",
+      "title": "Exploring Fault-Tolerant Shell-Script Distribution",
+      "authors": "Zhicheng Huang",
+      "venue": "Brown University",
+      "abstract": "",
+      "thesis_type": "Sc.M. Thesis",
+      "school": "Brown University",
       "tags": [],
       "pdf": "",
       "code": "",
       "doi": "",
-      "url": "https://arxiv.org/abs/2510.14522",
-      "eprint": "2510.14522",
-      "archiveprefix": "arXiv",
-      "bibtex": "@preprint{lexo:arxiv:2025,\n  title = {Lexo: Eliminating Stealthy Supply-Chain Attacks via LLM-Assisted Program Regeneration},\n  author = {Evangelos Lamprou and Julian Dai and Grigoris Ntousakis and Martin C. Rinard and Nikos Vasilakis},\n  year = {2025},\n  url = {https://arxiv.org/abs/2510.14522},\n  eprint = {2510.14522},\n  archiveprefix = {arXiv},\n  primaryclass = {cs.CR}\n}"
+      "url": "https://cs.brown.edu/media/filer_public/c2/11/c21127ed-9395-4fb2-944e-986441a85895/huang_zhicheng.pdf",
+      "eprint": "",
+      "archiveprefix": "",
+      "bibtex": "@mastersthesis{fractal:brown:2025,\n  title = {Exploring Fault-Tolerant Shell-Script Distribution},\n  author = {Zhicheng Huang},\n  year = {2025},\n  url = {https://cs.brown.edu/media/filer_public/c2/11/c21127ed-9395-4fb2-944e-986441a85895/huang_zhicheng.pdf},\n  type = {Sc.M. Thesis},\n  school = {Brown University}\n}"
     },
     {
       "id": "sash:brown:2025",
@@ -174,26 +156,44 @@
       "bibtex": "@mastersthesis{sash:brown:2025,\n  title = {Statically Analyzing Shell Scripts and Their Effects in Context},\n  author = {Anirudh Narsipur},\n  year = {2025},\n  url = {https://cs.brown.edu/media/filer_public/97/3d/973d8a85-56a6-462d-ac37-a25317e06f14/narsipur_anirudh.pdf},\n  type = {Sc.M. Thesis},\n  school = {Brown University}\n}"
     },
     {
-      "id": "koala:atc:2025",
+      "id": "caruca:arxiv:2025",
       "year": 2025,
-      "type": "inproceedings",
-      "type_label": "Conference",
-      "title": "The Koala Benchmarks for the Shell: Characterization and Implications",
-      "authors": "Evangelos Lamprou, Ethan Williams, Georgios Kaoukis, Zhuoxuan Zhang, Michael Greenberg, Konstantinos Kallas, Lukas Lazarek, Nikos Vasilakis",
-      "venue": "2025 USENIX Annual Technical Conference (USENIX ATC '25)",
+      "type": "preprint",
+      "type_label": "preprint",
+      "title": "Caruca: Effective and Efficient Specification Mining for Opaque Software Components",
+      "authors": "Evangelos Lamprou, Seong-Heon Jung, Mayank Keoliya, Lukas Lazarek, Konstantinos Kallas, Michael Greenberg, Nikos Vasilakis",
+      "venue": "",
       "abstract": "",
       "thesis_type": "",
       "school": "",
-      "tags": [
-        "performance"
-      ],
+      "tags": [],
       "pdf": "",
-      "code": "https://github.com/kbensh/koala",
+      "code": "",
       "doi": "",
-      "url": "https://www.usenix.org/conference/atc25/presentation/lamprou",
-      "eprint": "",
-      "archiveprefix": "",
-      "bibtex": "@inproceedings{koala:atc:2025,\n  title = {The Koala Benchmarks for the Shell: Characterization and Implications},\n  author = {Evangelos Lamprou and Ethan Williams and Georgios Kaoukis and Zhuoxuan Zhang and Michael Greenberg and Konstantinos Kallas and Lukas Lazarek and Nikos Vasilakis},\n  year = {2025},\n  month = {jul},\n  booktitle = {2025 USENIX Annual Technical Conference (USENIX ATC '25)},\n  publisher = {USENIX Association},\n  address = {Boston, MA},\n  pages = {449--64},\n  isbn = {978-1-939133-48-9},\n  url = {https://www.usenix.org/conference/atc25/presentation/lamprou},\n  keywords = {shell, benchmarking, workload characterization},\n  artifact = {https://github.com/kbensh/koala},\n  tags = {performance}\n}"
+      "url": "https://arxiv.org/abs/2510.14279",
+      "eprint": "2510.14279",
+      "archiveprefix": "arXiv",
+      "bibtex": "@preprint{caruca:arxiv:2025,\n  title = {Caruca: Effective and Efficient Specification Mining for Opaque Software Components},\n  author = {Evangelos Lamprou and Seong-Heon Jung and Mayank Keoliya and Lukas Lazarek and Konstantinos Kallas and Michael Greenberg and Nikos Vasilakis},\n  year = {2025},\n  url = {https://arxiv.org/abs/2510.14279},\n  eprint = {2510.14279},\n  archiveprefix = {arXiv},\n  primaryclass = {cs.SE}\n}"
+    },
+    {
+      "id": "lexo:arxiv:2025",
+      "year": 2025,
+      "type": "preprint",
+      "type_label": "preprint",
+      "title": "Lexo: Eliminating Stealthy Supply-Chain Attacks via LLM-Assisted Program Regeneration",
+      "authors": "Evangelos Lamprou, Julian Dai, Grigoris Ntousakis, Martin C. Rinard, Nikos Vasilakis",
+      "venue": "",
+      "abstract": "",
+      "thesis_type": "",
+      "school": "",
+      "tags": [],
+      "pdf": "",
+      "code": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2510.14522",
+      "eprint": "2510.14522",
+      "archiveprefix": "arXiv",
+      "bibtex": "@preprint{lexo:arxiv:2025,\n  title = {Lexo: Eliminating Stealthy Supply-Chain Attacks via LLM-Assisted Program Regeneration},\n  author = {Evangelos Lamprou and Julian Dai and Grigoris Ntousakis and Martin C. Rinard and Nikos Vasilakis},\n  year = {2025},\n  url = {https://arxiv.org/abs/2510.14522},\n  eprint = {2510.14522},\n  archiveprefix = {arXiv},\n  primaryclass = {cs.CR}\n}"
     },
     {
       "id": "mir:tuc:2024",
@@ -676,6 +676,28 @@
       "bibtex": "@inproceedings{pash:hotos:2021,\n  title = {Unix Shell Programming: The Next 50 Years},\n  author = {Greenberg, Michael and Kallas, Konstantinos and Vasilakis, Nikos},\n  year = {2021},\n  booktitle = {Workshop on Hot Topics in Operating Systems},\n  location = {Ann Arbor, Michigan},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {HotOS '21},\n  pages = {104–111},\n  doi = {10.1145/3458336.3465294},\n  isbn = {9781450384384},\n  url = {https://doi.org/10.1145/3458336.3465294},\n  numpages = {8},\n  keywords = {Unix, shell, analysis, transformations, optimization, JIT},\n  tags = {performance, correctness}\n}"
     },
     {
+      "id": "lya:tuc:2020",
+      "year": 2020,
+      "type": "mastersthesis",
+      "type_label": "Masters Thesis",
+      "title": "Coarse-Grained Dynamic Analysis of Software Libraries",
+      "authors": "Grigorios Ntousakis",
+      "venue": "Technical University of Crete",
+      "abstract": "",
+      "thesis_type": "Sc.B. Thesis",
+      "school": "Technical University of Crete",
+      "tags": [
+        "security"
+      ],
+      "pdf": "",
+      "code": "https://github.com/atlas-brown/lya",
+      "doi": "",
+      "url": "",
+      "eprint": "",
+      "archiveprefix": "",
+      "bibtex": "@mastersthesis{lya:tuc:2020,\n  title = {Coarse-Grained Dynamic Analysis of Software Libraries},\n  author = {Grigorios Ntousakis},\n  year = {2020},\n  type = {Sc.B. Thesis},\n  school = {Technical University of Crete},\n  artifact = {https://github.com/atlas-brown/lya},\n  tags = {security}\n}"
+    },
+    {
       "id": "kumquat:arxiv:2020",
       "year": 2020,
       "type": "preprint",
@@ -697,28 +719,6 @@
       "eprint": "2012.15443",
       "archiveprefix": "arXiv",
       "bibtex": "@preprint{kumquat:arxiv:2020,\n  title = {Automatic Synthesis of Parallel and Distributed Unix Commands with KumQuat},\n  author = {Nikos Vasilakis and Jiasi Shen and Martin C. Rinard},\n  year = {2020},\n  journal = {CoRR},\n  volume = {abs/2012.15443},\n  url = {https://arxiv.org/abs/2012.15443},\n  eprinttype = {arXiv},\n  eprint = {2012.15443},\n  timestamp = {Sat, 30 Sep 2023 10:08:30 +0200},\n  biburl = {https://dblp.org/rec/journals/corr/abs-2012-15443.bib},\n  bibsource = {dblp computer science bibliography, https://dblp.org},\n  keywords = {distributed computing, shell, automatic parallelization, program synthesis},\n  tags = {performance, correctness}\n}"
-    },
-    {
-      "id": "lya:tuc:2020",
-      "year": 2020,
-      "type": "mastersthesis",
-      "type_label": "Masters Thesis",
-      "title": "Coarse-Grained Dynamic Analysis of Software Libraries",
-      "authors": "Grigorios Ntousakis",
-      "venue": "Technical University of Crete",
-      "abstract": "",
-      "thesis_type": "Sc.B. Thesis",
-      "school": "Technical University of Crete",
-      "tags": [
-        "security"
-      ],
-      "pdf": "",
-      "code": "https://github.com/atlas-brown/lya",
-      "doi": "",
-      "url": "",
-      "eprint": "",
-      "archiveprefix": "",
-      "bibtex": "@mastersthesis{lya:tuc:2020,\n  title = {Coarse-Grained Dynamic Analysis of Software Libraries},\n  author = {Grigorios Ntousakis},\n  year = {2020},\n  type = {Sc.B. Thesis},\n  school = {Technical University of Crete},\n  artifact = {https://github.com/atlas-brown/lya},\n  tags = {security}\n}"
     },
     {
       "id": "alr:splash:2019",

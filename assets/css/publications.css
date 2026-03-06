@@ -117,8 +117,13 @@
     text-decoration: underline;
 }
 
+.publications-container .pub-title {
+    color: inherit;
+    font-weight: 550;
+}
+
 .publications-container .pub-title-link {
-    color: #ed1c24;
+    color: inherit;
 }
 
 .publications-container .pub-author-atlas {

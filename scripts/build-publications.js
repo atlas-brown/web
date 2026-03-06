@@ -17,6 +17,22 @@ const TYPE_LABELS = {
   mastersthesis: 'Masters Thesis'
 };
 
+const TYPE_ORDER = [
+  'article',
+  'inproceedings',
+  'inbook',
+  'book',
+  'phdthesis',
+  'mastersthesis',
+  'preprint',
+  'techreport',
+];
+
+function typeRank(type) {
+  const index = TYPE_ORDER.indexOf(type);
+  return index === -1 ? TYPE_ORDER.length : index;
+}
+
 function first(value) {
   if (Array.isArray(value)) {
     return value[0] || '';
@@ -174,6 +190,9 @@ async function main() {
   const entries = [...dedup.values()].sort((a, b) => {
     if (a.year !== b.year) {
       return b.year - a.year;
+    }
+    if (typeRank(a.type) !== typeRank(b.type)) {
+      return typeRank(a.type) - typeRank(b.type);
     }
     return a.title.localeCompare(b.title);
   });
