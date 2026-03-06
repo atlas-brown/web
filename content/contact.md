@@ -2,12 +2,14 @@
 +++
 
 ## Research with us
-Research is fun — especially when it's collaborative. Joining the group depends on your status and goal:
+Research is fun—especially when it's collaborative. Joining the group depends on your status and goal:
 
 * _Current Brown students_, students interested in a _research visit_, or students intersted in remote collaborations: [fill out this form](https://forms.gle/1ZoC1KeAgHQGh4ij8). 
-* Prospective _undergraduate or M.Sc. students_: do not email the group — we are not involved in the admissions process.
+* Prospective _undergraduate or M.Sc. students_: do not email the group — we are typically not involved in the admissions process.
 * Prospective _Ph.D. students_: apply directly to the CS department's [Ph.D. program](https://cs.brown.edu/degrees/doctoral/), mentioning Prof. Vasilakis.
-* Prospective _postdocs_: email Prof. Vasilakis with your CV, two representative papers, and a description of your background and interests.
+* Prospective _postdocs_: email Prof. Vasilakis with your CV, two representative papers, and a short description of your background and interests.
+
+Visiting students, research fellows, and others please contact Prof. Vasilakis directly.
 
 ---
 
@@ -20,7 +22,7 @@ Research is fun — especially when it's collaborative. Joining the group depend
 ## Address
 
 Department of Computer Science  
-Room #555  
+Room #267 (Atlas) & #555 (Nikos)  
 115 Waterman Street,  
 Providence, RI 02912   
 
@@ -30,7 +32,7 @@ Providence, RI 02912
 
 Group email: [atlas@brown.edu](mailto:atlas@brown.edu)  
 Administrative assistant: [Dawn T. Reed](mailto:dtreed@cs.brown.edu)  
-Office hours: [Wed 2–3pm](https://calendar.google.com/calendar/embed?src=c_484613ba23b98a8c83e64a6e938462ebdb9e0750289f702235d35471c426bb44%40group.calendar.google.com&ctz=America%2FNew_York), [CIT 555](https://www.brown.edu/Facilities/Facilities_Management/maps/#building/WATSONCIT/HYPERLINK[) & [Zoom](https://brown.zoom.us/j/94413500788)  
+Office hours: [Wed 2–3pm](https://calendar.google.com/calendar/embed?src=c_484613ba23b98a8c83e64a6e938462ebdb9e0750289f702235d35471c426bb44%40group.calendar.google.com&ctz=America%2FNew_York), [CIT 555](https://www.brown.edu/Facilities/Facilities_Management/maps/#building/WATSONCIT/HYPERLINK[)
 
 {{< /columns >}}
 
@@ -56,7 +58,8 @@ Office hours: [Wed 2–3pm](https://calendar.google.com/calendar/embed?src=c_484
 ## Courses
 
 [CS1380: Distributed Computer Systems](https://cs.brown.edu/courses/csci1380/)  
-[CS2952-R: Systems Transforming Systems](https://cs.brown.edu/courses/csci2952r/)  
+[CS2952-R: Systems Transforming Systems](https://cs.brown.edu/courses/csci2952r/)
+[CS2953-A: Engineering Complex Systems with Generative AI](https://cs.brown.edu/courses/csci2953a/) 
 [Weekly systems lunchch](https://systems.cs.brown.edu/sysread/)
 
 ## Others at Brown
