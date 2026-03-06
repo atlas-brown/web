@@ -63,6 +63,10 @@
   object-fit: contain;
 }
 
+.imgStuffResearch + p {
+  overflow: hidden;
+}
+
 @media (max-width: 640px) {
   .team-grid {
     grid-template-columns: 1fr;

@@ -262,6 +262,34 @@ people:
         url: mailto:yasmin_kadyrova@brown.edu
       - label: Github
         url: https://github.com/YasminKadyrova
+  
+  - id: jiayi
+    name: Jiayi Wu
+    group: Undergraduate Students
+    home: true
+    home_role: B.Sc. Student
+    photo: jiayi.png
+    website: https://jiayiw005.github.io/
+    blurb: Extending the reach and practicality of state-of-the-art type-systems.
+    links: 
+      - label: E-mail
+        url: mailto:jiayi_wu4@brown.edu
+      - label: Github
+        url: https://github.com/jiayiw005
+
+#   - id: kaitlyn
+#     name: Kaitlyn Cheng
+#     group: Undergraduate Students
+#     home: true
+#     home_role: B.Sc. Student
+#     photo: kaitlyn.jpg
+#     website: https://www.linkedin.com/in/kaitlyn-h-cheng/
+#     blurb: Building guardrails for LLM-assisted workflows.  
+#     links:
+#       - label: E-mail
+#         url: mailto:kaitlyn_cheng@brown.edu
+#       - label: Github
+#         url: https://github.com/kaitlyncheng519
 
   # - id: feiyang
   #   name: Feiyang Wang
