@@ -137,14 +137,6 @@
                   {{ else if $entry.venue }}
                     {{ $entry.venue }}.<br>
                   {{ end }}
-                {{ else if eq $entry.type "preprint" }}
-                  {{ if and (eq (lower $entry.archiveprefix) "arxiv") $entry.eprint }}
-                    <em>arXiv preprint arXiv:{{ $entry.eprint }}</em><br>
-                  {{ else if $entry.eprint }}
-                    <em>{{ $entry.archiveprefix | default "Preprint" }} preprint {{ $entry.eprint }}</em><br>
-                  {{ else if $entry.venue }}
-                    <em>{{ $entry.venue }}</em><br>
-                  {{ end }}
                 {{ else }}
                   {{ if $entry.venue }}<em>{{ $entry.venue }}</em><br>{{ end }}
                 {{ end }}
@@ -159,11 +151,7 @@
                 {{ if $entry.code }}{{ $links = $links | append (printf `<a href="%s" target="_blank" rel="noopener noreferrer">Code</a>` $entry.code) }}{{ end }}
                 {{ if $entry.abstract }}{{ $links = $links | append (printf `<button type="button" class="pub-action-link" data-abs-id="%s">Abstract</button>` $absID) }}{{ end }}
                 {{ if $entry.bibtex }}
-                  {{ $bibLabel := "Bibtex" }}
-                  {{ if eq $entry.type "preprint" }}
-                    {{ $bibLabel = "Bibtex (Pre-print)" }}
-                  {{ end }}
-                  {{ $links = $links | append (printf `<a href="#" class="pub-action-link" data-bib-id="%s">%s</a>` $bibID $bibLabel) }}
+                  {{ $links = $links | append (printf `<a href="#" class="pub-action-link" data-bib-id="%s">Bibtex</a>` $bibID) }}
                 {{ end }}
 
                 {{ if gt (len $links) 0 }}
