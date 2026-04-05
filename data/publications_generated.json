@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T20:55:11.575Z",
+  "generated_at": "2026-04-05T21:02:00.810Z",
   "sources": [
     "https://raw.githubusercontent.com/atlas-brown/bib/main/atlas.bib"
   ],
@@ -15,14 +15,17 @@
       "abstract": "",
       "thesis_type": "",
       "school": "",
-      "tags": [],
+      "tags": [
+        "correctness",
+        "security"
+      ],
       "pdf": "",
       "code": "",
       "doi": "",
       "url": "",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@inproceedings{try:osdi:2026,\n  title = {Controlling Opaque-Component Effects with Semisolates and Ef},\n  author = {Lamprou, Evangelos and Zhu, Tianyu (Ezri) and Jin, Di and Ntousakis, Grigoris and and Liargkovas, Georgios and Eng, Calvin and Kallas, Konstantinos and Greenberg, Michael and Vasilakis, Nikos},\n  booktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\n  year = {2026},\n  publisher = {USENIX Association}\n}"
+      "bibtex": "@inproceedings{try:osdi:2026,\n  title = {Controlling Opaque-Component Effects with Semisolates and Ef},\n  author = {Lamprou, Evangelos and Zhu, Tianyu (Ezri) and Jin, Di and Ntousakis, Grigoris and and Liargkovas, Georgios and Eng, Calvin and Kallas, Konstantinos and Greenberg, Michael and Vasilakis, Nikos},\n  booktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\n  year = {2026},\n  publisher = {USENIX Association},\n  tags = {correctness, security}\n}"
     },
     {
       "id": "fractal:nsdi:2026",
@@ -58,14 +61,16 @@
       "abstract": "",
       "thesis_type": "",
       "school": "",
-      "tags": [],
+      "tags": [
+        "performance"
+      ],
       "pdf": "",
       "code": "",
       "doi": "",
       "url": "",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@inproceedings{hs:osdi:2026,\n  title = {hS: Speculative Script Reordering at Subprocess Granularity},\n  author = {Liargkovas, Georgios and Jin, Di and Zhu, Tianyu (Ezri) and Liu, Dan and Thompson, A. Bolun and Narsipur, Anirudh and Jung, Seong-Heon and Prasad, Siddhartha and Spinellis, Diomidis and Greenberg, Michael and Kallas, Konstantinos and Vasilakis, Nikos},\n  booktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\n  year = {2026},\n  publisher = {USENIX Association}\n}"
+      "bibtex": "@inproceedings{hs:osdi:2026,\n  title = {hS: Speculative Script Reordering at Subprocess Granularity},\n  author = {Liargkovas, Georgios and Jin, Di and Zhu, Tianyu (Ezri) and Liu, Dan and Thompson, A. Bolun and Narsipur, Anirudh and Jung, Seong-Heon and Prasad, Siddhartha and Spinellis, Diomidis and Greenberg, Michael and Kallas, Konstantinos and Vasilakis, Nikos},\n  booktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\n  year = {2026},\n  publisher = {USENIX Association},\n  tags = {performance}\n}"
     },
     {
       "id": "incr:osdi:2026",
@@ -78,14 +83,16 @@
       "abstract": "",
       "thesis_type": "",
       "school": "",
-      "tags": [],
+      "tags": [
+        "performance"
+      ],
       "pdf": "",
       "code": "",
       "doi": "",
       "url": "",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@inproceedings{incr:osdi:2026,\n  title = {Incr: Faster Re-execution via Bolt-on Incrementalization},\n  author = {Xie, Yizheng and Lamprou, Evangelos and Xia, Jerry and Vasilakis, Nikos},\n  booktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\n  year = {2026},\n  publisher = {USENIX Association}\n}"
+      "bibtex": "@inproceedings{incr:osdi:2026,\n  title = {Incr: Faster Re-execution via Bolt-on Incrementalization},\n  author = {Xie, Yizheng and Lamprou, Evangelos and Xia, Jerry and Vasilakis, Nikos},\n  booktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\n  year = {2026},\n  publisher = {USENIX Association},\n  tags = {performance}\n}"
     },
     {
       "id": "rt:osdi:2026",
@@ -98,14 +105,16 @@
       "abstract": "",
       "thesis_type": "",
       "school": "",
-      "tags": [],
+      "tags": [
+        "correctness"
+      ],
       "pdf": "",
       "code": "",
       "doi": "",
       "url": "",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@inproceedings{rt:osdi:2026,\n  title = {Rt: Regular Types for the Streaming Shell},\n  author = {Li, Zekai and Lazarek, Lukas and Lamprou, Evangelos and Kapetanakis, George and Mamouras, Konstantinos and Vasilakis, Nikos},\n  booktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\n  year = {2026},\n  publisher = {USENIX Association}\n}"
+      "bibtex": "@inproceedings{rt:osdi:2026,\n  title = {Rt: Regular Types for the Streaming Shell},\n  author = {Li, Zekai and Lazarek, Lukas and Lamprou, Evangelos and Kapetanakis, George and Mamouras, Konstantinos and Vasilakis, Nikos},\n  booktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\n  year = {2026},\n  publisher = {USENIX Association},\n  tags = {correctness}\n}"
     },
     {
       "id": "slowpoke:nsdi:2026",
