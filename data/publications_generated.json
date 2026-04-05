@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T21:02:00.810Z",
+  "generated_at": "2026-04-05T21:21:33.778Z",
   "sources": [
     "https://raw.githubusercontent.com/atlas-brown/bib/main/atlas.bib"
   ],
@@ -9,7 +9,7 @@
       "year": 2026,
       "type": "inproceedings",
       "type_label": "Conference",
-      "title": "Controlling Opaque-Component Effects with Semisolates and Ef",
+      "title": "Controlling Opaque-Component Effects with Semisolates and Try",
       "authors": "Evangelos Lamprou, Tianyu (Ezri) Zhu, Di Jin, Grigoris Ntousakis, Georgios Liargkovas, Calvin Eng, Konstantinos Kallas, Michael Greenberg, Nikos Vasilakis",
       "venue": "20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)",
       "abstract": "",
@@ -25,7 +25,7 @@
       "url": "",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@inproceedings{try:osdi:2026,\n  title = {Controlling Opaque-Component Effects with Semisolates and Ef},\n  author = {Lamprou, Evangelos and Zhu, Tianyu (Ezri) and Jin, Di and Ntousakis, Grigoris and and Liargkovas, Georgios and Eng, Calvin and Kallas, Konstantinos and Greenberg, Michael and Vasilakis, Nikos},\n  booktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\n  year = {2026},\n  publisher = {USENIX Association},\n  tags = {correctness, security}\n}"
+      "bibtex": "@inproceedings{try:osdi:2026,\n  title = {Controlling Opaque-Component Effects with Semisolates and Try},\n  author = {Lamprou, Evangelos and Zhu, Tianyu (Ezri) and Jin, Di and Ntousakis, Grigoris and and Liargkovas, Georgios and Eng, Calvin and Kallas, Konstantinos and Greenberg, Michael and Vasilakis, Nikos},\n  booktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\n  year = {2026},\n  publisher = {USENIX Association},\n  tags = {correctness, security}\n}"
     },
     {
       "id": "fractal:nsdi:2026",
