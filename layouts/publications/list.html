@@ -32,9 +32,10 @@
 {{ end }}
 {{ range site.Data.team.group_affiliates | default (slice) }}
   {{ $affiliateName := printf "%v" .name }}
+  {{ $affiliateURL := printf "%v" (.url | default "") }}
   {{ $affiliateKey := replace (urlize $affiliateName) "-" "" }}
   {{ if $affiliateKey }}
-    {{ $atlasAffiliates = merge $atlasAffiliates (dict $affiliateKey "") }}
+    {{ $atlasAffiliates = merge $atlasAffiliates (dict $affiliateKey $affiliateURL) }}
   {{ end }}
 {{ end }}
 {{ $yearsDict := dict }}

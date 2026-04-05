@@ -299,6 +299,8 @@ people:
 group_affiliates:
   - name: Ethan Williams
   - name: Zhuoxuan Zhang
+  - name: Calvin Eng
+    url: https://www.calvineng.com/
 
 alumni:
   - name: Di Jin
@@ -328,7 +330,7 @@ alumni:
   - name: Nikos Pagonas
     url: https://nikpag.github.io/
     note: "(Visiting Student, 2024, next: Columbia University)"
-  - name: Giorgos Liargkovas
+  - name: Georgios Liargkovas
     url: https://gliargovas.github.io
     note: "(Visiting Student, 2024, next: Columbia University)"
   - name: Rutvik Saptarshi
