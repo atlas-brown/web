@@ -296,10 +296,11 @@ people:
 
 
 
+group_affiliates:
+  - name: Ethan Williams
+  - name: Zhuoxuan Zhang
+
 alumni:
-  - name: Ethan Williams 
-    url: https://www.linkedin.com/in/ehenrywilliams/
-    note: "(B.Sc., 2025, next: Google)"
   - name: Di Jin
     url: https://sleepymug.me
     note: "(Postdoc, 2024-2025, next: Huawei Research)"
@@ -309,9 +310,6 @@ alumni:
   - name: Zhicheng Huang
     url: https://huangworld.github.io/
     note: "(M.Sc., 2025, next: University of California San Diego)"
-  - name: Zhuoxuan Zhang
-    note: (M.Sc., 2025)
-    url: https://github.com/Zhuoxuan-Zhang
   - name: Anirudh Narsipur
     url: https://anarsipur.com
     note: "(M.Sc., 2025, next: Evolver)"
