@@ -54,7 +54,7 @@ Programming correctness in modern software systems is hard to maintain as applic
 [Mailing list](mailto:atlas-brown@googlegroups.com)  
 [Github organization](https://github.com/atlas-brown)  
 [Discord server](https://discord.com/channels/1029481105625186495)  
-[Onboarding (group-internal document)](https://docs.google.com/document/d/1UXZKiQCRw1z4qKsVObGKYvxPvNs5gVlJNQpGbXRLvJ4/edit?usp=sharing)
+[Onboarding](https://docs.google.com/document/d/e/2PACX-1vQJyX_A3gLGwzmVunmHLfqdAhvbG-VXHkckbW94zy1Db6bvDZ8bwcUkVnnrYRz0RzgjClW9DF1Z_QhX/pub)
 
 
 [PaSh: Discord server](https://discord.com/channels/947328962739187753)  
