@@ -2,14 +2,14 @@
 +++
 
 ## Research with us
-Research is fun—especially when it's collaborative. Joining the group depends on your status and goal:
+Research is fun—especially when it's collaborative! Joining the group depends on your status and goal:
 
-* _Current Brown students_, students interested in a _research visit_, or students intersted in remote collaborations: [fill out this form](https://forms.gle/1ZoC1KeAgHQGh4ij8). 
+* _Current Brown students_, potential _research visitors_, or potentially remote collaborators: review [onboarding resources](https://docs.google.com/document/d/e/2PACX-1vQJyX_A3gLGwzmVunmHLfqdAhvbG-VXHkckbW94zy1Db6bvDZ8bwcUkVnnrYRz0RzgjClW9DF1Z_QhX/pub) and [complete this form](https://forms.gle/1ZoC1KeAgHQGh4ij8). 
 * Prospective _undergraduate or M.Sc. students_: do not email the group — we are typically not involved in the admissions process.
 * Prospective _Ph.D. students_: apply directly to the CS department's [Ph.D. program](https://cs.brown.edu/degrees/doctoral/), mentioning Prof. Vasilakis.
 * Prospective _postdocs_: email Prof. Vasilakis with your CV, two representative papers, and a short description of your background and interests.
 
-Visiting students, research fellows, and others please contact Prof. Vasilakis directly.
+Potential visiting students, research fellows, and others please contact [Prof. Vasilakis](https://nikos.vasilak.is) directly.
 
 ---
 
@@ -43,7 +43,7 @@ Office hours: [Wed 2–3pm](https://calendar.google.com/calendar/embed?src=c_484
 [Mailing list](mailto:atlas-brown@googlegroups.com)  
 [Github organization](https://github.com/atlas-brown)  
 [Discord server](https://discord.com/channels/1029481105625186495)  
-[Onboarding (group-internal document)](https://docs.google.com/document/d/1UXZKiQCRw1z4qKsVObGKYvxPvNs5gVlJNQpGbXRLvJ4/edit?usp=sharing)
+[Onboarding resources](https://docs.google.com/document/d/e/2PACX-1vQJyX_A3gLGwzmVunmHLfqdAhvbG-VXHkckbW94zy1Db6bvDZ8bwcUkVnnrYRz0RzgjClW9DF1Z_QhX/pub)
 
 
 [PaSh: Discord server](https://discord.com/channels/947328962739187753)  
@@ -58,13 +58,13 @@ Office hours: [Wed 2–3pm](https://calendar.google.com/calendar/embed?src=c_484
 ## Courses
 
 [CS1380: Distributed Computer Systems](https://cs.brown.edu/courses/csci1380/)  
-[CS2952-R: Systems Transforming Systems](https://cs.brown.edu/courses/csci2952r/)
+[CS2952-R: Systems Transforming Systems](https://cs.brown.edu/courses/csci2952r/) 
 [CS2953-A: Engineering Complex Systems with Generative AI](https://cs.brown.edu/courses/csci2953a/) 
 [Weekly systems lunchch](https://systems.cs.brown.edu/sysread/)
 
 ## Others at Brown
 
-Clusters: [Systems](https://systems.cs.brown.edu), [PLT](https://cs.brown.edu/research/plt/), [SSL](https://gitlab.com/brown-ssl)   
+Clusters: [Systems](https://systems.cs.brown.edu), [PLT](https://cs.brown.edu/research/plt/), [SSL](https://gitlab.com/brown-ssl), [CEL](https://cel.cs.brown.edu/) 
 Organizations: [DSI](https://dsi.brown.edu/), [CCV](https://ccv.brown.edu/)
 
 {{< /columns >}}

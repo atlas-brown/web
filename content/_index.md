@@ -54,7 +54,7 @@ Programming correctness in modern software systems is hard to maintain as applic
 [Mailing list](mailto:atlas-brown@googlegroups.com)  
 [Github organization](https://github.com/atlas-brown)  
 [Discord server](https://discord.com/channels/1029481105625186495)  
-[Onboarding](https://docs.google.com/document/d/e/2PACX-1vQJyX_A3gLGwzmVunmHLfqdAhvbG-VXHkckbW94zy1Db6bvDZ8bwcUkVnnrYRz0RzgjClW9DF1Z_QhX/pub)
+[Onboarding resources](https://docs.google.com/document/d/e/2PACX-1vQJyX_A3gLGwzmVunmHLfqdAhvbG-VXHkckbW94zy1Db6bvDZ8bwcUkVnnrYRz0RzgjClW9DF1Z_QhX/pub)
 
 
 [PaSh: Discord server](https://discord.com/channels/947328962739187753)  
@@ -69,12 +69,13 @@ Programming correctness in modern software systems is hard to maintain as applic
 ## Courses
 
 [CS1380: Distributed Computer Systems](https://cs.brown.edu/courses/csci1380/)  
-[CS2952-R: Systems Transforming Systems](https://cs.brown.edu/courses/csci2952r/)  
-[Weekly systems lunch](https://systems.cs.brown.edu/sysread/)
+[CS2952-R: Systems Transforming Systems](https://cs.brown.edu/courses/csci2952r/) 
+[CS2953-A: Engineering Complex Systems with Generative AI](https://cs.brown.edu/courses/csci2953a/) 
+[Weekly systems lunchch](https://systems.cs.brown.edu/sysread/)
 
 ## Others at Brown
 
-Clusters: [Systems](https://systems.cs.brown.edu), [PLT](https://cs.brown.edu/research/plt/), [SSL](https://gitlab.com/brown-ssl)   
+Clusters: [Systems](https://systems.cs.brown.edu), [PLT](https://cs.brown.edu/research/plt/), [SSL](https://gitlab.com/brown-ssl), [CEL](https://cel.cs.brown.edu/) 
 Organizations: [DSI](https://dsi.brown.edu/), [CCV](https://ccv.brown.edu/)
 
 {{< /columns >}}
