@@ -69,13 +69,13 @@ Programming correctness in modern software systems is hard to maintain as applic
 ## Courses
 
 [CS1380: Distributed Computer Systems](https://cs.brown.edu/courses/csci1380/)  
-[CS2952-R: Systems Transforming Systems](https://cs.brown.edu/courses/csci2952r/) 
-[CS2953-A: Engineering Complex Systems with Generative AI](https://cs.brown.edu/courses/csci2953a/) 
+[CS2952-R: Systems Transforming Systems](https://cs.brown.edu/courses/csci2952r/)  
+[CS2953-A: Engineering Complex Systems with Generative AI](https://cs.brown.edu/courses/csci2953a/)  
 [Weekly systems lunchch](https://systems.cs.brown.edu/sysread/)
 
 ## Others at Brown
 
-Clusters: [Systems](https://systems.cs.brown.edu), [PLT](https://cs.brown.edu/research/plt/), [SSL](https://gitlab.com/brown-ssl), [CEL](https://cel.cs.brown.edu/) 
+Clusters: [Systems](https://systems.cs.brown.edu), [PLT](https://cs.brown.edu/research/plt/), [SSL](https://gitlab.com/brown-ssl), [CEL](https://cel.cs.brown.edu/)  
 Organizations: [DSI](https://dsi.brown.edu/), [CCV](https://ccv.brown.edu/)
 
 {{< /columns >}}
