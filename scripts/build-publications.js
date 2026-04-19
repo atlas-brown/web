@@ -5,7 +5,8 @@ require('@citation-js/plugin-bibtex');
 const bibtexParse = require('../assets/js/vendor/bibtexParse.js');
 
 const BIB_URLS = [
-  'https://raw.githubusercontent.com/atlas-brown/bib/main/atlas.bib'
+  'https://raw.githubusercontent.com/atlas-brown/bib/main/atlas.bib',
+  'https://raw.githubusercontent.com/atlas-brown/bib/main/theses.bib'
 ];
 
 const TYPE_LABELS = {
