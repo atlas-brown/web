@@ -8,7 +8,7 @@ const TYPE_LABELS = {
   book: 'Book',
   phdthesis: 'Ph.D. dissertation',
   mastersthesis: 'M.Sc./B.Sc./M.Eng. thesis',
-  preprint: 'Pre-print',
+  preprint: 'Preprint',
   techreport: 'Technical report',
 };
 

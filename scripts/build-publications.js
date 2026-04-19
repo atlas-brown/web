@@ -14,7 +14,9 @@ const TYPE_LABELS = {
   inbook: 'Book Chapter',
   book: 'Book',
   phdthesis: 'PhD Thesis',
-  mastersthesis: 'Masters Thesis'
+  mastersthesis: 'Masters Thesis',
+  preprint: 'Pre-print',
+  techreport: 'Technical Report'
 };
 
 const TYPE_ORDER = [
@@ -95,6 +97,20 @@ function getYear(item, rawTags) {
 
 function typeInfo(rawType, cslType, rawTags) {
   const raw = String(rawType || '').toLowerCase();
+  const archivePrefix = clean(rawTags.archiveprefix || rawTags.eprinttype).toLowerCase();
+  const journal = clean(rawTags.journal).toLowerCase();
+  const isPreprint =
+    archivePrefix === 'arxiv' ||
+    journal.startsWith('arxiv preprint');
+
+  if (raw && raw !== 'article' && raw !== 'misc') {
+    return { key: raw, label: TYPE_LABELS[raw] || raw };
+  }
+
+  if (isPreprint) {
+    return { key: 'preprint', label: TYPE_LABELS.preprint };
+  }
+
   if (raw) {
     if (raw === 'misc') {
       return { key: 'misc', label: 'Misc' };
@@ -210,7 +226,6 @@ async function main() {
   });
 
   const output = {
-    generated_at: new Date().toISOString(),
     sources: BIB_URLS,
     entries
   };

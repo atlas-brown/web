@@ -101,18 +101,8 @@
               {{ $tags := $entry.tags | default (slice) }}
               {{ $searchTags := delimit $tags " " }}
               {{ $search := printf "%s %s %s %s %v %s" $entry.title $entry.authors $entry.venue $entry.type $entry.year $searchTags }}
-              {{ $titleURL := "" }}
-              {{ if $entry.url }}
-                {{ $titleURL = $entry.url }}
-              {{ else if $entry.doi }}
-                {{ $titleURL = printf "https://doi.org/%s" $entry.doi }}
-              {{ end }}
               <li class="pub" data-type="{{ $entry.type }}" data-year="{{ $entry.year }}" data-search="{{ lower $search }}" data-tags="{{ delimit $tags "||" }}">
-                {{ if $titleURL }}
-                  <a class="pub-title pub-title-link" href="{{ $titleURL }}" target="_blank" rel="noopener noreferrer">{{ $entry.title }}</a><br>
-                {{ else }}
-                  <span class="pub-title">{{ $entry.title }}</span><br>
-                {{ end }}
+                <span class="pub-title">{{ $entry.title }}</span><br>
 
                 {{ if $entry.authors }}
                   {{ $authorParts := slice }}
