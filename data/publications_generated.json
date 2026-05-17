@@ -9,7 +9,7 @@
       "year": 2026,
       "type": "article",
       "type_label": "Article",
-      "title": "A Benchmark Suite for Research Targeting the POSIX Shell: Characterization and Implications",
+      "title": "The Koala Benchmarks for the Shell: Characterization, Implications, and Extensions",
       "authors": "Evangelos Lamprou, Ethan Williams, Georgios Kaoukis, Zhuoxuan Zhang, Michael Greenberg, Konstantinos Kallas, Lukas Lazarek, Nikos Vasilakis",
       "venue": "ACM Transactions on Computer Systems",
       "abstract": "",
@@ -22,7 +22,7 @@
       "url": "",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@article{koala:tocs:2026,\n  author = {Evangelos Lamprou and Ethan Williams and Georgios Kaoukis and Zhuoxuan Zhang and Michael Greenberg and Konstantinos Kallas and Lukas Lazarek and Nikos Vasilakis},\n  title = {A Benchmark Suite for Research Targeting the {POSIX} Shell: Characterization and Implications},\n  journal = {ACM Transactions on Computer Systems},\n  year = {2026},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  note = {To appear}\n}"
+      "bibtex": "@article{koala:tocs:2026,\n  author = {Evangelos Lamprou and Ethan Williams and Georgios Kaoukis and Zhuoxuan Zhang and Michael Greenberg and Konstantinos Kallas and Lukas Lazarek and Nikos Vasilakis},\n  title = {The Koala Benchmarks for the Shell: Characterization, Implications, and Extensions},\n  journal = {ACM Transactions on Computer Systems},\n  year = {2026},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  note = {To appear}\n}"
     },
     {
       "id": "try:osdi:2026",
@@ -68,7 +68,7 @@
       "url": "https://www.usenix.org/conference/nsdi26/presentation/huang",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@inproceedings{fractal:nsdi:2026,\n  title = {Fractal: Fault-Tolerant Shell-Script Distribution},\n  author = {Zhicheng Huang and Ramiz Dundar and Yizheng Xie and Konstantinos Kallas and Nikos Vasilakis},\n  year = {2026},\n  month = {may},\n  booktitle = {23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI 26)},\n  publisher = {USENIX Association},\n  address = {Renton, WA},\n  url = {https://www.usenix.org/conference/nsdi26/presentation/huang},\n  keywords = {shell, distributed execution, fault tolerance},\n  artifact = {https://github.com/binpash/fractal},\n  tags = {correctness, performance}\n}"
+      "bibtex": "@inproceedings{fractal:nsdi:2026,\n  author = {Zhicheng Huang and Ramiz Dundar and Yizheng Xie and Konstantinos Kallas and Nikos Vasilakis},\n  title = {Fractal: Fault-Tolerant Shell-Script Distribution},\n  booktitle = {23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI 26)},\n  year = {2026},\n  month = {may},\n  publisher = {USENIX Association},\n  address = {Renton, WA},\n  pages = {2339--2354},\n  isbn = {978-1-939133-54-0},\n  url = {https://www.usenix.org/conference/nsdi26/presentation/huang},\n  keywords = {shell, distributed execution, fault tolerance},\n  artifact = {https://github.com/binpash/fractal},\n  tags = {correctness, performance}\n}"
     },
     {
       "id": "hs:osdi:2026",
@@ -179,6 +179,68 @@
       "eprint": "",
       "archiveprefix": "",
       "bibtex": "@inproceedings{haven:euromlsys:2026,\n  title = {Towards Practically-Secure Tools for AI Agents},\n  author = {Adam, Justus and Lu, Yuchen and Raghavan, Deepti and Schwarzkopf, Malte and Vasilakis, Nikos},\n  year = {2026},\n  month = {apr},\n  booktitle = {The 6th Workshop on Machine Learning and Systems (EuroMLSys)},\n  address = {Edinburgh, United Kingdom},\n  url = {https://euromlsys.eu/},\n  tags = {security}\n}"
+    },
+    {
+      "id": "rt:brown:2026",
+      "year": 2026,
+      "type": "mastersthesis",
+      "type_label": "Masters Thesis",
+      "title": "Engineering a Regular-Type System for Unix and Linux Shell",
+      "authors": "Zekai Li",
+      "venue": "Brown University",
+      "abstract": "",
+      "thesis_type": "Sc.M. Thesis",
+      "school": "Brown University",
+      "tags": [],
+      "pdf": "",
+      "code": "",
+      "doi": "",
+      "url": "",
+      "eprint": "",
+      "archiveprefix": "",
+      "bibtex": "@mastersthesis{rt:brown:2026,\n  title = {Engineering a Regular-Type System for Unix and Linux Shell},\n  author = {Zekai Li},\n  year = {2026},\n  type = {Sc.M. Thesis},\n  school = {Brown University}\n}"
+    },
+    {
+      "id": "fractal:brown:2026",
+      "year": 2026,
+      "type": "mastersthesis",
+      "type_label": "Masters Thesis",
+      "title": "Engineering Fractal: Runtime Design, Optimizations, and Evaluation for Fault-Tolerant Shell-Script Distribution",
+      "authors": "Ramiz Dundar",
+      "venue": "Brown University",
+      "abstract": "",
+      "thesis_type": "Sc.M. Thesis",
+      "school": "Brown University",
+      "tags": [],
+      "pdf": "",
+      "code": "",
+      "doi": "",
+      "url": "",
+      "eprint": "",
+      "archiveprefix": "",
+      "bibtex": "@mastersthesis{fractal:brown:2026,\n  title = {Engineering Fractal: Runtime Design, Optimizations, and Evaluation for Fault-Tolerant Shell-Script Distribution},\n  author = {Ramiz Dundar},\n  year = {2026},\n  type = {Sc.M. Thesis},\n  school = {Brown University}\n}"
+    },
+    {
+      "id": "samos:brown:2026",
+      "year": 2026,
+      "type": "mastersthesis",
+      "type_label": "Masters Thesis",
+      "title": "Securing MCP-based Agent Workflows",
+      "authors": "Grigoris Ntousakis",
+      "venue": "Brown University",
+      "abstract": "",
+      "thesis_type": "Sc.M. Thesis",
+      "school": "Brown University",
+      "tags": [
+        "security"
+      ],
+      "pdf": "",
+      "code": "",
+      "doi": "",
+      "url": "",
+      "eprint": "",
+      "archiveprefix": "",
+      "bibtex": "@mastersthesis{samos:brown:2026,\n  title = {Securing MCP-based Agent Workflows},\n  author = {Grigoris Ntousakis},\n  year = {2026},\n  type = {Sc.M. Thesis},\n  school = {Brown University},\n  tags = {security}\n}"
     },
     {
       "id": "koala:ntua:2026",
