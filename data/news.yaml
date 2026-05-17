@@ -1,22 +1,30 @@
 items:
   - |
-    Mar'26: [Apply](https://brown-systems-week.github.io/) to attend the 2026 Brown Systems Week in beautiful Providence, RI!
+      May'26: Four papers accepted at [OSDI'26](https://www.usenix.org/conference/osdi26) on [speculative execution for shell and Python programs](https://atlas.cs.brown.edu/pdf/hs:osdi:2026.pdf), [opaque-component effect control](https://atlas.cs.brown.edu/pdf/try:osdi:2026.pdf), [bolt-on incrementalization](https://atlas.cs.brown.edu/pdf/incr:osdi:2026.pdf), and [type system for the shell](https://atlas.cs.brown.edu/pdf/rt:osdi:2026.pdf)!
   - |
-    Feb'26: [Jiayi Wu](https://jiayiw005.github.io/) and [Kaitlyn Cheng](https://www.linkedin.com/in/kaitlyn-h-cheng/) join the group as [UTRAs](https://utra.brown.edu/)!
+      Apr'26: Extensions on the [Koala benchmarks](https://atlas.cs.brown.edu/pdf/koala:tocs:2026.pdf) will appear in [ACM TOCS](https://tocs.acm.org/) through recommendation by the USENIX ATC'25 chairs.
   - |
-    Jan'26: We are organizing a tutorial on [Analyzing Shell Scripts](https://popl26.sigplan.org/details/POPL-2026-tutorials/3/Analyzing-Shell-Scripts) at [POPL'26](https://conf.researchr.org/home/POPL-2026)—join us in Rennes, France!
+      Apr'26: Ideas on securing agent tools [internally](https://atlas.cs.brown.edu/pdf/haven:euromlsys:2026.pdf) and [externally](https://atlas.cs.brown.edu/pdf/samos:pacmi:2025.pdf) at [EuroSys](https://euromlsys.eu/) and [SOSP](https://sites.google.com/view/pacmi25) workshops!
   - |
-      Sep'25: Early ideas on [LLM guardrails](https://nikos.vasilak.is/p/exo:pacmi:2025.pdf), [hybrid scheduling](https://nikos.vasilak.is/p/cocoon:plos:2025.pdf), and [verifiable kernel extensions](https://nikos.vasilak.is/p/klean:plos:2025.pdf) at [SOSP'25 workshops](https://sigops.org/s/conferences/sosp/2025/workshops.html)! \
+      Mar'26: [Apply](https://brown-systems-week.github.io/) to attend the 2026 Brown Systems Week in beautiful Providence, RI!
   - |
-      Aug'25: Two [NSDI'26](https://www.usenix.org/conference/nsdi26) papers on [optimization prediction](https://github.com/atlas-brown/slowpoke) and [fault tolerance](https://github.com/binpash/fractal) for opaque distributed systems! \
+      Feb'26: [Jiayi Wu](https://jiayiw005.github.io/) and [Kaitlyn Cheng](https://www.linkedin.com/in/kaitlyn-h-cheng/) join the group as [UTRAs](https://utra.brown.edu/)!
   - |
-      Jul'25: Our [benchmark suite for the shell](https://nikos.vasilak.is/p/koala:atc:2025.pdf) received the [Best Paper Award](https://www.usenix.org/conferences/best-papers) at [USENIX ATC'25](https://www.usenix.org/conference/atc25)! \
+      Jan'26: Preprints available for [specification mining for opaque components](https://arxiv.org/abs/2510.14279) and [LLM-assisted program regeneration](https://arxiv.org/abs/2510.14522)!
+  - |
+      Jan'26: We are organizing a tutorial on [Analyzing Shell Scripts](https://popl26.sigplan.org/details/POPL-2026-tutorials/3/Analyzing-Shell-Scripts) at [POPL'26](https://conf.researchr.org/home/POPL-2026)—join us in Rennes, France!
+  - |
+      Sep'25: Early ideas on [LLM guardrails](https://nikos.vasilak.is/p/exo:pacmi:2025.pdf), [hybrid scheduling](https://nikos.vasilak.is/p/cocoon:plos:2025.pdf), and [verifiable kernel extensions](https://nikos.vasilak.is/p/klean:plos:2025.pdf) at [SOSP'25 workshops](https://sigops.org/s/conferences/sosp/2025/workshops.html)!
+  - |
+      Aug'25: Two [NSDI'26](https://www.usenix.org/conference/nsdi26) papers on [optimization prediction](https://github.com/atlas-brown/slowpoke) and [fault tolerance](https://github.com/binpash/fractal) for opaque distributed systems!
+  - |
+      Jul'25: Our [benchmark suite for the shell](https://nikos.vasilak.is/p/koala:atc:2025.pdf) received the [Best Paper Award](https://www.usenix.org/conferences/best-papers) at [USENIX ATC'25](https://www.usenix.org/conference/atc25)!
   - |
       Jul'25: Our group received a [Google ML-and-Systems Junior Faculty](https://blog.google/products/google-cloud/ml-systems-junior-faculty-awards/) Award on [Securing Open-Source Software](/supply-chain/)!  
   - |
       Jul'25: [Evangelos Lamprou](https://vagos.lamprou.xyz/) joins the group for his PhD!  
   - |
-      Jun'25: Our paper on the [Koala benchmark for the shells](https://kben.sh/) was accepted at Usenix [ATC'25](https://www.usenix.org/conference/atc25/presentation/lamprou)---the last one, ever! \
+      Jun'25: Our paper on the [Koala benchmark for the shells](https://kben.sh/) was accepted at Usenix [ATC'25](https://www.usenix.org/conference/atc25/presentation/lamprou)!
   - |
       May'25: [Grigorios Ntousakis](https://www.ntousakis.com/) started his internship at IBM research! \
   - |
