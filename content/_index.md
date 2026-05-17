@@ -12,12 +12,6 @@ See [all news](./news/)
 
 ---
 
-## Team
-
-{{< team-home-members >}}
-
----
-
 ## Research
 
 <img class="imgStuffResearch" src="./supply-chain.jpeg" alt="supply-chain" align="left"/> 
@@ -44,6 +38,12 @@ Recent trends are pushing developers towards new paradigms of secure and scalabl
 
 [Automating Software Correctness](./correctness/)  
 Programming correctness in modern software systems is hard to maintain as applications scale across dependencies, languages, and distributed environments. We build systems that automatically enforce, validate, and preserve correctness properties while remaining practical for real workloads. Examples: [HotOS'25](https://nikos.vasilak.is/p/sash:hotos:2025.pdf), [ICFP'21](https://doi.org/10.1145/3473570), [HotOS'23](https://doi.org/10.1145/3593856.3595891), [ARES'22](https://doi.org/10.1145/3538969.3538983), [CCS'21](http://nikos.vasilak.is/p/harp:ccs:2021.pdf).
+
+---
+
+## Team
+
+{{< team-home-members >}}
 
 ---
 
