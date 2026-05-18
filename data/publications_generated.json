@@ -17,12 +17,12 @@
       "school": "",
       "tags": [],
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/kbensh/koala",
       "doi": "",
       "url": "",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@article{koala:tocs:2026,\n  author = {Evangelos Lamprou and Ethan Williams and Georgios Kaoukis and Zhuoxuan Zhang and Michael Greenberg and Konstantinos Kallas and Lukas Lazarek and Nikos Vasilakis},\n  title = {The Koala Benchmarks for the Shell: Characterization, Implications, and Extensions},\n  journal = {ACM Transactions on Computer Systems},\n  year = {2026},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  note = {To appear}\n}"
+      "bibtex": "@article{koala:tocs:2026,\n  author = {Evangelos Lamprou and Ethan Williams and Georgios Kaoukis and Zhuoxuan Zhang and Michael Greenberg and Konstantinos Kallas and Lukas Lazarek and Nikos Vasilakis},\n  title = {The Koala Benchmarks for the Shell: Characterization, Implications, and Extensions},\n  journal = {ACM Transactions on Computer Systems},\n  year = {2026},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  artifact = {https://github.com/kbensh/koala},\n  note = {To appear}\n}"
     },
     {
       "id": "try:osdi:2026",
@@ -40,12 +40,12 @@
         "security"
       ],
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/binpash/try",
       "doi": "",
       "url": "",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@inproceedings{try:osdi:2026,\n  title = {Controlling Opaque-Component Effects with Semisolates and Try},\n  author = {Lamprou, Evangelos and Zhu, Tianyu (Ezri) and Jin, Di and Ntousakis, Grigoris and Liargkovas, Georgios and Eng, Calvin and Kallas, Konstantinos and Greenberg, Michael and Vasilakis, Nikos},\n  booktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\n  year = {2026},\n  publisher = {USENIX Association},\n  tags = {correctness, security}\n}"
+      "bibtex": "@inproceedings{try:osdi:2026,\n  title = {Controlling Opaque-Component Effects with Semisolates and Try},\n  author = {Lamprou, Evangelos and Zhu, Tianyu (Ezri) and Jin, Di and Ntousakis, Grigoris and Liargkovas, Georgios and Eng, Calvin and Kallas, Konstantinos and Greenberg, Michael and Vasilakis, Nikos},\n  booktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\n  year = {2026},\n  publisher = {USENIX Association},\n  artifact = {https://github.com/binpash/try},\n  tags = {correctness, security}\n}"
     },
     {
       "id": "fractal:nsdi:2026",
@@ -85,12 +85,12 @@
         "performance"
       ],
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/binpash/hs",
       "doi": "",
       "url": "",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@inproceedings{hs:osdi:2026,\n  title = {hS: Speculative Script Reordering at Subprocess Granularity},\n  author = {Liargkovas, Georgios and Jin, Di and Zhu, Tianyu (Ezri) and Liu, Dan and Thompson, A. Bolun and Narsipur, Anirudh and Jung, Seong-Heon and Prasad, Siddhartha and Spinellis, Diomidis and Greenberg, Michael and Kallas, Konstantinos and Vasilakis, Nikos},\n  booktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\n  year = {2026},\n  publisher = {USENIX Association},\n  tags = {performance}\n}"
+      "bibtex": "@inproceedings{hs:osdi:2026,\n  title = {hS: Speculative Script Reordering at Subprocess Granularity},\n  author = {Liargkovas, Georgios and Jin, Di and Zhu, Tianyu (Ezri) and Liu, Dan and Thompson, A. Bolun and Narsipur, Anirudh and Jung, Seong-Heon and Prasad, Siddhartha and Spinellis, Diomidis and Greenberg, Michael and Kallas, Konstantinos and Vasilakis, Nikos},\n  booktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\n  year = {2026},\n  publisher = {USENIX Association},\n  artifact = {https://github.com/binpash/hs},\n  tags = {performance}\n}"
     },
     {
       "id": "incr:osdi:2026",
@@ -107,12 +107,12 @@
         "performance"
       ],
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/atlas-brown/incr",
       "doi": "",
       "url": "",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@inproceedings{incr:osdi:2026,\n  title = {Incr: Faster Re-execution via Bolt-on Incrementalization},\n  author = {Xie, Yizheng and Lamprou, Evangelos and Xia, Jerry and Vasilakis, Nikos},\n  booktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\n  year = {2026},\n  publisher = {USENIX Association},\n  tags = {performance}\n}"
+      "bibtex": "@inproceedings{incr:osdi:2026,\n  title = {Incr: Faster Re-execution via Bolt-on Incrementalization},\n  author = {Xie, Yizheng and Lamprou, Evangelos and Xia, Jerry and Vasilakis, Nikos},\n  booktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\n  year = {2026},\n  publisher = {USENIX Association},\n  artifact = {https://github.com/atlas-brown/incr},\n  tags = {performance}\n}"
     },
     {
       "id": "rt:osdi:2026",
@@ -129,12 +129,12 @@
         "correctness"
       ],
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/atlas-brown/RT",
       "doi": "",
       "url": "",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@inproceedings{rt:osdi:2026,\n  title = {Rt: Regular Types for the Streaming Shell},\n  author = {Li, Zekai and Lazarek, Lukas and Lamprou, Evangelos and Kapetanakis, George and Mamouras, Konstantinos and Vasilakis, Nikos},\n  booktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\n  year = {2026},\n  publisher = {USENIX Association},\n  tags = {correctness}\n}"
+      "bibtex": "@inproceedings{rt:osdi:2026,\n  title = {Rt: Regular Types for the Streaming Shell},\n  author = {Li, Zekai and Lazarek, Lukas and Lamprou, Evangelos and Kapetanakis, George and Mamouras, Konstantinos and Vasilakis, Nikos},\n  booktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\n  year = {2026},\n  publisher = {USENIX Association},\n  artifact = {https://github.com/atlas-brown/RT},\n  tags = {correctness}\n}"
     },
     {
       "id": "slowpoke:nsdi:2026",
@@ -593,12 +593,12 @@
         "performance"
       ],
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/binpash/hs",
       "doi": "10.1145/3593856.3595891",
       "url": "https://doi.org/10.1145/3593856.3595891",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@inproceedings{hs:hotos:2023,\n  title = {Executing Shell Scripts in the Wrong Order, Correctly},\n  author = {Liargkovas, Georgios and Kallas, Konstantinos and Greenberg, Michael and Vasilakis, Nikos},\n  year = {2023},\n  booktitle = {19th Workshop on Hot Topics in Operating Systems},\n  location = {Providence, RI, USA},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {HotOS '23},\n  pages = {103–109},\n  doi = {10.1145/3593856.3595891},\n  isbn = {9798400701955},\n  url = {https://doi.org/10.1145/3593856.3595891},\n  numpages = {7},\n  keywords = {shell, correctness, scheduling},\n  tags = {performance}\n}"
+      "bibtex": "@inproceedings{hs:hotos:2023,\n  title = {Executing Shell Scripts in the Wrong Order, Correctly},\n  author = {Liargkovas, Georgios and Kallas, Konstantinos and Greenberg, Michael and Vasilakis, Nikos},\n  year = {2023},\n  booktitle = {19th Workshop on Hot Topics in Operating Systems},\n  location = {Providence, RI, USA},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {HotOS '23},\n  pages = {103–109},\n  doi = {10.1145/3593856.3595891},\n  isbn = {9798400701955},\n  url = {https://doi.org/10.1145/3593856.3595891},\n  numpages = {7},\n  keywords = {shell, correctness, scheduling},\n  artifact = {https://github.com/binpash/hs},\n  tags = {performance}\n}"
     },
     {
       "id": "secbench:icse:2023",
