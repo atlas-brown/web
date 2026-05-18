@@ -1,10 +1,10 @@
 items:
   - |
-      May'26: Four papers accepted at [OSDI'26](https://www.usenix.org/conference/osdi26) on [speculative execution for shell and Python programs](https://atlas.cs.brown.edu/pdf/hs:osdi:2026.pdf), [opaque-component effect control](https://atlas.cs.brown.edu/pdf/try:osdi:2026.pdf), [bolt-on incrementalization](https://atlas.cs.brown.edu/pdf/incr:osdi:2026.pdf), and [type system for the shell](https://atlas.cs.brown.edu/pdf/rt:osdi:2026.pdf)!
+      May'26: Four papers accepted at [OSDI'26](https://www.usenix.org/conference/osdi26) on [speculative execution for shell and Python programs](https://atlas.cs.brown.edu/pdf/hs:osdi:2026.pdf), [opaque-component effect control](https://atlas.cs.brown.edu/pdf/try:osdi:2026.pdf), [bolt-on incrementalization](https://atlas.cs.brown.edu/pdf/incr:osdi:2026.pdf), and [a type system for the Unix shell](https://atlas.cs.brown.edu/pdf/rt:osdi:2026.pdf)!
   - |
-      Apr'26: Extensions to the [Koala benchmarks](https://atlas.cs.brown.edu/pdf/koala:tocs:2026.pdf) will appear in [ACM TOCS](https://tocs.acm.org/) following a recommendation by the USENIX ATC'25 chairs.
+      Apr'26: Extensions to the [Koala benchmarks](https://atlas.cs.brown.edu/pdf/koala:tocs:2026.pdf) will appear in [ACM TOCS](https://tocs.acm.org/) following recommendation by the USENIX ATC'25 chairs.
   - |
-      Apr'26: Ideas on securing agent tools [internally](https://atlas.cs.brown.edu/pdf/haven:euromlsys:2026.pdf) and [externally](https://atlas.cs.brown.edu/pdf/samos:pacmi:2025.pdf) at [EuroSys](https://euromlsys.eu/) and [SOSP](https://sites.google.com/view/pacmi25) workshops!
+      Apr'26: Ideas on securing agent tools [internally](https://atlas.cs.brown.edu/pdf/haven:euromlsys:2026.pdf) and [externally](https://atlas.cs.brown.edu/pdf/samos:pacmi:2025.pdf) at [EuroSys'26](https://euromlsys.eu/) and [SOSP'25](https://sites.google.com/view/pacmi25) workshops!
   - |
       Mar'26: [Apply](https://brown-systems-week.github.io/) to attend the 2026 Brown Systems Week in beautiful Providence, RI!
   - |
