@@ -27,7 +27,7 @@
     weight = 21
 
 [[main]]
-    name = "Acceleration and Scaleout of Software Systems"
+    name = "Acceleration and Scale-Out of Software Systems"
     parent = "Research"
     pageRef = "acceleration"
     weight = 22

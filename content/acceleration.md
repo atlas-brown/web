@@ -4,7 +4,7 @@ type: "project"
 date: 2021-03-06
 ---
 
-## Acceleration and Scaleout of Software Systems
+## Acceleration and Scale-Out of Software Systems
 
 Shell scripting is used pervasively, partly due to its simplicity in combining components (commands) written in multiple languages. Unfortunately, this language-agnostic composition hinders automated parallelization and distribution, often forcing developers to manually rewrite shell programs (and their components) in other languages that support these features. We have built several systems that, combined, offer automated parallelization of Unix/Linux shell scripts—along with serious correctness and compatibility guarantees.
 
@@ -12,7 +12,7 @@ Shell scripting is used pervasively, partly due to its simplicity in combining c
 
 Our recent [OSDI22 paper](http://nikos.vasilak.is/p/pash:osdi:2022.pdf) tackles POSIX-compliant parallelization in the presence of fully dynamic behavior pervasive in the shell—via just-in-time compilation, intermixing evaluation and optimization of individual expressions. Our [NSDI23 paper](http://nikos.vasilak.is/p/pash:nsdi:2023.pdf) takes this to the distributed level, by offering automated POSIX-compliant scale-out across multiple computers. And our [HotOS23 paper](http://nikos.vasilak.is/p/hs:hotos:2023.pdf) identifies speculative out-of-order shell-script execution as a key challenge — and sketches appropriate containment mechanisms that can be used to delay and reorder side effects.
 
-**Ongoing work:** Ongoing research (1) develops an out-of-order execution engine for shell scripts, (2) proposes  tackles automated generation of critical runtime components, through a combination of [active learning and program synthesis](http://nikos.vasilak.is/p/kumquat:arxiv:2021.pdf), (3) proposes appropriate fault-tolerance support for distributed shell-script execution, and (4) develops appropriate type systems, formal models, and mathematical proofs targeting environments that support the composition of black-box software components.
+**Ongoing work:** Ongoing research (1) develops an out-of-order execution engine for shell scripts, (2) tackles automated generation of critical runtime components through a combination of [active learning and program synthesis](http://nikos.vasilak.is/p/kumquat:arxiv:2021.pdf), (3) proposes appropriate fault-tolerance support for distributed shell-script execution, and (4) develops appropriate type systems, formal models, and mathematical proofs targeting environments that support the composition of black-box software components.
 
 **Software:**
 
@@ -22,7 +22,7 @@ Our recent [OSDI22 paper](http://nikos.vasilak.is/p/pash:osdi:2022.pdf) tackles 
 
 **Technology transition:**
 
-Our PaSh open-source work has joined and is available by [the Linux Foundation](https://www.linuxfoundation.org/) and our try open-source primitive has received significant (over [5K GitHub stars](https://github.com/binpash/try)).
+Our PaSh open-source work has joined and is hosted by [the Linux Foundation](https://www.linuxfoundation.org/), and our Try open-source primitive has received significant attention, including over [5K GitHub stars](https://github.com/binpash/try).
 
 **Press:**
 

@@ -19,7 +19,7 @@ people:
     links:
       - label: E-mail
         url: mailto:atharv_chowdhary@brown.edu
-      - label: Github
+      - label: GitHub
         url: https://github.com/achowd32
 
   - id: dawn
@@ -44,7 +44,7 @@ people:
     links:
       - label: E-mail
         url: mailto:eric_c_zhao@brown.edu
-      - label: Github
+      - label: GitHub
         url: http://github.com/mirryi
 
   - id: ethan
@@ -58,7 +58,7 @@ people:
     links:
       - label: E-mail
         url: mailto:ethan_lavi@brown.edu
-      - label: Github
+      - label: GitHub
         url: http://github.com/EthanLavi
 
   - id: evangelos
@@ -72,7 +72,7 @@ people:
     links:
       - label: E-mail
         url: mailto:vagos@lamprou.xyz
-      - label: Github
+      - label: GitHub
         url: http://github.com/vagos
 
   - id: george
@@ -86,7 +86,7 @@ people:
     links:
       - label: E-mail
         url: mailto:george@kapetanak.is
-      - label: Github
+      - label: GitHub
         url: http://github.com/gkapetanakis
 
   - id: grigoris
@@ -102,7 +102,7 @@ people:
     links:
       - label: E-mail
         url: mailto:gntousakis@tuc.gr
-      - label: Github
+      - label: GitHub
         url: http://github.com/GNtousakis
 
   - id: lukas
@@ -116,7 +116,7 @@ people:
     links:
       - label: E-mail
         url: mailto:lukas_lazarek@brown.edu
-      - label: Github
+      - label: GitHub
         url: http://github.com/llazarek
 
   - id: maria
@@ -130,7 +130,7 @@ people:
     links:
       - label: E-mail
         url: mailto:maria_lazou1@brown.edu
-      - label: Github
+      - label: GitHub
         url: http://github.com/mlazoy
 
   - id: megan
@@ -144,7 +144,7 @@ people:
     links:
       - label: E-mail
         url: mailto:megan_zheng@brown.edu
-      - label: Github
+      - label: GitHub
         url: http://github.com/YUUU23
 
   - id: nikos
@@ -154,11 +154,11 @@ people:
     home_role: Faculty
     photo: nikosv.jpg
     website: https://nikos.vasilak.is/
-    blurb: Building transition paths toward secure multi-scale distributed enviroments.
+    blurb: Building transition paths toward secure multi-scale distributed environments.
     links:
       - label: E-mail
         url: mailto:nikos@vasilak.is
-      - label: Github
+      - label: GitHub
         url: http://github.com/nvasilakis
 
   - id: oguzhan
@@ -172,7 +172,7 @@ people:
     links:
       - label: E-mail
         url: mailto:oguzhan@brown.edu
-      - label: Github
+      - label: GitHub
         url: http://github.com/ocolkesen
 
   - id: yizheng
@@ -186,7 +186,7 @@ people:
     links:
       - label: E-mail
         url: mailto:yizhengx@brown.edu
-      - label: Github
+      - label: GitHub
         url: http://github.com/yizhengx
 
   - id: yuchen
@@ -200,7 +200,7 @@ people:
     links:
       - label: E-mail
         url: mailto:yuchen_lu@brown.edu
-      - label: Github
+      - label: GitHub
         url: http://github.com/lwwlwwl
 
   - id: zekai
@@ -214,7 +214,7 @@ people:
     links:
       - label: E-mail
         url: mailto:zekai_li@brown.edu
-      - label: Github
+      - label: GitHub
         url: http://github.com/spanning-tree
 
   - id: jerry
@@ -228,7 +228,7 @@ people:
     links: 
       - label: E-mail
         url: mailto:jerry_xia@brown.edu
-      - label: Github
+      - label: GitHub
         url: https://github.com/jxia3
 
   - id: ken
@@ -241,8 +241,8 @@ people:
     blurb: Developing tools and techniques to automatically secure the software supply-chain.
     links:
       - label: E-mail
-        url: piyawatchara_mahattanadul@brown.edu
-      - label: Github
+        url: mailto:piyawatchara_mahattanadul@brown.edu
+      - label: GitHub
         url: https://github.com/piyawatm
 
   - id: yasmin
@@ -256,7 +256,7 @@ people:
     links: 
       - label: E-mail
         url: mailto:yasmin_kadyrova@brown.edu
-      - label: Github
+      - label: GitHub
         url: https://github.com/YasminKadyrova
   
   - id: jiayi
@@ -270,7 +270,7 @@ people:
     links: 
       - label: E-mail
         url: mailto:jiayi_wu4@brown.edu
-      - label: Github
+      - label: GitHub
         url: https://github.com/jiayiw005
 
   - id: kaitlyn
@@ -284,7 +284,7 @@ people:
     links:
       - label: E-mail
         url: mailto:kaitlyn_cheng@brown.edu
-      - label: Github
+      - label: GitHub
         url: https://github.com/kaitlyncheng519
 
   # - id: feiyang

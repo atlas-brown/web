@@ -35,4 +35,4 @@ presented at [AsiaCCS23](http://nikos.vasilak.is/p/binwrap:asiaccs:2023.pdf) and
 
 **Press:**
 
-* [Brown CS article](https://awards.cs.brown.edu/2023/09/26/ntousakis-kemerlis-vasilakis-and-collaborators-win-the-acm-asiaccs-23-distinguished-paper-award/) published an article on BrinWrap, our hybrid protection system for native JavaScript addons.
+* [Brown CS article](https://awards.cs.brown.edu/2023/09/26/ntousakis-kemerlis-vasilakis-and-collaborators-win-the-acm-asiaccs-23-distinguished-paper-award/) published an article on BinWrap, our hybrid protection system for native JavaScript addons.

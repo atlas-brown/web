@@ -13,7 +13,7 @@ Recent trends are pushing developers towards new paradigms of secure and scalabl
 **Papers:** Our [PLDI19 paper](http://nikos.vasilak.is/p/ignis:pldi:2019.pdf) presents a module-level decomposition, resource awareness, and scale-out of bottlenecked components. Our [ARES22 paper](https://nikos.vasilak.is/p/themis:ares:2022.pdf) introduces a new approach for secure decentralized communication in microservice and serverless computing. Our [APNet19](http://nikos.vasilak.is/p/tmc:apnet:2019.pdf), [EdgeSys18](http://nikos.vasilak.is/p/ar:edgesys:2018.pdf), and [APSys17](https://nikos.vasilak.is/p/uni:apsys:2017.pdf) papers sketch several components of and extensions to this broader vision.
 
 
-**Ongoing work:** Our current work tackles (1) automated application decomposition of monolithic applications towards confidential computing, including on Intel SGX, (2) automated to-serverless compilation of programs that use many black-box software components and language-agnostic composition, (3) distributed performance profiling in the context of microservice applications, and (4) automated decomposition of monolithic applications towards microservice and serverless computing.
+**Ongoing work:** Our current work tackles (1) automated application decomposition of monolithic applications toward confidential computing, including on Intel SGX, (2) automated compilation of programs that use many black-box software components and language-agnostic composition to serverless environments, (3) distributed performance profiling in the context of microservice applications, and (4) automated decomposition of monolithic applications toward microservice and serverless computing.
 
 
 **Software:**

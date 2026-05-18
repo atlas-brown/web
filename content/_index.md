@@ -52,7 +52,7 @@ Programming correctness in modern software systems is hard to maintain as applic
 ## Keep in Touch
 
 [Mailing list](mailto:atlas-brown@googlegroups.com)  
-[Github organization](https://github.com/atlas-brown)  
+[GitHub organization](https://github.com/atlas-brown)  
 [Discord server](https://discord.com/channels/1029481105625186495)  
 [Onboarding resources](https://docs.google.com/document/d/e/2PACX-1vQJyX_A3gLGwzmVunmHLfqdAhvbG-VXHkckbW94zy1Db6bvDZ8bwcUkVnnrYRz0RzgjClW9DF1Z_QhX/pub)
 
@@ -71,7 +71,7 @@ Programming correctness in modern software systems is hard to maintain as applic
 [CS1380: Distributed Computer Systems](https://cs.brown.edu/courses/csci1380/)  
 [CS2952-R: Systems Transforming Systems](https://cs.brown.edu/courses/csci2952r/)  
 [CS2953-A: Engineering Complex Systems with Generative AI](https://cs.brown.edu/courses/csci2953a/)  
-[Weekly systems lunchch](https://systems.cs.brown.edu/sysread/)
+[Weekly systems lunch](https://systems.cs.brown.edu/sysread/)
 
 ## Others at Brown
 
