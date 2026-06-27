@@ -13,6 +13,13 @@
   gap: 0.35rem;
 }
 
+.team-home-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.05rem;
+  line-height: 1.2;
+}
+
 .team-home-role {
   font-size: 0.9rem;
   opacity: 0.85;
