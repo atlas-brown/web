@@ -25,6 +25,28 @@
       "bibtex": "@article{koala:tocs:2026,\n  author = {Evangelos Lamprou and Ethan Williams and Georgios Kaoukis and Zhuoxuan Zhang and Michael Greenberg and Konstantinos Kallas and Lukas Lazarek and Nikos Vasilakis},\n  title = {The Koala Benchmarks for the Shell: Characterization, Implications, and Extensions},\n  journal = {ACM Transactions on Computer Systems},\n  year = {2026},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  artifact = {https://github.com/kbensh/koala},\n  note = {To appear}\n}"
     },
     {
+      "id": "sash:sosp:2026",
+      "year": 2026,
+      "type": "inproceedings",
+      "type_label": "Conference",
+      "title": "Ahead-of-time Analysis of Shell Program Effects",
+      "authors": "Lukas Lazarek, Evangelos Lamprou, George Kapetanakis, Anirudh Narsipur, Eric Zhao, Zhiwen Zheng, Michael Greenberg, Konstantinos Kallas, Nikos Vasilakis",
+      "venue": "Proceedings of the 32nd ACM Symposium on Operating Systems Principles",
+      "abstract": "",
+      "thesis_type": "",
+      "school": "",
+      "tags": [
+        "correctness"
+      ],
+      "pdf": "",
+      "code": "",
+      "doi": "",
+      "url": "https://sigops.org/s/conferences/sosp/2026/",
+      "eprint": "",
+      "archiveprefix": "",
+      "bibtex": "@inproceedings{sash:sosp:2026,\n  title = {Ahead-of-time Analysis of Shell Program Effects},\n  author = {Lazarek, Lukas and Lamprou, Evangelos and Kapetanakis, George and Narsipur, Anirudh and Zhao, Eric and Zheng, Zhiwen and Greenberg, Michael and Kallas, Konstantinos and Vasilakis, Nikos},\n  year = {2026},\n  month = {sep},\n  booktitle = {Proceedings of the 32nd ACM Symposium on Operating Systems Principles},\n  location = {Prague, Czechia},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {SOSP '26},\n  url = {https://sigops.org/s/conferences/sosp/2026/},\n  keywords = {Unix, Linux, shell, static analysis, effects},\n  tags = {correctness}\n}"
+    },
+    {
       "id": "try:osdi:2026",
       "year": 2026,
       "type": "inproceedings",
@@ -156,7 +178,7 @@
       "url": "https://www.usenix.org/conference/nsdi26/presentation/xie",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@inproceedings{slowpoke:nsdi:2026,\n  title = {Slowpoke: End-to-end Throughput Optimization Modeling for Microservice Applications},\n  author = {Yizheng Xie and Di Jin and Oğuzhan Çölkesen and Vasiliki Kalavri and John Liagouris and Nikos Vasilakis},\n  year = {2026},\n  month = {may},\n  booktitle = {23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI 26)},\n  publisher = {USENIX Association},\n  address = {Renton, WA},\n  url = {https://www.usenix.org/conference/nsdi26/presentation/xie},\n  keywords = {microservices, performance modeling, throughput optimization},\n  artifact = {https://github.com/atlas-brown/slowpoke},\n  tags = {performance}\n}"
+      "bibtex": "@inproceedings{slowpoke:nsdi:2026,\n  author = {Yizheng Xie and Di Jin and Oğuzhan Çölkesen and Vasiliki Kalavri and John Liagouris and Nikos Vasilakis},\n  title = {Slowpoke: End-to-end Throughput Optimization Modeling for Microservice Applications},\n  booktitle = {23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI 26)},\n  year = {2026},\n  isbn = {978-1-939133-54-0},\n  address = {Renton, WA},\n  pages = {631--646},\n  url = {https://www.usenix.org/conference/nsdi26/presentation/xie},\n  publisher = {USENIX Association},\n  month = {may},\n  keywords = {microservices, performance modeling, throughput optimization},\n  artifact = {https://github.com/atlas-brown/slowpoke},\n  tags = {performance}\n}"
     },
     {
       "id": "haven:euromlsys:2026",
@@ -165,7 +187,7 @@
       "type_label": "Conference",
       "title": "Towards Practically-Secure Tools for AI Agents",
       "authors": "Justus Adam, Yuchen Lu, Deepti Raghavan, Malte Schwarzkopf, Nikos Vasilakis",
-      "venue": "The 6th Workshop on Machine Learning and Systems (EuroMLSys)",
+      "venue": "Proceedings of the Sixth European Workshop on Machine Learning and Systems",
       "abstract": "",
       "thesis_type": "",
       "school": "",
@@ -175,10 +197,10 @@
       "pdf": "",
       "code": "",
       "doi": "",
-      "url": "https://euromlsys.eu/",
+      "url": "https://doi.org/10.1145/3805621.3807645",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@inproceedings{haven:euromlsys:2026,\n  title = {Towards Practically-Secure Tools for AI Agents},\n  author = {Adam, Justus and Lu, Yuchen and Raghavan, Deepti and Schwarzkopf, Malte and Vasilakis, Nikos},\n  year = {2026},\n  month = {apr},\n  booktitle = {The 6th Workshop on Machine Learning and Systems (EuroMLSys)},\n  address = {Edinburgh, United Kingdom},\n  url = {https://euromlsys.eu/},\n  tags = {security}\n}"
+      "bibtex": "@inproceedings{haven:euromlsys:2026,\n  title = {Towards Practically-Secure Tools for AI Agents},\n  author = {Adam, Justus and Lu, Yuchen and Raghavan, Deepti and Schwarzkopf, Malte and Vasilakis, Nikos},\n  booktitle = {Proceedings of the Sixth European Workshop on Machine Learning and Systems},\n  year = {2026},\n  isbn = {9798400726057},\n  publisher = {Association for Computing Machinery},\n  month = {apr},\n  address = {Edinburgh, United Kingdom},\n  pages = {215–224},\n  url = {https://doi.org/10.1145/3805621.3807645},\n  tags = {security}\n}"
     },
     {
       "id": "rt:brown:2026",
