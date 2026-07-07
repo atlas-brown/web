@@ -205,9 +205,9 @@ people:
 
   - id: zekai
     name: Zekai Li
-    group: M.Sc. Students
+    group: Ph.D. Students
     home: true
-    home_role: M.Sc. Student
+    home_role: Ph.D. Student
     photo: zekai.jpg
     website: https://spanning-tree.github.io/
     blurb: Exploring formal methods and how AI enhances them.
