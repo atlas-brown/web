@@ -34,12 +34,6 @@
 
 
 [[main]]
-    name = "Towards Secure Scalable Computing"
-    parent = "Research"
-    pageRef = "ssc"
-    weight = 23
-
-[[main]]
     name = "Automating Software Correctness"
     parent = "Research"
     pageRef = "correctness"
