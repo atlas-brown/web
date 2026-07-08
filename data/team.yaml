@@ -93,9 +93,6 @@ people:
     name: Grigorios Ntousakis
     aliases:
       - Grigoris Ntousakis
-    group: Ph.D. Students
-    home: true
-    home_role: Ph.D. Student
     photo: grigoris.jpg
     website: https://www.ntousakis.com/
     blurb: Reimagining third-party library and package ecosystems. Co-advised by Vasileios Kemerlis.
@@ -121,9 +118,6 @@ people:
 
   - id: maria
     name: Maria Lazou
-    group: Visiting Research Fellows
-    home: true
-    home_role: Visiting Student
     photo: maria.jpg
     website: https://mlazoy.github.io/
     blurb: Exploring secure computation across the computing stack.
@@ -303,6 +297,12 @@ group_affiliates:
     url: https://www.calvineng.com/
 
 alumni:
+  - name: Maria Lazou
+    url: https://mlazoy.github.io/
+    note: "(Visiting Student, 2025-2026, next: Northeastern University)"
+  - name: Grigorios Ntousakis
+    url: https://www.ntousakis.com/
+    note: "(M.Sc., 2026, next: Independent security researcher)"
   - name: Di Jin
     url: https://sleepymug.me
     note: "(Postdoc, 2024-2025, next: Huawei Research)"
