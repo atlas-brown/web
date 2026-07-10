@@ -252,6 +252,24 @@ people:
         url: mailto:yasmin_kadyrova@brown.edu
       - label: GitHub
         url: https://github.com/YasminKadyrova
+
+  - id: vassilis
+    name: Vassilis Zeimpekis
+    group: M.Sc. Students
+    home: true
+    home_role: M.Sc. Student
+    photo: vasilis.jpg
+    website: https://billyzeim.github.io/
+    blurb: Interested in security and low level systems engineering.
+    links:
+      - label: E-mail
+        url: mailto:bzeimp@gmail.com
+      - label: GitHub
+        url: https://github.com/Billyzeim
+      - label: ORCID
+        url: https://orcid.org/0009-0002-8530-5614
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/vassilis-zeimpekis-681495236/
   
   - id: jiayi
     name: Jiayi Wu
