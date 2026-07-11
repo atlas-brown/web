@@ -40,7 +40,7 @@ people:
     home_role: Ph.D. Student
     photo: eric.jpg
     website: https://mustardfox.org/
-    blurb: Interested in principled and provably correct abstractions. Co-advised by Robert Lewis.
+    blurb: Interested in principled and provably correct abstractions. Co-advised by [Robert Lewis](https://robertylewis.com/).
     links:
       - label: E-mail
         url: mailto:eric_c_zhao@brown.edu
@@ -375,7 +375,7 @@ alumni:
     url: https://users.soe.ucsc.edu/~abenetop/
     note: "(Engineer, 2020, next: UCSC)"
   - name: Lazar Cvetković
-    url: https://systems.ethz.ch/people/profile.MjkzNzEw.TGlzdC8zODg4LDEyOTU2NDI2OTI=.html
+    url: https://cvetkovic.github.io/
     note: "(B.Sc., 2019-2020, next: ETH Zurich)"
   - name: Pranjal Goel
     url: https://www.linkedin.com/in/pranjal-goel
