@@ -129,9 +129,6 @@ people:
 
   - id: megan
     name: Megan Zheng
-    group: Undergraduate Students
-    home: true
-    home_role: B.Sc. student
     photo: megan.jpg
     website: https://yuuu23.github.io/
     blurb: Synthesizing correct and high-performance runtime primitives.
@@ -255,9 +252,9 @@ people:
 
   - id: vassilis
     name: Vassilis Zeimpekis
-    group: M.Sc. Students
+    group: Undergraduate Students
     home: true
-    home_role: M.Sc. Student
+    home_role: B.Sc. Student
     photo: vasilis.jpg
     website: https://billyzeim.github.io/
     blurb: Interested in security and low level systems engineering.
@@ -266,10 +263,6 @@ people:
         url: mailto:bzeimp@gmail.com
       - label: GitHub
         url: https://github.com/Billyzeim
-      - label: ORCID
-        url: https://orcid.org/0009-0002-8530-5614
-      - label: LinkedIn
-        url: https://www.linkedin.com/in/vassilis-zeimpekis-681495236/
   
   - id: jiayi
     name: Jiayi Wu
@@ -299,12 +292,18 @@ people:
       - label: GitHub
         url: https://github.com/kaitlyncheng519
 
-  # - id: feiyang
-  #   name: Feiyang Wang
-  #   group: M.Sc. Students
-  #   home: true
-  #   home_role: M.Sc. Student
-  #   blurb: Building tools to make it easier to write correct code.
+  - id: feiyang
+    name: Feiyang Wang
+    group: M.Sc. Students
+    home: true
+    home_role: M.Sc. Student
+    photo: feiyang.jpg
+    blurb: Building tools to make it easier to write correct code.
+    links:
+      - label: E-mail
+        url: mailto:feiyang_wang@brown.edu
+      - label: GitHub
+        url: https://github.com/scyfw2
 
 
 
@@ -315,6 +314,9 @@ group_affiliates:
     url: https://www.calvineng.com/
 
 alumni:
+  - name: Megan Zheng
+    url: https://yuuu23.github.io/
+    note: "(B.Sc., 2024-2026, next: Princeton University)"
   - name: Maria Lazou
     url: https://mlazoy.github.io/
     note: "(Visiting Student, 2025-2026, next: Northeastern University)"
