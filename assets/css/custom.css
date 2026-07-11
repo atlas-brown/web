@@ -60,6 +60,10 @@
   margin: 0;
 }
 
+.team-blurb p {
+  margin: 0;
+}
+
 .team-links {
   margin-top: 0.15rem !important;
 }

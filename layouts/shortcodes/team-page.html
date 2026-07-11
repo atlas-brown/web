@@ -17,7 +17,7 @@
         </strong>
       </p>
       {{- if .blurb }}
-      <p>{{ .blurb }}</p>
+      <div class="team-blurb">{{ .blurb | markdownify }}</div>
       {{- end -}}
       {{- if .links }}
       <p class="team-links">
