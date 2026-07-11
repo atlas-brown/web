@@ -21,8 +21,8 @@ const TYPE_LABELS = {
 };
 
 const TYPE_ORDER = [
-  'article',
   'inproceedings',
+  'article',
   'inbook',
   'book',
   'phdthesis',
