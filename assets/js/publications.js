@@ -7,7 +7,7 @@ const TYPE_LABELS = {
   inbook: 'Book chapter',
   book: 'Book',
   phdthesis: 'Ph.D. dissertation',
-  mastersthesis: 'M.Sc./B.Sc./M.Eng. thesis',
+  mastersthesis: 'Sc.M./Sc.B./M.Eng. thesis',
   preprint: 'Preprint',
   techreport: 'Technical report',
 };

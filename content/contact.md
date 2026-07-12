@@ -5,7 +5,7 @@
 Research is fun—especially when it's collaborative! Joining the group depends on your status and goal:
 
 * _Current Brown students_, potential _research visitors_, or potentially remote collaborators: review [onboarding resources](https://docs.google.com/document/d/e/2PACX-1vQJyX_A3gLGwzmVunmHLfqdAhvbG-VXHkckbW94zy1Db6bvDZ8bwcUkVnnrYRz0RzgjClW9DF1Z_QhX/pub) and [complete this form](https://forms.gle/1ZoC1KeAgHQGh4ij8). 
-* Prospective _undergraduate or M.Sc. students_: do not email the group — we are typically not involved in the admissions process.
+* Prospective _undergraduate or master's students_: do not email the group---we are typically not involved in the admissions process.
 * Prospective _Ph.D. students_: apply directly to the CS department's [Ph.D. program](https://cs.brown.edu/degrees/doctoral/), mentioning Prof. Vasilakis.
 * Prospective _postdocs_: email Prof. Vasilakis with your CV, two representative papers, and a short description of your background and interests.
 

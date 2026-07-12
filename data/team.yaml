@@ -3,7 +3,7 @@ group_order:
   - Administrative Assistant
   - Postdocs
   - Ph.D. Students
-  - M.Sc. Students
+  - Master's Students
   - Undergraduate Students
   - Visiting Research Fellows
 
@@ -12,7 +12,7 @@ people:
     name: Atharv Chowdhary
     group: Undergraduate Students
     home: true
-    home_role: B.Sc. Student
+    home_role: Sc.B. Student
     photo: atharv.jpg
     website: https://achowd32.github.io/
     blurb: Bridging the gap between machine learning and computer systems.
@@ -212,7 +212,7 @@ people:
     name: Jerry Xia
     group: Undergraduate Students
     home: true
-    home_role: B.Sc. Student
+    home_role: Sc.B. Student
     website: https://www.linkedin.com/in/jerryxia3/
     blurb: Developing bolt-on performance improvement techniques. 
     photo: jerry.jpg
@@ -224,10 +224,10 @@ people:
 
   - id: ken
     name: Ken Mahattanadul 
-    group: M.Sc. Students
+    group: Master's Students
     photo: ken.jpg
     home: true
-    home_role: M.Sc. Student
+    home_role: Sc.M. Student
     website: https://piyawatm.github.io/
     blurb: Developing tools and techniques to automatically secure the software supply-chain.
     links:
@@ -238,10 +238,10 @@ people:
 
   - id: yasmin
     name: Yasmin Kadyrova
-    group: M.Sc. Students
+    group: Master's Students
     photo: yasmin.jpg
     home: true
-    home_role: M.Sc. Student
+    home_role: Sc.M. Student
     website: https://www.linkedin.com/in/yasmin-kadyrova/
     blurb: Integrating security into the software development lifecycle.
     links: 
@@ -254,7 +254,7 @@ people:
     name: Vassilis Zeimpekis
     group: Undergraduate Students
     home: true
-    home_role: B.Sc. Student
+    home_role: Sc.B. Student
     photo: vasilis.jpg
     website: https://billyzeim.github.io/
     blurb: Interested in security and low level systems engineering.
@@ -268,7 +268,7 @@ people:
     name: Jiayi Wu
     group: Undergraduate Students
     home: true
-    home_role: B.Sc. Student
+    home_role: Sc.B. Student
     photo: jiayi.png
     website: https://jiayiw005.github.io/
     blurb: Extending the reach and practicality of state-of-the-art type-systems.
@@ -282,7 +282,7 @@ people:
     name: Kaitlyn Cheng
     group: Undergraduate Students
     home: true
-    home_role: B.Sc. Student
+    home_role: Sc.B. Student
     photo: kaitlyn.png
     website: https://www.linkedin.com/in/kaitlyn-h-cheng/
     blurb: Building guardrails for LLM-assisted workflows.  
@@ -294,11 +294,12 @@ people:
 
   - id: feiyang
     name: Feiyang Wang
-    group: M.Sc. Students
+    group: Master's Students
     home: true
-    home_role: M.Sc. Student
+    home_role: Sc.M. Student
     photo: feiyang.jpg
     blurb: Building tools to make it easier to write correct code.
+    website: https://cs.brown.edu/people/grad/fwang91/
     links:
       - label: E-mail
         url: mailto:feiyang_wang@brown.edu
@@ -316,34 +317,34 @@ group_affiliates:
 alumni:
   - name: Megan Zheng
     url: https://yuuu23.github.io/
-    note: "(B.Sc., 2024-2026, next: Princeton University)"
+    note: "(Sc.B., 2024-2026, next: Princeton University)"
   - name: Maria Lazou
     url: https://mlazoy.github.io/
     note: "(Visiting Student, 2025-2026, next: Northeastern University)"
   - name: Grigorios Ntousakis
     url: https://www.ntousakis.com/
-    note: "(M.Sc., 2026, next: Independent security researcher)"
+    note: "(Sc.M., 2026, next: Independent security researcher)"
   - name: Di Jin
     url: https://sleepymug.me
     note: "(Postdoc, 2024-2025, next: Huawei Research)"
   - name: Ramiz Dundar
     url: https://ramiz.dev/
-    note: "(M.Sc., 2025, next: Google)"
+    note: "(Sc.M., 2025, next: Google)"
   - name: Zhicheng Huang
     url: https://huangworld.github.io/
-    note: "(M.Sc., 2025, next: University of California San Diego)"
+    note: "(Sc.M., 2025, next: University of California San Diego)"
   - name: Anirudh Narsipur
     url: https://anarsipur.com
-    note: "(M.Sc., 2025, next: Evolver)"
+    note: "(Sc.M., 2025, next: Evolver)"
   - name: Julian Dai
     url: https://jdai1.github.io/
-    note: "(B.Sc., 2023-2025, next: Ramp)"
+    note: "(Sc.B., 2023-2025, next: Ramp)"
   - name: Ioanna Gemou
     url: https://igemou.github.io/
     note: "(Visiting Student, 2025, next: Brown University)"
   - name: Seong-Heon Jung
     url: https://forthoney.github.io/
-    note: "(B.Sc., 2025, next: New York University)"
+    note: "(Sc.B., 2025, next: New York University)"
   - name: Seth Sabar
     url: https://www.linkedin.com/in/sethsabar/
     note: "(UROP, 2024, next: The Voleon Group)"
@@ -355,7 +356,7 @@ alumni:
     note: "(Visiting Student, 2024, next: Columbia University)"
   - name: Rutvik Saptarshi
     url: https://www.linkedin.com/in/rutvik-s/
-    note: "(M.Sc., 2023, next: InterSystems)"
+    note: "(Sc.M., 2023, next: InterSystems)"
   - name: Felix Stutz
     url: https://fstutz.pages.mpi-sws.org/felix-stutz/
     note: "(Ph.D. visit, 2022, next: Max Planck Institute for Software Systems)"
