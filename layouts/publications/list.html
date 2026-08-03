@@ -136,6 +136,13 @@
                 {{ else }}
                   {{ if $entry.venue }}<em>{{ $entry.venue }}</em><br>{{ end }}
                 {{ end }}
+                {{ if $entry.awards }}
+                  {{ $awardParts := slice }}
+                  {{ range $entry.awards }}
+                    {{ $awardParts = $awardParts | append (printf `<strong class="pub-award">%s</strong>` (. | htmlEscape)) }}
+                  {{ end }}
+                  <span class="pub-awards">🏆 Received {{ delimit $awardParts ", " " and " | safeHTML }}</span><br>
+                {{ end }}
 
                 {{ $links := slice }}
                 {{ if fileExists $pdfStaticPath }}
@@ -144,7 +151,7 @@
                   {{ $links = $links | append (printf `<a href="%s" target="_blank" rel="noopener noreferrer">Local PDF</a>` $entry.pdf) }}
                 {{ end }}
                 {{ if $entry.url }}{{ $links = $links | append (printf `<a href="%s" target="_blank" rel="noopener noreferrer">Publisher</a>` $entry.url) }}{{ else if $entry.doi }}{{ $links = $links | append (printf `<a href="https://doi.org/%s" target="_blank" rel="noopener noreferrer">Publisher</a>` $entry.doi) }}{{ end }}
-                {{ if $entry.code }}{{ $links = $links | append (printf `<a href="%s" target="_blank" rel="noopener noreferrer">Code</a>` $entry.code) }}{{ end }}
+                {{ if $entry.code }}{{ $links = $links | append (printf `<a href="%s" target="_blank" rel="noopener noreferrer">Software</a>` $entry.code) }}{{ end }}
                 {{ if $entry.abstract }}{{ $links = $links | append (printf `<button type="button" class="pub-action-link" data-abs-id="%s">Abstract</button>` $absID) }}{{ end }}
                 {{ if $entry.bibtex }}
                   {{ $links = $links | append (printf `<a href="#" class="pub-action-link" data-bib-id="%s">Bibtex</a>` $bibID) }}

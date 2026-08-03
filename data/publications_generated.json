@@ -47,7 +47,11 @@
       "url": "https://www.usenix.org/conference/osdi26/presentation/lamprou",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@inproceedings{try:osdi:2026,\n  title = {Controlling Opaque-Component Effects with Semisolates and Try},\n  author = {Lamprou, Evangelos and Zhu, Tianyu (Ezri) and Jin, Di and Ntousakis, Grigoris and Liargkovas, Georgios and Eng, Calvin and Kallas, Konstantinos and Greenberg, Michael and Vasilakis, Nikos},\n  year = {2026},\n  booktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\n  publisher = {USENIX Association},\n  url = {https://www.usenix.org/conference/osdi26/presentation/lamprou},\n  artifact = {https://github.com/binpash/try},\n  tags = {correctness, security}\n}"
+      "bibtex": "@inproceedings{try:osdi:2026,\n  title = {Controlling {Opaque-Component} Effects with Semisolates and Try},\n  author = {Lamprou, Evangelos and Zhu, Tianyu (Ezri) and Jin, Di and Ntousakis, Grigoris and Liargkovas, Georgios and Eng, Calvin and Kallas, Konstantinos and Greenberg, Michael and Vasilakis, Nikos},\n  year = {2026},\n  month = {jul},\n  booktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\n  publisher = {USENIX Association},\n  address = {Seattle, WA},\n  pages = {453--471},\n  isbn = {978-1-939133-55-7},\n  url = {https://www.usenix.org/conference/osdi26/presentation/lamprou},\n  award = {Jay Lepreau Best Paper Award, Distinguished Artifact Award},\n  artifact = {https://github.com/binpash/try},\n  tags = {correctness, security}\n}",
+      "awards": [
+        "Jay Lepreau Best Paper Award",
+        "Distinguished Artifact Award"
+      ]
     },
     {
       "id": "fractal:nsdi:2026",
@@ -92,14 +96,14 @@
       "url": "https://www.usenix.org/conference/osdi26/presentation/liargkovas",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@inproceedings{hs:osdi:2026,\n  title = {hS: Speculative Script Reordering at Subprocess Granularity},\n  author = {Liargkovas, Georgios and Jin, Di and Zhu, Tianyu (Ezri) and Liu, Dan and Thompson, A. Bolun and Narsipur, Anirudh and Jung, Seong-Heon and Prasad, Siddhartha and Spinellis, Diomidis and Greenberg, Michael and Kallas, Konstantinos and Vasilakis, Nikos},\n  year = {2026},\n  booktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\n  publisher = {USENIX Association},\n  url = {https://www.usenix.org/conference/osdi26/presentation/liargkovas},\n  artifact = {https://github.com/binpash/hs},\n  tags = {performance}\n}"
+      "bibtex": "@inproceedings{hs:osdi:2026,\n  title = {hS: Speculative Script Reordering at Subprocess Granularity},\n  author = {Liargkovas, Georgios and Jin, Di and Zhu, Tianyu (Ezri) and Liu, Dan and Thompson, A. Bolun and Narsipur, Anirudh and Jung, Seong-Heon and Prasad, Siddhartha and Spinellis, Diomidis and Greenberg, Michael and Kallas, Konstantinos and Vasilakis, Nikos},\n  year = {2026},\n  month = {jul},\n  booktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\n  publisher = {USENIX Association},\n  address = {Seattle, WA},\n  pages = {665--681},\n  isbn = {978-1-939133-55-7},\n  url = {https://www.usenix.org/conference/osdi26/presentation/liargkovas},\n  artifact = {https://github.com/binpash/hs},\n  tags = {performance}\n}"
     },
     {
       "id": "incr:osdi:2026",
       "year": 2026,
       "type": "inproceedings",
       "type_label": "Conference",
-      "title": "Incr: Faster Re-execution via Bolt-on Incrementalization",
+      "title": "Incr: Faster Re-Execution via Bolt-On Incrementalization",
       "authors": "Yizheng Xie, Evangelos Lamprou, Jerry Xia, Nikos Vasilakis",
       "venue": "20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)",
       "abstract": "",
@@ -114,14 +118,14 @@
       "url": "https://www.usenix.org/conference/osdi26/presentation/xie-yizheng",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@inproceedings{incr:osdi:2026,\n  title = {Incr: Faster Re-execution via Bolt-on Incrementalization},\n  author = {Xie, Yizheng and Lamprou, Evangelos and Xia, Jerry and Vasilakis, Nikos},\n  year = {2026},\n  booktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\n  publisher = {USENIX Association},\n  url = {https://www.usenix.org/conference/osdi26/presentation/xie-yizheng},\n  artifact = {https://github.com/atlas-brown/incr},\n  tags = {performance}\n}"
+      "bibtex": "@inproceedings{incr:osdi:2026,\n  title = {Incr: Faster {Re-Execution} via {Bolt-On} Incrementalization},\n  author = {Xie, Yizheng and Lamprou, Evangelos and Xia, Jerry and Vasilakis, Nikos},\n  year = {2026},\n  month = {jul},\n  booktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\n  publisher = {USENIX Association},\n  address = {Seattle, WA},\n  pages = {683--699},\n  isbn = {978-1-939133-55-7},\n  url = {https://www.usenix.org/conference/osdi26/presentation/xie-yizheng},\n  artifact = {https://github.com/atlas-brown/incr},\n  tags = {performance}\n}"
     },
     {
       "id": "rt:osdi:2026",
       "year": 2026,
       "type": "inproceedings",
       "type_label": "Conference",
-      "title": "Rt: Regular Types for the Streaming Shell",
+      "title": "RT: Regular Types for the Streaming Shell",
       "authors": "Zekai Li, Lukas Lazarek, Evangelos Lamprou, George Kapetanakis, Konstantinos Mamouras, Nikos Vasilakis",
       "venue": "20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)",
       "abstract": "",
@@ -136,7 +140,10 @@
       "url": "https://www.usenix.org/conference/osdi26/presentation/li-zekai",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@inproceedings{rt:osdi:2026,\n  title = {Rt: Regular Types for the Streaming Shell},\n  author = {Li, Zekai and Lazarek, Lukas and Lamprou, Evangelos and Kapetanakis, George and Mamouras, Konstantinos and Vasilakis, Nikos},\n  year = {2026},\n  booktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\n  publisher = {USENIX Association},\n  url = {https://www.usenix.org/conference/osdi26/presentation/li-zekai},\n  artifact = {https://github.com/atlas-brown/RT},\n  tags = {correctness}\n}"
+      "bibtex": "@inproceedings{rt:osdi:2026,\n  title = {{RT}: Regular Types for the Streaming Shell},\n  author = {Li, Zekai and Lazarek, Lukas and Lamprou, Evangelos and Kapetanakis, George and Mamouras, Konstantinos and Vasilakis, Nikos},\n  year = {2026},\n  month = {jul},\n  booktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\n  publisher = {USENIX Association},\n  address = {Seattle, WA},\n  pages = {2583--2600},\n  isbn = {978-1-939133-55-7},\n  url = {https://www.usenix.org/conference/osdi26/presentation/li-zekai},\n  award = {Best Paper Award Runner-Up},\n  artifact = {https://github.com/atlas-brown/RT},\n  tags = {correctness}\n}",
+      "awards": [
+        "Best Paper Award Runner-Up"
+      ]
     },
     {
       "id": "slowpoke:nsdi:2026",
@@ -372,7 +379,10 @@
       "url": "https://www.usenix.org/conference/atc25/presentation/lamprou",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@inproceedings{koala:atc:2025,\n  title = {The Koala Benchmarks for the Shell: Characterization and Implications},\n  author = {Evangelos Lamprou and Ethan Williams and Georgios Kaoukis and Zhuoxuan Zhang and Michael Greenberg and Konstantinos Kallas and Lukas Lazarek and Nikos Vasilakis},\n  year = {2025},\n  month = {jul},\n  booktitle = {2025 USENIX Annual Technical Conference (USENIX ATC '25)},\n  publisher = {USENIX Association},\n  address = {Boston, MA},\n  pages = {449--64},\n  isbn = {978-1-939133-48-9},\n  url = {https://www.usenix.org/conference/atc25/presentation/lamprou},\n  keywords = {shell, benchmarking, workload characterization},\n  artifact = {https://github.com/kbensh/koala},\n  tags = {performance}\n}"
+      "bibtex": "@inproceedings{koala:atc:2025,\n  title = {The Koala Benchmarks for the Shell: Characterization and Implications},\n  author = {Evangelos Lamprou and Ethan Williams and Georgios Kaoukis and Zhuoxuan Zhang and Michael Greenberg and Konstantinos Kallas and Lukas Lazarek and Nikos Vasilakis},\n  year = {2025},\n  month = {jul},\n  booktitle = {2025 USENIX Annual Technical Conference (USENIX ATC '25)},\n  publisher = {USENIX Association},\n  address = {Boston, MA},\n  pages = {449--64},\n  isbn = {978-1-939133-48-9},\n  url = {https://www.usenix.org/conference/atc25/presentation/lamprou},\n  award = {Best Paper Award},\n  keywords = {shell, benchmarking, workload characterization},\n  artifact = {https://github.com/kbensh/koala},\n  tags = {performance}\n}",
+      "awards": [
+        "Best Paper Award"
+      ]
     },
     {
       "id": "cocoon:plos:2025",
@@ -576,7 +586,10 @@
       "url": "https://doi.org/10.1145/3579856.3590330",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@inproceedings{binwrap:asiaccs:2023,\n  title = {BinWrap: Hybrid Protection against Native Node.js Add-ons},\n  author = {Christou, George and Ntousakis, Grigoris and Lahtinen, Eric and Ioannidis, Sotiris and Kemerlis, Vasileios P. and Vasilakis, Nikos},\n  year = {2023},\n  booktitle = {2023 ACM Asia Conference on Computer and Communications Security},\n  location = {Melbourne, VIC, Australia},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {ASIA CCS '23},\n  pages = {429–442},\n  doi = {10.1145/3579856.3590330},\n  isbn = {9798400700989},\n  url = {https://doi.org/10.1145/3579856.3590330},\n  numpages = {14},\n  keywords = {Node.js, native add-ons, seccomp-BPF, Intel MPK/PKU},\n  artifact = {https://github.com/atlas-brown/binwrap},\n  tags = {security}\n}"
+      "bibtex": "@inproceedings{binwrap:asiaccs:2023,\n  title = {BinWrap: Hybrid Protection against Native Node.js Add-ons},\n  author = {Christou, George and Ntousakis, Grigoris and Lahtinen, Eric and Ioannidis, Sotiris and Kemerlis, Vasileios P. and Vasilakis, Nikos},\n  year = {2023},\n  booktitle = {2023 ACM Asia Conference on Computer and Communications Security},\n  location = {Melbourne, VIC, Australia},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {ASIA CCS '23},\n  pages = {429–442},\n  doi = {10.1145/3579856.3590330},\n  isbn = {9798400700989},\n  url = {https://doi.org/10.1145/3579856.3590330},\n  award = {Distinguished Paper Award},\n  numpages = {14},\n  keywords = {Node.js, native add-ons, seccomp-BPF, Intel MPK/PKU},\n  artifact = {https://github.com/atlas-brown/binwrap},\n  tags = {security}\n}",
+      "awards": [
+        "Distinguished Paper Award"
+      ]
     },
     {
       "id": "dish:nsdi:2023",
@@ -839,7 +852,10 @@
       "url": "https://doi.org/10.1145/3447786.3456228",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@inproceedings{pash:eurosys:2021,\n  title = {PaSh: Light-Touch Data-Parallel Shell Processing},\n  author = {Vasilakis, Nikos and Kallas, Konstantinos and Mamouras, Konstantinos and Benetopoulos, Achilles and Cvetkovi\\'{c}, Lazar},\n  year = {2021},\n  booktitle = {16th European Conference on Computer Systems},\n  location = {Online Event, United Kingdom},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {EuroSys '21},\n  pages = {49–66},\n  doi = {10.1145/3447786.3456228},\n  isbn = {9781450383349},\n  url = {https://doi.org/10.1145/3447786.3456228},\n  numpages = {18},\n  keywords = {Unix, shell, POSIX, automatic parallelization, pipelines, source to source compilation},\n  artifact = {https://github.com/binpash/pash},\n  tags = {performance}\n}"
+      "bibtex": "@inproceedings{pash:eurosys:2021,\n  title = {PaSh: Light-Touch Data-Parallel Shell Processing},\n  author = {Vasilakis, Nikos and Kallas, Konstantinos and Mamouras, Konstantinos and Benetopoulos, Achilles and Cvetkovi\\'{c}, Lazar},\n  year = {2021},\n  booktitle = {16th European Conference on Computer Systems},\n  location = {Online Event, United Kingdom},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {EuroSys '21},\n  pages = {49–66},\n  doi = {10.1145/3447786.3456228},\n  isbn = {9781450383349},\n  url = {https://doi.org/10.1145/3447786.3456228},\n  award = {Best Paper Award},\n  numpages = {18},\n  keywords = {Unix, shell, POSIX, automatic parallelization, pipelines, source to source compilation},\n  artifact = {https://github.com/binpash/pash},\n  tags = {performance}\n}",
+      "awards": [
+        "Best Paper Award"
+      ]
     },
     {
       "id": "mir:ccs:2021",

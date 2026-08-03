@@ -126,6 +126,19 @@
     color: inherit;
 }
 
+.publications-container .pub-awards {
+    display: inline-flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin: 0.15rem 0;
+}
+
+.publications-container .pub-award {
+    font-size: inherit;
+    line-height: inherit;
+}
+
 .publications-container .pub-author-atlas {
     color: #ed1c24;
     text-decoration: none;

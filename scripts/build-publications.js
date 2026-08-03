@@ -172,7 +172,8 @@ function parseSource(bibText) {
     const url = clean(item.URL || rawTags.url) || (doi ? `https://doi.org/${doi}` : '');
     const year = getYear(item, rawTags);
 
-    return {
+    const awards = parseTags(rawTags.awards || rawTags.award);
+    const entry = {
       id,
       year,
       type: info.key,
@@ -192,6 +193,12 @@ function parseSource(bibText) {
       archiveprefix: clean(rawTags.archiveprefix || rawTags.eprinttype),
       bibtex: toBibtex(raw, id)
     };
+
+    if (awards.length > 0) {
+      entry.awards = awards;
+    }
+
+    return entry;
   });
 }
 
