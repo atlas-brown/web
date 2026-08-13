@@ -135,12 +135,12 @@
         "correctness"
       ],
       "pdf": "",
-      "code": "https://github.com/atlas-brown/RT",
+      "code": "https://github.com/atlas-brown/rt",
       "doi": "",
       "url": "https://www.usenix.org/conference/osdi26/presentation/li-zekai",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@inproceedings{rt:osdi:2026,\n  title = {{RT}: Regular Types for the Streaming Shell},\n  author = {Li, Zekai and Lazarek, Lukas and Lamprou, Evangelos and Kapetanakis, George and Mamouras, Konstantinos and Vasilakis, Nikos},\n  year = {2026},\n  month = {jul},\n  booktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\n  publisher = {USENIX Association},\n  address = {Seattle, WA},\n  pages = {2583--2600},\n  isbn = {978-1-939133-55-7},\n  url = {https://www.usenix.org/conference/osdi26/presentation/li-zekai},\n  award = {Best Paper Award Runner-Up},\n  artifact = {https://github.com/atlas-brown/RT},\n  tags = {correctness}\n}",
+      "bibtex": "@inproceedings{rt:osdi:2026,\n  title = {{RT}: Regular Types for the Streaming Shell},\n  author = {Li, Zekai and Lazarek, Lukas and Lamprou, Evangelos and Kapetanakis, George and Mamouras, Konstantinos and Vasilakis, Nikos},\n  year = {2026},\n  month = {jul},\n  booktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\n  publisher = {USENIX Association},\n  address = {Seattle, WA},\n  pages = {2583--2600},\n  isbn = {978-1-939133-55-7},\n  url = {https://www.usenix.org/conference/osdi26/presentation/li-zekai},\n  award = {Best Paper Award Runner-Up},\n  artifact = {https://github.com/atlas-brown/rt},\n  tags = {correctness}\n}",
       "awards": [
         "Best Paper Award Runner-Up"
       ]
@@ -203,11 +203,11 @@
       "tags": [],
       "pdf": "",
       "code": "https://github.com/kbensh/koala",
-      "doi": "",
-      "url": "",
+      "doi": "10.1145/3811545",
+      "url": "https://doi.org/10.1145/3811545",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@article{koala:tocs:2026,\n  title = {The Koala Benchmarks for the Shell: Characterization, Implications, and Extensions},\n  author = {Evangelos Lamprou and Ethan Williams and Georgios Kaoukis and Zhuoxuan Zhang and Michael Greenberg and Konstantinos Kallas and Lukas Lazarek and Nikos Vasilakis},\n  year = {2026},\n  journal = {ACM Transactions on Computer Systems},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  note = {To appear},\n  artifact = {https://github.com/kbensh/koala}\n}"
+      "bibtex": "@article{koala:tocs:2026,\n  author = {Lamprou, Evangelos and Williams, Ethan and Kaoukis, Georgios and Zhang, Zhuoxuan and Greenberg, Michael and Kallas, Konstantinos and Lazarek, Lukas and Vasilakis, Nikos},\n  title = {The Koala Benchmarks for the Shell: Characterization, Implications, and Extensions},\n  year = {2026},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  issn = {0734-2071},\n  url = {https://doi.org/10.1145/3811545},\n  doi = {10.1145/3811545},\n  note = {Just Accepted},\n  journal = {ACM Transactions on Computer Systems},\n  month = {aug},\n  keywords = {benchmarks, performance, shell scripting, Unix/Linux shell},\n  artifact = {https://github.com/kbensh/koala}\n}"
     },
     {
       "id": "rt:brown:2026",
@@ -379,9 +379,10 @@
       "url": "https://www.usenix.org/conference/atc25/presentation/lamprou",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@inproceedings{koala:atc:2025,\n  title = {The Koala Benchmarks for the Shell: Characterization and Implications},\n  author = {Evangelos Lamprou and Ethan Williams and Georgios Kaoukis and Zhuoxuan Zhang and Michael Greenberg and Konstantinos Kallas and Lukas Lazarek and Nikos Vasilakis},\n  year = {2025},\n  month = {jul},\n  booktitle = {2025 USENIX Annual Technical Conference (USENIX ATC '25)},\n  publisher = {USENIX Association},\n  address = {Boston, MA},\n  pages = {449--64},\n  isbn = {978-1-939133-48-9},\n  url = {https://www.usenix.org/conference/atc25/presentation/lamprou},\n  award = {Best Paper Award},\n  keywords = {shell, benchmarking, workload characterization},\n  artifact = {https://github.com/kbensh/koala},\n  tags = {performance}\n}",
+      "bibtex": "@inproceedings{koala:atc:2025,\n  title = {The Koala Benchmarks for the Shell: Characterization and Implications},\n  author = {Evangelos Lamprou and Ethan Williams and Georgios Kaoukis and Zhuoxuan Zhang and Michael Greenberg and Konstantinos Kallas and Lukas Lazarek and Nikos Vasilakis},\n  year = {2025},\n  month = {jul},\n  booktitle = {2025 USENIX Annual Technical Conference (USENIX ATC '25)},\n  publisher = {USENIX Association},\n  address = {Boston, MA},\n  pages = {449--64},\n  isbn = {978-1-939133-48-9},\n  url = {https://www.usenix.org/conference/atc25/presentation/lamprou},\n  award = {Best Paper Award, Invited to ACM Transactions on Computer Systems},\n  keywords = {shell, benchmarking, workload characterization},\n  artifact = {https://github.com/kbensh/koala},\n  tags = {performance}\n}",
       "awards": [
-        "Best Paper Award"
+        "Best Paper Award",
+        "Invited to ACM Transactions on Computer Systems"
       ]
     },
     {
@@ -830,7 +831,10 @@
       "url": "https://doi.org/10.1145/3468264.3468574",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@inproceedings{lya:fse:2021,\n  title = {Efficient Module-Level Dynamic Analysis for Dynamic Languages with Module Recontextualization},\n  author = {Vasilakis, Nikos and Ntousakis, Grigoris and Heller, Veit and Rinard, Martin C.},\n  year = {2021},\n  booktitle = {29th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  pages = {1202–1213},\n  isbn = {9781450385626},\n  url = {https://doi.org/10.1145/3468264.3468574},\n  numpages = {12},\n  keywords = {software engineering, dynamic languages, dynamic analysis, module recontextualization},\n  artifact = {https://github.com/atlas-brown/lya},\n  tags = {correctness, security}\n}"
+      "bibtex": "@inproceedings{lya:fse:2021,\n  title = {Efficient Module-Level Dynamic Analysis for Dynamic Languages with Module Recontextualization},\n  author = {Vasilakis, Nikos and Ntousakis, Grigoris and Heller, Veit and Rinard, Martin C.},\n  year = {2021},\n  booktitle = {29th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  pages = {1202–1213},\n  isbn = {9781450385626},\n  url = {https://doi.org/10.1145/3468264.3468574},\n  numpages = {12},\n  keywords = {software engineering, dynamic languages, dynamic analysis, module recontextualization},\n  award = {Distinguished Paper Award},\n  artifact = {https://github.com/atlas-brown/lya},\n  tags = {correctness, security}\n}",
+      "awards": [
+        "Distinguished Paper Award"
+      ]
     },
     {
       "id": "pash:eurosys:2021",
@@ -968,7 +972,10 @@
       "url": "https://doi.org/10.1145/3458336.3465294",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@inproceedings{pash:hotos:2021,\n  title = {Unix Shell Programming: The Next 50 Years},\n  author = {Greenberg, Michael and Kallas, Konstantinos and Vasilakis, Nikos},\n  year = {2021},\n  booktitle = {Workshop on Hot Topics in Operating Systems},\n  location = {Ann Arbor, Michigan},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {HotOS '21},\n  pages = {104–111},\n  doi = {10.1145/3458336.3465294},\n  isbn = {9781450384384},\n  url = {https://doi.org/10.1145/3458336.3465294},\n  numpages = {8},\n  keywords = {Unix, shell, analysis, transformations, optimization, JIT},\n  tags = {performance, correctness}\n}"
+      "bibtex": "@inproceedings{pash:hotos:2021,\n  title = {Unix Shell Programming: The Next 50 Years},\n  author = {Greenberg, Michael and Kallas, Konstantinos and Vasilakis, Nikos},\n  year = {2021},\n  booktitle = {Workshop on Hot Topics in Operating Systems},\n  location = {Ann Arbor, Michigan},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {HotOS '21},\n  pages = {104–111},\n  doi = {10.1145/3458336.3465294},\n  isbn = {9781450384384},\n  url = {https://doi.org/10.1145/3458336.3465294},\n  numpages = {8},\n  award = {Best Presentation Award},\n  keywords = {Unix, shell, analysis, transformations, optimization, JIT},\n  tags = {performance, correctness}\n}",
+      "awards": [
+        "Best Presentation Award"
+      ]
     },
     {
       "id": "lya:tuc:2020",
@@ -1121,7 +1128,10 @@
       "url": "https://doi.org/10.1145/3213344.3213346",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@inproceedings{ar:edgesys:2018,\n  title = {The Web as a Distributed Computing Platform},\n  author = {Vasilakis, Nikos and Goel, Pranjal and Demoulin, Henri Maxime and Smith, Jonathan M.},\n  year = {2018},\n  booktitle = {1st International Workshop on Edge Systems, Analytics and Networking},\n  location = {Munich, Germany},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {EdgeSys'18},\n  pages = {7–12},\n  doi = {10.1145/3213344.3213346},\n  isbn = {9781450358378},\n  url = {https://doi.org/10.1145/3213344.3213346},\n  numpages = {6},\n  keywords = {Web, Internet, distribution, JavaScript},\n  tags = {performance}\n}"
+      "bibtex": "@inproceedings{ar:edgesys:2018,\n  title = {The Web as a Distributed Computing Platform},\n  author = {Vasilakis, Nikos and Goel, Pranjal and Demoulin, Henri Maxime and Smith, Jonathan M.},\n  year = {2018},\n  booktitle = {1st International Workshop on Edge Systems, Analytics and Networking},\n  location = {Munich, Germany},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {EdgeSys'18},\n  pages = {7–12},\n  doi = {10.1145/3213344.3213346},\n  isbn = {9781450358378},\n  url = {https://doi.org/10.1145/3213344.3213346},\n  numpages = {6},\n  award = {Best Paper Award},\n  keywords = {Web, Internet, distribution, JavaScript},\n  tags = {performance}\n}",
+      "awards": [
+        "Best Paper Award"
+      ]
     },
     {
       "id": "unispace:apsys:2017",

@@ -141,7 +141,7 @@
                   {{ range $entry.awards }}
                     {{ $awardParts = $awardParts | append (printf `<strong class="pub-award">%s</strong>` (. | htmlEscape)) }}
                   {{ end }}
-                  <span class="pub-awards">🏆 Received {{ delimit $awardParts ", " " and " | safeHTML }}</span><br>
+                  <span class="pub-awards">🏆 {{ delimit $awardParts ", " " and " | safeHTML }}</span><br>
                 {{ end }}
 
                 {{ $links := slice }}
