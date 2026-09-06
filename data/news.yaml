@@ -1,5 +1,7 @@
 items:
   - |
+      Sep'26: [Evangelos Lamprou](https://vagos.lamprou.xyz/) receives Brown University's [Paris C. Kanellakis fellowship](https://cs.brown.edu/degrees/doctoral/pck_fellowship/).
+  - |
       Jul'26: At [OSDI'26](https://www.usenix.org/conference/osdi26), [try](https://atlas.cs.brown.edu/pdf/try:osdi:2026.pdf) receives a Jay Lepreau Best Paper Award _and_ a Best Artifact Award, while [RT](https://atlas.cs.brown.edu/pdf/rt:osdi:2026.pdf) is selected as a Best Paper runner-up!
   - |
       Jul'26: [Sash](https://github.com/atlas-brown/sash), a new [ahead-of-time analysis of shell program effects](https://atlas.cs.brown.edu/pdf/sash:sosp:2026.pdf), to appear at [SOSP'26](https://sigops.org/s/conferences/sosp/2026/)---see you in Prague!
