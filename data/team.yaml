@@ -8,6 +8,63 @@ group_order:
   - Visiting Research Fellows
 
 people:
+  - id: gavin
+    name: Gavin Zhao
+    group: Undergraduate Students
+    home: true
+    home_role: Sc.B. Student
+    # Photo source: https://cs.brown.edu/courses/csci1730/2025/staff.html
+    photo: gavin.png
+    website: https://github.com/GZGavinZhao
+    blurb: Exploring compilers, programming languages, and formal verification.
+    links:
+      - label: E-mail
+        url: mailto:gavinz@brown.edu
+      - label: GitHub
+        url: https://github.com/GZGavinZhao
+
+  - id: claire
+    name: Claire Luo
+    group: Undergraduate Students
+    home: true
+    home_role: Sc.B. Student
+    photo: claire.jpg
+    website: https://claireyluo.github.io/
+    blurb: Building flexible, correct, and efficient monitoring systems.
+    links:
+      - label: E-mail
+        url: mailto:claire_luo1@brown.edu
+      - label: GitHub
+        url: https://github.com/claireyluo
+
+  - id: fariz
+    name: Muhammad Fariz Imran
+    group: Undergraduate Students
+    home: true
+    home_role: Sc.B. Student
+    photo: fariz.jpg
+    website: https://www.linkedin.com/in/muhammad-fariz-imran-018901279
+    blurb: Interested in applying static analysis techniques on supply-chain security problems.
+    links:
+      - label: E-mail
+        url: mailto:fariz@brown.edu
+      - label: GitHub
+        url: https://github.com/Fariznt
+
+  - id: alan
+    name: Alan Zheng
+    group: Undergraduate Students
+    home: true
+    home_role: Sc.B. Student
+    photo: alan.webp
+    website: https://www.linkedin.com/in/alan-zheng-63823619a
+    blurb: Making symbolic execution systems more robust.
+    links:
+      - label: E-mail
+        url: mailto:alan_zheng@brown.edu
+      - label: GitHub
+        url: https://github.com/azheng106
+
   - id: atharv
     name: Atharv Chowdhary
     group: Undergraduate Students
@@ -239,7 +296,7 @@ people:
   - id: yasmin
     name: Yasmin Kadyrova
     group: Master's Students
-    photo: yasmin.jpg
+    photo: yasmin.png
     home: true
     home_role: Sc.M. Student
     website: https://www.linkedin.com/in/yasmin-kadyrova/
