@@ -8,6 +8,34 @@ group_order:
   - Visiting Research Fellows
 
 people:
+  - id: akshar
+    name: Akshar Nana
+    group: Master's Students
+    home: true
+    home_role: Sc.M. Student
+    photo: akshar.jpg
+    website: https://www.linkedin.com/in/akshar-nana/
+    blurb: Exploring systems and cryptography to improve security and performance.
+    links:
+      - label: E-mail
+        url: mailto:akshar_nana@brown.edu
+      - label: GitHub
+        url: https://github.com/AksharNana
+
+  - id: themis
+    name: Themis Georgiadis
+    group: Undergraduate Students
+    home: true
+    home_role: Sc.B. Student
+    photo: themis.jpg
+    website: https://www.linkedin.com/in/themis-georgiadis-2b63aa31b/
+    blurb: Exploring operating systems, memory management, and techniques for building efficient and secure systems.
+    links:
+      - label: E-mail
+        url: mailto:gthemis@ics.forth.gr
+      - label: GitHub
+        url: https://github.com/ThemisGeorgiadis
+
   - id: gavin
     name: Gavin Zhao
     group: Undergraduate Students
