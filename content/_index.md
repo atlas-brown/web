@@ -31,7 +31,7 @@ Language-agnostic programming environments hinder automated parallelization and 
 <img class="imgStuffResearch" src="./correctness.jpeg" alt="correctness" align="left"/> 
 
 [Automating Software Correctness](./correctness/)  
-Programming correctness in modern software systems is hard to maintain as applications scale across dependencies, languages, and distributed environments. We build systems that automatically enforce, validate, and preserve correctness properties while remaining practical for real workloads. Examples: [SOSP'26](https://atlas.cs.brown.edu/pdf/sash:sosp:2026.pdf), [OSDI'26](https://atlas.cs.brown.edu/pdf/rt:osdi:2026.pdf), [OSDI'26](https://atlas.cs.brown.edu/pdf/try:osdi:2026.pdf), [HotOS'25](https://nikos.vasilak.is/p/sash:hotos:2025.pdf), [ICFP'21](https://doi.org/10.1145/3473570), [HotOS'23](https://doi.org/10.1145/3593856.3595891), [ARES'22](https://doi.org/10.1145/3538969.3538983), [CCS'21](http://nikos.vasilak.is/p/harp:ccs:2021.pdf).
+Programming correctness in modern software systems is hard to maintain as applications scale across dependencies, languages, and distributed environments. We build systems that automatically enforce, validate, and preserve correctness properties while remaining practical for real workloads. Examples: [SOSP'26](https://atlas.cs.brown.edu/pdf/sash:sosp:2026.pdf), [OSDI'26](https://atlas.cs.brown.edu/pdf/rt:osdi:2026.pdf), [OSDI'26](https://atlas.cs.brown.edu/pdf/try:osdi:2026.pdf), [HotOS'25](https://nikos.vasilak.is/p/sash:hotos:2025.pdf), [ICFP'21](https://doi.org/10.1145/3473570).
 
 ---
 
