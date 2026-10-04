@@ -1,5 +1,7 @@
 items:
   - |
+      Oct'26: Sash ([paper](https://atlas.cs.brown.edu/pdf/sash:sosp:2026.pdf), [system](https://github.com/atlas-brown/sash)), our static effect analysis for the shell, receives [a Best Paper award at SOSP'26](https://sigops.org/s/conferences/sosp/2026/)!
+  - |
       Sep'26: [Nikos Vasilakis](https://nikos.vasilak.is/) is co-organizing the [Principles of Agentic Engineering workshop](https://popl27.sigplan.org/home/page-2027) at POPL'27---please submit your finest work!
   - |
       Sep'26: [Evangelos Lamprou](https://vagos.lamprou.xyz/) receives Brown University's [Paris C. Kanellakis fellowship](https://cs.brown.edu/degrees/doctoral/pck_fellowship/).

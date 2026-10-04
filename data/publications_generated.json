@@ -9,9 +9,9 @@
       "year": 2026,
       "type": "inproceedings",
       "type_label": "Conference",
-      "title": "Ahead-of-time Analysis of Shell Program Effects",
+      "title": "Ahead-of-Time Analysis of Shell Program Effects",
       "authors": "Lukas Lazarek, Evangelos Lamprou, George Kapetanakis, Anirudh Narsipur, Eric Zhao, Zhiwen Zheng, Michael Greenberg, Konstantinos Kallas, Nikos Vasilakis",
-      "venue": "32nd ACM Symposium on Operating Systems Principles (SOSP 26)",
+      "venue": "Proceedings of the ACM SIGOPS 32nd Symposium on Operating Systems Principles (SOSP 26)",
       "abstract": "",
       "thesis_type": "",
       "school": "",
@@ -20,11 +20,14 @@
       ],
       "pdf": "",
       "code": "https://github.com/atlas-brown/sash",
-      "doi": "",
-      "url": "https://sigops.org/s/conferences/sosp/2026/",
+      "doi": "10.1145/3830418.3843861",
+      "url": "https://doi.org/10.1145/3830418.3843861",
       "eprint": "",
       "archiveprefix": "",
-      "bibtex": "@inproceedings{sash:sosp:2026,\n  title = {Ahead-of-time Analysis of Shell Program Effects},\n  author = {Lazarek, Lukas and Lamprou, Evangelos and Kapetanakis, George and Narsipur, Anirudh and Zhao, Eric and Zheng, Zhiwen and Greenberg, Michael and Kallas, Konstantinos and Vasilakis, Nikos},\n  year = {2026},\n  month = {sep},\n  booktitle = {32nd ACM Symposium on Operating Systems Principles (SOSP 26)},\n  location = {Prague, Czechia},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {SOSP '26},\n  url = {https://sigops.org/s/conferences/sosp/2026/},\n  keywords = {Unix, Linux, shell, static analysis, effects},\n  artifact = {https://github.com/atlas-brown/sash},\n  tags = {correctness}\n}"
+      "bibtex": "@inproceedings{sash:sosp:2026,\n  title = {Ahead-of-Time Analysis of Shell Program Effects},\n  author = {Lazarek, Lukas and Lamprou, Evangelos and Kapetanakis, George and Narsipur, Anirudh and Zhao, Eric and Zheng, Zhiwen and Greenberg, Michael and Kallas, Konstantinos and Vasilakis, Nikos},\n  year = {2026},\n  month = {sep},\n  booktitle = {Proceedings of the ACM SIGOPS 32nd Symposium on Operating Systems Principles (SOSP 26)},\n  location = {Prague, Czechia},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  series = {SOSP '26},\n  pages = {932--954},\n  numpages = {23},\n  isbn = {9798400725852},\n  doi = {10.1145/3830418.3843861},\n  url = {https://doi.org/10.1145/3830418.3843861},\n  keywords = {shell, static analysis, symbolic execution, program effects},\n  artifact = {https://github.com/atlas-brown/sash},\n  award = {Best Paper Award},\n  tags = {correctness}\n}",
+      "awards": [
+        "Best Paper Award"
+      ]
     },
     {
       "id": "try:osdi:2026",
