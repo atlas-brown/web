@@ -5,7 +5,7 @@ group_order:
   - Ph.D. Students
   - Master's Students
   - Undergraduate Students
-  - Visiting Research Fellows
+  - Visiting Students
 
 people:
   - id: akshar
@@ -118,6 +118,20 @@ people:
       - label: E-mail
         url: mailto:dtreed@cs.brown.edu
 
+  - id: eric-wang
+    name: Eric Wang
+    group: Visiting Students
+    home: true
+    home_role: Visiting Ph.D. Student
+    photo: eric-wang.jpg
+    website: https://psyduck.wang/
+    blurb: Exploring programming languages, compiler correctness, and systems verification.
+    links:
+      - label: E-mail
+        url: mailto:cwang7@stevens.edu
+      - label: GitHub
+        url: https://github.com/ericwang385
+
   - id: eric
     name: Eric Zhao
     group: Ph.D. Students
@@ -162,7 +176,7 @@ people:
 
   - id: george
     name: George Kapetanakis
-    group: Visiting Research Fellows
+    group: Visiting Students
     home: true
     home_role: Visiting Student
     photo: george.jpg
@@ -211,6 +225,20 @@ people:
         url: mailto:maria_lazou1@brown.edu
       - label: GitHub
         url: http://github.com/mlazoy
+
+  - id: matt
+    name: Matt Halligan
+    group: Visiting Students
+    home: true
+    home_role: Visitor
+    photo: matt.jpg
+    website: https://www.linkedin.com/in/matthew-halligan-0baa31164/
+    blurb: Interested in systems, cybersecurity embedded design, graph theory, high-performance-computing, and machine learning.
+    links:
+      - label: E-mail
+        url: mailto:matthew_halligan@brown.edu
+      - label: GitHub
+        url: https://github.com/Matt-Halligan
 
   - id: megan
     name: Megan Zheng
